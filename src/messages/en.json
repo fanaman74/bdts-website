@@ -147,25 +147,29 @@
         "subtitle": "Car, Motorcycle, Bicycle, Motorhome — complete coverage for all your travel needs",
         "sections": [
           {
-            "title": "Auto Insurance",
+            "title": "Nos assurances mobilité",
             "content": [
-              "Mandatory liability coverage",
-              "Material damage protection",
-              "Third-party protection",
-              "24/7 roadside assistance"
+              {
+                "icon": "Car",
+                "title": "Car Insurance",
+                "description": "Liability coverage and material protection for your vehicle with 24/7 roadside assistance"
+              },
+              {
+                "icon": "Bike",
+                "title": "Motorcycle Insurance",
+                "description": "Specialized coverage for motorcycles, scooters and motorized bicycles including equipment"
+              },
+              {
+                "icon": "Bike2",
+                "title": "Bicycle Insurance",
+                "description": "Complete protection for your bikes against theft, damage and liability claims"
+              },
+              {
+                "icon": "Truck",
+                "title": "Motorhome Insurance",
+                "description": "Coverage for motorhomes and caravans with specialized roadside assistance"
+              }
             ]
-          },
-          {
-            "title": "Motorcycle Insurance",
-            "content": "Specialized coverage for motorcycles, scooters and motorized bikes"
-          },
-          {
-            "title": "Bicycle Insurance",
-            "content": "Complete protection for your bicycles"
-          },
-          {
-            "title": "Motorhome Insurance",
-            "content": "Coverage for RVs and mobile homes"
           }
         ]
       },
@@ -174,18 +178,34 @@
         "subtitle": "Complete protection for your vehicle",
         "sections": [
           {
-            "title": "Coverage options",
+            "title": "Coverage",
             "content": [
-              "Mandatory liability",
-              "Material damage",
-              "Theft and fire",
-              "Legal protection",
-              "24/7 roadside assistance"
+              {
+                "icon": "Shield",
+                "title": "Liability Coverage",
+                "description": "Mandatory coverage protecting third parties in case of accident you are responsible for"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Material Damage",
+                "description": "Protection against damage to your vehicle caused by collision or other incidents"
+              },
+              {
+                "icon": "Lock",
+                "title": "Theft and Fire",
+                "description": "Complete coverage in case of vehicle theft, theft attempt or fire damage"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Legal Coverage",
+                "description": "Legal protection and assistance in disputes related to your vehicle"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Breakdown Assistance",
+                "description": "24/7 service with free towing and emergency mechanical assistance"
+              }
             ]
-          },
-          {
-            "title": "Additional benefits",
-            "content": "Priority roadside assistance and additional services based on your plan"
           }
         ]
       },
@@ -194,12 +214,28 @@
         "subtitle": "Protection tailored to motorized two-wheelers",
         "sections": [
           {
-            "title": "Motorcycle coverage",
+            "title": "Coverage",
             "content": [
-              "Liability coverage",
-              "Equipment protection",
-              "Specialized mechanical assistance",
-              "Material damage coverage"
+              {
+                "icon": "Shield",
+                "title": "Liability Coverage",
+                "description": "Mandatory legal coverage for motorcycles and motorized two-wheelers"
+              },
+              {
+                "icon": "Backpack",
+                "title": "Equipment Protection",
+                "description": "Coverage for your equipment (helmet, gloves, clothes) in case of accident or theft"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Mechanical Assistance",
+                "description": "Specialized two-wheeler assistance with towing and emergency repairs"
+              },
+              {
+                "icon": "Zap",
+                "title": "Material Damage",
+                "description": "Protection against damage to your motorcycle from incident, collision or liability"
+              }
             ]
           }
         ]
@@ -209,12 +245,28 @@
         "subtitle": "Protect your cycling investment",
         "sections": [
           {
-            "title": "Services included",
+            "title": "Coverage",
             "content": [
-              "Theft coverage",
-              "Material damage",
-              "Repair assistance",
-              "Bicycle liability coverage"
+              {
+                "icon": "Lock",
+                "title": "Theft Protection",
+                "description": "Complete coverage in case your bicycle is stolen, even with a padlock"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Material Damage",
+                "description": "Protection against damage and repair costs following accident or incident"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Repair Assistance",
+                "description": "Quick repair services and transport costs in case of breakdown or accident"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Liability Coverage",
+                "description": "Coverage of your liability in case of accident involving a third party"
+              }
             ]
           }
         ]
@@ -224,12 +276,28 @@
         "subtitle": "Coverage for RVs and campers",
         "sections": [
           {
-            "title": "Motorhome protection",
+            "title": "Coverage",
             "content": [
-              "Liability coverage",
-              "Material damage",
-              "Specialized roadside assistance",
-              "Interior equipment coverage"
+              {
+                "icon": "Shield",
+                "title": "Liability Coverage",
+                "description": "Legal coverage for damage caused to others with your motorhome or caravan"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Material Damage",
+                "description": "Protection against damage to your motorhome from incident, collision or liability"
+              },
+              {
+                "icon": "Truck",
+                "title": "Roadside Assistance",
+                "description": "24/7 specialized service with towing, repair and breakdown assistance for motorhomes"
+              },
+              {
+                "icon": "Home",
+                "title": "Interior Equipment",
+                "description": "Coverage of your interior equipment, appliances and fixtures in the motorhome"
+              }
             ]
           }
         ]
@@ -867,7 +935,12 @@
         "sections": [
           {
             "title": "What's Included",
-            "content": ["Point one with detailed information", "Point two explaining coverage", "Point three about additional benefits", "Point four covering edge cases"]
+            "content": [
+              "Point one with detailed information",
+              "Point two explaining coverage",
+              "Point three about additional benefits",
+              "Point four covering edge cases"
+            ]
           },
           {
             "title": "How It Works",
@@ -875,7 +948,12 @@
           },
           {
             "title": "Next Steps",
-            "content": ["Schedule a free consultation", "Discuss your specific needs", "Receive a tailored quote", "Get coverage in place"]
+            "content": [
+              "Schedule a free consultation",
+              "Discuss your specific needs",
+              "Receive a tailored quote",
+              "Get coverage in place"
+            ]
           }
         ]
       }

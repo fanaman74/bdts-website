@@ -147,25 +147,29 @@
         "subtitle": "Auto, Motor, Fiets, Camper — volledige dekking voor al uw verplaatsingen",
         "sections": [
           {
-            "title": "Autoverzekering",
+            "title": "Nos assurances mobilité",
             "content": [
-              "Wettelijke aansprakelijkheid",
-              "Materiële schadedekking",
-              "Bescherming tegen derden",
-              "24/7 pechverhelping"
+              {
+                "icon": "Car",
+                "title": "Autoverzekering",
+                "description": "Aansprakelijkheid en materiële bescherming voor uw voertuig met 24/7 wegenwacht"
+              },
+              {
+                "icon": "Bike",
+                "title": "Motorfiets Verzekering",
+                "description": "Gespecialiseerde dekking voor motorfietsen, scooters en gemotoriseerde fietsen"
+              },
+              {
+                "icon": "Bike2",
+                "title": "Fietsverzekering",
+                "description": "Volledige bescherming voor uw fietsen tegen diefstal, schade en aansprakelijkheid"
+              },
+              {
+                "icon": "Truck",
+                "title": "Motorhome Verzekering",
+                "description": "Dekking voor campers en caravans met gespecialiseerde wegenwacht"
+              }
             ]
-          },
-          {
-            "title": "Motorfietsverzekering",
-            "content": "Gespecialiseerde dekking voor motorfietsen, scooters en motorfiets"
-          },
-          {
-            "title": "Fietsverzekering",
-            "content": "Volledige bescherming voor uw fietsen"
-          },
-          {
-            "title": "Camperverzekering",
-            "content": "Dekking voor campers en mobiele huizen"
           }
         ]
       },
@@ -174,18 +178,34 @@
         "subtitle": "Volledige bescherming voor uw voertuig",
         "sections": [
           {
-            "title": "Dekkingsopties",
+            "title": "Dekking",
             "content": [
-              "Wettelijke aansprakelijkheid",
-              "Materiële schadevergoeding",
-              "Diefstal en brand",
-              "Rechtsbijstand",
-              "24/7 pechverhelping"
+              {
+                "icon": "Shield",
+                "title": "Aansprakelijkheid",
+                "description": "Verplichte dekking die derden beschermt in geval van ongeluk waarvoor u aansprakelijk bent"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Materiële Schade",
+                "description": "Bescherming tegen schade aan uw voertuig veroorzaakt door botsing of incident"
+              },
+              {
+                "icon": "Lock",
+                "title": "Diefstal en Brand",
+                "description": "Volledige dekking bij diefstal, diefstalpoging of brandschade aan uw auto"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Rechtsbijstand",
+                "description": "Juridische bescherming en bijstand in geschillen met betrekking tot uw voertuig"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Pechservice",
+                "description": "24/7 service met gratis sleepwagen en noodmechanische bijstand"
+              }
             ]
-          },
-          {
-            "title": "Aanvullende voordelen",
-            "content": "Prioritaire pechverhelping en aanvullende diensten op basis van uw plan"
           }
         ]
       },
@@ -194,12 +214,28 @@
         "subtitle": "Bescherming voor gemotoriseerde twee-wielers",
         "sections": [
           {
-            "title": "Motorfietsdekkingen",
+            "title": "Dekking",
             "content": [
-              "Aansprakelijkheidsdekking",
-              "Bescherming van uitrusting",
-              "Gespecialiseerde mechanische bijstand",
-              "Materiaalsschadedekking"
+              {
+                "icon": "Shield",
+                "title": "Aansprakelijkheid",
+                "description": "Verplichte juridische dekking voor motorfietsen en gemotoriseerde tweewielers"
+              },
+              {
+                "icon": "Backpack",
+                "title": "Uitrustingsbescherming",
+                "description": "Dekking van uw uitrusting (helm, handschoenen, kleding) bij ongeluk of diefstal"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Mechaische Bijstand",
+                "description": "Gespecialiseerde tweewieler-bijstand met sleepwagen en noodreparaties"
+              },
+              {
+                "icon": "Zap",
+                "title": "Materiële Schade",
+                "description": "Bescherming tegen schade aan uw motorfiets door incident, botsing of aansprakelijkheid"
+              }
             ]
           }
         ]
@@ -209,12 +245,28 @@
         "subtitle": "Bescherm uw fietsuitrusting",
         "sections": [
           {
-            "title": "Inbegrepen diensten",
+            "title": "Dekking",
             "content": [
-              "Diefstaldekkng",
-              "Materiële schadevergoeding",
-              "Reparatieassistentie",
-              "Aansprakelijkheidsdekking fiets"
+              {
+                "icon": "Lock",
+                "title": "Diefstalschutz",
+                "description": "Volledige dekking in geval uw fiets wordt gestolen, ook met een hangslot"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Materiële Schade",
+                "description": "Bescherming tegen schade en reparatiekosten na ongeluk of incident"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Reparatiebijstand",
+                "description": "Snelle reparatieservices en vervoerskosten bij pech of ongeluk"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Aansprakelijkheid",
+                "description": "Dekking van uw aansprakelijkheid in geval van ongeluk met betrokkenheid van derden"
+              }
             ]
           }
         ]
@@ -224,12 +276,28 @@
         "subtitle": "Dekking voor campers en caravans",
         "sections": [
           {
-            "title": "Camperbescherming",
+            "title": "Dekking",
             "content": [
-              "Aansprakelijkheidsdekking",
-              "Materiaalsschadevergoeding",
-              "Gespecialiseerde pechverhelping",
-              "Dekkingen voor interne uitrusting"
+              {
+                "icon": "Shield",
+                "title": "Aansprakelijkheid",
+                "description": "Juridische dekking voor schade aan derden met uw camper of caravan"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Materiële Schade",
+                "description": "Bescherming tegen schade aan uw motorhome door incident, botsing of aansprakelijkheid"
+              },
+              {
+                "icon": "Truck",
+                "title": "Wegenwacht",
+                "description": "24/7 gespecialiseerde service met sleepwagen, reparatie en pechservice voor campers"
+              },
+              {
+                "icon": "Home",
+                "title": "Binnenuitrusting",
+                "description": "Dekking van uw binnenuitrusting, elektrohuishoudelijke apparaten en voorzieningen"
+              }
             ]
           }
         ]
@@ -867,7 +935,12 @@
         "sections": [
           {
             "title": "Wat is inbegrepen",
-            "content": ["Eerste punt met gedetailleerde informatie", "Tweede punt waarin dekking wordt uitgelegd", "Derde punt over aanvullende voordelen", "Vierde punt ter dekking van randgevallen"]
+            "content": [
+              "Eerste punt met gedetailleerde informatie",
+              "Tweede punt waarin dekking wordt uitgelegd",
+              "Derde punt over aanvullende voordelen",
+              "Vierde punt ter dekking van randgevallen"
+            ]
           },
           {
             "title": "Hoe het werkt",
@@ -875,7 +948,12 @@
           },
           {
             "title": "Volgende stappen",
-            "content": ["Plan een gratis consult", "Bespreek uw specifieke behoeften", "Ontvang een op maat gemaakte offerte", "Zorg ervoor dat de dekking geregeld is"]
+            "content": [
+              "Plan een gratis consult",
+              "Bespreek uw specifieke behoeften",
+              "Ontvang een op maat gemaakte offerte",
+              "Zorg ervoor dat de dekking geregeld is"
+            ]
           }
         ]
       }

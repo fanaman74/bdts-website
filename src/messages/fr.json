@@ -147,25 +147,29 @@
         "subtitle": "Auto, Moto, Vélo, Motorhome — couverture complète pour vos déplacements",
         "sections": [
           {
-            "title": "Assurance auto",
+            "title": "Nos assurances mobilité",
             "content": [
-              "Responsabilité civile automobile",
-              "Couverture des dégâts matériels",
-              "Protection contre les tiers",
-              "Assistance routière 24/7"
+              {
+                "icon": "Car",
+                "title": "Assurance Auto",
+                "description": "Responsabilité civile et couvertures matérielles pour votre automobile et assistance routière 24/7"
+              },
+              {
+                "icon": "Bike",
+                "title": "Assurance Moto",
+                "description": "Protection spécialisée pour motos, scooters et vélos motorisés avec équipement compris"
+              },
+              {
+                "icon": "Bike2",
+                "title": "Assurance Vélo",
+                "description": "Couverture complète pour vos bicyclettes contre le vol, dégâts matériels et responsabilité civile"
+              },
+              {
+                "icon": "Truck",
+                "title": "Assurance Motorhome",
+                "description": "Protection pour camping-cars et caravanes avec assistance routière spécialisée"
+              }
             ]
-          },
-          {
-            "title": "Assurance moto",
-            "content": "Couverture spécialisée pour motos, scooters et vélos motorisés"
-          },
-          {
-            "title": "Assurance vélo",
-            "content": "Protection complète pour vos bicyclettes"
-          },
-          {
-            "title": "Assurance motorhome",
-            "content": "Couverture pour camping-cars et caravanes mobiles"
           }
         ]
       },
@@ -174,18 +178,34 @@
         "subtitle": "Protection complète pour votre véhicule automobile",
         "sections": [
           {
-            "title": "Couvertures disponibles",
+            "title": "Couvertures",
             "content": [
-              "Responsabilité civile obligatoire",
-              "Dégâts matériels propres",
-              "Vol et incendie",
-              "Couverture juridique",
-              "Assistance dépannage 24h/24"
+              {
+                "icon": "Shield",
+                "title": "Responsabilité Civile",
+                "description": "Couverture obligatoire protégeant les tiers en cas d'accident responsable de votre part"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Dégâts Matériels",
+                "description": "Protection contre les dommages à votre véhicule causés par collision ou sinistre"
+              },
+              {
+                "icon": "Lock",
+                "title": "Vol et Incendie",
+                "description": "Couverture complète en cas de vol, tentative de vol ou incendie de votre automobile"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Couverture Juridique",
+                "description": "Protection juridique et assistance en cas de litiges liés à votre véhicule"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Assistance Dépannage",
+                "description": "Service 24h/24 avec remorquage gratuit et assistance mécanique d'urgence"
+              }
             ]
-          },
-          {
-            "title": "Avantages additionnels",
-            "content": "Assistance routière prioritaire et services additionnels selon votre formule"
           }
         ]
       },
@@ -194,12 +214,28 @@
         "subtitle": "Protection adaptée aux deux-roues motorisés",
         "sections": [
           {
-            "title": "Couvertures moto",
+            "title": "Couvertures",
             "content": [
-              "Couverture responsabilité civile",
-              "Protection équipement",
-              "Assistance mécanique spécialisée",
-              "Couverture dommages matériels"
+              {
+                "icon": "Shield",
+                "title": "Responsabilité Civile",
+                "description": "Couverture légale obligatoire pour les deux-roues motorisés et cyclomoteurs"
+              },
+              {
+                "icon": "Backpack",
+                "title": "Protection Équipement",
+                "description": "Couverture de vos équipements (casque, gants, vêtements) en cas d'accident ou vol"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Assistance Mécanique",
+                "description": "Assistance spécialisée pour deux-roues avec remorquage et réparation d'urgence"
+              },
+              {
+                "icon": "Zap",
+                "title": "Dommages Matériels",
+                "description": "Protection contre les dégâts à votre moto causés par sinistre, collision ou responsabilité civile"
+              }
             ]
           }
         ]
@@ -209,12 +245,28 @@
         "subtitle": "Protégez votre investissement cycliste",
         "sections": [
           {
-            "title": "Services inclus",
+            "title": "Couvertures",
             "content": [
-              "Couverture vol",
-              "Dégâts matériels",
-              "Assistance réparation",
-              "Couverture responsabilité civile vélo"
+              {
+                "icon": "Lock",
+                "title": "Protection Vol",
+                "description": "Couverture complète en cas de vol de votre vélo, même assuré avec un cadenas"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Dégâts Matériels",
+                "description": "Protection contre les dommages et réparations suite à un accident ou incident"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Assistance Réparation",
+                "description": "Services de réparation rapide et frais de transport en cas de panne ou accident"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Responsabilité Civile",
+                "description": "Couverture de votre responsabilité civile en cas d'accident impliquant un tiers"
+              }
             ]
           }
         ]
@@ -224,12 +276,28 @@
         "subtitle": "Couverture pour camping-cars et caravanes",
         "sections": [
           {
-            "title": "Protection motorhome",
+            "title": "Couvertures",
             "content": [
-              "Responsabilité civile",
-              "Dégâts matériels",
-              "Assistance routière spécialisée",
-              "Couverture équipements intérieurs"
+              {
+                "icon": "Shield",
+                "title": "Responsabilité Civile",
+                "description": "Couverture légale pour les dommages causés à autrui avec votre camping-car ou caravane"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Dégâts Matériels",
+                "description": "Protection contre les dommages à votre motorhome suite à sinistre, collision ou responsabilité"
+              },
+              {
+                "icon": "Truck",
+                "title": "Assistance Routière",
+                "description": "Service 24/7 spécialisé avec remorquage, réparation et dépannage pour motorhomes"
+              },
+              {
+                "icon": "Home",
+                "title": "Équipements Intérieurs",
+                "description": "Couverture de vos équipements intérieurs, électroménagers et aménagements du motorhome"
+              }
             ]
           }
         ]
@@ -867,7 +935,12 @@
         "sections": [
           {
             "title": "Ce qui est inclus",
-            "content": ["Premier point avec information détaillée", "Deuxième point expliquant la couverture", "Troisième point sur les avantages supplémentaires", "Quatrième point couvrant les cas particuliers"]
+            "content": [
+              "Premier point avec information détaillée",
+              "Deuxième point expliquant la couverture",
+              "Troisième point sur les avantages supplémentaires",
+              "Quatrième point couvrant les cas particuliers"
+            ]
           },
           {
             "title": "Comment cela fonctionne",
@@ -875,7 +948,12 @@
           },
           {
             "title": "Prochaines étapes",
-            "content": ["Planifier une consultation gratuite", "Discuter de vos besoins spécifiques", "Recevoir un devis personnalisé", "Mettre en place la couverture"]
+            "content": [
+              "Planifier une consultation gratuite",
+              "Discuter de vos besoins spécifiques",
+              "Recevoir un devis personnalisé",
+              "Mettre en place la couverture"
+            ]
           }
         ]
       }
