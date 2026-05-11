@@ -1101,8 +1101,22 @@
     "subtitle": "Toegang tot uw persoonlijke ruimte"
   },
   "partners": {
-    "title": "Partners",
-    "subtitle": "Onze vertrouwde partners"
+    "title": "Onze Partners",
+    "subtitle": "Leiders van de Belgische verzekeringsmarkt",
+    "section_title": "Onze vertrouwde partners",
+    "section_description": "We werken samen met de beste verzekeringsmaatschappijen van de Belgische markt om u de beste oplossingen aan te bieden.",
+    "partners_list": [
+      {
+        "name": "AG Insurance",
+        "description": "Marktleider in België, AG Insurance geeft ons toegang tot een volledig portfolio van verzekeringsproducten voor particulieren en bedrijven.",
+        "logo": "/logos/ag-insurance.svg"
+      },
+      {
+        "name": "FSMA",
+        "description": "Belgische financiële regelgevingsautoriteit. BDTS is goedgekeurd en onder toezicht van de FSMA voor onze verzekeringsmakelaarsactiviteiten.",
+        "logo": "/logos/fsma.svg"
+      }
+    ]
   },
   "useful_numbers": {
     "title": "Nutzliche Nummers",

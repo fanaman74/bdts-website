@@ -1101,8 +1101,22 @@
     "subtitle": "Access your personal space"
   },
   "partners": {
-    "title": "Partners",
-    "subtitle": "Our trusted partners"
+    "title": "Our Partners",
+    "subtitle": "Leaders of the Belgian insurance market",
+    "section_title": "Our trusted partners",
+    "section_description": "We work with the best insurance companies in the Belgian market to offer you the best solutions.",
+    "partners_list": [
+      {
+        "name": "AG Insurance",
+        "description": "Market leader in Belgium, AG Insurance gives us access to a complete portfolio of insurance products for individuals and businesses.",
+        "logo": "/logos/ag-insurance.svg"
+      },
+      {
+        "name": "FSMA",
+        "description": "Belgian financial regulatory authority. BDTS is approved and supervised by the FSMA for our insurance brokerage activities.",
+        "logo": "/logos/fsma.svg"
+      }
+    ]
   },
   "useful_numbers": {
     "title": "Useful Numbers",

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="100" fill="#ffffff"/>
+
+  <!-- AG Insurance Logo Container -->
+  <g transform="translate(50, 15)">
+    <!-- Blue box background -->
+    <rect x="0" y="0" width="100" height="70" rx="4" fill="#001F5C" opacity="0.1"/>
+
+    <!-- AG Text -->
+    <text x="15" y="35" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#001F5C">
+      AG
+    </text>
+
+    <!-- Insurance text below -->
+    <text x="8" y="58" font-family="Arial, sans-serif" font-size="10" font-weight="500" fill="#333333">
+      INSURANCE
+    </text>
+  </g>
+
+  <!-- Company name below -->
+  <text x="100" y="90" font-family="Arial, sans-serif" font-size="9" fill="#666666" text-anchor="middle">
+    AG Insurance
+  </text>
+</svg>

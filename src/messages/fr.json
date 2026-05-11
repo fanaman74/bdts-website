@@ -1101,8 +1101,22 @@
     "subtitle": "Accédez à votre espace personnel"
   },
   "partners": {
-    "title": "Partenaires",
-    "subtitle": "Nos partenaires de confiance"
+    "title": "Nos Partenaires",
+    "subtitle": "Les leaders du marché belge de l'assurance",
+    "section_title": "Nos partenaires de confiance",
+    "section_description": "Nous travaillons avec les meilleures compagnies d'assurance du marché belge pour vous offrir les meilleures solutions.",
+    "partners_list": [
+      {
+        "name": "AG Insurance",
+        "description": "Leader du marché belge, AG Insurance nous permet d'accéder à un portefeuille complet de produits d'assurance pour particuliers et entreprises.",
+        "logo": "/logos/ag-insurance.svg"
+      },
+      {
+        "name": "FSMA",
+        "description": "Autorité belge de régulation financière. BDTS est agréée et supervisée par la FSMA pour nos activités de courtage d'assurance.",
+        "logo": "/logos/fsma.svg"
+      }
+    ]
   },
   "useful_numbers": {
     "title": "Numéros Utiles",
