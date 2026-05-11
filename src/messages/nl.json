@@ -1,5 +1,24 @@
 {
   "nav": {
+    "particulier": "Voor particulieren",
+    "particulier_sub": {
+      "mobilite": "Mobiliteit",
+      "habitation": "Huisverzekering",
+      "famille": "Familie & juridische bescherming",
+      "hospitalisation": "Ziekenhuisverzekering",
+      "epargner": "Sparen & Investeren",
+      "pension": "Pensioen"
+    },
+    "professionnel": "Voor professionals",
+    "professionnel_sub": {
+      "entreprise": "Bedrijf",
+      "personnel": "Personeel",
+      "revenu": "Inkomsten"
+    },
+    "documents": "Documenten",
+    "news": "Nieuws",
+    "jobs": "Vacatures",
+    "client_portal": "Klantportaal",
     "individuals": "Particulieren",
     "businesses": "Bedrijven",
     "growing": "Groeiende bedrijven",

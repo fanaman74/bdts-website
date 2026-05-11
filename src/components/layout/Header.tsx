@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -20,6 +20,7 @@ export function Header() {
   const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -33,12 +34,26 @@ export function Header() {
     router.push(segments.join("/") || "/");
   }
 
+  const particulierItems = [
+    { label: t("particulier_sub.mobilite"), href: `/${locale}/particuliers/mobilite` },
+    { label: t("particulier_sub.habitation"), href: `/${locale}/particuliers/habitation` },
+    { label: t("particulier_sub.famille"), href: `/${locale}/particuliers/famille` },
+    { label: t("particulier_sub.hospitalisation"), href: `/${locale}/particuliers/hospitalisation` },
+    { label: t("particulier_sub.epargner"), href: `/${locale}/particuliers/epargner` },
+    { label: t("particulier_sub.pension"), href: `/${locale}/particuliers/pension` },
+  ];
+
+  const professionnelItems = [
+    { label: t("professionnel_sub.entreprise"), href: `/${locale}/professionnels/entreprise` },
+    { label: t("professionnel_sub.personnel"), href: `/${locale}/professionnels/personnel` },
+    { label: t("professionnel_sub.revenu"), href: `/${locale}/professionnels/revenu` },
+  ];
+
   const navLinks = [
-    { label: t("individuals"), href: `/${locale}/particuliers` },
-    { label: t("businesses"), href: `/${locale}/entreprises` },
-    { label: t("growing"), href: `/${locale}/croissance` },
+    { label: t("documents"), href: `/${locale}/documents` },
+    { label: t("news"), href: `/${locale}/news` },
+    { label: t("jobs"), href: `/${locale}/jobs` },
     { label: t("about"), href: `/${locale}/about` },
-    { label: t("contact"), href: `/${locale}/appointment` },
   ];
 
   return (
@@ -66,6 +81,57 @@ export function Header() {
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-6">
+            {/* Particulier Dropdown */}
+            <div
+              className="relative group"
+              onMouseEnter={() => setOpenDropdown("particulier")}
+              onMouseLeave={() => setOpenDropdown(null)}
+            >
+              <button className="text-sm font-medium text-dark-gray hover:text-gold transition-colors flex items-center gap-1.5">
+                {t("particulier")}
+                <ChevronDown size={16} className="group-hover:rotate-180 transition-transform" />
+              </button>
+              <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="bg-white border border-border rounded-lg shadow-lg py-2 min-w-48">
+                  {particulierItems.map((item) => (
+                    <a
+                      key={item.href}
+                      href={item.href}
+                      className="block px-4 py-2 text-sm text-dark-gray hover:bg-off-white hover:text-gold transition-colors"
+                    >
+                      {item.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Professionnel Dropdown */}
+            <div
+              className="relative group"
+              onMouseEnter={() => setOpenDropdown("professionnel")}
+              onMouseLeave={() => setOpenDropdown(null)}
+            >
+              <button className="text-sm font-medium text-dark-gray hover:text-gold transition-colors flex items-center gap-1.5">
+                {t("professionnel")}
+                <ChevronDown size={16} className="group-hover:rotate-180 transition-transform" />
+              </button>
+              <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="bg-white border border-border rounded-lg shadow-lg py-2 min-w-48">
+                  {professionnelItems.map((item) => (
+                    <a
+                      key={item.href}
+                      href={item.href}
+                      className="block px-4 py-2 text-sm text-dark-gray hover:bg-off-white hover:text-gold transition-colors"
+                    >
+                      {item.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Other links */}
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -136,6 +202,59 @@ export function Header() {
         mobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
       )}>
         <nav className="flex flex-col px-6 py-8 gap-2">
+          {/* Mobile Particulier Dropdown */}
+          <div>
+            <button
+              onClick={() => setOpenDropdown(openDropdown === "mobile-particulier" ? null : "mobile-particulier")}
+              className="w-full text-left text-lg font-medium text-navy hover:text-gold py-3 border-b border-border transition-colors flex items-center justify-between"
+            >
+              {t("particulier")}
+              <ChevronDown size={20} className={cn("transition-transform", openDropdown === "mobile-particulier" && "rotate-180")} />
+            </button>
+            <div className={cn("overflow-hidden transition-all", openDropdown === "mobile-particulier" ? "max-h-96" : "max-h-0")}>
+              {particulierItems.map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => {
+                    setMobileOpen(false);
+                    setOpenDropdown(null);
+                  }}
+                  className="block pl-8 pr-6 py-2 text-base text-dark-gray hover:text-gold hover:bg-off-white transition-colors"
+                >
+                  {item.label}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Mobile Professionnel Dropdown */}
+          <div>
+            <button
+              onClick={() => setOpenDropdown(openDropdown === "mobile-professionnel" ? null : "mobile-professionnel")}
+              className="w-full text-left text-lg font-medium text-navy hover:text-gold py-3 border-b border-border transition-colors flex items-center justify-between"
+            >
+              {t("professionnel")}
+              <ChevronDown size={20} className={cn("transition-transform", openDropdown === "mobile-professionnel" && "rotate-180")} />
+            </button>
+            <div className={cn("overflow-hidden transition-all", openDropdown === "mobile-professionnel" ? "max-h-96" : "max-h-0")}>
+              {professionnelItems.map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => {
+                    setMobileOpen(false);
+                    setOpenDropdown(null);
+                  }}
+                  className="block pl-8 pr-6 py-2 text-base text-dark-gray hover:text-gold hover:bg-off-white transition-colors"
+                >
+                  {item.label}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Other mobile links */}
           {navLinks.map((link) => (
             <a
               key={link.href}

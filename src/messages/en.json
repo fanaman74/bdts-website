@@ -1,5 +1,24 @@
 {
   "nav": {
+    "particulier": "For Individuals",
+    "particulier_sub": {
+      "mobilite": "Mobility",
+      "habitation": "Home Insurance",
+      "famille": "Family & Legal Protection",
+      "hospitalisation": "Hospitalization",
+      "epargner": "Savings & Investing",
+      "pension": "Pension"
+    },
+    "professionnel": "For Professionals",
+    "professionnel_sub": {
+      "entreprise": "Business",
+      "personnel": "Personnel",
+      "revenu": "Income"
+    },
+    "documents": "Documents",
+    "news": "News",
+    "jobs": "Jobs",
+    "client_portal": "Client Portal",
     "individuals": "For Individuals",
     "businesses": "For Businesses",
     "growing": "For Growing Companies",
