@@ -150,24 +150,24 @@
             "title": "Nos assurances mobilité",
             "content": [
               {
-                "icon": "Car",
                 "title": "Car Insurance",
-                "description": "Liability coverage and material protection for your vehicle with 24/7 roadside assistance"
+                "description": "Liability coverage and material protection for your vehicle with 24/7 roadside assistance",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Bike",
                 "title": "Motorcycle Insurance",
-                "description": "Specialized coverage for motorcycles, scooters and motorized bicycles including equipment"
+                "description": "Specialized coverage for motorcycles, scooters and motorized bicycles including equipment",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Bike2",
                 "title": "Bicycle Insurance",
-                "description": "Complete protection for your bikes against theft, damage and liability claims"
+                "description": "Complete protection for your bikes against theft, damage and liability claims",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "Truck",
                 "title": "Motorhome Insurance",
-                "description": "Coverage for motorhomes and caravans with specialized roadside assistance"
+                "description": "Coverage for motorhomes and caravans with specialized roadside assistance",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -181,29 +181,29 @@
             "title": "Coverage",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Liability Coverage",
-                "description": "Mandatory coverage protecting third parties in case of accident you are responsible for"
+                "description": "Mandatory coverage protecting third parties in case of accident you are responsible for",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Material Damage",
-                "description": "Protection against damage to your vehicle caused by collision or other incidents"
+                "description": "Protection against damage to your vehicle caused by collision or other incidents",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Theft and Fire",
-                "description": "Complete coverage in case of vehicle theft, theft attempt or fire damage"
+                "description": "Complete coverage in case of vehicle theft, theft attempt or fire damage",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Legal Coverage",
-                "description": "Legal protection and assistance in disputes related to your vehicle"
+                "description": "Legal protection and assistance in disputes related to your vehicle",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Breakdown Assistance",
-                "description": "24/7 service with free towing and emergency mechanical assistance"
+                "description": "24/7 service with free towing and emergency mechanical assistance",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -217,24 +217,24 @@
             "title": "Coverage",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Liability Coverage",
-                "description": "Mandatory legal coverage for motorcycles and motorized two-wheelers"
+                "description": "Mandatory legal coverage for motorcycles and motorized two-wheelers",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Backpack",
                 "title": "Equipment Protection",
-                "description": "Coverage for your equipment (helmet, gloves, clothes) in case of accident or theft"
+                "description": "Coverage for your equipment (helmet, gloves, clothes) in case of accident or theft",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Mechanical Assistance",
-                "description": "Specialized two-wheeler assistance with towing and emergency repairs"
+                "description": "Specialized two-wheeler assistance with towing and emergency repairs",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Zap",
                 "title": "Material Damage",
-                "description": "Protection against damage to your motorcycle from incident, collision or liability"
+                "description": "Protection against damage to your motorcycle from incident, collision or liability",
+                "image": "/images/services/moto-insurance.svg"
               }
             ]
           }
@@ -248,24 +248,24 @@
             "title": "Coverage",
             "content": [
               {
-                "icon": "Lock",
                 "title": "Theft Protection",
-                "description": "Complete coverage in case your bicycle is stolen, even with a padlock"
+                "description": "Complete coverage in case your bicycle is stolen, even with a padlock",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Material Damage",
-                "description": "Protection against damage and repair costs following accident or incident"
+                "description": "Protection against damage and repair costs following accident or incident",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Repair Assistance",
-                "description": "Quick repair services and transport costs in case of breakdown or accident"
+                "description": "Quick repair services and transport costs in case of breakdown or accident",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "AlertCircle",
                 "title": "Liability Coverage",
-                "description": "Coverage of your liability in case of accident involving a third party"
+                "description": "Coverage of your liability in case of accident involving a third party",
+                "image": "/images/services/bike-insurance.svg"
               }
             ]
           }
@@ -279,24 +279,24 @@
             "title": "Coverage",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Liability Coverage",
-                "description": "Legal coverage for damage caused to others with your motorhome or caravan"
+                "description": "Legal coverage for damage caused to others with your motorhome or caravan",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Material Damage",
-                "description": "Protection against damage to your motorhome from incident, collision or liability"
+                "description": "Protection against damage to your motorhome from incident, collision or liability",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Truck",
                 "title": "Roadside Assistance",
-                "description": "24/7 specialized service with towing, repair and breakdown assistance for motorhomes"
+                "description": "24/7 specialized service with towing, repair and breakdown assistance for motorhomes",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Home",
                 "title": "Interior Equipment",
-                "description": "Coverage of your interior equipment, appliances and fixtures in the motorhome"
+                "description": "Coverage of your interior equipment, appliances and fixtures in the motorhome",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -310,24 +310,24 @@
             "title": "Coverage Types",
             "content": [
               {
-                "icon": "Home",
                 "title": "Fire Insurance",
-                "description": "Protection against damage caused by fire, smoke and related incidents"
+                "description": "Protection against damage caused by fire, smoke and related incidents",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Theft Insurance",
-                "description": "Complete coverage against theft, burglary and theft attempts"
+                "description": "Complete coverage against theft, burglary and theft attempts",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Material Damage",
-                "description": "Protection of your property against damage caused by various incidents"
+                "description": "Protection of your property against damage caused by various incidents",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Liability Coverage",
-                "description": "Coverage of your liability to third parties within your home"
+                "description": "Coverage of your liability to third parties within your home",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -341,24 +341,24 @@
             "title": "Fire Coverage",
             "content": [
               {
-                "icon": "AlertTriangle",
                 "title": "Fire Damage",
-                "description": "Complete coverage of direct damage caused by fire and combustion"
+                "description": "Complete coverage of direct damage caused by fire and combustion",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Flame",
                 "title": "Smoke and Soot",
-                "description": "Protection against damage caused by smoke, soot and combustion gases"
+                "description": "Protection against damage caused by smoke, soot and combustion gases",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Home",
                 "title": "Temporary Relocation",
-                "description": "Accommodation and relocation costs while your home is being repaired"
+                "description": "Accommodation and relocation costs while your home is being repaired",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Recovery and Cleaning",
-                "description": "Professional cleaning services and recovery following fire damage"
+                "description": "Professional cleaning services and recovery following fire damage",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -372,24 +372,24 @@
             "title": "Theft Protection",
             "content": [
               {
-                "icon": "Lock",
                 "title": "Personal Property",
-                "description": "Complete coverage of your furniture and personal belongings against theft"
+                "description": "Complete coverage of your furniture and personal belongings against theft",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Smartphone",
                 "title": "Appliances and Electronics",
-                "description": "Protection of your electrical, electronic and tech equipment"
+                "description": "Protection of your electrical, electronic and tech equipment",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Diamond",
                 "title": "Jewelry and Valuables",
-                "description": "Special coverage for jewelry, watches and valuable objects"
+                "description": "Special coverage for jewelry, watches and valuable objects",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Personal Effects",
-                "description": "Protection of your clothing, luggage and personal effects against theft"
+                "description": "Protection of your clothing, luggage and personal effects against theft",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -676,24 +676,24 @@
             "title": "Savings and Investment Solutions",
             "content": [
               {
-                "icon": "TrendingUp",
                 "title": "Insurance Savings Plans",
-                "description": "Savings solutions with integrated life insurance coverage"
+                "description": "Savings solutions with integrated life insurance coverage",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "Target",
                 "title": "Diversified Investments",
-                "description": "Access to various investment funds tailored to your profile"
+                "description": "Access to various investment funds tailored to your profile",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Regular Returns",
-                "description": "Generate regular income and build your capital over time"
+                "description": "Generate regular income and build your capital over time",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Wealth Protection",
-                "description": "Secure your savings and pass on your assets with peace of mind"
+                "description": "Secure your savings and pass on your assets with peace of mind",
+                "image": "/images/services/savings-investment.svg"
               }
             ]
           }
@@ -707,24 +707,24 @@
             "title": "Retirement Solutions",
             "content": [
               {
-                "icon": "Calendar",
                 "title": "Retirement Planning",
-                "description": "Progressively build your retirement capital and ensure your future"
+                "description": "Progressively build your retirement capital and ensure your future",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "Home",
                 "title": "Income Supplements",
-                "description": "Ensure a satisfactory standard of living after your professional activity ends"
+                "description": "Ensure a satisfactory standard of living after your professional activity ends",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "Users",
                 "title": "Family Protection",
-                "description": "Secure your family's well-being in case of death or disability"
+                "description": "Secure your family's well-being in case of death or disability",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "TrendingUp",
                 "title": "Capital Growth",
-                "description": "Optimize the growth and returns of your retirement investments"
+                "description": "Optimize the growth and returns of your retirement investments",
+                "image": "/images/services/retirement-planning.svg"
               }
             ]
           }
@@ -788,24 +788,24 @@
             "title": "Business Insurance",
             "content": [
               {
-                "icon": "Building",
                 "title": "Professional Liability",
-                "description": "Coverage of your professional liability to third parties"
+                "description": "Coverage of your professional liability to third parties",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Property Damage",
-                "description": "Protection of facilities, equipment and inventory against incidents"
+                "description": "Protection of facilities, equipment and inventory against incidents",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "Users",
                 "title": "Personnel Insurance",
-                "description": "Coverage of work accidents and occupational illnesses"
+                "description": "Coverage of work accidents and occupational illnesses",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Cybersecurity and Theft",
-                "description": "Protection against cyber risk, data theft and fraud"
+                "description": "Protection against cyber risk, data theft and fraud",
+                "image": "/images/services/business-insurance.svg"
               }
             ]
           }
@@ -883,24 +883,24 @@
             "title": "Personnel Protection",
             "content": [
               {
-                "icon": "User",
                 "title": "Accident Insurance",
-                "description": "Coverage of work accidents and bodily injury related to your profession"
+                "description": "Coverage of work accidents and bodily injury related to your profession",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Personal Protection",
-                "description": "Protection in case of incapacity, disability or professional death"
+                "description": "Protection in case of incapacity, disability or professional death",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Professional Coverage",
-                "description": "Protect your professional status and self-employed activity"
+                "description": "Protect your professional status and self-employed activity",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Protected Income",
-                "description": "Ensure continuity of your income in case of activity interruption"
+                "description": "Ensure continuity of your income in case of activity interruption",
+                "image": "/images/services/personnel-insurance.svg"
               }
             ]
           }
@@ -962,24 +962,24 @@
             "title": "Revenue Protection",
             "content": [
               {
-                "icon": "TrendingUp",
                 "title": "Income Loss Coverage",
-                "description": "Protection of your income in case of incapacity or activity interruption"
+                "description": "Protection of your income in case of incapacity or activity interruption",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Unemployment Insurance",
-                "description": "Additional income in case of involuntary unemployment or job loss"
+                "description": "Additional income in case of involuntary unemployment or job loss",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "Calendar",
                 "title": "Disability Annuity",
-                "description": "Guaranteed monthly annuity in case of permanent or partial disability"
+                "description": "Guaranteed monthly annuity in case of permanent or partial disability",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Credit Protection",
-                "description": "Protect your borrowers and guarantee loan repayment"
+                "description": "Protect your borrowers and guarantee loan repayment",
+                "image": "/images/services/revenue-protection.svg"
               }
             ]
           }

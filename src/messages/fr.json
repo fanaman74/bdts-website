@@ -150,24 +150,24 @@
             "title": "Nos assurances mobilité",
             "content": [
               {
-                "icon": "Car",
                 "title": "Assurance Auto",
-                "description": "Responsabilité civile et couvertures matérielles pour votre automobile et assistance routière 24/7"
+                "description": "Responsabilité civile et couvertures matérielles pour votre automobile et assistance routière 24/7",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Bike",
                 "title": "Assurance Moto",
-                "description": "Protection spécialisée pour motos, scooters et vélos motorisés avec équipement compris"
+                "description": "Protection spécialisée pour motos, scooters et vélos motorisés avec équipement compris",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Bike2",
                 "title": "Assurance Vélo",
-                "description": "Couverture complète pour vos bicyclettes contre le vol, dégâts matériels et responsabilité civile"
+                "description": "Couverture complète pour vos bicyclettes contre le vol, dégâts matériels et responsabilité civile",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "Truck",
                 "title": "Assurance Motorhome",
-                "description": "Protection pour camping-cars et caravanes avec assistance routière spécialisée"
+                "description": "Protection pour camping-cars et caravanes avec assistance routière spécialisée",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -181,29 +181,29 @@
             "title": "Couvertures",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Responsabilité Civile",
-                "description": "Couverture obligatoire protégeant les tiers en cas d'accident responsable de votre part"
+                "description": "Couverture obligatoire protégeant les tiers en cas d'accident responsable de votre part",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Dégâts Matériels",
-                "description": "Protection contre les dommages à votre véhicule causés par collision ou sinistre"
+                "description": "Protection contre les dommages à votre véhicule causés par collision ou sinistre",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Vol et Incendie",
-                "description": "Couverture complète en cas de vol, tentative de vol ou incendie de votre automobile"
+                "description": "Couverture complète en cas de vol, tentative de vol ou incendie de votre automobile",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Couverture Juridique",
-                "description": "Protection juridique et assistance en cas de litiges liés à votre véhicule"
+                "description": "Protection juridique et assistance en cas de litiges liés à votre véhicule",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Assistance Dépannage",
-                "description": "Service 24h/24 avec remorquage gratuit et assistance mécanique d'urgence"
+                "description": "Service 24h/24 avec remorquage gratuit et assistance mécanique d'urgence",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -217,24 +217,24 @@
             "title": "Couvertures",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Responsabilité Civile",
-                "description": "Couverture légale obligatoire pour les deux-roues motorisés et cyclomoteurs"
+                "description": "Couverture légale obligatoire pour les deux-roues motorisés et cyclomoteurs",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Backpack",
                 "title": "Protection Équipement",
-                "description": "Couverture de vos équipements (casque, gants, vêtements) en cas d'accident ou vol"
+                "description": "Couverture de vos équipements (casque, gants, vêtements) en cas d'accident ou vol",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Assistance Mécanique",
-                "description": "Assistance spécialisée pour deux-roues avec remorquage et réparation d'urgence"
+                "description": "Assistance spécialisée pour deux-roues avec remorquage et réparation d'urgence",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Zap",
                 "title": "Dommages Matériels",
-                "description": "Protection contre les dégâts à votre moto causés par sinistre, collision ou responsabilité civile"
+                "description": "Protection contre les dégâts à votre moto causés par sinistre, collision ou responsabilité civile",
+                "image": "/images/services/moto-insurance.svg"
               }
             ]
           }
@@ -248,24 +248,24 @@
             "title": "Couvertures",
             "content": [
               {
-                "icon": "Lock",
                 "title": "Protection Vol",
-                "description": "Couverture complète en cas de vol de votre vélo, même assuré avec un cadenas"
+                "description": "Couverture complète en cas de vol de votre vélo, même assuré avec un cadenas",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Dégâts Matériels",
-                "description": "Protection contre les dommages et réparations suite à un accident ou incident"
+                "description": "Protection contre les dommages et réparations suite à un accident ou incident",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Assistance Réparation",
-                "description": "Services de réparation rapide et frais de transport en cas de panne ou accident"
+                "description": "Services de réparation rapide et frais de transport en cas de panne ou accident",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "AlertCircle",
                 "title": "Responsabilité Civile",
-                "description": "Couverture de votre responsabilité civile en cas d'accident impliquant un tiers"
+                "description": "Couverture de votre responsabilité civile en cas d'accident impliquant un tiers",
+                "image": "/images/services/bike-insurance.svg"
               }
             ]
           }
@@ -279,24 +279,24 @@
             "title": "Couvertures",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Responsabilité Civile",
-                "description": "Couverture légale pour les dommages causés à autrui avec votre camping-car ou caravane"
+                "description": "Couverture légale pour les dommages causés à autrui avec votre camping-car ou caravane",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Dégâts Matériels",
-                "description": "Protection contre les dommages à votre motorhome suite à sinistre, collision ou responsabilité"
+                "description": "Protection contre les dommages à votre motorhome suite à sinistre, collision ou responsabilité",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Truck",
                 "title": "Assistance Routière",
-                "description": "Service 24/7 spécialisé avec remorquage, réparation et dépannage pour motorhomes"
+                "description": "Service 24/7 spécialisé avec remorquage, réparation et dépannage pour motorhomes",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Home",
                 "title": "Équipements Intérieurs",
-                "description": "Couverture de vos équipements intérieurs, électroménagers et aménagements du motorhome"
+                "description": "Couverture de vos équipements intérieurs, électroménagers et aménagements du motorhome",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -310,24 +310,24 @@
             "title": "Types de couverture",
             "content": [
               {
-                "icon": "Home",
                 "title": "Assurance Incendie",
-                "description": "Protection contre les dégâts causés par le feu, la fumée et les sinistres connexes"
+                "description": "Protection contre les dégâts causés par le feu, la fumée et les sinistres connexes",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Assurance Vol",
-                "description": "Couverture complète contre le vol, le cambriolage et les tentatives de vol"
+                "description": "Couverture complète contre le vol, le cambriolage et les tentatives de vol",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Dégâts Matériels",
-                "description": "Protection de vos biens contre les dommages causés par divers sinistres"
+                "description": "Protection de vos biens contre les dommages causés par divers sinistres",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Responsabilité Civile",
-                "description": "Couverture de votre responsabilité civile envers les tiers dans votre logement"
+                "description": "Couverture de votre responsabilité civile envers les tiers dans votre logement",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -341,24 +341,24 @@
             "title": "Couvertures incendie",
             "content": [
               {
-                "icon": "AlertTriangle",
                 "title": "Dégâts du Feu",
-                "description": "Couverture complète des dommages directs causés par le feu et la combustion"
+                "description": "Couverture complète des dommages directs causés par le feu et la combustion",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Flame",
                 "title": "Fumée et Suie",
-                "description": "Protection contre les dégâts causés par la fumée, la suie et les gaz de combustion"
+                "description": "Protection contre les dégâts causés par la fumée, la suie et les gaz de combustion",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Home",
                 "title": "Relogement Temporaire",
-                "description": "Frais de relogement et d'hébergement pendant les réparations de votre logement"
+                "description": "Frais de relogement et d'hébergement pendant les réparations de votre logement",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Récupération et Nettoyage",
-                "description": "Services de nettoyage professionnel et récupération après sinistre incendie"
+                "description": "Services de nettoyage professionnel et récupération après sinistre incendie",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -372,24 +372,24 @@
             "title": "Protection vol",
             "content": [
               {
-                "icon": "Lock",
                 "title": "Protection Bien Mobiliers",
-                "description": "Couverture complète de vos meubles et biens personnels contre le vol"
+                "description": "Couverture complète de vos meubles et biens personnels contre le vol",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Smartphone",
                 "title": "Électroménagers et Électronique",
-                "description": "Protection de vos appareils électriques, électroniques et équipements technologiques"
+                "description": "Protection de vos appareils électriques, électroniques et équipements technologiques",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Diamond",
                 "title": "Bijoux et Objets de Valeur",
-                "description": "Couverture spéciale pour les bijoux, montres précieuses et objets de valeur"
+                "description": "Couverture spéciale pour les bijoux, montres précieuses et objets de valeur",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Effets Personnels",
-                "description": "Protection de vos vêtements, bagages et autres effets personnels contre le vol"
+                "description": "Protection de vos vêtements, bagages et autres effets personnels contre le vol",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -676,24 +676,24 @@
             "title": "Solutions d'épargne et d'investissement",
             "content": [
               {
-                "icon": "TrendingUp",
                 "title": "Plans d'Épargne Assurantielle",
-                "description": "Solutions d'épargne avec couverture d'assurance-vie intégrée"
+                "description": "Solutions d'épargne avec couverture d'assurance-vie intégrée",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "Target",
                 "title": "Placements Diversifiés",
-                "description": "Accès à des fonds d'investissement variés adaptés à votre profil"
+                "description": "Accès à des fonds d'investissement variés adaptés à votre profil",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Rendements Réguliers",
-                "description": "Générer des revenus réguliers et constituer votre capital à long terme"
+                "description": "Générer des revenus réguliers et constituer votre capital à long terme",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Protection du Patrimoine",
-                "description": "Sécuriser votre épargne et transmettre votre patrimoine sereinement"
+                "description": "Sécuriser votre épargne et transmettre votre patrimoine sereinement",
+                "image": "/images/services/savings-investment.svg"
               }
             ]
           }
@@ -707,24 +707,24 @@
             "title": "Solutions retraite",
             "content": [
               {
-                "icon": "Calendar",
                 "title": "Prévoyance Retraite",
-                "description": "Constituer progressivement votre capital retraite et assurer votre futur"
+                "description": "Constituer progressivement votre capital retraite et assurer votre futur",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "Home",
                 "title": "Compléments de Revenu",
-                "description": "Assurer un niveau de vie satisfait après la fin de votre activité professionnelle"
+                "description": "Assurer un niveau de vie satisfait après la fin de votre activité professionnelle",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "Users",
                 "title": "Protection Famille",
-                "description": "Sécuriser le bien-être de votre famille en cas de décès ou invalidité"
+                "description": "Sécuriser le bien-être de votre famille en cas de décès ou invalidité",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "TrendingUp",
                 "title": "Croissance du Capital",
-                "description": "Optimiser la croissance et la rente de vos placements retraite"
+                "description": "Optimiser la croissance et la rente de vos placements retraite",
+                "image": "/images/services/retirement-planning.svg"
               }
             ]
           }
@@ -788,24 +788,24 @@
             "title": "Nos assurances entreprise",
             "content": [
               {
-                "icon": "Building",
                 "title": "Assurance Responsabilité",
-                "description": "Couverture de votre responsabilité civile professionnelle envers les tiers"
+                "description": "Couverture de votre responsabilité civile professionnelle envers les tiers",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Dégâts Immobiliers",
-                "description": "Protection des locaux, équipements et inventaire contre les sinistres"
+                "description": "Protection des locaux, équipements et inventaire contre les sinistres",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "Users",
                 "title": "Assurance Personnel",
-                "description": "Couverture des accidents de travail et maladies professionnelles"
+                "description": "Couverture des accidents de travail et maladies professionnelles",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Cybersécurité et Vol",
-                "description": "Protection contre le cyberrisque, vol de données et fraude informatique"
+                "description": "Protection contre le cyberrisque, vol de données et fraude informatique",
+                "image": "/images/services/business-insurance.svg"
               }
             ]
           }
@@ -883,24 +883,24 @@
             "title": "Protection du personnel",
             "content": [
               {
-                "icon": "User",
                 "title": "Assurance Accident",
-                "description": "Couverture des accidents de travail et sinistres corporels liés au métier"
+                "description": "Couverture des accidents de travail et sinistres corporels liés au métier",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Prévoyance Personnelle",
-                "description": "Protection en cas d'incapacité, invalidité ou décès professionnel"
+                "description": "Protection en cas d'incapacité, invalidité ou décès professionnel",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Couverture Professionnelle",
-                "description": "Protégez votre statut professionnel et votre activité d'indépendant"
+                "description": "Protégez votre statut professionnel et votre activité d'indépendant",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Revenus Protégés",
-                "description": "Assurer la continuité de vos revenus en cas d'interruption d'activité"
+                "description": "Assurer la continuité de vos revenus en cas d'interruption d'activité",
+                "image": "/images/services/personnel-insurance.svg"
               }
             ]
           }
@@ -962,24 +962,24 @@
             "title": "Protection des revenus",
             "content": [
               {
-                "icon": "TrendingUp",
                 "title": "Couverture Perte de Revenu",
-                "description": "Protection de vos revenus en cas d'incapacité ou interruption d'activité"
+                "description": "Protection de vos revenus en cas d'incapacité ou interruption d'activité",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Assurance Chômage",
-                "description": "Complément de revenus en cas de chômage involontaire ou cessation d'emploi"
+                "description": "Complément de revenus en cas de chômage involontaire ou cessation d'emploi",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "Calendar",
                 "title": "Rente Invalidité",
-                "description": "Rente mensuelle garantie en cas d'invalidité permanente ou partielle"
+                "description": "Rente mensuelle garantie en cas d'invalidité permanente ou partielle",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Protection Crédit",
-                "description": "Protégez vos emprunteurs et garantissez le remboursement de vos crédits"
+                "description": "Protégez vos emprunteurs et garantissez le remboursement de vos crédits",
+                "image": "/images/services/revenue-protection.svg"
               }
             ]
           }

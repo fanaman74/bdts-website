@@ -150,24 +150,24 @@
             "title": "Nos assurances mobilité",
             "content": [
               {
-                "icon": "Car",
                 "title": "Autoverzekering",
-                "description": "Aansprakelijkheid en materiële bescherming voor uw voertuig met 24/7 wegenwacht"
+                "description": "Aansprakelijkheid en materiële bescherming voor uw voertuig met 24/7 wegenwacht",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Bike",
                 "title": "Motorfiets Verzekering",
-                "description": "Gespecialiseerde dekking voor motorfietsen, scooters en gemotoriseerde fietsen"
+                "description": "Gespecialiseerde dekking voor motorfietsen, scooters en gemotoriseerde fietsen",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Bike2",
                 "title": "Fietsverzekering",
-                "description": "Volledige bescherming voor uw fietsen tegen diefstal, schade en aansprakelijkheid"
+                "description": "Volledige bescherming voor uw fietsen tegen diefstal, schade en aansprakelijkheid",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "Truck",
                 "title": "Motorhome Verzekering",
-                "description": "Dekking voor campers en caravans met gespecialiseerde wegenwacht"
+                "description": "Dekking voor campers en caravans met gespecialiseerde wegenwacht",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -181,29 +181,29 @@
             "title": "Dekking",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Aansprakelijkheid",
-                "description": "Verplichte dekking die derden beschermt in geval van ongeluk waarvoor u aansprakelijk bent"
+                "description": "Verplichte dekking die derden beschermt in geval van ongeluk waarvoor u aansprakelijk bent",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Materiële Schade",
-                "description": "Bescherming tegen schade aan uw voertuig veroorzaakt door botsing of incident"
+                "description": "Bescherming tegen schade aan uw voertuig veroorzaakt door botsing of incident",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Diefstal en Brand",
-                "description": "Volledige dekking bij diefstal, diefstalpoging of brandschade aan uw auto"
+                "description": "Volledige dekking bij diefstal, diefstalpoging of brandschade aan uw auto",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Rechtsbijstand",
-                "description": "Juridische bescherming en bijstand in geschillen met betrekking tot uw voertuig"
+                "description": "Juridische bescherming en bijstand in geschillen met betrekking tot uw voertuig",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Pechservice",
-                "description": "24/7 service met gratis sleepwagen en noodmechanische bijstand"
+                "description": "24/7 service met gratis sleepwagen en noodmechanische bijstand",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -217,24 +217,24 @@
             "title": "Dekking",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Aansprakelijkheid",
-                "description": "Verplichte juridische dekking voor motorfietsen en gemotoriseerde tweewielers"
+                "description": "Verplichte juridische dekking voor motorfietsen en gemotoriseerde tweewielers",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Backpack",
                 "title": "Uitrustingsbescherming",
-                "description": "Dekking van uw uitrusting (helm, handschoenen, kleding) bij ongeluk of diefstal"
+                "description": "Dekking van uw uitrusting (helm, handschoenen, kleding) bij ongeluk of diefstal",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Mechaische Bijstand",
-                "description": "Gespecialiseerde tweewieler-bijstand met sleepwagen en noodreparaties"
+                "description": "Gespecialiseerde tweewieler-bijstand met sleepwagen en noodreparaties",
+                "image": "/images/services/moto-insurance.svg"
               },
               {
-                "icon": "Zap",
                 "title": "Materiële Schade",
-                "description": "Bescherming tegen schade aan uw motorfiets door incident, botsing of aansprakelijkheid"
+                "description": "Bescherming tegen schade aan uw motorfiets door incident, botsing of aansprakelijkheid",
+                "image": "/images/services/moto-insurance.svg"
               }
             ]
           }
@@ -248,24 +248,24 @@
             "title": "Dekking",
             "content": [
               {
-                "icon": "Lock",
                 "title": "Diefstalschutz",
-                "description": "Volledige dekking in geval uw fiets wordt gestolen, ook met een hangslot"
+                "description": "Volledige dekking in geval uw fiets wordt gestolen, ook met een hangslot",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Materiële Schade",
-                "description": "Bescherming tegen schade en reparatiekosten na ongeluk of incident"
+                "description": "Bescherming tegen schade en reparatiekosten na ongeluk of incident",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Reparatiebijstand",
-                "description": "Snelle reparatieservices en vervoerskosten bij pech of ongeluk"
+                "description": "Snelle reparatieservices en vervoerskosten bij pech of ongeluk",
+                "image": "/images/services/bike-insurance.svg"
               },
               {
-                "icon": "AlertCircle",
                 "title": "Aansprakelijkheid",
-                "description": "Dekking van uw aansprakelijkheid in geval van ongeluk met betrokkenheid van derden"
+                "description": "Dekking van uw aansprakelijkheid in geval van ongeluk met betrokkenheid van derden",
+                "image": "/images/services/bike-insurance.svg"
               }
             ]
           }
@@ -279,24 +279,24 @@
             "title": "Dekking",
             "content": [
               {
-                "icon": "Shield",
                 "title": "Aansprakelijkheid",
-                "description": "Juridische dekking voor schade aan derden met uw camper of caravan"
+                "description": "Juridische dekking voor schade aan derden met uw camper of caravan",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Materiële Schade",
-                "description": "Bescherming tegen schade aan uw motorhome door incident, botsing of aansprakelijkheid"
+                "description": "Bescherming tegen schade aan uw motorhome door incident, botsing of aansprakelijkheid",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Truck",
                 "title": "Wegenwacht",
-                "description": "24/7 gespecialiseerde service met sleepwagen, reparatie en pechservice voor campers"
+                "description": "24/7 gespecialiseerde service met sleepwagen, reparatie en pechservice voor campers",
+                "image": "/images/services/auto-insurance.svg"
               },
               {
-                "icon": "Home",
                 "title": "Binnenuitrusting",
-                "description": "Dekking van uw binnenuitrusting, elektrohuishoudelijke apparaten en voorzieningen"
+                "description": "Dekking van uw binnenuitrusting, elektrohuishoudelijke apparaten en voorzieningen",
+                "image": "/images/services/auto-insurance.svg"
               }
             ]
           }
@@ -310,24 +310,24 @@
             "title": "Soorten dekking",
             "content": [
               {
-                "icon": "Home",
                 "title": "Brandverzekering",
-                "description": "Bescherming tegen schade veroorzaakt door brand, rook en gerelateerde incidenten"
+                "description": "Bescherming tegen schade veroorzaakt door brand, rook en gerelateerde incidenten",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Diefstalverzekering",
-                "description": "Volledige dekking tegen diefstal, inbraak en diefstalpoging"
+                "description": "Volledige dekking tegen diefstal, inbraak en diefstalpoging",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Materiële Schade",
-                "description": "Bescherming van uw bezittingen tegen schade veroorzaakt door verschillende incidenten"
+                "description": "Bescherming van uw bezittingen tegen schade veroorzaakt door verschillende incidenten",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Aansprakelijkheid",
-                "description": "Dekking van uw aansprakelijkheid tegenover derden in uw woning"
+                "description": "Dekking van uw aansprakelijkheid tegenover derden in uw woning",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -341,24 +341,24 @@
             "title": "Branddekkingen",
             "content": [
               {
-                "icon": "AlertTriangle",
                 "title": "Brandschade",
-                "description": "Volledige dekking van directe schade veroorzaakt door brand en verbranding"
+                "description": "Volledige dekking van directe schade veroorzaakt door brand en verbranding",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Flame",
                 "title": "Rook en Roet",
-                "description": "Bescherming tegen schade veroorzaakt door rook, roet en verbrandingsgassen"
+                "description": "Bescherming tegen schade veroorzaakt door rook, roet en verbrandingsgassen",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Home",
                 "title": "Tijdelijke Verhuizing",
-                "description": "Huisvestings- en verhuizingskosten terwijl uw woning wordt gerepareerd"
+                "description": "Huisvestings- en verhuizingskosten terwijl uw woning wordt gerepareerd",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Wrench",
                 "title": "Herstel en Schoonmaak",
-                "description": "Professionele schoonmaakservices en herstel na brandschade"
+                "description": "Professionele schoonmaakservices en herstel na brandschade",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -372,24 +372,24 @@
             "title": "Diefstalbeveiliging",
             "content": [
               {
-                "icon": "Lock",
                 "title": "Huisraad",
-                "description": "Volledige dekking van uw meubilair en persoonlijke bezittingen tegen diefstal"
+                "description": "Volledige dekking van uw meubilair en persoonlijke bezittingen tegen diefstal",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Smartphone",
                 "title": "Apparaten en Elektronica",
-                "description": "Bescherming van uw elektrische, elektronische en technische apparatuur"
+                "description": "Bescherming van uw elektrische, elektronische en technische apparatuur",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Diamond",
                 "title": "Sieraden en Waarden",
-                "description": "Speciale dekking voor sieraden, horloges en waardevolle objecten"
+                "description": "Speciale dekking voor sieraden, horloges en waardevolle objecten",
+                "image": "/images/services/fire-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Persoonlijke Spullen",
-                "description": "Bescherming van uw kleding, bagage en persoonlijke bezittingen tegen diefstal"
+                "description": "Bescherming van uw kleding, bagage en persoonlijke bezittingen tegen diefstal",
+                "image": "/images/services/fire-insurance.svg"
               }
             ]
           }
@@ -676,24 +676,24 @@
             "title": "Spaar- en investeringsoplossingen",
             "content": [
               {
-                "icon": "TrendingUp",
                 "title": "Spaarverzekeringsplannen",
-                "description": "Spaaroplossingen met geïntegreerde levensverzekering"
+                "description": "Spaaroplossingen met geïntegreerde levensverzekering",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "Target",
                 "title": "Gediversifieerde Beleggingen",
-                "description": "Toegang tot gevarieerde beleggingsfondsen afgestemd op uw profiel"
+                "description": "Toegang tot gevarieerde beleggingsfondsen afgestemd op uw profiel",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Regelmatige Opbrengsten",
-                "description": "Genereer regelmatige inkomsten en bouw uw vermogen op"
+                "description": "Genereer regelmatige inkomsten en bouw uw vermogen op",
+                "image": "/images/services/savings-investment.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Vermogensbescherming",
-                "description": "Beveilig uw spaargelden en draag uw erfenis veilig over"
+                "description": "Beveilig uw spaargelden en draag uw erfenis veilig over",
+                "image": "/images/services/savings-investment.svg"
               }
             ]
           }
@@ -707,24 +707,24 @@
             "title": "Pensioenoplossingen",
             "content": [
               {
-                "icon": "Calendar",
                 "title": "Pensioenplanning",
-                "description": "Bouw geleidelijk uw pensioenkapitaal op en zeker uw toekomst"
+                "description": "Bouw geleidelijk uw pensioenkapitaal op en zeker uw toekomst",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "Home",
                 "title": "Inkomensaanvulling",
-                "description": "Zorg voor een bevredigend levensniveau na uw beroepscarrière"
+                "description": "Zorg voor een bevredigend levensniveau na uw beroepscarrière",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "Users",
                 "title": "Gezinsbescherming",
-                "description": "Zorg voor het welzijn van uw familie bij overlijden of invaliditeit"
+                "description": "Zorg voor het welzijn van uw familie bij overlijden of invaliditeit",
+                "image": "/images/services/retirement-planning.svg"
               },
               {
-                "icon": "TrendingUp",
                 "title": "Kapitaalgroei",
-                "description": "Optimaliseer de groei en opbrengsten van uw pensioenuitkeringen"
+                "description": "Optimaliseer de groei en opbrengsten van uw pensioenuitkeringen",
+                "image": "/images/services/retirement-planning.svg"
               }
             ]
           }
@@ -788,24 +788,24 @@
             "title": "Zakenverzekering",
             "content": [
               {
-                "icon": "Building",
                 "title": "Beroepsaansprakelijkheid",
-                "description": "Dekking van uw beroepsaansprakelijkheid tegenover derden"
+                "description": "Dekking van uw beroepsaansprakelijkheid tegenover derden",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "AlertTriangle",
                 "title": "Schadebijstand",
-                "description": "Bescherming van gebouwen, apparatuur en voorraad tegen incidenten"
+                "description": "Bescherming van gebouwen, apparatuur en voorraad tegen incidenten",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "Users",
                 "title": "Personeelsverzekering",
-                "description": "Dekking van werkongeval en beroepsziekten"
+                "description": "Dekking van werkongeval en beroepsziekten",
+                "image": "/images/services/business-insurance.svg"
               },
               {
-                "icon": "Lock",
                 "title": "Cyberbeveiliging en Diefstal",
-                "description": "Bescherming tegen cyberrisico, gegevensdiefstal en fraude"
+                "description": "Bescherming tegen cyberrisico, gegevensdiefstal en fraude",
+                "image": "/images/services/business-insurance.svg"
               }
             ]
           }
@@ -883,24 +883,24 @@
             "title": "Personeelsbescherming",
             "content": [
               {
-                "icon": "User",
                 "title": "Ongevallenverzekering",
-                "description": "Dekking van werkongeval en lichamelijk letsel gerelateerd aan uw beroep"
+                "description": "Dekking van werkongeval en lichamelijk letsel gerelateerd aan uw beroep",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Persoonlijke Bescherming",
-                "description": "Bescherming bij arbeidsongeschiktheid, invaliditeit of beroepsdood"
+                "description": "Bescherming bij arbeidsongeschiktheid, invaliditeit of beroepsdood",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Beroepsdekking",
-                "description": "Bescherm uw beroepsstatus en zelfstandige activiteiten"
+                "description": "Bescherm uw beroepsstatus en zelfstandige activiteiten",
+                "image": "/images/services/personnel-insurance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Beschermde Inkomens",
-                "description": "Zorg voor continuïteit van uw inkomsten bij activiteitsonderbreking"
+                "description": "Zorg voor continuïteit van uw inkomsten bij activiteitsonderbreking",
+                "image": "/images/services/personnel-insurance.svg"
               }
             ]
           }
@@ -962,24 +962,24 @@
             "title": "Inkomstenbescherming",
             "content": [
               {
-                "icon": "TrendingUp",
                 "title": "Inkomstendervingsdekking",
-                "description": "Bescherming van uw inkomsten bij arbeidsongeschiktheid of onderbreking"
+                "description": "Bescherming van uw inkomsten bij arbeidsongeschiktheid of onderbreking",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Werkloosheidsverzekering",
-                "description": "Aanvullend inkomen bij onvrijwillige werkloosheid of baanverlies"
+                "description": "Aanvullend inkomen bij onvrijwillige werkloosheid of baanverlies",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "Calendar",
                 "title": "Invaliditeitsrente",
-                "description": "Gegarandeerde maandelijkse rente bij blijvende of gedeeltelijke invaliditeit"
+                "description": "Gegarandeerde maandelijkse rente bij blijvende of gedeeltelijke invaliditeit",
+                "image": "/images/services/revenue-protection.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Kredietbescherming",
-                "description": "Bescherm uw leners en garandeer terugbetaling van leningen"
+                "description": "Bescherm uw leners en garandeer terugbetaling van leningen",
+                "image": "/images/services/revenue-protection.svg"
               }
             ]
           }
