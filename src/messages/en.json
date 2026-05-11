@@ -315,11 +315,31 @@
           {
             "title": "Family coverage",
             "content": [
-              "Comprehensive family insurance",
-              "Accident and disability protection",
-              "Death and income protection",
-              "Travel insurance",
-              "Legal assistance and protection"
+              {
+                "icon": "Heart",
+                "title": "Comprehensive family insurance",
+                "description": "Complete protection for you and your family with multiple coverages tailored to your needs"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Accident and disability protection",
+                "description": "Coverage for personal accidents and temporary or permanent disability"
+              },
+              {
+                "icon": "Shield",
+                "title": "Death and income protection",
+                "description": "Capital and income for your loved ones in case of death of breadwinner"
+              },
+              {
+                "icon": "Plane",
+                "title": "Travel insurance",
+                "description": "Complete coverage for all your family trips with assistance abroad"
+              },
+              {
+                "icon": "Scale",
+                "title": "Legal assistance and protection",
+                "description": "24/7 legal advice and court representation for all your personal disputes"
+              }
             ]
           }
         ]
@@ -331,10 +351,26 @@
           {
             "title": "Coverage included",
             "content": [
-              "Coverage for children and parents",
-              "Family health assistance",
-              "Family support services",
-              "Family income in case of death"
+              {
+                "icon": "Users",
+                "title": "Children and parents coverage",
+                "description": "Extended protection for all family members including children and elderly parents"
+              },
+              {
+                "icon": "Heart",
+                "title": "Family health assistance",
+                "description": "Health assistance services and medical support accessible to the whole family"
+              },
+              {
+                "icon": "Handshake",
+                "title": "Family support services",
+                "description": "Support and social assistance when families face financial difficulties"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Family income on death",
+                "description": "Guaranteed income to spouse and children if breadwinner passes away"
+              }
             ]
           }
         ]
@@ -346,10 +382,26 @@
           {
             "title": "Accident coverage",
             "content": [
-              "24/7 accident benefits",
-              "Permanent disability coverage",
-              "Medical and hospital expenses",
-              "Temporary disability income"
+              {
+                "icon": "AlertCircle",
+                "title": "24/7 accident benefits",
+                "description": "Complete coverage for accidents occurring at any time of day or night"
+              },
+              {
+                "icon": "Wheelchair",
+                "title": "Permanent disability coverage",
+                "description": "Financial protection if you become permanently disabled from an accident"
+              },
+              {
+                "icon": "Pill",
+                "title": "Medical and hospital expenses",
+                "description": "Reimbursement of medical and hospital fees resulting from accidents"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Temporary disability income",
+                "description": "Income replacement during periods of temporary disability from accidents"
+              }
             ]
           }
         ]
@@ -361,10 +413,26 @@
           {
             "title": "Death protection",
             "content": [
-              "Capital in case of death",
-              "Spouse survivor income",
-              "Minor children coverage",
-              "Fast payout to beneficiaries"
+              {
+                "icon": "DollarSign",
+                "title": "Death capital",
+                "description": "Capital paid to designated beneficiaries in case of insured's death"
+              },
+              {
+                "icon": "Heart",
+                "title": "Spouse survivor income",
+                "description": "Monthly or annual guaranteed income to surviving spouse until their death"
+              },
+              {
+                "icon": "Baby",
+                "title": "Minor children coverage",
+                "description": "Additional capital or income to support education of minor children"
+              },
+              {
+                "icon": "CheckCircle",
+                "title": "Fast payout to beneficiaries",
+                "description": "Accelerated process for payment of capital to designated beneficiaries"
+              }
             ]
           }
         ]
@@ -376,11 +444,31 @@
           {
             "title": "Travel coverage",
             "content": [
-              "Medical assistance abroad",
-              "Medical evacuation",
-              "Flight cancellation and delay",
-              "Baggage and personal effects",
-              "Liability insurance"
+              {
+                "icon": "Stethoscope",
+                "title": "Medical assistance abroad",
+                "description": "24/7 medical service and medical evacuation if needed during your travels"
+              },
+              {
+                "icon": "Plane",
+                "title": "Medical evacuation",
+                "description": "Complete coverage of medical repatriation if seriously hospitalized abroad"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Flight cancellation and delay",
+                "description": "Reimbursement if your trip is cancelled or flight significantly delayed"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Baggage and personal effects",
+                "description": "Protection and reimbursement for lost, stolen or damaged luggage"
+              },
+              {
+                "icon": "Shield",
+                "title": "Liability insurance",
+                "description": "Liability coverage for damages caused to third parties during your trip"
+              }
             ]
           }
         ]
@@ -392,10 +480,26 @@
           {
             "title": "Legal services",
             "content": [
-              "24/7 legal advice",
-              "Court defense",
-              "Legal proceedings costs covered",
-              "Assisted legal recourse"
+              {
+                "icon": "Phone",
+                "title": "24/7 legal advice",
+                "description": "Phone consultation with legal experts available day and night"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Court defense",
+                "description": "Representation and defense by a lawyer in your legal proceedings"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Legal costs covered",
+                "description": "Complete coverage of court fees and lawyer fees"
+              },
+              {
+                "icon": "CheckCircle",
+                "title": "Assisted legal recourse",
+                "description": "Full support in all your legal claims and court actions"
+              }
             ]
           }
         ]

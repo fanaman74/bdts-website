@@ -315,11 +315,31 @@
           {
             "title": "Couvertures familiales",
             "content": [
-              "Assurance familiale complète",
-              "Protection accidents et invalidité",
-              "Assurance décès et rente",
-              "Assurance voyage famille",
-              "Assistance juridique et protection"
+              {
+                "icon": "Heart",
+                "title": "Assurance familiale complète",
+                "description": "Protection complète pour vous et votre famille avec couvertures multiples adaptées à vos besoins"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Protection accidents et invalidité",
+                "description": "Couverture en cas d'accidents personnels et d'invalidité temporaire ou permanente"
+              },
+              {
+                "icon": "Shield",
+                "title": "Assurance décès et rente",
+                "description": "Capital et rente pour protéger vos proches en cas de décès du soutien de famille"
+              },
+              {
+                "icon": "Plane",
+                "title": "Assurance voyage famille",
+                "description": "Couverture complète pour tous vos déplacements en famille avec assistance à l'étranger"
+              },
+              {
+                "icon": "Scale",
+                "title": "Assistance juridique et protection",
+                "description": "Conseil juridique 24/7 et défense en justice pour tous vos litiges personnels ou familiaux"
+              }
             ]
           }
         ]
@@ -331,10 +351,26 @@
           {
             "title": "Couvertures incluses",
             "content": [
-              "Couverture enfants et parents",
-              "Assistance santé familiale",
-              "Services de soutien aux familles",
-              "Rente familiale en cas de décès du soutien"
+              {
+                "icon": "Users",
+                "title": "Couverture enfants et parents",
+                "description": "Protection étendue pour tous les membres de la famille incluant enfants et parents"
+              },
+              {
+                "icon": "Heart",
+                "title": "Assistance santé familiale",
+                "description": "Services d'assistance santé et support médical accessible à toute la famille"
+              },
+              {
+                "icon": "Handshake",
+                "title": "Services de soutien aux familles",
+                "description": "Support et aide sociale en cas de difficultés pour les familles en détresse"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Rente familiale en cas de décès",
+                "description": "Rente garantie au conjoint et aux enfants en cas de décès du soutien principal"
+              }
             ]
           }
         ]
@@ -346,10 +382,26 @@
           {
             "title": "Couvertures accidents",
             "content": [
-              "Indemnités accidents 24/7",
-              "Couverture invalidité permanente",
-              "Frais médicaux et hospitalisation",
-              "Rente d'invalidité temporaire"
+              {
+                "icon": "AlertCircle",
+                "title": "Indemnités accidents 24/7",
+                "description": "Couverture complète des accidents survenus à tout moment du jour ou de la nuit"
+              },
+              {
+                "icon": "Wheelchair",
+                "title": "Couverture invalidité permanente",
+                "description": "Protection financière en cas d'invalidité permanente suite à un accident"
+              },
+              {
+                "icon": "Pill",
+                "title": "Frais médicaux et hospitalisation",
+                "description": "Remboursement des frais médicaux et hospitalisation consécutifs à un accident"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Rente d'invalidité temporaire",
+                "description": "Rente de remplacement de revenu pendant la période d'invalidité temporaire"
+              }
             ]
           }
         ]
@@ -361,10 +413,26 @@
           {
             "title": "Protections décès",
             "content": [
-              "Capital en cas de décès",
-              "Rente au conjoint survivant",
-              "Couverture enfants mineurs",
-              "Versement rapide aux bénéficiaires"
+              {
+                "icon": "DollarSign",
+                "title": "Capital en cas de décès",
+                "description": "Capital versé aux bénéficiaires désignés en cas de décès assuré"
+              },
+              {
+                "icon": "Heart",
+                "title": "Rente au conjoint survivant",
+                "description": "Rente mensuelle ou annuelle garantie au conjoint survivant jusqu'à son décès"
+              },
+              {
+                "icon": "Baby",
+                "title": "Couverture enfants mineurs",
+                "description": "Capitale ou rente supplémentaire pour soutenir l'éducation des enfants mineurs"
+              },
+              {
+                "icon": "CheckCircle",
+                "title": "Versement rapide aux bénéficiaires",
+                "description": "Processus accéléré de versement du capital aux bénéficiaires désignés"
+              }
             ]
           }
         ]
@@ -376,11 +444,31 @@
           {
             "title": "Couvertures voyage",
             "content": [
-              "Assistance médicale à l'étranger",
-              "Rapatriement sanitaire",
-              "Annulation et retard de vol",
-              "Bagages et effets personnels",
-              "Assurance responsabilité civile"
+              {
+                "icon": "Stethoscope",
+                "title": "Assistance médicale à l'étranger",
+                "description": "Service médical 24/7 et rapatriement sanitaire si nécessaire lors de vos voyages"
+              },
+              {
+                "icon": "Plane",
+                "title": "Rapatriement sanitaire",
+                "description": "Couverture complète du rapatriement médical en cas d'hospitalisation grave à l'étranger"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Annulation et retard de vol",
+                "description": "Remboursement en cas d'annulation de voyage ou de retard de vol important"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Bagages et effets personnels",
+                "description": "Protection et remboursement en cas de perte, vol ou détérioration des bagages"
+              },
+              {
+                "icon": "Shield",
+                "title": "Assurance responsabilité civile",
+                "description": "Couverture responsabilité civile pour dommages causés à des tiers pendant le voyage"
+              }
             ]
           }
         ]
@@ -392,10 +480,26 @@
           {
             "title": "Services juridiques",
             "content": [
-              "Conseil juridique 24/7",
-              "Défense en justice",
-              "Frais de procédure couverts",
-              "Recours juridiques assistés"
+              {
+                "icon": "Phone",
+                "title": "Conseil juridique 24/7",
+                "description": "Consultation téléphonique avec des experts juridiques disponibles jour et nuit"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Défense en justice",
+                "description": "Représentation et défense par un avocat dans vos procédures judiciaires"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Frais de procédure couverts",
+                "description": "Prise en charge complète des frais de justice et honoraires d'avocats"
+              },
+              {
+                "icon": "CheckCircle",
+                "title": "Recours juridiques assistés",
+                "description": "Accompagnement complet dans tous vos recours et actions en justice"
+              }
             ]
           }
         ]

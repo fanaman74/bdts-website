@@ -4,10 +4,18 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import type { Variants } from "framer-motion";
 import { CheckCircle } from "lucide-react";
+import * as Icons from "lucide-react";
+import { ServiceCard } from "./ServiceCard";
+
+interface CardItem {
+  icon: string;
+  title: string;
+  description: string;
+}
 
 interface Section {
   title: string;
-  content: string | string[];
+  content: string | string[] | CardItem[];
 }
 
 interface ServiceData {
@@ -19,6 +27,21 @@ interface ServiceData {
 interface ServiceDetailProps {
   serviceKey: string;
   categoryKey: string;
+}
+
+function getIconByName(iconName: string) {
+  return (Icons as any)[iconName] || Icons.Circle;
+}
+
+function isCardFormat(content: any): content is CardItem[] {
+  return (
+    Array.isArray(content) &&
+    content.length > 0 &&
+    typeof content[0] === "object" &&
+    "icon" in content[0] &&
+    "title" in content[0] &&
+    "description" in content[0]
+  );
 }
 
 export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
@@ -100,12 +123,27 @@ export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
         >
           {data.sections?.map((section) => (
             <motion.div key={section.title} variants={itemVariants}>
-              <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-4">
+              <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-8">
                 {section.title}
               </h2>
 
-              {/* Content as bullet list */}
-              {Array.isArray(section.content) ? (
+              {/* Content as cards */}
+              {isCardFormat(section.content) ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {section.content.map((card) => {
+                    const IconComponent = getIconByName(card.icon);
+                    return (
+                      <ServiceCard
+                        key={card.title}
+                        icon={IconComponent}
+                        title={card.title}
+                        description={card.description}
+                      />
+                    );
+                  })}
+                </div>
+              ) : Array.isArray(section.content) ? (
+                /* Content as bullet list */
                 <ul className="space-y-3">
                   {section.content.map((item) => (
                     <li key={item} className="flex items-start gap-3">
