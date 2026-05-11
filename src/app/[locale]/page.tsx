@@ -1,7 +1,17 @@
+import { Hero } from "@/components/sections/home/Hero";
+import { ThreePaths } from "@/components/sections/home/ThreePaths";
+import { WhyBDTS } from "@/components/sections/home/WhyBDTS";
+import { Testimonials } from "@/components/sections/home/Testimonials";
+import { HomeCTA } from "@/components/sections/home/HomeCTA";
+
 export default function HomePage() {
   return (
-    <div className="py-32 text-center">
-      <h1 className="text-4xl font-bold text-navy">BDTS — Coming in Task 8</h1>
-    </div>
+    <>
+      <Hero />
+      <ThreePaths />
+      <WhyBDTS />
+      <Testimonials />
+      <HomeCTA />
+    </>
   );
 }
