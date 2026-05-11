@@ -6,15 +6,17 @@ import Image from "next/image";
 
 export function Footer() {
   const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
+  const tServices = useTranslations("services");
   const locale = useLocale();
 
   const serviceLinks = [
-    { label: "Habitation / Home / Woning", href: `/${locale}/services/habitation` },
+    { label: tServices("home_title"), href: `/${locale}/services/habitation` },
     { label: "Auto", href: `/${locale}/services/auto` },
-    { label: "Famille / Family / Gezin", href: `/${locale}/services/famille` },
-    { label: "Épargne / Savings / Sparen", href: `/${locale}/services/epargne` },
-    { label: "Employés / Employees / Werknemers", href: `/${locale}/services/employes` },
-    { label: "Responsabilité / Liability", href: `/${locale}/services/responsabilite` },
+    { label: tServices("family_title"), href: `/${locale}/services/famille` },
+    { label: tServices("savings_title"), href: `/${locale}/services/epargne` },
+    { label: tServices("employees_title"), href: `/${locale}/services/employes` },
+    { label: tServices("liability_title"), href: `/${locale}/services/responsabilite` },
   ];
 
   return (
@@ -50,8 +52,8 @@ export function Footer() {
             <h3 className="font-semibold text-gold mb-4 text-sm uppercase tracking-wide">BDTS</h3>
             <ul className="space-y-2">
               {[
-                { label: "About / À propos / Over ons", href: `/${locale}/about` },
-                { label: "Process / Processus / Werkwijze", href: `/${locale}/process` },
+                { label: tNav("about"), href: `/${locale}/about` },
+                { label: "Process", href: `/${locale}/process` },
                 { label: "Contact", href: `/${locale}/contact` },
               ].map((link) => (
                 <li key={link.href}>
