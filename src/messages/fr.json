@@ -162,7 +162,7 @@
               {
                 "title": "Assurance Vélo",
                 "description": "Couverture complète pour vos bicyclettes contre le vol, dégâts matériels et responsabilité civile",
-                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+                "image": "https://images.unsplash.com/photo-1467080143297-1e0e3eb22c84?w=800&q=80"
               },
               {
                 "title": "Assurance Motorhome",
@@ -183,27 +183,27 @@
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture obligatoire protégeant les tiers en cas d'accident responsable de votre part",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               },
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection contre les dommages à votre véhicule causés par collision ou sinistre",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               },
               {
                 "title": "Vol et Incendie",
                 "description": "Couverture complète en cas de vol, tentative de vol ou incendie de votre automobile",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
               },
               {
                 "title": "Couverture Juridique",
                 "description": "Protection juridique et assistance en cas de litiges liés à votre véhicule",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Assistance Dépannage",
                 "description": "Service 24h/24 avec remorquage gratuit et assistance mécanique d'urgence",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80"
               }
             ]
           }
@@ -219,22 +219,22 @@
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture légale obligatoire pour les deux-roues motorisés et cyclomoteurs",
-                "image": "/images/services/moto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               },
               {
                 "title": "Protection Équipement",
                 "description": "Couverture de vos équipements (casque, gants, vêtements) en cas d'accident ou vol",
-                "image": "/images/services/moto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               },
               {
                 "title": "Assistance Mécanique",
                 "description": "Assistance spécialisée pour deux-roues avec remorquage et réparation d'urgence",
-                "image": "/images/services/moto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               },
               {
                 "title": "Dommages Matériels",
                 "description": "Protection contre les dégâts à votre moto causés par sinistre, collision ou responsabilité civile",
-                "image": "/images/services/moto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               }
             ]
           }
@@ -250,22 +250,22 @@
               {
                 "title": "Protection Vol",
                 "description": "Couverture complète en cas de vol de votre vélo, même assuré avec un cadenas",
-                "image": "/images/services/bike-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
               },
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection contre les dommages et réparations suite à un accident ou incident",
-                "image": "/images/services/bike-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               },
               {
                 "title": "Assistance Réparation",
                 "description": "Services de réparation rapide et frais de transport en cas de panne ou accident",
-                "image": "/images/services/bike-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1467080143297-1e0e3eb22c84?w=800&q=80"
               },
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture de votre responsabilité civile en cas d'accident impliquant un tiers",
-                "image": "/images/services/bike-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               }
             ]
           }
@@ -281,22 +281,22 @@
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture légale pour les dommages causés à autrui avec votre camping-car ou caravane",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               },
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection contre les dommages à votre motorhome suite à sinistre, collision ou responsabilité",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               },
               {
                 "title": "Assistance Routière",
                 "description": "Service 24/7 spécialisé avec remorquage, réparation et dépannage pour motorhomes",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1488747807830-63789f68bb65?w=800&q=80"
               },
               {
                 "title": "Équipements Intérieurs",
                 "description": "Couverture de vos équipements intérieurs, électroménagers et aménagements du motorhome",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               }
             ]
           }
@@ -322,12 +322,12 @@
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection de vos biens contre les dommages causés par divers sinistres",
-                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               },
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture de votre responsabilité civile envers les tiers dans votre logement",
-                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               }
             ]
           }
@@ -343,22 +343,22 @@
               {
                 "title": "Dégâts du Feu",
                 "description": "Couverture complète des dommages directs causés par le feu et la combustion",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
               },
               {
                 "title": "Fumée et Suie",
                 "description": "Protection contre les dégâts causés par la fumée, la suie et les gaz de combustion",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1533827432537-70133efd92de?w=800&q=80"
               },
               {
                 "title": "Relogement Temporaire",
                 "description": "Frais de relogement et d'hébergement pendant les réparations de votre logement",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               },
               {
                 "title": "Récupération et Nettoyage",
                 "description": "Services de nettoyage professionnel et récupération après sinistre incendie",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1551632786-de41ec917a37?w=800&q=80"
               }
             ]
           }
@@ -374,22 +374,22 @@
               {
                 "title": "Protection Bien Mobiliers",
                 "description": "Couverture complète de vos meubles et biens personnels contre le vol",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               },
               {
                 "title": "Électroménagers et Électronique",
                 "description": "Protection de vos appareils électriques, électroniques et équipements technologiques",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
               },
               {
                 "title": "Bijoux et Objets de Valeur",
                 "description": "Couverture spéciale pour les bijoux, montres précieuses et objets de valeur",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80"
               },
               {
                 "title": "Effets Personnels",
                 "description": "Protection de vos vêtements, bagages et autres effets personnels contre le vol",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1556821552-9f6db051ccd1?w=800&q=80"
               }
             ]
           }
@@ -462,22 +462,22 @@
               {
                 "title": "Couverture enfants et parents",
                 "description": "Protection étendue pour tous les membres de la famille incluant enfants et parents",
-                "image": "/images/services/family-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80"
               },
               {
                 "title": "Assistance santé familiale",
                 "description": "Services d'assistance santé et support médical accessible à toute la famille",
-                "image": "/images/services/family-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1631217314830-4e3015a64a51?w=800&q=80"
               },
               {
                 "title": "Services de soutien aux familles",
                 "description": "Support et aide sociale en cas de difficultés pour les familles en détresse",
-                "image": "/images/services/family-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80"
               },
               {
                 "title": "Rente familiale en cas de décès",
                 "description": "Rente garantie au conjoint et aux enfants en cas de décès du soutien principal",
-                "image": "/images/services/family-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80"
               }
             ]
           }
@@ -493,22 +493,22 @@
               {
                 "title": "Indemnités accidents 24/7",
                 "description": "Couverture complète des accidents survenus à tout moment du jour ou de la nuit",
-                "image": "/images/services/accident-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=800&q=80"
               },
               {
                 "title": "Couverture invalidité permanente",
                 "description": "Protection financière en cas d'invalidité permanente suite à un accident",
-                "image": "/images/services/accident-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1631217314830-4e3015a64a51?w=800&q=80"
               },
               {
                 "title": "Frais médicaux et hospitalisation",
                 "description": "Remboursement des frais médicaux et hospitalisation consécutifs à un accident",
-                "image": "/images/services/accident-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=800&q=80"
               },
               {
                 "title": "Rente d'invalidité temporaire",
                 "description": "Rente de remplacement de revenu pendant la période d'invalidité temporaire",
-                "image": "/images/services/accident-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1631217314830-4e3015a64a51?w=800&q=80"
               }
             ]
           }
@@ -524,22 +524,22 @@
               {
                 "title": "Capital en cas de décès",
                 "description": "Capital versé aux bénéficiaires désignés en cas de décès assuré",
-                "image": "/images/services/death-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80"
               },
               {
                 "title": "Rente au conjoint survivant",
                 "description": "Rente mensuelle ou annuelle garantie au conjoint survivant jusqu'à son décès",
-                "image": "/images/services/death-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Couverture enfants mineurs",
                 "description": "Capitale ou rente supplémentaire pour soutenir l'éducation des enfants mineurs",
-                "image": "/images/services/death-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80"
               },
               {
                 "title": "Versement rapide aux bénéficiaires",
                 "description": "Processus accéléré de versement du capital aux bénéficiaires désignés",
-                "image": "/images/services/death-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               }
             ]
           }
@@ -555,27 +555,27 @@
               {
                 "title": "Assistance médicale à l'étranger",
                 "description": "Service médical 24/7 et rapatriement sanitaire si nécessaire lors de vos voyages",
-                "image": "/images/services/travel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=800&q=80"
               },
               {
                 "title": "Rapatriement sanitaire",
                 "description": "Couverture complète du rapatriement médical en cas d'hospitalisation grave à l'étranger",
-                "image": "/images/services/travel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1631217314830-4e3015a64a51?w=800&q=80"
               },
               {
                 "title": "Annulation et retard de vol",
                 "description": "Remboursement en cas d'annulation de voyage ou de retard de vol important",
-                "image": "/images/services/travel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80"
               },
               {
                 "title": "Bagages et effets personnels",
                 "description": "Protection et remboursement en cas de perte, vol ou détérioration des bagages",
-                "image": "/images/services/travel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1556821552-9f6db051ccd1?w=800&q=80"
               },
               {
                 "title": "Assurance responsabilité civile",
                 "description": "Couverture responsabilité civile pour dommages causés à des tiers pendant le voyage",
-                "image": "/images/services/travel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               }
             ]
           }
@@ -591,22 +591,22 @@
               {
                 "title": "Conseil juridique 24/7",
                 "description": "Consultation téléphonique avec des experts juridiques disponibles jour et nuit",
-                "image": "/images/services/legal-protection.svg"
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               },
               {
                 "title": "Défense en justice",
                 "description": "Représentation et défense par un avocat dans vos procédures judiciaires",
-                "image": "/images/services/legal-protection.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Frais de procédure couverts",
                 "description": "Prise en charge complète des frais de justice et honoraires d'avocats",
-                "image": "/images/services/legal-protection.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Recours juridiques assistés",
                 "description": "Accompagnement complet dans tous vos recours et actions en justice",
-                "image": "/images/services/legal-protection.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               }
             ]
           }
