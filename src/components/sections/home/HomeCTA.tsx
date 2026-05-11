@@ -21,7 +21,7 @@ export function HomeCTA() {
           <p className="text-mid-gray text-lg mb-10">{t("body")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={`/${locale}/contact`}
+              href={`/${locale}/appointment`}
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-navy text-white font-bold rounded-md hover:bg-navy-light transition-colors"
             >
               <Calendar size={18} />

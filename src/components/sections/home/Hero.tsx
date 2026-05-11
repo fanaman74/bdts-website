@@ -57,7 +57,7 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <motion.a
-              href={`/${locale}/contact`}
+              href={`/${locale}/appointment`}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold text-navy-dark font-bold rounded-md hover:bg-gold-light transition-colors text-base"
