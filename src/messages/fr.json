@@ -83,9 +83,13 @@
     "ag_body": "En tant que partenaire de confiance d'AG Insurance, nous bénéficions d'une connaissance approfondie des produits, d'un support prioritaire et d'un traitement accéléré des sinistres.",
     "values_title": "Nos valeurs",
     "value1": "Service personnalisé",
+    "value1_desc": "Un conseiller dédié qui vous connaît — pas de centres d'appel, pas de transferts.",
     "value2": "Expertise locale",
+    "value2_desc": "Basés à Laeken, nous connaissons Bruxelles, ses risques et ses réglementations.",
     "value3": "Indépendance",
-    "value4": "Réactivité"
+    "value3_desc": "Nous travaillons pour vous, pas pour un assureur — en comparant tout le marché.",
+    "value4": "Réactivité",
+    "value4_desc": "Réponses le jour même, assistance sinistres rapide et bilans annuels personnalisés."
   },
   "services": {
     "home_title": "Assurance habitation",

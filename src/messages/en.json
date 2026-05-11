@@ -83,9 +83,13 @@
     "ag_body": "As a trusted AG Insurance partner, we have deep product knowledge, priority support for our clients, and fast-track claims handling.",
     "values_title": "Our Values",
     "value1": "Personal Service",
+    "value1_desc": "One dedicated advisor who knows you — no call centres, no handoffs.",
     "value2": "Local Expertise",
+    "value2_desc": "Based in Laeken, we know Brussels streets, risks, and regulations inside out.",
     "value3": "Independence",
-    "value4": "Responsiveness"
+    "value3_desc": "We work for you, not an insurer — comparing the whole market to find your best deal.",
+    "value4": "Responsiveness",
+    "value4_desc": "Same-day replies, fast claims support, and annual check-ins as your life changes."
   },
   "services": {
     "home_title": "Home Insurance",

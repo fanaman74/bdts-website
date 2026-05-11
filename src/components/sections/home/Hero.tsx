@@ -5,10 +5,10 @@ import { ArrowRight, MapPin, User, Network, Shield } from "lucide-react";
 import Image from "next/image";
 
 const VALUES = [
-  { icon: User, labelKey: "value1" as const },
-  { icon: MapPin, labelKey: "value2" as const },
-  { icon: Shield, labelKey: "value3" as const },
-  { icon: Network, labelKey: "value4" as const },
+  { icon: User, labelKey: "value1" as const, descKey: "value1_desc" as const },
+  { icon: MapPin, labelKey: "value2" as const, descKey: "value2_desc" as const },
+  { icon: Shield, labelKey: "value3" as const, descKey: "value3_desc" as const },
+  { icon: Network, labelKey: "value4" as const, descKey: "value4_desc" as const },
 ];
 
 export function Hero() {
@@ -106,20 +106,25 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="grid grid-cols-2 lg:grid-cols-4 gap-4"
         >
-          {VALUES.map(({ icon: Icon, labelKey }, i) => (
+          {VALUES.map(({ icon: Icon, labelKey, descKey }, i) => (
             <motion.div
               key={labelKey}
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 + i * 0.1 }}
-              className="bg-white/10 backdrop-blur-md border border-white/15 rounded-xl p-5 hover:bg-white/15 transition-colors"
+              className="group bg-white/10 backdrop-blur-md border border-white/15 rounded-xl p-5 hover:bg-white/15 transition-colors cursor-default"
             >
               <div className="w-10 h-10 bg-gold/20 rounded-lg flex items-center justify-center mb-3">
                 <Icon size={20} className="text-gold" />
               </div>
-              <p className="text-white font-semibold text-sm leading-snug">
+              <p className="text-white font-semibold text-sm leading-snug mb-0">
                 {tAbout(labelKey)}
               </p>
+              <div className="overflow-hidden max-h-0 group-hover:max-h-20 transition-all duration-300 ease-in-out">
+                <p className="text-white/60 text-xs leading-snug pt-2">
+                  {tAbout(descKey)}
+                </p>
+              </div>
             </motion.div>
           ))}
         </motion.div>
