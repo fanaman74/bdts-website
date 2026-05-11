@@ -98,7 +98,7 @@ export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
           viewport={{ once: true }}
           className="space-y-12"
         >
-          {data.sections?.map((section, index) => (
+          {data.sections?.map((section) => (
             <motion.div key={section.title} variants={itemVariants}>
               <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-4">
                 {section.title}
