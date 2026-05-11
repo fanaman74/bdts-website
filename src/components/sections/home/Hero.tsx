@@ -92,7 +92,7 @@ export function Hero() {
                 alt="FSMA"
                 width={64}
                 height={36}
-                className="h-7 w-auto brightness-0 invert opacity-80"
+                className="h-7 w-auto opacity-80"
               />
               <span className="text-white/70 text-xs font-medium">Regulated</span>
             </div>
