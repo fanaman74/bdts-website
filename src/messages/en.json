@@ -307,6 +307,227 @@
             ]
           }
         ]
+      },
+      "famille": {
+        "title": "Family & Legal Protection",
+        "subtitle": "Complete family insurance and legal protection — coverage for all risks",
+        "sections": [
+          {
+            "title": "Family coverage",
+            "content": [
+              "Comprehensive family insurance",
+              "Accident and disability protection",
+              "Death and income protection",
+              "Travel insurance",
+              "Legal assistance and protection"
+            ]
+          }
+        ]
+      },
+      "familiale": {
+        "title": "Family Insurance",
+        "subtitle": "Complete protection for your family",
+        "sections": [
+          {
+            "title": "Coverage included",
+            "content": [
+              "Coverage for children and parents",
+              "Family health assistance",
+              "Family support services",
+              "Family income in case of death"
+            ]
+          }
+        ]
+      },
+      "accidents": {
+        "title": "Accident & Disability",
+        "subtitle": "Protection against personal accidents",
+        "sections": [
+          {
+            "title": "Accident coverage",
+            "content": [
+              "24/7 accident benefits",
+              "Permanent disability coverage",
+              "Medical and hospital expenses",
+              "Temporary disability income"
+            ]
+          }
+        ]
+      },
+      "deces": {
+        "title": "Death Benefit Insurance",
+        "subtitle": "Financial protection for your loved ones",
+        "sections": [
+          {
+            "title": "Death protection",
+            "content": [
+              "Capital in case of death",
+              "Spouse survivor income",
+              "Minor children coverage",
+              "Fast payout to beneficiaries"
+            ]
+          }
+        ]
+      },
+      "voyage": {
+        "title": "Travel Insurance",
+        "subtitle": "Complete coverage for your trips",
+        "sections": [
+          {
+            "title": "Travel coverage",
+            "content": [
+              "Medical assistance abroad",
+              "Medical evacuation",
+              "Flight cancellation and delay",
+              "Baggage and personal effects",
+              "Liability insurance"
+            ]
+          }
+        ]
+      },
+      "protection_juridique": {
+        "title": "Legal Protection",
+        "subtitle": "Legal help and defense for all your disputes",
+        "sections": [
+          {
+            "title": "Legal services",
+            "content": [
+              "24/7 legal advice",
+              "Court defense",
+              "Legal proceedings costs covered",
+              "Assisted legal recourse"
+            ]
+          }
+        ]
+      },
+      "hospitalisation": {
+        "title": "Hospitalization",
+        "subtitle": "Individual and group hospitalization insurance",
+        "sections": [
+          {
+            "title": "Coverage",
+            "content": [
+              "Individual hospitalization insurance",
+              "Group plans for organizations",
+              "Reduced or zero deductibles",
+              "Extended health coverage"
+            ]
+          }
+        ]
+      },
+      "individuelle": {
+        "title": "Individual Hospitalization",
+        "subtitle": "Personal hospitalization coverage",
+        "sections": [
+          {
+            "title": "Services included",
+            "content": [
+              "Private room",
+              "Medical fees covered",
+              "Hospitalization expenses",
+              "Post-hospitalization follow-up"
+            ]
+          }
+        ]
+      },
+      "groupe": {
+        "title": "Group Hospitalization",
+        "subtitle": "Collective hospitalization coverage",
+        "sections": [
+          {
+            "title": "For companies",
+            "content": [
+              "Coverage for all employees",
+              "Advantageous group rates",
+              "Simplified management",
+              "Customized services"
+            ]
+          }
+        ]
+      },
+      "epargner": {
+        "title": "Savings & Investing",
+        "subtitle": "Savings solutions and investments for your future",
+        "sections": [
+          {
+            "title": "Savings products",
+            "content": [
+              "Flexible pension savings",
+              "Long-term investments",
+              "Investment diversification",
+              "Asset management",
+              "Optimized returns"
+            ]
+          },
+          {
+            "title": "Expert advice",
+            "content": "Our experts guide you towards investment solutions best suited to your profile"
+          }
+        ]
+      },
+      "pension": {
+        "title": "Pension",
+        "subtitle": "Retirement solutions and pension savings to secure your future",
+        "sections": [
+          {
+            "title": "Pension options",
+            "content": [
+              "Personal pension savings",
+              "Long-term savings",
+              "Group pension insurance",
+              "Retirement supplements",
+              "Flexible retirement plans"
+            ]
+          }
+        ]
+      },
+      "epargne_pension": {
+        "title": "Pension Savings",
+        "subtitle": "Personalized retirement plan",
+        "sections": [
+          {
+            "title": "Benefits",
+            "content": [
+              "Tax deductions",
+              "Capital accumulation",
+              "Flexible contributions",
+              "Regular returns",
+              "Retirement security"
+            ]
+          }
+        ]
+      },
+      "epargne_longterme": {
+        "title": "Long-Term Savings",
+        "subtitle": "Investments for your future",
+        "sections": [
+          {
+            "title": "Long-term strategy",
+            "content": [
+              "Extended investment horizons",
+              "Capitalized growth",
+              "Diversification management",
+              "Professional support",
+              "Accumulation plans"
+            ]
+          }
+        ]
+      },
+      "assurance_groupe": {
+        "title": "Group Pension Insurance",
+        "subtitle": "Collective retirement plan for companies",
+        "sections": [
+          {
+            "title": "For employers",
+            "content": [
+              "Complete retirement coverage",
+              "Tax benefits",
+              "Centralized management",
+              "Employer contributions",
+              "Adjustable plans"
+            ]
+          }
+        ]
       }
     },
     "test": {

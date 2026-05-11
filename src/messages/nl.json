@@ -307,6 +307,227 @@
             ]
           }
         ]
+      },
+      "familie": {
+        "title": "Familie & Rechtsbijstand",
+        "subtitle": "Complete familiaalverzekering en rechtsbijstand — dekking voor alle risico's",
+        "sections": [
+          {
+            "title": "Familiedekking",
+            "content": [
+              "Uitgebreide familiaalverzekering",
+              "Bescherming tegen ongevallen en invaliditeit",
+              "Overlijdens- en inkomstenzekering",
+              "Reisverzekering",
+              "Juridische bijstand"
+            ]
+          }
+        ]
+      },
+      "familiale": {
+        "title": "Familiaalverzekering",
+        "subtitle": "Complete bescherming voor uw gezin",
+        "sections": [
+          {
+            "title": "Inbegrepen dekkingen",
+            "content": [
+              "Dekking voor kinderen en ouders",
+              "Familiaal gezondheidsondersteuning",
+              "Gezinsondersteuningsdiensten",
+              "Gezinsinkomst bij overlijden"
+            ]
+          }
+        ]
+      },
+      "accidents": {
+        "title": "Ongevallen & Invaliditeit",
+        "subtitle": "Bescherming tegen persoonlijke ongevallen",
+        "sections": [
+          {
+            "title": "Ongevallendekking",
+            "content": [
+              "24/7 ongelallenverzekering",
+              "Permanente invaliditeitsdekking",
+              "Medische en ziekenhuiskosten",
+              "Temporaire invaliditeitsinkomsten"
+            ]
+          }
+        ]
+      },
+      "deces": {
+        "title": "Overlijdensverzekering",
+        "subtitle": "Financiële bescherming voor uw dierbaren",
+        "sections": [
+          {
+            "title": "Overlijdensbescherming",
+            "content": [
+              "Kapitaal bij overlijden",
+              "Inkomsten partner overlevende",
+              "Dekking minderjarige kinderen",
+              "Snelle uitbetaling aan begunstigden"
+            ]
+          }
+        ]
+      },
+      "voyage": {
+        "title": "Reisverzekering",
+        "subtitle": "Complete dekking voor uw reizen",
+        "sections": [
+          {
+            "title": "Reisdekking",
+            "content": [
+              "Medische bijstand in het buitenland",
+              "Medische evacuatie",
+              "Vluchtannulering en vertraging",
+              "Bagages en persoonlijke bezittingen",
+              "Aansprakelijkheidsverzekering"
+            ]
+          }
+        ]
+      },
+      "protection_juridique": {
+        "title": "Rechtsbijstand",
+        "subtitle": "Juridische hulp voor al uw geschillen",
+        "sections": [
+          {
+            "title": "Juridische diensten",
+            "content": [
+              "24/7 juridisch advies",
+              "Verdediging in gerechtszaken",
+              "Gerechtelijke kosten gedekt",
+              "Ondersteunde juridische verhaalsmogelijkheden"
+            ]
+          }
+        ]
+      },
+      "hospitalisation": {
+        "title": "Ziekenhuisverzekering",
+        "subtitle": "Individuele en collectieve ziekenhuisverzekering",
+        "sections": [
+          {
+            "title": "Dekkingen",
+            "content": [
+              "Individuele ziekenhuisverzekering",
+              "Collectieve plannen voor organisaties",
+              "Gereduceerde of nul eigen risico's",
+              "Uitgebreide gezondheidsdekking"
+            ]
+          }
+        ]
+      },
+      "individuelle": {
+        "title": "Individuele Ziekenhuisverzekering",
+        "subtitle": "Persoonlijke ziekenhuisdekking",
+        "sections": [
+          {
+            "title": "Inbegrepen diensten",
+            "content": [
+              "Particuliere kamer",
+              "Honoraria van artsen gedekt",
+              "Ziekenhuiskosten",
+              "Vervolgzorg na ziekenhuisopname"
+            ]
+          }
+        ]
+      },
+      "groupe": {
+        "title": "Groep Ziekenhuisverzekering",
+        "subtitle": "Collectieve ziekenhuisdekking",
+        "sections": [
+          {
+            "title": "Voor bedrijven",
+            "content": [
+              "Dekking voor alle werknemers",
+              "Voordelige groepstarieven",
+              "Vereenvoudigd beheer",
+              "Op maat gemaakte diensten"
+            ]
+          }
+        ]
+      },
+      "epargner": {
+        "title": "Sparen & Investeren",
+        "subtitle": "Spaaroplossingen en investeringen voor uw toekomst",
+        "sections": [
+          {
+            "title": "Spaarproducten",
+            "content": [
+              "Flexibele pensioenspaarregeling",
+              "Investeringen op lange termijn",
+              "Diversificatie van investeringen",
+              "Vermogensbeheer",
+              "Geoptimaliseerde rendementen"
+            ]
+          },
+          {
+            "title": "Deskundig advies",
+            "content": "Onze experts begeleiden u naar investeringsoplossingen die het beste bij uw profiel passen"
+          }
+        ]
+      },
+      "pension": {
+        "title": "Pensioen",
+        "subtitle": "Pensioenoplossingen en pensioensparen voor uw toekomst",
+        "sections": [
+          {
+            "title": "Pensioensopties",
+            "content": [
+              "Persoonlijke pensioenbesparing",
+              "Langdurige spaarregeling",
+              "Collectieve pensioenverzekering",
+              "Pensioenanvulling",
+              "Flexibele pensioenplannen"
+            ]
+          }
+        ]
+      },
+      "epargne_pension": {
+        "title": "Pensioensparen",
+        "subtitle": "Gepersonaliseerd pensioenplan",
+        "sections": [
+          {
+            "title": "Voordelen",
+            "content": [
+              "Belastingaftrek",
+              "Kapitaalbijdrage",
+              "Flexibele stortingen",
+              "Regelmatige rendementen",
+              "Pensioenveiligheid"
+            ]
+          }
+        ]
+      },
+      "epargne_longterme": {
+        "title": "Langdurige Spaarregeling",
+        "subtitle": "Investeringen voor uw toekomst",
+        "sections": [
+          {
+            "title": "Langetermijnstrategie",
+            "content": [
+              "Uitgebreide beleggingshorizonnen",
+              "Gelijktijdige groei",
+              "Diversificatiebeheer",
+              "Professionele ondersteuning",
+              "Accumulatieplannen"
+            ]
+          }
+        ]
+      },
+      "assurance_groupe": {
+        "title": "Groepspensioenverzekering",
+        "subtitle": "Collectief pensioenplan voor bedrijven",
+        "sections": [
+          {
+            "title": "Voor werkgevers",
+            "content": [
+              "Volledige pensioendekking",
+              "Belastingvoordelen",
+              "Gecentraliseerd beheer",
+              "Werkgeversbijdragen",
+              "Instelbare plannen"
+            ]
+          }
+        ]
       }
     },
     "test": {

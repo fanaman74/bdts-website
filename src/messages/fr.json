@@ -307,6 +307,227 @@
             ]
           }
         ]
+      },
+      "famille": {
+        "title": "Famille et protection juridique",
+        "subtitle": "Assurances familiales complètes et protection juridique — couverture de tous les risques",
+        "sections": [
+          {
+            "title": "Couvertures familiales",
+            "content": [
+              "Assurance familiale complète",
+              "Protection accidents et invalidité",
+              "Assurance décès et rente",
+              "Assurance voyage famille",
+              "Assistance juridique et protection"
+            ]
+          }
+        ]
+      },
+      "familiale": {
+        "title": "Assurance Familiale",
+        "subtitle": "Protection complète pour votre famille",
+        "sections": [
+          {
+            "title": "Couvertures incluses",
+            "content": [
+              "Couverture enfants et parents",
+              "Assistance santé familiale",
+              "Services de soutien aux familles",
+              "Rente familiale en cas de décès du soutien"
+            ]
+          }
+        ]
+      },
+      "accidents": {
+        "title": "Accidents et Invalidité",
+        "subtitle": "Protection contre les accidents personnels",
+        "sections": [
+          {
+            "title": "Couvertures accidents",
+            "content": [
+              "Indemnités accidents 24/7",
+              "Couverture invalidité permanente",
+              "Frais médicaux et hospitalisation",
+              "Rente d'invalidité temporaire"
+            ]
+          }
+        ]
+      },
+      "deces": {
+        "title": "Assurance Décès",
+        "subtitle": "Protection financière pour vos proches",
+        "sections": [
+          {
+            "title": "Protections décès",
+            "content": [
+              "Capital en cas de décès",
+              "Rente au conjoint survivant",
+              "Couverture enfants mineurs",
+              "Versement rapide aux bénéficiaires"
+            ]
+          }
+        ]
+      },
+      "voyage": {
+        "title": "Assurance Voyage",
+        "subtitle": "Couverture complète pour vos déplacements",
+        "sections": [
+          {
+            "title": "Couvertures voyage",
+            "content": [
+              "Assistance médicale à l'étranger",
+              "Rapatriement sanitaire",
+              "Annulation et retard de vol",
+              "Bagages et effets personnels",
+              "Assurance responsabilité civile"
+            ]
+          }
+        ]
+      },
+      "protection_juridique": {
+        "title": "Protection Juridique",
+        "subtitle": "Aide et défense juridique pour tous vos litiges",
+        "sections": [
+          {
+            "title": "Services juridiques",
+            "content": [
+              "Conseil juridique 24/7",
+              "Défense en justice",
+              "Frais de procédure couverts",
+              "Recours juridiques assistés"
+            ]
+          }
+        ]
+      },
+      "hospitalisation": {
+        "title": "Hospitalisation",
+        "subtitle": "Assurances hospitalisation individuelles et collectives",
+        "sections": [
+          {
+            "title": "Couvertures",
+            "content": [
+              "Assurance hospitalisation individuelle",
+              "Formules collectives pour groupes",
+              "Franchises réduites ou nulles",
+              "Couverture santé étendue"
+            ]
+          }
+        ]
+      },
+      "individuelle": {
+        "title": "Hospitalisation Individuelle",
+        "subtitle": "Couverture hospitalisation personnelle",
+        "sections": [
+          {
+            "title": "Services inclus",
+            "content": [
+              "Chambre particulière",
+              "Honoraires médicaux couverts",
+              "Frais d'hospitalisation",
+              "Suivi post-hospitalisation"
+            ]
+          }
+        ]
+      },
+      "groupe": {
+        "title": "Hospitalisation Groupe",
+        "subtitle": "Couverture hospitalisation collective",
+        "sections": [
+          {
+            "title": "Pour les entreprises",
+            "content": [
+              "Couverture tous les employés",
+              "Tarifs avantageux groupe",
+              "Gestion simplifiée",
+              "Services sur mesure"
+            ]
+          }
+        ]
+      },
+      "epargner": {
+        "title": "Épargner ou Investir",
+        "subtitle": "Solutions d'épargne et placement pour votre avenir",
+        "sections": [
+          {
+            "title": "Produits d'épargne",
+            "content": [
+              "Épargne pension flexibles",
+              "Placements à long terme",
+              "Diversification d'investissements",
+              "Gestion de patrimoine",
+              "Rendements optimisés"
+            ]
+          },
+          {
+            "title": "Conseils d'experts",
+            "content": "Nos experts vous guident vers les solutions d'investissement les mieux adaptées à votre profil"
+          }
+        ]
+      },
+      "pension": {
+        "title": "Pension",
+        "subtitle": "Solutions de retraite et épargne-pension pour sécuriser votre avenir",
+        "sections": [
+          {
+            "title": "Options pension",
+            "content": [
+              "Épargne-pension personnelle",
+              "Épargne à long terme",
+              "Assurance groupe pension",
+              "Compléments de retraite",
+              "Plans de retraite flexibles"
+            ]
+          }
+        ]
+      },
+      "epargne_pension": {
+        "title": "Épargne-Pension",
+        "subtitle": "Plan de retraite personnalisé",
+        "sections": [
+          {
+            "title": "Avantages",
+            "content": [
+              "Déductions fiscales",
+              "Accumulation de capital",
+              "Versements flexibles",
+              "Rendements réguliers",
+              "Sécurité pour la retraite"
+            ]
+          }
+        ]
+      },
+      "epargne_longterme": {
+        "title": "Épargne à Long Terme",
+        "subtitle": "Investissements pour votre avenir",
+        "sections": [
+          {
+            "title": "Stratégie long terme",
+            "content": [
+              "Horizons d'investissement étendus",
+              "Croissance capitalisée",
+              "Diversification management",
+              "Accompagnement professionnel",
+              "Plans d'accumulation"
+            ]
+          }
+        ]
+      },
+      "assurance_groupe": {
+        "title": "Assurance Groupe Pension",
+        "subtitle": "Plan de retraite collectif pour entreprises",
+        "sections": [
+          {
+            "title": "Pour les employeurs",
+            "content": [
+              "Couverture retraite complète",
+              "Avantages fiscaux",
+              "Gestion centralisée",
+              "Participation employeur",
+              "Plans aménageable"
+            ]
+          }
+        ]
       }
     },
     "test": {
