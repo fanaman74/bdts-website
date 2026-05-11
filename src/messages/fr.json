@@ -309,16 +309,27 @@
           {
             "title": "Types de couverture",
             "content": [
-              "Assurance incendie et dégâts",
-              "Protection vol et cambriolage",
-              "Responsabilité civile locataire",
-              "Couverture propriétaire",
-              "Protection juridique"
+              {
+                "icon": "Home",
+                "title": "Assurance Incendie",
+                "description": "Protection contre les dégâts causés par le feu, la fumée et les sinistres connexes"
+              },
+              {
+                "icon": "Lock",
+                "title": "Assurance Vol",
+                "description": "Couverture complète contre le vol, le cambriolage et les tentatives de vol"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Dégâts Matériels",
+                "description": "Protection de vos biens contre les dommages causés par divers sinistres"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Responsabilité Civile",
+                "description": "Couverture de votre responsabilité civile envers les tiers dans votre logement"
+              }
             ]
-          },
-          {
-            "title": "Services additionnels",
-            "content": "Assistance juridique et support client 24/7"
           }
         ]
       },
@@ -329,15 +340,27 @@
           {
             "title": "Couvertures incendie",
             "content": [
-              "Dégâts directs du feu",
-              "Pertes d'exploitation temporaire",
-              "Frais de relogement temporaire",
-              "Récupération et nettoyage"
+              {
+                "icon": "AlertTriangle",
+                "title": "Dégâts du Feu",
+                "description": "Couverture complète des dommages directs causés par le feu et la combustion"
+              },
+              {
+                "icon": "Flame",
+                "title": "Fumée et Suie",
+                "description": "Protection contre les dégâts causés par la fumée, la suie et les gaz de combustion"
+              },
+              {
+                "icon": "Home",
+                "title": "Relogement Temporaire",
+                "description": "Frais de relogement et d'hébergement pendant les réparations de votre logement"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Récupération et Nettoyage",
+                "description": "Services de nettoyage professionnel et récupération après sinistre incendie"
+              }
             ]
-          },
-          {
-            "title": "Assistance spécialisée",
-            "content": "Support immédiat et expertise en sinistre incendie"
           }
         ]
       },
@@ -348,15 +371,27 @@
           {
             "title": "Protection vol",
             "content": [
-              "Couverture bien mobiliers",
-              "Protection électroménagers",
-              "Couverture bijoux et objets de valeur",
-              "Effets personnels"
+              {
+                "icon": "Lock",
+                "title": "Protection Bien Mobiliers",
+                "description": "Couverture complète de vos meubles et biens personnels contre le vol"
+              },
+              {
+                "icon": "Smartphone",
+                "title": "Électroménagers et Électronique",
+                "description": "Protection de vos appareils électriques, électroniques et équipements technologiques"
+              },
+              {
+                "icon": "Diamond",
+                "title": "Bijoux et Objets de Valeur",
+                "description": "Couverture spéciale pour les bijoux, montres précieuses et objets de valeur"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Effets Personnels",
+                "description": "Protection de vos vêtements, bagages et autres effets personnels contre le vol"
+              }
             ]
-          },
-          {
-            "title": "Modalités",
-            "content": "Protection 24/7 avec assistance immédiate en cas de sinistre"
           }
         ]
       },
@@ -577,12 +612,28 @@
         "subtitle": "Assurances hospitalisation individuelles et collectives",
         "sections": [
           {
-            "title": "Couvertures",
+            "title": "Nos couvertures hospitalisation",
             "content": [
-              "Assurance hospitalisation individuelle",
-              "Formules collectives pour groupes",
-              "Franchises réduites ou nulles",
-              "Couverture santé étendue"
+              {
+                "icon": "Heart",
+                "title": "Couverture Hospitalisation",
+                "description": "Remboursement des frais d'hospitalisation et de séjour à l'hôpital"
+              },
+              {
+                "icon": "Pill",
+                "title": "Couverture Médicale",
+                "description": "Remboursement des honoraires médicaux, consultations et traitements"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Assistance Médicale",
+                "description": "Services d'assistance médicale d'urgence et évacuation sanitaire"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Indemnité Journalière",
+                "description": "Indemnité quotidienne pendant la période d'hospitalisation ou d'arrêt de travail"
+              }
             ]
           }
         ]
@@ -622,18 +673,29 @@
         "subtitle": "Solutions d'épargne et placement pour votre avenir",
         "sections": [
           {
-            "title": "Produits d'épargne",
+            "title": "Solutions d'épargne et d'investissement",
             "content": [
-              "Épargne pension flexibles",
-              "Placements à long terme",
-              "Diversification d'investissements",
-              "Gestion de patrimoine",
-              "Rendements optimisés"
+              {
+                "icon": "TrendingUp",
+                "title": "Plans d'Épargne Assurantielle",
+                "description": "Solutions d'épargne avec couverture d'assurance-vie intégrée"
+              },
+              {
+                "icon": "Target",
+                "title": "Placements Diversifiés",
+                "description": "Accès à des fonds d'investissement variés adaptés à votre profil"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Rendements Réguliers",
+                "description": "Générer des revenus réguliers et constituer votre capital à long terme"
+              },
+              {
+                "icon": "Shield",
+                "title": "Protection du Patrimoine",
+                "description": "Sécuriser votre épargne et transmettre votre patrimoine sereinement"
+              }
             ]
-          },
-          {
-            "title": "Conseils d'experts",
-            "content": "Nos experts vous guident vers les solutions d'investissement les mieux adaptées à votre profil"
           }
         ]
       },
@@ -642,13 +704,28 @@
         "subtitle": "Solutions de retraite et épargne-pension pour sécuriser votre avenir",
         "sections": [
           {
-            "title": "Options pension",
+            "title": "Solutions retraite",
             "content": [
-              "Épargne-pension personnelle",
-              "Épargne à long terme",
-              "Assurance groupe pension",
-              "Compléments de retraite",
-              "Plans de retraite flexibles"
+              {
+                "icon": "Calendar",
+                "title": "Prévoyance Retraite",
+                "description": "Constituer progressivement votre capital retraite et assurer votre futur"
+              },
+              {
+                "icon": "Home",
+                "title": "Compléments de Revenu",
+                "description": "Assurer un niveau de vie satisfait après la fin de votre activité professionnelle"
+              },
+              {
+                "icon": "Users",
+                "title": "Protection Famille",
+                "description": "Sécuriser le bien-être de votre famille en cas de décès ou invalidité"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Croissance du Capital",
+                "description": "Optimiser la croissance et la rente de vos placements retraite"
+              }
             ]
           }
         ]
@@ -708,13 +785,28 @@
         "subtitle": "Solutions d'assurance complètes pour protéger votre entreprise",
         "sections": [
           {
-            "title": "Couvertures entreprise",
+            "title": "Nos assurances entreprise",
             "content": [
-              "Assurance véhicules professionnels",
-              "Protection bâtiments et locaux",
-              "Couverture matériel et équipement",
-              "Responsabilité civile professionnelle",
-              "Perte d'exploitation"
+              {
+                "icon": "Building",
+                "title": "Assurance Responsabilité",
+                "description": "Couverture de votre responsabilité civile professionnelle envers les tiers"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Dégâts Immobiliers",
+                "description": "Protection des locaux, équipements et inventaire contre les sinistres"
+              },
+              {
+                "icon": "Users",
+                "title": "Assurance Personnel",
+                "description": "Couverture des accidents de travail et maladies professionnelles"
+              },
+              {
+                "icon": "Lock",
+                "title": "Cybersécurité et Vol",
+                "description": "Protection contre le cyberrisque, vol de données et fraude informatique"
+              }
             ]
           }
         ]
@@ -788,13 +880,28 @@
         "subtitle": "Solutions de protection sociales et de santé pour vos employés",
         "sections": [
           {
-            "title": "Couvertures personnel",
+            "title": "Protection du personnel",
             "content": [
-              "Assurance accidents du travail",
-              "Assurance groupe santé",
-              "Protection hospitalisation",
-              "Compléments salaire",
-              "Aide sociale employés"
+              {
+                "icon": "User",
+                "title": "Assurance Accident",
+                "description": "Couverture des accidents de travail et sinistres corporels liés au métier"
+              },
+              {
+                "icon": "Heart",
+                "title": "Prévoyance Personnelle",
+                "description": "Protection en cas d'incapacité, invalidité ou décès professionnel"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Couverture Professionnelle",
+                "description": "Protégez votre statut professionnel et votre activité d'indépendant"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Revenus Protégés",
+                "description": "Assurer la continuité de vos revenus en cas d'interruption d'activité"
+              }
             ]
           }
         ]
@@ -852,13 +959,28 @@
         "subtitle": "Solutions de sécurisation des revenus et patrimoines professionnels",
         "sections": [
           {
-            "title": "Couvertures revenu",
+            "title": "Protection des revenus",
             "content": [
-              "Assurance revenu garanti",
-              "Couverture pension professionnelle",
-              "Assurance décès et invalidité",
-              "Solutions de placement",
-              "Gestion de patrimoine"
+              {
+                "icon": "TrendingUp",
+                "title": "Couverture Perte de Revenu",
+                "description": "Protection de vos revenus en cas d'incapacité ou interruption d'activité"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Assurance Chômage",
+                "description": "Complément de revenus en cas de chômage involontaire ou cessation d'emploi"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Rente Invalidité",
+                "description": "Rente mensuelle garantie en cas d'invalidité permanente ou partielle"
+              },
+              {
+                "icon": "Shield",
+                "title": "Protection Crédit",
+                "description": "Protégez vos emprunteurs et garantissez le remboursement de vos crédits"
+              }
             ]
           }
         ]

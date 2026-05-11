@@ -307,18 +307,29 @@
         "subtitle": "Renters and homeowners — complete protection for your home",
         "sections": [
           {
-            "title": "Coverage types",
+            "title": "Coverage Types",
             "content": [
-              "Fire and damage protection",
-              "Theft and burglary coverage",
-              "Renter liability",
-              "Homeowner coverage",
-              "Legal protection"
+              {
+                "icon": "Home",
+                "title": "Fire Insurance",
+                "description": "Protection against damage caused by fire, smoke and related incidents"
+              },
+              {
+                "icon": "Lock",
+                "title": "Theft Insurance",
+                "description": "Complete coverage against theft, burglary and theft attempts"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Material Damage",
+                "description": "Protection of your property against damage caused by various incidents"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Liability Coverage",
+                "description": "Coverage of your liability to third parties within your home"
+              }
             ]
-          },
-          {
-            "title": "Additional services",
-            "content": "Legal assistance and 24/7 customer support"
           }
         ]
       },
@@ -327,17 +338,29 @@
         "subtitle": "Protection against fire damage",
         "sections": [
           {
-            "title": "Fire coverage",
+            "title": "Fire Coverage",
             "content": [
-              "Direct fire damage",
-              "Temporary business interruption",
-              "Temporary housing costs",
-              "Recovery and cleanup"
+              {
+                "icon": "AlertTriangle",
+                "title": "Fire Damage",
+                "description": "Complete coverage of direct damage caused by fire and combustion"
+              },
+              {
+                "icon": "Flame",
+                "title": "Smoke and Soot",
+                "description": "Protection against damage caused by smoke, soot and combustion gases"
+              },
+              {
+                "icon": "Home",
+                "title": "Temporary Relocation",
+                "description": "Accommodation and relocation costs while your home is being repaired"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Recovery and Cleaning",
+                "description": "Professional cleaning services and recovery following fire damage"
+              }
             ]
-          },
-          {
-            "title": "Specialized assistance",
-            "content": "Immediate support and fire damage expertise"
           }
         ]
       },
@@ -346,17 +369,29 @@
         "subtitle": "Protect your belongings from theft and burglary",
         "sections": [
           {
-            "title": "Theft protection",
+            "title": "Theft Protection",
             "content": [
-              "Movable property coverage",
-              "Appliances protection",
-              "Jewelry and valuables coverage",
-              "Personal effects"
+              {
+                "icon": "Lock",
+                "title": "Personal Property",
+                "description": "Complete coverage of your furniture and personal belongings against theft"
+              },
+              {
+                "icon": "Smartphone",
+                "title": "Appliances and Electronics",
+                "description": "Protection of your electrical, electronic and tech equipment"
+              },
+              {
+                "icon": "Diamond",
+                "title": "Jewelry and Valuables",
+                "description": "Special coverage for jewelry, watches and valuable objects"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Personal Effects",
+                "description": "Protection of your clothing, luggage and personal effects against theft"
+              }
             ]
-          },
-          {
-            "title": "Terms",
-            "content": "24/7 protection with immediate assistance in case of loss"
           }
         ]
       },
@@ -577,12 +612,28 @@
         "subtitle": "Individual and group hospitalization insurance",
         "sections": [
           {
-            "title": "Coverage",
+            "title": "Hospitalization Coverage",
             "content": [
-              "Individual hospitalization insurance",
-              "Group plans for organizations",
-              "Reduced or zero deductibles",
-              "Extended health coverage"
+              {
+                "icon": "Heart",
+                "title": "Hospitalization Coverage",
+                "description": "Reimbursement of hospitalization and hospital stay costs"
+              },
+              {
+                "icon": "Pill",
+                "title": "Medical Coverage",
+                "description": "Reimbursement of medical fees, consultations and treatments"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Medical Assistance",
+                "description": "Emergency medical assistance and medical evacuation services"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Daily Allowance",
+                "description": "Daily benefit during hospitalization or period of work stoppage"
+              }
             ]
           }
         ]
@@ -622,18 +673,29 @@
         "subtitle": "Savings solutions and investments for your future",
         "sections": [
           {
-            "title": "Savings products",
+            "title": "Savings and Investment Solutions",
             "content": [
-              "Flexible pension savings",
-              "Long-term investments",
-              "Investment diversification",
-              "Asset management",
-              "Optimized returns"
+              {
+                "icon": "TrendingUp",
+                "title": "Insurance Savings Plans",
+                "description": "Savings solutions with integrated life insurance coverage"
+              },
+              {
+                "icon": "Target",
+                "title": "Diversified Investments",
+                "description": "Access to various investment funds tailored to your profile"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Regular Returns",
+                "description": "Generate regular income and build your capital over time"
+              },
+              {
+                "icon": "Shield",
+                "title": "Wealth Protection",
+                "description": "Secure your savings and pass on your assets with peace of mind"
+              }
             ]
-          },
-          {
-            "title": "Expert advice",
-            "content": "Our experts guide you towards investment solutions best suited to your profile"
           }
         ]
       },
@@ -642,13 +704,28 @@
         "subtitle": "Retirement solutions and pension savings to secure your future",
         "sections": [
           {
-            "title": "Pension options",
+            "title": "Retirement Solutions",
             "content": [
-              "Personal pension savings",
-              "Long-term savings",
-              "Group pension insurance",
-              "Retirement supplements",
-              "Flexible retirement plans"
+              {
+                "icon": "Calendar",
+                "title": "Retirement Planning",
+                "description": "Progressively build your retirement capital and ensure your future"
+              },
+              {
+                "icon": "Home",
+                "title": "Income Supplements",
+                "description": "Ensure a satisfactory standard of living after your professional activity ends"
+              },
+              {
+                "icon": "Users",
+                "title": "Family Protection",
+                "description": "Secure your family's well-being in case of death or disability"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Capital Growth",
+                "description": "Optimize the growth and returns of your retirement investments"
+              }
             ]
           }
         ]
@@ -708,13 +785,28 @@
         "subtitle": "Comprehensive insurance solutions to protect your business",
         "sections": [
           {
-            "title": "Business coverage",
+            "title": "Business Insurance",
             "content": [
-              "Professional vehicle insurance",
-              "Building and facility protection",
-              "Equipment and material coverage",
-              "Professional liability",
-              "Business interruption loss"
+              {
+                "icon": "Building",
+                "title": "Professional Liability",
+                "description": "Coverage of your professional liability to third parties"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Property Damage",
+                "description": "Protection of facilities, equipment and inventory against incidents"
+              },
+              {
+                "icon": "Users",
+                "title": "Personnel Insurance",
+                "description": "Coverage of work accidents and occupational illnesses"
+              },
+              {
+                "icon": "Lock",
+                "title": "Cybersecurity and Theft",
+                "description": "Protection against cyber risk, data theft and fraud"
+              }
             ]
           }
         ]
@@ -788,13 +880,28 @@
         "subtitle": "Social protection and health solutions for your employees",
         "sections": [
           {
-            "title": "Personnel coverage",
+            "title": "Personnel Protection",
             "content": [
-              "Work accident insurance",
-              "Group health insurance",
-              "Hospitalization protection",
-              "Salary supplements",
-              "Employee social assistance"
+              {
+                "icon": "User",
+                "title": "Accident Insurance",
+                "description": "Coverage of work accidents and bodily injury related to your profession"
+              },
+              {
+                "icon": "Heart",
+                "title": "Personal Protection",
+                "description": "Protection in case of incapacity, disability or professional death"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Professional Coverage",
+                "description": "Protect your professional status and self-employed activity"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Protected Income",
+                "description": "Ensure continuity of your income in case of activity interruption"
+              }
             ]
           }
         ]
@@ -852,13 +959,28 @@
         "subtitle": "Solutions to secure professional income and assets",
         "sections": [
           {
-            "title": "Income coverage",
+            "title": "Revenue Protection",
             "content": [
-              "Guaranteed income insurance",
-              "Professional pension coverage",
-              "Death and disability insurance",
-              "Investment solutions",
-              "Asset management"
+              {
+                "icon": "TrendingUp",
+                "title": "Income Loss Coverage",
+                "description": "Protection of your income in case of incapacity or activity interruption"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Unemployment Insurance",
+                "description": "Additional income in case of involuntary unemployment or job loss"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Disability Annuity",
+                "description": "Guaranteed monthly annuity in case of permanent or partial disability"
+              },
+              {
+                "icon": "Shield",
+                "title": "Credit Protection",
+                "description": "Protect your borrowers and guarantee loan repayment"
+              }
             ]
           }
         ]

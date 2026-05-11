@@ -307,18 +307,29 @@
         "subtitle": "Huurders en eigenaren — volledige bescherming voor uw huis",
         "sections": [
           {
-            "title": "Dekkingstypen",
+            "title": "Soorten dekking",
             "content": [
-              "Brand- en schadevergoeding",
-              "Diefstal- en inbraakdekking",
-              "Huurdersinsprakelijkheidsdekking",
-              "Eigenaarsdekking",
-              "Rechtsbijstand"
+              {
+                "icon": "Home",
+                "title": "Brandverzekering",
+                "description": "Bescherming tegen schade veroorzaakt door brand, rook en gerelateerde incidenten"
+              },
+              {
+                "icon": "Lock",
+                "title": "Diefstalverzekering",
+                "description": "Volledige dekking tegen diefstal, inbraak en diefstalpoging"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Materiële Schade",
+                "description": "Bescherming van uw bezittingen tegen schade veroorzaakt door verschillende incidenten"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Aansprakelijkheid",
+                "description": "Dekking van uw aansprakelijkheid tegenover derden in uw woning"
+              }
             ]
-          },
-          {
-            "title": "Aanvullende diensten",
-            "content": "Juridische bijstand en 24/7 klantenondersteuning"
           }
         ]
       },
@@ -327,17 +338,29 @@
         "subtitle": "Bescherming tegen brandschade",
         "sections": [
           {
-            "title": "Branddekking",
+            "title": "Branddekkingen",
             "content": [
-              "Directe brandschade",
-              "Bedrijfsonderbreking",
-              "Kosten voor tijdelijke huisvesting",
-              "Herstel en reiniging"
+              {
+                "icon": "AlertTriangle",
+                "title": "Brandschade",
+                "description": "Volledige dekking van directe schade veroorzaakt door brand en verbranding"
+              },
+              {
+                "icon": "Flame",
+                "title": "Rook en Roet",
+                "description": "Bescherming tegen schade veroorzaakt door rook, roet en verbrandingsgassen"
+              },
+              {
+                "icon": "Home",
+                "title": "Tijdelijke Verhuizing",
+                "description": "Huisvestings- en verhuizingskosten terwijl uw woning wordt gerepareerd"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Herstel en Schoonmaak",
+                "description": "Professionele schoonmaakservices en herstel na brandschade"
+              }
             ]
-          },
-          {
-            "title": "Gespecialiseerde bijstand",
-            "content": "Onmiddellijke ondersteuning en deskundigheid bij brandschade"
           }
         ]
       },
@@ -346,17 +369,29 @@
         "subtitle": "Bescherm uw eigendommen tegen diefstal en inbraak",
         "sections": [
           {
-            "title": "Diefstalbescherming",
+            "title": "Diefstalbeveiliging",
             "content": [
-              "Roerende goederen dekking",
-              "Huishoudenapparatuur bescherming",
-              "Sieraden- en waardevolle zaken dekking",
-              "Persoonlijke bezittingen"
+              {
+                "icon": "Lock",
+                "title": "Huisraad",
+                "description": "Volledige dekking van uw meubilair en persoonlijke bezittingen tegen diefstal"
+              },
+              {
+                "icon": "Smartphone",
+                "title": "Apparaten en Elektronica",
+                "description": "Bescherming van uw elektrische, elektronische en technische apparatuur"
+              },
+              {
+                "icon": "Diamond",
+                "title": "Sieraden en Waarden",
+                "description": "Speciale dekking voor sieraden, horloges en waardevolle objecten"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Persoonlijke Spullen",
+                "description": "Bescherming van uw kleding, bagage en persoonlijke bezittingen tegen diefstal"
+              }
             ]
-          },
-          {
-            "title": "Voorwaarden",
-            "content": "24/7 bescherming met onmiddellijke ondersteuning in geval van verlies"
           }
         ]
       },
@@ -577,12 +612,28 @@
         "subtitle": "Individuele en collectieve ziekenhuisverzekering",
         "sections": [
           {
-            "title": "Dekkingen",
+            "title": "Ziekenhuisdekking",
             "content": [
-              "Individuele ziekenhuisverzekering",
-              "Collectieve plannen voor organisaties",
-              "Gereduceerde of nul eigen risico's",
-              "Uitgebreide gezondheidsdekking"
+              {
+                "icon": "Heart",
+                "title": "Ziekenhuisdekking",
+                "description": "Terugbetaling van ziekenhuiskosten en verblijfskosten"
+              },
+              {
+                "icon": "Pill",
+                "title": "Medische Dekking",
+                "description": "Terugbetaling van medische honoraria, consulten en behandelingen"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Medische Bijstand",
+                "description": "Noodhulp en medische evacuatiediensten"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Dagvergoeding",
+                "description": "Dagelijkse uitkering tijdens ziekenhuisopname of werkloosheid"
+              }
             ]
           }
         ]
@@ -622,18 +673,29 @@
         "subtitle": "Spaaroplossingen en investeringen voor uw toekomst",
         "sections": [
           {
-            "title": "Spaarproducten",
+            "title": "Spaar- en investeringsoplossingen",
             "content": [
-              "Flexibele pensioenspaarregeling",
-              "Investeringen op lange termijn",
-              "Diversificatie van investeringen",
-              "Vermogensbeheer",
-              "Geoptimaliseerde rendementen"
+              {
+                "icon": "TrendingUp",
+                "title": "Spaarverzekeringsplannen",
+                "description": "Spaaroplossingen met geïntegreerde levensverzekering"
+              },
+              {
+                "icon": "Target",
+                "title": "Gediversifieerde Beleggingen",
+                "description": "Toegang tot gevarieerde beleggingsfondsen afgestemd op uw profiel"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Regelmatige Opbrengsten",
+                "description": "Genereer regelmatige inkomsten en bouw uw vermogen op"
+              },
+              {
+                "icon": "Shield",
+                "title": "Vermogensbescherming",
+                "description": "Beveilig uw spaargelden en draag uw erfenis veilig over"
+              }
             ]
-          },
-          {
-            "title": "Deskundig advies",
-            "content": "Onze experts begeleiden u naar investeringsoplossingen die het beste bij uw profiel passen"
           }
         ]
       },
@@ -642,13 +704,28 @@
         "subtitle": "Pensioenoplossingen en pensioensparen voor uw toekomst",
         "sections": [
           {
-            "title": "Pensioensopties",
+            "title": "Pensioenoplossingen",
             "content": [
-              "Persoonlijke pensioenbesparing",
-              "Langdurige spaarregeling",
-              "Collectieve pensioenverzekering",
-              "Pensioenanvulling",
-              "Flexibele pensioenplannen"
+              {
+                "icon": "Calendar",
+                "title": "Pensioenplanning",
+                "description": "Bouw geleidelijk uw pensioenkapitaal op en zeker uw toekomst"
+              },
+              {
+                "icon": "Home",
+                "title": "Inkomensaanvulling",
+                "description": "Zorg voor een bevredigend levensniveau na uw beroepscarrière"
+              },
+              {
+                "icon": "Users",
+                "title": "Gezinsbescherming",
+                "description": "Zorg voor het welzijn van uw familie bij overlijden of invaliditeit"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Kapitaalgroei",
+                "description": "Optimaliseer de groei en opbrengsten van uw pensioenuitkeringen"
+              }
             ]
           }
         ]
@@ -708,13 +785,28 @@
         "subtitle": "Uitgebreide verzekeringoplossingen ter bescherming van uw bedrijf",
         "sections": [
           {
-            "title": "Bedrijfsdekking",
+            "title": "Zakenverzekering",
             "content": [
-              "Beroepszekering voertuigen",
-              "Bescherming gebouwen en locaties",
-              "Dekking apparatuur en materiaal",
-              "Beroepsaansprakelijkheid",
-              "Bedrijfsonderbreking"
+              {
+                "icon": "Building",
+                "title": "Beroepsaansprakelijkheid",
+                "description": "Dekking van uw beroepsaansprakelijkheid tegenover derden"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Schadebijstand",
+                "description": "Bescherming van gebouwen, apparatuur en voorraad tegen incidenten"
+              },
+              {
+                "icon": "Users",
+                "title": "Personeelsverzekering",
+                "description": "Dekking van werkongeval en beroepsziekten"
+              },
+              {
+                "icon": "Lock",
+                "title": "Cyberbeveiliging en Diefstal",
+                "description": "Bescherming tegen cyberrisico, gegevensdiefstal en fraude"
+              }
             ]
           }
         ]
@@ -788,13 +880,28 @@
         "subtitle": "Socialebescherming en gezondheidsoplossingen voor uw werknemers",
         "sections": [
           {
-            "title": "Personeelsdekking",
+            "title": "Personeelsbescherming",
             "content": [
-              "Bedrijfsongevallenverzekering",
-              "Groepszorgverzekering",
-              "Ziekenhuisbescherming",
-              "Salaristoeslagen",
-              "Werknemerssociaal bijstand"
+              {
+                "icon": "User",
+                "title": "Ongevallenverzekering",
+                "description": "Dekking van werkongeval en lichamelijk letsel gerelateerd aan uw beroep"
+              },
+              {
+                "icon": "Heart",
+                "title": "Persoonlijke Bescherming",
+                "description": "Bescherming bij arbeidsongeschiktheid, invaliditeit of beroepsdood"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Beroepsdekking",
+                "description": "Bescherm uw beroepsstatus en zelfstandige activiteiten"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Beschermde Inkomens",
+                "description": "Zorg voor continuïteit van uw inkomsten bij activiteitsonderbreking"
+              }
             ]
           }
         ]
@@ -852,13 +959,28 @@
         "subtitle": "Oplossingen voor beveiliging van beroepsinkomsten en vermogen",
         "sections": [
           {
-            "title": "Inkomstendekking",
+            "title": "Inkomstenbescherming",
             "content": [
-              "Gegarandeerde inkomstenverzekering",
-              "Beroepspensioendekking",
-              "Overlijdens- en invaliditeitsverzekering",
-              "Investeringsoplossingen",
-              "Vermogensbeheer"
+              {
+                "icon": "TrendingUp",
+                "title": "Inkomstendervingsdekking",
+                "description": "Bescherming van uw inkomsten bij arbeidsongeschiktheid of onderbreking"
+              },
+              {
+                "icon": "DollarSign",
+                "title": "Werkloosheidsverzekering",
+                "description": "Aanvullend inkomen bij onvrijwillige werkloosheid of baanverlies"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Invaliditeitsrente",
+                "description": "Gegarandeerde maandelijkse rente bij blijvende of gedeeltelijke invaliditeit"
+              },
+              {
+                "icon": "Shield",
+                "title": "Kredietbescherming",
+                "description": "Bescherm uw leners en garandeer terugbetaling van leningen"
+              }
             ]
           }
         ]
