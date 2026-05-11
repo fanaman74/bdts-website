@@ -22,7 +22,7 @@ export function Footer() {
   return (
     <footer className="bg-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
@@ -55,6 +55,25 @@ export function Footer() {
                 { label: tNav("about"), href: `/${locale}/about` },
                 { label: "Process", href: `/${locale}/process` },
                 { label: "Contact", href: `/${locale}/contact` },
+              ].map((link) => (
+                <li key={link.href}>
+                  <a href={link.href} className="text-white/70 hover:text-gold text-sm transition-colors">
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Auxiliary Pages */}
+          <div>
+            <h3 className="font-semibold text-gold mb-4 text-sm uppercase tracking-wide">Resources</h3>
+            <ul className="space-y-2">
+              {[
+                { label: tNav("documents"), href: `/${locale}/documents` },
+                { label: tNav("news"), href: `/${locale}/news` },
+                { label: tNav("jobs"), href: `/${locale}/jobs` },
+                { label: tNav("client_portal"), href: `/${locale}/client-portal` },
               ].map((link) => (
                 <li key={link.href}>
                   <a href={link.href} className="text-white/70 hover:text-gold text-sm transition-colors">
