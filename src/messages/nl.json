@@ -140,6 +140,26 @@
     "employees_title": "Werknemersverzekering",
     "employees_sub": "Arbeidsongevallen, ziektekostenverzekering, pensioenplannen",
     "liability_title": "Beroepsaansprakelijkheid",
-    "liability_sub": "Bescherming tegen claims wegens beroepsfouten"
+    "liability_sub": "Bescherming tegen claims wegens beroepsfouten",
+    "test": {
+      "sample": {
+        "title": "Voorbeelddienst",
+        "subtitle": "Dit is een testservicepagina om te controleren of de ServiceDetail-component correct wordt weergegeven met inhoud in lijst- en alinea-stijl.",
+        "sections": [
+          {
+            "title": "Wat is inbegrepen",
+            "content": ["Eerste punt met gedetailleerde informatie", "Tweede punt waarin dekking wordt uitgelegd", "Derde punt over aanvullende voordelen", "Vierde punt ter dekking van randgevallen"]
+          },
+          {
+            "title": "Hoe het werkt",
+            "content": "Deze sectie demonstreert inhoud in alineastijl. De ServiceDetail-component ondersteunt zowel opsommingslijsten (wanneer inhoud een array is) als vloeiende alineatekst (wanneer inhoud een string is). Deze flexibiliteit maakt verschillende inhoudsindelingen op servicepagina's mogelijk."
+          },
+          {
+            "title": "Volgende stappen",
+            "content": ["Plan een gratis consult", "Bespreek uw specifieke behoeften", "Ontvang een op maat gemaakte offerte", "Zorg ervoor dat de dekking geregeld is"]
+          }
+        ]
+      }
+    }
   }
 }

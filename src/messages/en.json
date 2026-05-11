@@ -140,6 +140,26 @@
     "employees_title": "Employee Insurance",
     "employees_sub": "Work accidents, health coverage, pension plans",
     "liability_title": "Professional Liability",
-    "liability_sub": "Defense against professional negligence claims"
+    "liability_sub": "Defense against professional negligence claims",
+    "test": {
+      "sample": {
+        "title": "Sample Service",
+        "subtitle": "This is a test service page to verify the ServiceDetail component renders correctly with both list and paragraph content.",
+        "sections": [
+          {
+            "title": "What's Included",
+            "content": ["Point one with detailed information", "Point two explaining coverage", "Point three about additional benefits", "Point four covering edge cases"]
+          },
+          {
+            "title": "How It Works",
+            "content": "This section demonstrates paragraph-style content. The ServiceDetail component supports both bullet-point lists (when content is an array) and flowing paragraph text (when content is a string). This flexibility allows for diverse content layouts on service pages."
+          },
+          {
+            "title": "Next Steps",
+            "content": ["Schedule a free consultation", "Discuss your specific needs", "Receive a tailored quote", "Get coverage in place"]
+          }
+        ]
+      }
+    }
   }
 }

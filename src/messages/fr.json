@@ -140,6 +140,26 @@
     "employees_title": "Assurance employés",
     "employees_sub": "Accidents de travail, couverture santé, plans de pension",
     "liability_title": "Responsabilité professionnelle",
-    "liability_sub": "Protection contre les réclamations pour faute professionnelle"
+    "liability_sub": "Protection contre les réclamations pour faute professionnelle",
+    "test": {
+      "sample": {
+        "title": "Service d'exemple",
+        "subtitle": "Ceci est une page de service de test pour vérifier que le composant ServiceDetail s'affiche correctement avec contenu en liste et en paragraphe.",
+        "sections": [
+          {
+            "title": "Ce qui est inclus",
+            "content": ["Premier point avec information détaillée", "Deuxième point expliquant la couverture", "Troisième point sur les avantages supplémentaires", "Quatrième point couvrant les cas particuliers"]
+          },
+          {
+            "title": "Comment cela fonctionne",
+            "content": "Cette section démontre le contenu en style paragraphe. Le composant ServiceDetail supporte à la fois les listes à puces (quand le contenu est un tableau) et le texte paragraphe fluide (quand le contenu est une chaîne). Cette flexibilité permet des mises en page diversifiées."
+          },
+          {
+            "title": "Prochaines étapes",
+            "content": ["Planifier une consultation gratuite", "Discuter de vos besoins spécifiques", "Recevoir un devis personnalisé", "Mettre en place la couverture"]
+          }
+        ]
+      }
+    }
   }
 }

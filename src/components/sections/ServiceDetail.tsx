@@ -1,0 +1,127 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+import { motion } from "framer-motion";
+import type { Variants } from "framer-motion";
+import { CheckCircle } from "lucide-react";
+
+interface Section {
+  title: string;
+  content: string | string[];
+}
+
+interface ServiceData {
+  title: string;
+  subtitle: string;
+  sections: Section[];
+}
+
+interface ServiceDetailProps {
+  serviceKey: string;
+  categoryKey: string;
+}
+
+export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
+  const t = useTranslations();
+
+  // Fetch service data from translations
+  const serviceData = t.raw(`services.${categoryKey}.${serviceKey}`);
+
+  // Handle missing data
+  if (!serviceData || typeof serviceData === "string") {
+    return (
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="font-[family-name:var(--font-heading)] font-bold text-4xl text-navy mb-4">
+              Service not found
+            </h1>
+            <p className="text-mid-gray">
+              The requested service could not be loaded. Please try again later.
+            </p>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  const data: ServiceData = serviceData;
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants: Variants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6 },
+    },
+  };
+
+  return (
+    <section className="py-16 bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Title */}
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="font-[family-name:var(--font-heading)] font-bold text-4xl text-navy mb-4"
+        >
+          {data.title}
+        </motion.h1>
+
+        {/* Subtitle */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="text-lg text-mid-gray mb-12 leading-relaxed"
+        >
+          {data.subtitle}
+        </motion.p>
+
+        {/* Sections */}
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="space-y-12"
+        >
+          {data.sections?.map((section, index) => (
+            <motion.div key={section.title} variants={itemVariants}>
+              <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-4">
+                {section.title}
+              </h2>
+
+              {/* Content as bullet list */}
+              {Array.isArray(section.content) ? (
+                <ul className="space-y-3">
+                  {section.content.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <CheckCircle size={20} className="text-gold mt-0.5 flex-shrink-0" />
+                      <span className="text-dark-gray">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                /* Content as paragraph */
+                <p className="text-dark-gray leading-relaxed">{section.content}</p>
+              )}
+            </motion.div>
+          ))}
+        </motion.div>
+      </div>
+    </section>
+  );
+}
