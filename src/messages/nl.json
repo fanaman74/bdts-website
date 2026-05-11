@@ -233,6 +233,80 @@
             ]
           }
         ]
+      },
+      "habitation": {
+        "title": "Huisverzekering",
+        "subtitle": "Huurders en eigenaren — volledige bescherming voor uw huis",
+        "sections": [
+          {
+            "title": "Dekkingstypen",
+            "content": [
+              "Brand- en schadevergoeding",
+              "Diefstal- en inbraakdekking",
+              "Huurdersinsprakelijkheidsdekking",
+              "Eigenaarsdekking",
+              "Rechtsbijstand"
+            ]
+          },
+          {
+            "title": "Aanvullende diensten",
+            "content": "Juridische bijstand en 24/7 klantenondersteuning"
+          }
+        ]
+      },
+      "incendie": {
+        "title": "Brandverzekering",
+        "subtitle": "Bescherming tegen brandschade",
+        "sections": [
+          {
+            "title": "Branddekking",
+            "content": [
+              "Directe brandschade",
+              "Bedrijfsonderbreking",
+              "Kosten voor tijdelijke huisvesting",
+              "Herstel en reiniging"
+            ]
+          },
+          {
+            "title": "Gespecialiseerde bijstand",
+            "content": "Onmiddellijke ondersteuning en deskundigheid bij brandschade"
+          }
+        ]
+      },
+      "vol": {
+        "title": "Diefstalverzekering",
+        "subtitle": "Bescherm uw eigendommen tegen diefstal en inbraak",
+        "sections": [
+          {
+            "title": "Diefstalbescherming",
+            "content": [
+              "Roerende goederen dekking",
+              "Huishoudenapparatuur bescherming",
+              "Sieraden- en waardevolle zaken dekking",
+              "Persoonlijke bezittingen"
+            ]
+          },
+          {
+            "title": "Voorwaarden",
+            "content": "24/7 bescherming met onmiddellijke ondersteuning in geval van verlies"
+          }
+        ]
+      },
+      "bailleur_locataire": {
+        "title": "Huurbaas-Huurder Verzekering",
+        "subtitle": "Specifieke dekking voor huurrelaties",
+        "sections": [
+          {
+            "title": "Rechten en verplichtingen",
+            "content": [
+              "Onbetaalde huurverzekering",
+              "Huurdersschadebescherming",
+              "Huurderaansprakelijkheid",
+              "Juridische verdediging van huisbas",
+              "Administratief beheer"
+            ]
+          }
+        ]
       }
     },
     "test": {

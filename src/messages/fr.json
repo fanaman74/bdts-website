@@ -233,6 +233,80 @@
             ]
           }
         ]
+      },
+      "habitation": {
+        "title": "Habitation",
+        "subtitle": "Locataires et propriétaires — protection complète de votre logement",
+        "sections": [
+          {
+            "title": "Types de couverture",
+            "content": [
+              "Assurance incendie et dégâts",
+              "Protection vol et cambriolage",
+              "Responsabilité civile locataire",
+              "Couverture propriétaire",
+              "Protection juridique"
+            ]
+          },
+          {
+            "title": "Services additionnels",
+            "content": "Assistance juridique et support client 24/7"
+          }
+        ]
+      },
+      "incendie": {
+        "title": "Assurance Incendie",
+        "subtitle": "Protection contre les dégâts causés par le feu",
+        "sections": [
+          {
+            "title": "Couvertures incendie",
+            "content": [
+              "Dégâts directs du feu",
+              "Pertes d'exploitation temporaire",
+              "Frais de relogement temporaire",
+              "Récupération et nettoyage"
+            ]
+          },
+          {
+            "title": "Assistance spécialisée",
+            "content": "Support immédiat et expertise en sinistre incendie"
+          }
+        ]
+      },
+      "vol": {
+        "title": "Assurance Vol",
+        "subtitle": "Protégez vos biens contre le vol et le cambriolage",
+        "sections": [
+          {
+            "title": "Protection vol",
+            "content": [
+              "Couverture bien mobiliers",
+              "Protection électroménagers",
+              "Couverture bijoux et objets de valeur",
+              "Effets personnels"
+            ]
+          },
+          {
+            "title": "Modalités",
+            "content": "Protection 24/7 avec assistance immédiate en cas de sinistre"
+          }
+        ]
+      },
+      "bailleur_locataire": {
+        "title": "Assurance Bailleur-Locataire",
+        "subtitle": "Couverture spécifique pour les relations de location",
+        "sections": [
+          {
+            "title": "Droits et obligations",
+            "content": [
+              "Couverture loyers impayés",
+              "Protection dégâts locataire",
+              "Responsabilité civile locataire",
+              "Défense juridique propriétaire",
+              "Gestion administrative"
+            ]
+          }
+        ]
       }
     },
     "test": {

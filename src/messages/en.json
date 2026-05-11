@@ -233,6 +233,80 @@
             ]
           }
         ]
+      },
+      "habitation": {
+        "title": "Home Insurance",
+        "subtitle": "Renters and homeowners — complete protection for your home",
+        "sections": [
+          {
+            "title": "Coverage types",
+            "content": [
+              "Fire and damage protection",
+              "Theft and burglary coverage",
+              "Renter liability",
+              "Homeowner coverage",
+              "Legal protection"
+            ]
+          },
+          {
+            "title": "Additional services",
+            "content": "Legal assistance and 24/7 customer support"
+          }
+        ]
+      },
+      "incendie": {
+        "title": "Fire Insurance",
+        "subtitle": "Protection against fire damage",
+        "sections": [
+          {
+            "title": "Fire coverage",
+            "content": [
+              "Direct fire damage",
+              "Temporary business interruption",
+              "Temporary housing costs",
+              "Recovery and cleanup"
+            ]
+          },
+          {
+            "title": "Specialized assistance",
+            "content": "Immediate support and fire damage expertise"
+          }
+        ]
+      },
+      "vol": {
+        "title": "Theft Insurance",
+        "subtitle": "Protect your belongings from theft and burglary",
+        "sections": [
+          {
+            "title": "Theft protection",
+            "content": [
+              "Movable property coverage",
+              "Appliances protection",
+              "Jewelry and valuables coverage",
+              "Personal effects"
+            ]
+          },
+          {
+            "title": "Terms",
+            "content": "24/7 protection with immediate assistance in case of loss"
+          }
+        ]
+      },
+      "bailleur_locataire": {
+        "title": "Landlord-Tenant Insurance",
+        "subtitle": "Specific coverage for rental relationships",
+        "sections": [
+          {
+            "title": "Rights and obligations",
+            "content": [
+              "Unpaid rent coverage",
+              "Tenant damage protection",
+              "Tenant liability",
+              "Landlord legal defense",
+              "Administrative management"
+            ]
+          }
+        ]
       }
     },
     "test": {
