@@ -106,7 +106,8 @@
     "submitting": "Verzenden...",
     "success_title": "Aanvraag verzonden!",
     "success_body": "Wij bevestigen uw tijdslot binnen 24 uur.",
-    "error": "Er is iets misgegaan. Probeer opnieuw of bel ons."
+    "error": "Er is iets misgegaan. Probeer opnieuw of bel ons.",
+    "add_to_calendar": "Toevoegen aan agenda"
   },
   "services": {
     "home_title": "Woonverzekering",

@@ -106,7 +106,8 @@
     "submitting": "Sending...",
     "success_title": "Appointment requested!",
     "success_body": "We will confirm your slot within 24 hours.",
-    "error": "Something went wrong. Please try again or call us."
+    "error": "Something went wrong. Please try again or call us.",
+    "add_to_calendar": "Add to calendar"
   },
   "services": {
     "home_title": "Home Insurance",

@@ -3,7 +3,44 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
-import { ChevronLeft, ChevronRight, CheckCircle } from "lucide-react";
+import { ChevronLeft, ChevronRight, CheckCircle, CalendarPlus } from "lucide-react";
+
+function buildICS(dateISO: string, time: string, name: string, email: string): string {
+  const [h, m] = time.split(":").map(Number);
+  const pad = (n: number) => String(n).padStart(2, "0");
+  const [y, mo, d] = dateISO.split("-").map(Number);
+  const start = `${y}${pad(mo)}${pad(d)}T${pad(h)}${pad(m)}00`;
+  const endH = h + 1;
+  const end = `${y}${pad(mo)}${pad(d)}T${pad(endH)}${pad(m)}00`;
+  const uid = `${Date.now()}@bdts.be`;
+  return [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//BDTS//BDTS Website//EN",
+    "BEGIN:VEVENT",
+    `UID:${uid}`,
+    `DTSTART:${start}`,
+    `DTEND:${end}`,
+    "SUMMARY:Consultation BDTS",
+    "DESCRIPTION:Rendez-vous / Appointment — BDTS BDT Sironval",
+    "LOCATION:Laeken\\, Brussels\\, Belgium",
+    `ORGANIZER;CN=BDTS:mailto:info@bdts.be`,
+    `ATTENDEE;CN=${name}:mailto:${email}`,
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ].join("\r\n");
+}
+
+function downloadICS(dateISO: string, time: string, name: string, email: string) {
+  const ics = buildICS(dateISO, time, name, email);
+  const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "bdts-appointment.ics";
+  a.click();
+  URL.revokeObjectURL(url);
+}
 
 const TIME_SLOTS = ["9:00", "10:00", "11:00", "13:30", "14:30", "15:30", "16:00"];
 
@@ -62,6 +99,10 @@ export function AppointmentCalendar() {
     ? selectedDate.toLocaleDateString("en", { weekday: "long", day: "numeric", month: "long", year: "numeric" })
     : "";
 
+  const dateISO = selectedDate
+    ? `${selectedDate.getFullYear()}-${String(selectedDate.getMonth() + 1).padStart(2, "0")}-${String(selectedDate.getDate()).padStart(2, "0")}`
+    : "";
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!selectedDate || !selectedTime) return;
@@ -70,7 +111,7 @@ export function AppointmentCalendar() {
       const res = await fetch("/api/appointment", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, phone, date: formattedDate, time: selectedTime, locale }),
+        body: JSON.stringify({ name, email, phone, date: formattedDate, dateISO, time: selectedTime, locale }),
       });
       setStatus(res.ok ? "success" : "error");
     } catch {
@@ -87,6 +128,13 @@ export function AppointmentCalendar() {
         </h2>
         <p className="text-mid-gray">{t("success_body")}</p>
         <p className="mt-2 text-navy font-semibold">{formattedDate} — {selectedTime}</p>
+        <button
+          onClick={() => downloadICS(dateISO, selectedTime!, name, email)}
+          className="mt-6 inline-flex items-center gap-2 px-6 py-3 bg-gold text-navy-dark font-bold rounded-lg hover:bg-gold-light transition-colors"
+        >
+          <CalendarPlus size={18} />
+          {t("add_to_calendar")}
+        </button>
       </div>
     );
   }

@@ -106,7 +106,8 @@
     "submitting": "Envoi en cours...",
     "success_title": "Demande envoyée !",
     "success_body": "Nous confirmerons votre créneau dans les 24 heures.",
-    "error": "Une erreur s'est produite. Réessayez ou appelez-nous."
+    "error": "Une erreur s'est produite. Réessayez ou appelez-nous.",
+    "add_to_calendar": "Ajouter au calendrier"
   },
   "services": {
     "home_title": "Assurance habitation",
