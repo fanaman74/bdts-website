@@ -615,24 +615,24 @@
             "title": "Ziekenhuisdekking",
             "content": [
               {
-                "icon": "Heart",
                 "title": "Ziekenhuisdekking",
-                "description": "Terugbetaling van ziekenhuiskosten en verblijfskosten"
+                "description": "Terugbetaling van ziekenhuiskosten en verblijfskosten",
+                "image": "/images/services/hospitalisation-couverture.svg"
               },
               {
-                "icon": "Pill",
                 "title": "Medische Dekking",
-                "description": "Terugbetaling van medische honoraria, consulten en behandelingen"
+                "description": "Terugbetaling van medische honoraria, consulten en behandelingen",
+                "image": "/images/services/medical-coverage.svg"
               },
               {
-                "icon": "Stethoscope",
                 "title": "Medische Bijstand",
-                "description": "Noodhulp en medische evacuatiediensten"
+                "description": "Noodhulp en medische evacuatiediensten",
+                "image": "/images/services/medical-assistance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Dagvergoeding",
-                "description": "Dagelijkse uitkering tijdens ziekenhuisopname of werkloosheid"
+                "description": "Dagelijkse uitkering tijdens ziekenhuisopname of werkloosheid",
+                "image": "/images/services/daily-allowance.svg"
               }
             ]
           }

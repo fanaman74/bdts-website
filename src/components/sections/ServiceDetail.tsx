@@ -8,7 +8,8 @@ import * as Icons from "lucide-react";
 import { ServiceCard } from "./ServiceCard";
 
 interface CardItem {
-  icon: string;
+  icon?: string;
+  image?: string;
   title: string;
   description: string;
 }
@@ -38,7 +39,7 @@ function isCardFormat(content: any): content is CardItem[] {
     Array.isArray(content) &&
     content.length > 0 &&
     typeof content[0] === "object" &&
-    "icon" in content[0] &&
+    ("icon" in content[0] || "image" in content[0]) &&
     "title" in content[0] &&
     "description" in content[0]
   );
@@ -131,13 +132,14 @@ export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
               {isCardFormat(section.content) ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {section.content.map((card) => {
-                    const IconComponent = getIconByName(card.icon);
+                    const IconComponent = card.icon ? getIconByName(card.icon) : undefined;
                     return (
                       <ServiceCard
                         key={card.title}
                         icon={IconComponent}
                         title={card.title}
                         description={card.description}
+                        image={card.image}
                       />
                     );
                   })}

@@ -615,24 +615,24 @@
             "title": "Hospitalization Coverage",
             "content": [
               {
-                "icon": "Heart",
                 "title": "Hospitalization Coverage",
-                "description": "Reimbursement of hospitalization and hospital stay costs"
+                "description": "Reimbursement of hospitalization and hospital stay costs",
+                "image": "/images/services/hospitalisation-couverture.svg"
               },
               {
-                "icon": "Pill",
                 "title": "Medical Coverage",
-                "description": "Reimbursement of medical fees, consultations and treatments"
+                "description": "Reimbursement of medical fees, consultations and treatments",
+                "image": "/images/services/medical-coverage.svg"
               },
               {
-                "icon": "Stethoscope",
                 "title": "Medical Assistance",
-                "description": "Emergency medical assistance and medical evacuation services"
+                "description": "Emergency medical assistance and medical evacuation services",
+                "image": "/images/services/medical-assistance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Daily Allowance",
-                "description": "Daily benefit during hospitalization or period of work stoppage"
+                "description": "Daily benefit during hospitalization or period of work stoppage",
+                "image": "/images/services/daily-allowance.svg"
               }
             ]
           }

@@ -615,24 +615,24 @@
             "title": "Nos couvertures hospitalisation",
             "content": [
               {
-                "icon": "Heart",
                 "title": "Couverture Hospitalisation",
-                "description": "Remboursement des frais d'hospitalisation et de séjour à l'hôpital"
+                "description": "Remboursement des frais d'hospitalisation et de séjour à l'hôpital",
+                "image": "/images/services/hospitalisation-couverture.svg"
               },
               {
-                "icon": "Pill",
                 "title": "Couverture Médicale",
-                "description": "Remboursement des honoraires médicaux, consultations et traitements"
+                "description": "Remboursement des honoraires médicaux, consultations et traitements",
+                "image": "/images/services/medical-coverage.svg"
               },
               {
-                "icon": "Stethoscope",
                 "title": "Assistance Médicale",
-                "description": "Services d'assistance médicale d'urgence et évacuation sanitaire"
+                "description": "Services d'assistance médicale d'urgence et évacuation sanitaire",
+                "image": "/images/services/medical-assistance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Indemnité Journalière",
-                "description": "Indemnité quotidienne pendant la période d'hospitalisation ou d'arrêt de travail"
+                "description": "Indemnité quotidienne pendant la période d'hospitalisation ou d'arrêt de travail",
+                "image": "/images/services/daily-allowance.svg"
               }
             ]
           }
