@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { ChevronLeft, ChevronRight, CheckCircle } from "lucide-react";
 
 const TIME_SLOTS = ["9:00", "10:00", "11:00", "13:30", "14:30", "15:30", "16:00"];
@@ -27,6 +27,7 @@ function buildCalendar(year: number, month: number) {
 
 export function AppointmentCalendar() {
   const t = useTranslations("appointment");
+  const locale = useLocale();
   const now = new Date();
   const [viewYear, setViewYear] = useState(now.getFullYear());
   const [viewMonth, setViewMonth] = useState(now.getMonth());
@@ -69,7 +70,7 @@ export function AppointmentCalendar() {
       const res = await fetch("/api/appointment", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, phone, date: formattedDate, time: selectedTime }),
+        body: JSON.stringify({ name, email, phone, date: formattedDate, time: selectedTime, locale }),
       });
       setStatus(res.ok ? "success" : "error");
     } catch {
