@@ -11,13 +11,30 @@ import "../globals.css";
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "swap" });
 const montserrat = Montserrat({ variable: "--font-montserrat", subsets: ["latin"], display: "swap" });
 
-export const metadata: Metadata = {
-  title: {
-    default: "BDTS — Courtier d'assurance Laeken, Bruxelles",
-    template: "%s | BDTS",
-  },
-  description: "BDTS (BDT Sironval) — votre courtier d'assurance à Laeken, Bruxelles. Assurances personnelles et professionnelles, partenaire AG Insurance.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const titles: Record<string, string> = {
+    fr: "BDTS — Courtier d'assurance Laeken, Bruxelles",
+    en: "BDTS — Insurance Broker Laeken, Brussels",
+    nl: "BDTS — Verzekeringsmakelaar Laken, Brussel",
+  };
+  const descs: Record<string, string> = {
+    fr: "BDTS (BDT Sironval) — votre courtier d'assurance à Laeken. Assurances personnelles et professionnelles, partenaire AG Insurance.",
+    en: "BDTS (BDT Sironval) — your insurance broker in Laeken, Brussels. Personal and professional insurance, AG Insurance partner.",
+    nl: "BDTS (BDT Sironval) — uw verzekeringsmakelaar in Laken, Brussel. Persoonlijke en professionele verzekeringen, AG Insurance partner.",
+  };
+  return {
+    title: {
+      default: titles[locale] ?? titles.fr,
+      template: "%s | BDTS",
+    },
+    description: descs[locale] ?? descs.fr,
+    keywords: ["insurance broker brussels", "courtier assurance bruxelles", "verzekeringsmakelaar brussel", "assurance laeken", "BDTS", "BDT Sironval", "AG Insurance"],
+    alternates: {
+      languages: { fr: "/fr", en: "/en", nl: "/nl" },
+    },
+  };
+}
 
 export default async function LocaleLayout({
   children,
