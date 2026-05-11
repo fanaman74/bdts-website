@@ -141,6 +141,100 @@
     "employees_sub": "Work accidents, health coverage, pension plans",
     "liability_title": "Professional Liability",
     "liability_sub": "Defense against professional negligence claims",
+    "particulier": {
+      "mobilite": {
+        "title": "Mobility",
+        "subtitle": "Car, Motorcycle, Bicycle, Motorhome — complete coverage for all your travel needs",
+        "sections": [
+          {
+            "title": "Auto Insurance",
+            "content": [
+              "Mandatory liability coverage",
+              "Material damage protection",
+              "Third-party protection",
+              "24/7 roadside assistance"
+            ]
+          },
+          {
+            "title": "Motorcycle Insurance",
+            "content": "Specialized coverage for motorcycles, scooters and motorized bikes"
+          },
+          {
+            "title": "Bicycle Insurance",
+            "content": "Complete protection for your bicycles"
+          },
+          {
+            "title": "Motorhome Insurance",
+            "content": "Coverage for RVs and mobile homes"
+          }
+        ]
+      },
+      "auto": {
+        "title": "Auto Insurance",
+        "subtitle": "Complete protection for your vehicle",
+        "sections": [
+          {
+            "title": "Coverage options",
+            "content": [
+              "Mandatory liability",
+              "Material damage",
+              "Theft and fire",
+              "Legal protection",
+              "24/7 roadside assistance"
+            ]
+          },
+          {
+            "title": "Additional benefits",
+            "content": "Priority roadside assistance and additional services based on your plan"
+          }
+        ]
+      },
+      "moto": {
+        "title": "Motorcycle Insurance",
+        "subtitle": "Protection tailored to motorized two-wheelers",
+        "sections": [
+          {
+            "title": "Motorcycle coverage",
+            "content": [
+              "Liability coverage",
+              "Equipment protection",
+              "Specialized mechanical assistance",
+              "Material damage coverage"
+            ]
+          }
+        ]
+      },
+      "velo": {
+        "title": "Bicycle Insurance",
+        "subtitle": "Protect your cycling investment",
+        "sections": [
+          {
+            "title": "Services included",
+            "content": [
+              "Theft coverage",
+              "Material damage",
+              "Repair assistance",
+              "Bicycle liability coverage"
+            ]
+          }
+        ]
+      },
+      "motorhome": {
+        "title": "Motorhome Insurance",
+        "subtitle": "Coverage for RVs and campers",
+        "sections": [
+          {
+            "title": "Motorhome protection",
+            "content": [
+              "Liability coverage",
+              "Material damage",
+              "Specialized roadside assistance",
+              "Interior equipment coverage"
+            ]
+          }
+        ]
+      }
+    },
     "test": {
       "sample": {
         "title": "Sample Service",

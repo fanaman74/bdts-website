@@ -141,6 +141,100 @@
     "employees_sub": "Accidents de travail, couverture santé, plans de pension",
     "liability_title": "Responsabilité professionnelle",
     "liability_sub": "Protection contre les réclamations pour faute professionnelle",
+    "particulier": {
+      "mobilite": {
+        "title": "Mobilité",
+        "subtitle": "Auto, Moto, Vélo, Motorhome — couverture complète pour vos déplacements",
+        "sections": [
+          {
+            "title": "Assurance auto",
+            "content": [
+              "Responsabilité civile automobile",
+              "Couverture des dégâts matériels",
+              "Protection contre les tiers",
+              "Assistance routière 24/7"
+            ]
+          },
+          {
+            "title": "Assurance moto",
+            "content": "Couverture spécialisée pour motos, scooters et vélos motorisés"
+          },
+          {
+            "title": "Assurance vélo",
+            "content": "Protection complète pour vos bicyclettes"
+          },
+          {
+            "title": "Assurance motorhome",
+            "content": "Couverture pour camping-cars et caravanes mobiles"
+          }
+        ]
+      },
+      "auto": {
+        "title": "Assurance Auto",
+        "subtitle": "Protection complète pour votre véhicule automobile",
+        "sections": [
+          {
+            "title": "Couvertures disponibles",
+            "content": [
+              "Responsabilité civile obligatoire",
+              "Dégâts matériels propres",
+              "Vol et incendie",
+              "Couverture juridique",
+              "Assistance dépannage 24h/24"
+            ]
+          },
+          {
+            "title": "Avantages additionnels",
+            "content": "Assistance routière prioritaire et services additionnels selon votre formule"
+          }
+        ]
+      },
+      "moto": {
+        "title": "Assurance Moto",
+        "subtitle": "Protection adaptée aux deux-roues motorisés",
+        "sections": [
+          {
+            "title": "Couvertures moto",
+            "content": [
+              "Couverture responsabilité civile",
+              "Protection équipement",
+              "Assistance mécanique spécialisée",
+              "Couverture dommages matériels"
+            ]
+          }
+        ]
+      },
+      "velo": {
+        "title": "Assurance Vélo",
+        "subtitle": "Protégez votre investissement cycliste",
+        "sections": [
+          {
+            "title": "Services inclus",
+            "content": [
+              "Couverture vol",
+              "Dégâts matériels",
+              "Assistance réparation",
+              "Couverture responsabilité civile vélo"
+            ]
+          }
+        ]
+      },
+      "motorhome": {
+        "title": "Assurance Motorhome",
+        "subtitle": "Couverture pour camping-cars et caravanes",
+        "sections": [
+          {
+            "title": "Protection motorhome",
+            "content": [
+              "Responsabilité civile",
+              "Dégâts matériels",
+              "Assistance routière spécialisée",
+              "Couverture équipements intérieurs"
+            ]
+          }
+        ]
+      }
+    },
     "test": {
       "sample": {
         "title": "Service d'exemple",

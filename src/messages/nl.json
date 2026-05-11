@@ -141,6 +141,100 @@
     "employees_sub": "Arbeidsongevallen, ziektekostenverzekering, pensioenplannen",
     "liability_title": "Beroepsaansprakelijkheid",
     "liability_sub": "Bescherming tegen claims wegens beroepsfouten",
+    "particulier": {
+      "mobilite": {
+        "title": "Mobiliteit",
+        "subtitle": "Auto, Motor, Fiets, Camper — volledige dekking voor al uw verplaatsingen",
+        "sections": [
+          {
+            "title": "Autoverzekering",
+            "content": [
+              "Wettelijke aansprakelijkheid",
+              "Materiële schadedekking",
+              "Bescherming tegen derden",
+              "24/7 pechverhelping"
+            ]
+          },
+          {
+            "title": "Motorfietsverzekering",
+            "content": "Gespecialiseerde dekking voor motorfietsen, scooters en motorfiets"
+          },
+          {
+            "title": "Fietsverzekering",
+            "content": "Volledige bescherming voor uw fietsen"
+          },
+          {
+            "title": "Camperverzekering",
+            "content": "Dekking voor campers en mobiele huizen"
+          }
+        ]
+      },
+      "auto": {
+        "title": "Autoverzekering",
+        "subtitle": "Volledige bescherming voor uw voertuig",
+        "sections": [
+          {
+            "title": "Dekkingsopties",
+            "content": [
+              "Wettelijke aansprakelijkheid",
+              "Materiële schadevergoeding",
+              "Diefstal en brand",
+              "Rechtsbijstand",
+              "24/7 pechverhelping"
+            ]
+          },
+          {
+            "title": "Aanvullende voordelen",
+            "content": "Prioritaire pechverhelping en aanvullende diensten op basis van uw plan"
+          }
+        ]
+      },
+      "moto": {
+        "title": "Motorfietsverzekering",
+        "subtitle": "Bescherming voor gemotoriseerde twee-wielers",
+        "sections": [
+          {
+            "title": "Motorfietsdekkingen",
+            "content": [
+              "Aansprakelijkheidsdekking",
+              "Bescherming van uitrusting",
+              "Gespecialiseerde mechanische bijstand",
+              "Materiaalsschadedekking"
+            ]
+          }
+        ]
+      },
+      "velo": {
+        "title": "Fietsverzekering",
+        "subtitle": "Bescherm uw fietsuitrusting",
+        "sections": [
+          {
+            "title": "Inbegrepen diensten",
+            "content": [
+              "Diefstaldekkng",
+              "Materiële schadevergoeding",
+              "Reparatieassistentie",
+              "Aansprakelijkheidsdekking fiets"
+            ]
+          }
+        ]
+      },
+      "motorhome": {
+        "title": "Camperverzekering",
+        "subtitle": "Dekking voor campers en caravans",
+        "sections": [
+          {
+            "title": "Camperbescherming",
+            "content": [
+              "Aansprakelijkheidsdekking",
+              "Materiaalsschadevergoeding",
+              "Gespecialiseerde pechverhelping",
+              "Dekkingen voor interne uitrusting"
+            ]
+          }
+        ]
+      }
+    },
     "test": {
       "sample": {
         "title": "Voorbeelddienst",
