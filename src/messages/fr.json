@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "individuals": "Particuliers",
+    "businesses": "Entreprises",
+    "growing": "Entreprises en croissance",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Consultation gratuite"
+  },
+  "hero": {
+    "headline": "L'assurance qui comprend Bruxelles",
+    "subheading": "Conseils personnalisés de votre expert local en assurances",
+    "cta_primary": "Obtenir un devis gratuit",
+    "cta_secondary": "Découvrir notre approche"
+  },
+  "paths": {
+    "title": "Comment pouvons-nous vous aider?",
+    "individuals_title": "Particuliers",
+    "individuals_sub": "Habitation, auto, famille, santé, voyage — toutes vos assurances personnelles",
+    "individuals_cta": "Découvrir nos services",
+    "businesses_title": "Entreprises",
+    "businesses_sub": "Des indépendants aux PME, nous protégeons votre croissance",
+    "businesses_cta": "Voir comment nous aidons",
+    "growing_title": "Entreprises en croissance",
+    "growing_sub": "Expertise en gestion des risques pour les organisations bruxelloises ambitieuses",
+    "growing_cta": "Notre approche"
+  },
+  "why": {
+    "title": "Ce qui nous différencie",
+    "local_title": "Expertise locale",
+    "local_body": "Basés à Laeken, nous connaissons Bruxelles. Nous comprenons les conditions du marché local et le tissu économique bruxellois.",
+    "personal_title": "Service personnalisé",
+    "personal_body": "Vous obtenez une vraie personne. Accès direct. Pas de serveur vocal, pas de transferts. Un interlocuteur qui connaît votre situation.",
+    "market_title": "Accès au marché complet",
+    "market_body": "Partenaire d'AG Insurance avec accès au marché belge de l'assurance. La meilleure solution, pas seulement une solution."
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients"
+  },
+  "cta_section": {
+    "title": "Prêt à discuter?",
+    "body": "Nous sommes là pour vous aider. Consultation gratuite, sans engagement.",
+    "button": "Planifier une consultation"
+  },
+  "footer": {
+    "tagline": "Votre expert en assurances à Bruxelles",
+    "address": "Laeken, Bruxelles, Belgique",
+    "hours": "Lun–Ven 8h30–12h30 / 13h30–17h00",
+    "rights": "Tous droits réservés"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Votre nom",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "message": "Comment pouvons-nous vous aider?",
+    "submit": "Envoyer le message",
+    "success": "Message envoyé! Nous vous répondrons dans les 24 heures.",
+    "error": "Une erreur s'est produite. Veuillez réessayer ou nous appeler directement."
+  },
+  "process": {
+    "title": "Notre fonctionnement",
+    "subtitle": "Votre chemin vers la bonne assurance",
+    "step1_title": "Consultation gratuite",
+    "step1_body": "30 minutes. Sans pression, sans engagement. Par téléphone, e-mail ou visite au bureau.",
+    "step2_title": "Analyse",
+    "step2_body": "Nous analysons votre situation, identifions les risques et recherchons les meilleures options.",
+    "step3_title": "Proposition",
+    "step3_body": "Plusieurs devis comparés clairement. Notre recommandation sans pression.",
+    "step4_title": "Mise en place",
+    "step4_body": "Vous choisissez. Nous gérons les formalités. Police délivrée dans les 48 heures.",
+    "step5_title": "Suivi continu",
+    "step5_body": "Bilans annuels, assistance sinistres, ajustements selon les évolutions de votre vie."
+  },
+  "about": {
+    "title": "À propos de BDTS",
+    "subtitle": "Expertise en assurances, cœur bruxellois",
+    "story_title": "Notre histoire",
+    "story_body": "BDTS (BDT Sironval) sert les résidents et entreprises de Bruxelles depuis notre base à Laeken. Nous combinons une connaissance approfondie du marché local avec l'accès à AG Insurance et au marché belge de l'assurance.",
+    "what_title": "Ce que nous faisons",
+    "what_body": "Nous sommes courtiers d'assurance indépendants. Nous travaillons pour vous — pas pour une seule compagnie. Nous comparons les options et trouvons la meilleure solution, puis défendons vos intérêts en cas de sinistre.",
+    "ag_title": "Notre partenariat avec AG Insurance",
+    "ag_body": "En tant que partenaire de confiance d'AG Insurance, nous bénéficions d'une connaissance approfondie des produits, d'un support prioritaire et d'un traitement accéléré des sinistres.",
+    "values_title": "Nos valeurs",
+    "value1": "Service personnalisé",
+    "value2": "Expertise locale",
+    "value3": "Indépendance",
+    "value4": "Réactivité"
+  },
+  "services": {
+    "home_title": "Assurance habitation",
+    "home_sub": "Locataires et propriétaires — la bonne couverture pour les résidents bruxellois",
+    "auto_title": "Assurance auto",
+    "auto_sub": "Voitures, motos, camping-cars — bien couverts, au juste prix",
+    "family_title": "Famille & Protection",
+    "family_sub": "Protection juridique, assurance vie, couverture accidents",
+    "savings_title": "Épargne & Pension",
+    "savings_sub": "Épargne-pension, AG Invest+, épargne à long terme",
+    "employees_title": "Assurance employés",
+    "employees_sub": "Accidents de travail, couverture santé, plans de pension",
+    "liability_title": "Responsabilité professionnelle",
+    "liability_sub": "Protection contre les réclamations pour faute professionnelle"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "individuals": "Particulieren",
+    "businesses": "Bedrijven",
+    "growing": "Groeiende bedrijven",
+    "about": "Over ons",
+    "contact": "Contact",
+    "cta": "Gratis consult"
+  },
+  "hero": {
+    "headline": "Verzekering die Brussel begrijpt",
+    "subheading": "Persoonlijk advies van uw lokale verzekeringsexpert",
+    "cta_primary": "Vraag gratis offerte",
+    "cta_secondary": "Ontdek onze aanpak"
+  },
+  "paths": {
+    "title": "Hoe kunnen we helpen?",
+    "individuals_title": "Particulieren",
+    "individuals_sub": "Woning, auto, gezin, gezondheid, reis — al uw persoonlijke verzekeringen",
+    "individuals_cta": "Ontdek onze diensten",
+    "businesses_title": "Bedrijven",
+    "businesses_sub": "Van zelfstandigen tot kmo's, wij beschermen uw groei",
+    "businesses_cta": "Bekijk hoe wij helpen",
+    "growing_title": "Groeiende bedrijven",
+    "growing_sub": "Risicobeheer voor ambitieuze Brusselse organisaties",
+    "growing_cta": "Onze aanpak"
+  },
+  "why": {
+    "title": "Wat ons onderscheidt",
+    "local_title": "Lokale expertise",
+    "local_body": "Gevestigd in Laken, kennen wij Brussel. Wij begrijpen de lokale marktomstandigheden en het Brusselse bedrijfslandschap.",
+    "personal_title": "Persoonlijke service",
+    "personal_body": "U krijgt een echte persoon. Directe toegang. Geen telefoonmenu's, geen doorverbindingen. Één aanspreekpunt dat uw situatie kent.",
+    "market_title": "Volledige markttoegang",
+    "market_body": "Partner van AG Insurance met toegang tot de volledige Belgische verzekeringsmarkt. De beste oplossing, niet zomaar een oplossing."
+  },
+  "testimonials": {
+    "title": "Wat onze klanten zeggen"
+  },
+  "cta_section": {
+    "title": "Klaar om te praten?",
+    "body": "Wij zijn er om te helpen. Gratis consult, geen verplichting.",
+    "button": "Plan een consult"
+  },
+  "footer": {
+    "tagline": "Uw verzekeringsexpert in Brussel",
+    "address": "Laken, Brussel, België",
+    "hours": "Ma–Vr 8:30–12:30 / 13:30–17:00",
+    "rights": "Alle rechten voorbehouden"
+  },
+  "contact": {
+    "title": "Contacteer ons",
+    "name": "Uw naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "message": "Hoe kunnen wij helpen?",
+    "submit": "Bericht versturen",
+    "success": "Bericht verzonden! We nemen binnen 24 uur contact op.",
+    "error": "Er is iets misgegaan. Probeer opnieuw of bel ons rechtstreeks."
+  },
+  "process": {
+    "title": "Hoe wij werken",
+    "subtitle": "Uw pad naar de juiste verzekering",
+    "step1_title": "Gratis consult",
+    "step1_body": "30 minuten. Zonder druk, zonder verplichting. Telefoon, e-mail of kantoorbezoek.",
+    "step2_title": "Analyse",
+    "step2_body": "Wij analyseren uw situatie, identificeren risico's en zoeken de beste opties.",
+    "step3_title": "Voorstel",
+    "step3_body": "Meerdere offertes overzichtelijk vergeleken. Onze aanbeveling zonder druk.",
+    "step4_title": "Uitvoering",
+    "step4_body": "U kiest. Wij regelen het papierwerk. Polis geleverd binnen 48 uur.",
+    "step5_title": "Voortdurende ondersteuning",
+    "step5_body": "Jaarlijkse check-ins, schadeondersteuning, aanpassingen bij levensveranderingen."
+  },
+  "about": {
+    "title": "Over BDTS",
+    "subtitle": "Verzekeringsexpertise, Brusselse hart",
+    "story_title": "Ons verhaal",
+    "story_body": "BDTS (BDT Sironval) bedient inwoners en bedrijven in Brussel vanuit onze basis in Laken. Wij combineren diepgaande lokale kennis met toegang tot AG Insurance en de volledige Belgische verzekeringsmarkt.",
+    "what_title": "Wat wij doen",
+    "what_body": "Wij zijn onafhankelijke verzekeringsmakelaars. Wij werken voor u — niet voor één verzekeringsmaatschappij. Wij vergelijken opties en vinden de beste oplossing, dan behartigen wij uw belangen bij schade.",
+    "ag_title": "Ons partnerschap met AG Insurance",
+    "ag_body": "Als vertrouwde AG Insurance-partner hebben wij grondige productkennis, prioriteitsondersteuning voor onze klanten en versnelde schadeafhandeling.",
+    "values_title": "Onze waarden",
+    "value1": "Persoonlijke service",
+    "value2": "Lokale expertise",
+    "value3": "Onafhankelijkheid",
+    "value4": "Responsiviteit"
+  },
+  "services": {
+    "home_title": "Woonverzekering",
+    "home_sub": "Huurders en eigenaars — de juiste dekking voor Brusselse bewoners",
+    "auto_title": "Autoverzekering",
+    "auto_sub": "Auto's, motoren, campers — volledig gedekt, eerlijk geprijsd",
+    "family_title": "Gezin & Bescherming",
+    "family_sub": "Rechtsbijstand, levensverzekering, ongevallendekking",
+    "savings_title": "Sparen & Pensioen",
+    "savings_sub": "Pensioensparen, AG Invest+, langetermijnsparen",
+    "employees_title": "Werknemersverzekering",
+    "employees_sub": "Arbeidsongevallen, ziektekostenverzekering, pensioenplannen",
+    "liability_title": "Beroepsaansprakelijkheid",
+    "liability_sub": "Bescherming tegen claims wegens beroepsfouten"
+  }
+}

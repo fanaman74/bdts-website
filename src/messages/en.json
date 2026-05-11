@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "individuals": "For Individuals",
+    "businesses": "For Businesses",
+    "growing": "For Growing Companies",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Free Consultation"
+  },
+  "hero": {
+    "headline": "Insurance that understands Brussels",
+    "subheading": "Personal advice from your local insurance expert",
+    "cta_primary": "Get a free quote",
+    "cta_secondary": "Learn how we work"
+  },
+  "paths": {
+    "title": "How can we help?",
+    "individuals_title": "For Individuals",
+    "individuals_sub": "Home, auto, family, health, travel — all your personal insurance needs",
+    "individuals_cta": "Explore services",
+    "businesses_title": "For Businesses",
+    "businesses_sub": "From freelancers to SMEs, we protect your growth",
+    "businesses_cta": "See how we help",
+    "growing_title": "For Growing Companies",
+    "growing_sub": "Risk management expertise for ambitious Brussels organizations",
+    "growing_cta": "Learn our approach"
+  },
+  "why": {
+    "title": "What makes us different",
+    "local_title": "Local Expertise",
+    "local_body": "Based in Laeken, we know Brussels. We understand local market conditions and the Brussels business landscape.",
+    "personal_title": "Personalized Service",
+    "personal_body": "You get a real person. Direct access. No phone trees, no transfers. One contact who knows your situation.",
+    "market_title": "Full Market Access",
+    "market_body": "Partner with AG Insurance plus access to the full Belgian insurance market. Best solution, not just one solution."
+  },
+  "testimonials": {
+    "title": "What our clients say"
+  },
+  "cta_section": {
+    "title": "Ready to talk?",
+    "body": "We're here to help. Free consultation, no obligation.",
+    "button": "Schedule a consultation"
+  },
+  "footer": {
+    "tagline": "Your Brussels insurance expert",
+    "address": "Laeken, Brussels, Belgium",
+    "hours": "Mon–Fri 8:30–12:30 / 13:30–17:00",
+    "rights": "All rights reserved"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Your name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "message": "How can we help?",
+    "submit": "Send message",
+    "success": "Message sent! We'll be in touch within 24 hours.",
+    "error": "Something went wrong. Please try again or call us directly."
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "Your path to the right insurance",
+    "step1_title": "Free Consultation",
+    "step1_body": "30 minutes. No pressure, no obligation. Phone, email, or office visit.",
+    "step2_title": "Assessment",
+    "step2_body": "We analyze your situation, identify risks, and research market options.",
+    "step3_title": "Proposal",
+    "step3_body": "Multiple quotes compared clearly. Our recommendation without pressure.",
+    "step4_title": "Implementation",
+    "step4_body": "You choose. We handle paperwork. Policy delivered within 48 hours.",
+    "step5_title": "Ongoing Support",
+    "step5_body": "Annual check-ins, claims support, adjustments as your life changes."
+  },
+  "about": {
+    "title": "About BDTS",
+    "subtitle": "Insurance Expertise, Brussels Heart",
+    "story_title": "Our Story",
+    "story_body": "BDTS (BDT Sironval) has served Brussels residents and businesses from our base in Laeken. We combine deep local knowledge with access to AG Insurance and the full Belgian insurance market.",
+    "what_title": "What We Do",
+    "what_body": "We're independent insurance brokers. We work for you — not for one insurance company. We compare options and find the best fit, then advocate for you when you need to claim.",
+    "ag_title": "Our Partnership with AG Insurance",
+    "ag_body": "As a trusted AG Insurance partner, we have deep product knowledge, priority support for our clients, and fast-track claims handling.",
+    "values_title": "Our Values",
+    "value1": "Personal Service",
+    "value2": "Local Expertise",
+    "value3": "Independence",
+    "value4": "Responsiveness"
+  },
+  "services": {
+    "home_title": "Home Insurance",
+    "home_sub": "Renters and homeowners — the right coverage for Brussels residents",
+    "auto_title": "Auto Insurance",
+    "auto_sub": "Cars, motorcycles, motorhomes — fully covered, fairly priced",
+    "family_title": "Family & Protection",
+    "family_sub": "Legal protection, life insurance, accident coverage",
+    "savings_title": "Savings & Pension",
+    "savings_sub": "Épargne-pension, AG Invest+, long-term savings",
+    "employees_title": "Employee Insurance",
+    "employees_sub": "Work accidents, health coverage, pension plans",
+    "liability_title": "Professional Liability",
+    "liability_sub": "Defense against professional negligence claims"
+  }
+}
