@@ -1109,12 +1109,14 @@
       {
         "name": "AG Insurance",
         "description": "Leader du marché belge, AG Insurance nous permet d'accéder à un portefeuille complet de produits d'assurance pour particuliers et entreprises.",
-        "logo": "/logos/ag-insurance.svg"
+        "logo": "/logos/ag-insurance.svg",
+        "image": "/images/ag-insurance-banner.svg"
       },
       {
         "name": "FSMA",
         "description": "Autorité belge de régulation financière. BDTS est agréée et supervisée par la FSMA pour nos activités de courtage d'assurance.",
-        "logo": "/logos/fsma.svg"
+        "logo": "/logos/fsma.svg",
+        "image": "/images/fsma-banner.svg"
       }
     ]
   },

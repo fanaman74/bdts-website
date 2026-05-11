@@ -1109,12 +1109,14 @@
       {
         "name": "AG Insurance",
         "description": "Market leader in Belgium, AG Insurance gives us access to a complete portfolio of insurance products for individuals and businesses.",
-        "logo": "/logos/ag-insurance.svg"
+        "logo": "/logos/ag-insurance.svg",
+        "image": "/images/ag-insurance-banner.svg"
       },
       {
         "name": "FSMA",
         "description": "Belgian financial regulatory authority. BDTS is approved and supervised by the FSMA for our insurance brokerage activities.",
-        "logo": "/logos/fsma.svg"
+        "logo": "/logos/fsma.svg",
+        "image": "/images/fsma-banner.svg"
       }
     ]
   },

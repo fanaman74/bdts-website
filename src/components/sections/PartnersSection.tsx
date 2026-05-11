@@ -61,6 +61,8 @@ export function PartnersSection() {
                 description={partner.description}
                 logoSrc={partner.logo}
                 logoAlt={partner.name}
+                imageSrc={partner.image}
+                imageAlt={`${partner.name} banner`}
               />
             </motion.div>
           ))}

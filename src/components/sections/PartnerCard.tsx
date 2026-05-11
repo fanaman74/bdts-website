@@ -7,23 +7,42 @@ interface PartnerCardProps {
   description: string;
   logoSrc: string;
   logoAlt: string;
+  imageSrc: string;
+  imageAlt: string;
 }
 
-export function PartnerCard({ name, description, logoSrc, logoAlt }: PartnerCardProps) {
+export function PartnerCard({ name, description, logoSrc, logoAlt, imageSrc, imageAlt }: PartnerCardProps) {
   return (
-    <div className="group bg-white border border-light-gray rounded-lg p-8 hover:shadow-lg hover:border-gold transition-all duration-300">
-      <div className="flex justify-center mb-6 h-24 flex-shrink-0">
+    <div className="group bg-white border border-light-gray rounded-lg overflow-hidden hover:shadow-lg hover:border-gold transition-all duration-300">
+      {/* Image Banner */}
+      <div className="relative w-full h-40 bg-gradient-to-br from-navy to-navy/60 overflow-hidden">
         <Image
-          src={logoSrc}
-          alt={logoAlt}
-          width={180}
-          height={80}
-          className="object-contain"
+          src={imageSrc}
+          alt={imageAlt}
+          fill
+          className="object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
           priority={false}
         />
       </div>
-      <h3 className="text-lg font-semibold text-navy text-center mb-3">{name}</h3>
-      <p className="text-mid-gray text-center text-sm">{description}</p>
+
+      {/* Content */}
+      <div className="p-6">
+        {/* Logo */}
+        <div className="flex justify-center mb-4 h-16">
+          <Image
+            src={logoSrc}
+            alt={logoAlt}
+            width={120}
+            height={60}
+            className="object-contain"
+            priority={false}
+          />
+        </div>
+
+        {/* Text */}
+        <h3 className="text-lg font-semibold text-navy text-center mb-3">{name}</h3>
+        <p className="text-mid-gray text-center text-sm leading-relaxed">{description}</p>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B5E7A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D7FA3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Regulation/Legal icon - scales of justice -->
+  <g opacity="0.2" transform="translate(200, 80)">
+    <!-- Balance beam -->
+    <line x1="0" y1="40" x2="200" y2="40" stroke="white" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Left pan -->
+    <rect x="20" y="50" width="40" height="30" fill="white" rx="2"/>
+    <line x1="40" y1="50" x2="40" y2="30" stroke="white" stroke-width="3"/>
+
+    <!-- Right pan -->
+    <rect x="140" y="50" width="40" height="30" fill="white" rx="2"/>
+    <line x1="160" y1="50" x2="160" y2="30" stroke="white" stroke-width="3"/>
+
+    <!-- Center pivot -->
+    <circle cx="100" cy="40" r="8" fill="white"/>
+  </g>
+
+  <!-- Checkmark accent -->
+  <g transform="translate(380, 120)" opacity="0.3">
+    <path d="M 20 30 L 35 45 L 60 20" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Text overlay -->
+  <text x="300" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">
+    Financial Regulation
+  </text>
+</svg>
