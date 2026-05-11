@@ -776,5 +776,32 @@
         ]
       }
     }
+  },
+  "documents": {
+    "title": "Documents",
+    "subtitle": "Téléchargez les documents utiles",
+    "forms": "Formulaires",
+    "guides": "Guides",
+    "legal": "Documents légaux"
+  },
+  "news": {
+    "title": "Actualités",
+    "subtitle": "Restez informé de nos dernières actualités"
+  },
+  "jobs": {
+    "title": "Opportunités d'emploi",
+    "subtitle": "Rejoignez notre équipe"
+  },
+  "client_portal": {
+    "title": "Zone Client",
+    "subtitle": "Accédez à votre espace personnel"
+  },
+  "partners": {
+    "title": "Partenaires",
+    "subtitle": "Nos partenaires de confiance"
+  },
+  "useful_numbers": {
+    "title": "Numéros Utiles",
+    "subtitle": "Contactez-nous facilement"
   }
 }

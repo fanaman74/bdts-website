@@ -776,5 +776,32 @@
         ]
       }
     }
+  },
+  "documents": {
+    "title": "Documenten",
+    "subtitle": "Download nuttige documenten",
+    "forms": "Formulieren",
+    "guides": "Gidsen",
+    "legal": "Juridische Documenten"
+  },
+  "news": {
+    "title": "Nieuws",
+    "subtitle": "Blijf op de hoogte met ons laatste nieuws"
+  },
+  "jobs": {
+    "title": "Arbeidsplaatsen",
+    "subtitle": "Sluit je aan bij ons team"
+  },
+  "client_portal": {
+    "title": "Klantportaal",
+    "subtitle": "Toegang tot uw persoonlijke ruimte"
+  },
+  "partners": {
+    "title": "Partners",
+    "subtitle": "Onze vertrouwde partners"
+  },
+  "useful_numbers": {
+    "title": "Nutzliche Nummers",
+    "subtitle": "Neem gemakkelijk contact met ons op"
   }
 }

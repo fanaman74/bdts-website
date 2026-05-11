@@ -776,5 +776,32 @@
         ]
       }
     }
+  },
+  "documents": {
+    "title": "Documents",
+    "subtitle": "Download useful documents",
+    "forms": "Forms",
+    "guides": "Guides",
+    "legal": "Legal Documents"
+  },
+  "news": {
+    "title": "News",
+    "subtitle": "Stay informed with our latest news"
+  },
+  "jobs": {
+    "title": "Job Opportunities",
+    "subtitle": "Join our team"
+  },
+  "client_portal": {
+    "title": "Client Portal",
+    "subtitle": "Access your personal space"
+  },
+  "partners": {
+    "title": "Partners",
+    "subtitle": "Our trusted partners"
+  },
+  "useful_numbers": {
+    "title": "Useful Numbers",
+    "subtitle": "Contact us easily"
   }
 }
