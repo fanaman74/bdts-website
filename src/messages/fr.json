@@ -152,22 +152,22 @@
               {
                 "title": "Assurance Auto",
                 "description": "Responsabilité civile et couvertures matérielles pour votre automobile et assistance routière 24/7",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=800&q=80"
               },
               {
                 "title": "Assurance Moto",
                 "description": "Protection spécialisée pour motos, scooters et vélos motorisés avec équipement compris",
-                "image": "/images/services/moto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               },
               {
                 "title": "Assurance Vélo",
                 "description": "Couverture complète pour vos bicyclettes contre le vol, dégâts matériels et responsabilité civile",
-                "image": "/images/services/bike-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               },
               {
                 "title": "Assurance Motorhome",
                 "description": "Protection pour camping-cars et caravanes avec assistance routière spécialisée",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80"
               }
             ]
           }
@@ -312,22 +312,22 @@
               {
                 "title": "Assurance Incendie",
                 "description": "Protection contre les dégâts causés par le feu, la fumée et les sinistres connexes",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
               },
               {
                 "title": "Assurance Vol",
                 "description": "Couverture complète contre le vol, le cambriolage et les tentatives de vol",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
               },
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection de vos biens contre les dommages causés par divers sinistres",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
               },
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture de votre responsabilité civile envers les tiers dans votre logement",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               }
             ]
           }
@@ -421,27 +421,32 @@
               {
                 "icon": "Heart",
                 "title": "Assurance familiale complète",
-                "description": "Protection complète pour vous et votre famille avec couvertures multiples adaptées à vos besoins"
+                "description": "Protection complète pour vous et votre famille avec couvertures multiples adaptées à vos besoins",
+                "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80"
               },
               {
                 "icon": "AlertTriangle",
                 "title": "Protection accidents et invalidité",
-                "description": "Couverture en cas d'accidents personnels et d'invalidité temporaire ou permanente"
+                "description": "Couverture en cas d'accidents personnels et d'invalidité temporaire ou permanente",
+                "image": "https://images.unsplash.com/photo-1633356713697-9ef10663a3dc?w=800&q=80"
               },
               {
                 "icon": "Shield",
                 "title": "Assurance décès et rente",
-                "description": "Capital et rente pour protéger vos proches en cas de décès du soutien de famille"
+                "description": "Capital et rente pour protéger vos proches en cas de décès du soutien de famille",
+                "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80"
               },
               {
                 "icon": "Plane",
                 "title": "Assurance voyage famille",
-                "description": "Couverture complète pour tous vos déplacements en famille avec assistance à l'étranger"
+                "description": "Couverture complète pour tous vos déplacements en famille avec assistance à l'étranger",
+                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80"
               },
               {
                 "icon": "Scale",
                 "title": "Assistance juridique et protection",
-                "description": "Conseil juridique 24/7 et défense en justice pour tous vos litiges personnels ou familiaux"
+                "description": "Conseil juridique 24/7 et défense en justice pour tous vos litiges personnels ou familiaux",
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               }
             ]
           }
@@ -617,22 +622,22 @@
               {
                 "title": "Couverture Hospitalisation",
                 "description": "Remboursement des frais d'hospitalisation et de séjour à l'hôpital",
-                "image": "/images/services/hospitalisation-couverture.svg"
+                "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=800&q=80"
               },
               {
                 "title": "Couverture Médicale",
                 "description": "Remboursement des honoraires médicaux, consultations et traitements",
-                "image": "/images/services/medical-coverage.svg"
+                "image": "https://images.unsplash.com/photo-1631217314830-4e3015a64a51?w=800&q=80"
               },
               {
                 "title": "Assistance Médicale",
                 "description": "Services d'assistance médicale d'urgence et évacuation sanitaire",
-                "image": "/images/services/medical-assistance.svg"
+                "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&q=80"
               },
               {
                 "title": "Indemnité Journalière",
                 "description": "Indemnité quotidienne pendant la période d'hospitalisation ou d'arrêt de travail",
-                "image": "/images/services/daily-allowance.svg"
+                "image": "https://images.unsplash.com/photo-1579154204601-01d3f2d751e0?w=800&q=80"
               }
             ]
           }
@@ -678,22 +683,22 @@
               {
                 "title": "Plans d'Épargne Assurantielle",
                 "description": "Solutions d'épargne avec couverture d'assurance-vie intégrée",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1579621970563-430f63602d4a?w=800&q=80"
               },
               {
                 "title": "Placements Diversifiés",
                 "description": "Accès à des fonds d'investissement variés adaptés à votre profil",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               },
               {
                 "title": "Rendements Réguliers",
                 "description": "Générer des revenus réguliers et constituer votre capital à long terme",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1518146409394-e4c3d675a91c?w=800&q=80"
               },
               {
                 "title": "Protection du Patrimoine",
                 "description": "Sécuriser votre épargne et transmettre votre patrimoine sereinement",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1590283603385-8acbe6a4d9e9?w=800&q=80"
               }
             ]
           }
@@ -709,22 +714,22 @@
               {
                 "title": "Prévoyance Retraite",
                 "description": "Constituer progressivement votre capital retraite et assurer votre futur",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1450101499163-c8917c7b4c3e?w=800&q=80"
               },
               {
                 "title": "Compléments de Revenu",
                 "description": "Assurer un niveau de vie satisfait après la fin de votre activité professionnelle",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Protection Famille",
                 "description": "Sécuriser le bien-être de votre famille en cas de décès ou invalidité",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Croissance du Capital",
                 "description": "Optimiser la croissance et la rente de vos placements retraite",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               }
             ]
           }
@@ -790,22 +795,22 @@
               {
                 "title": "Assurance Responsabilité",
                 "description": "Couverture de votre responsabilité civile professionnelle envers les tiers",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Dégâts Immobiliers",
                 "description": "Protection des locaux, équipements et inventaire contre les sinistres",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Assurance Personnel",
                 "description": "Couverture des accidents de travail et maladies professionnelles",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Cybersécurité et Vol",
                 "description": "Protection contre le cyberrisque, vol de données et fraude informatique",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               }
             ]
           }
@@ -885,22 +890,22 @@
               {
                 "title": "Assurance Accident",
                 "description": "Couverture des accidents de travail et sinistres corporels liés au métier",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Prévoyance Personnelle",
                 "description": "Protection en cas d'incapacité, invalidité ou décès professionnel",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Couverture Professionnelle",
                 "description": "Protégez votre statut professionnel et votre activité d'indépendant",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Revenus Protégés",
                 "description": "Assurer la continuité de vos revenus en cas d'interruption d'activité",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1590283603385-8acbe6a4d9e9?w=800&q=80"
               }
             ]
           }
@@ -964,22 +969,22 @@
               {
                 "title": "Couverture Perte de Revenu",
                 "description": "Protection de vos revenus en cas d'incapacité ou interruption d'activité",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               },
               {
                 "title": "Assurance Chômage",
                 "description": "Complément de revenus en cas de chômage involontaire ou cessation d'emploi",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1518146409394-e4c3d675a91c?w=800&q=80"
               },
               {
                 "title": "Rente Invalidité",
                 "description": "Rente mensuelle garantie en cas d'invalidité permanente ou partielle",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Protection Crédit",
                 "description": "Protégez vos emprunteurs et garantissez le remboursement de vos crédits",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1579621970563-430f63602d4a?w=800&q=80"
               }
             ]
           }

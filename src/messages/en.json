@@ -152,22 +152,22 @@
               {
                 "title": "Car Insurance",
                 "description": "Liability coverage and material protection for your vehicle with 24/7 roadside assistance",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=800&q=80"
               },
               {
                 "title": "Motorcycle Insurance",
                 "description": "Specialized coverage for motorcycles, scooters and motorized bicycles including equipment",
-                "image": "/images/services/moto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               },
               {
                 "title": "Bicycle Insurance",
                 "description": "Complete protection for your bikes against theft, damage and liability claims",
-                "image": "/images/services/bike-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               },
               {
                 "title": "Motorhome Insurance",
                 "description": "Coverage for motorhomes and caravans with specialized roadside assistance",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80"
               }
             ]
           }
@@ -312,22 +312,22 @@
               {
                 "title": "Fire Insurance",
                 "description": "Protection against damage caused by fire, smoke and related incidents",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
               },
               {
                 "title": "Theft Insurance",
                 "description": "Complete coverage against theft, burglary and theft attempts",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
               },
               {
                 "title": "Material Damage",
                 "description": "Protection of your property against damage caused by various incidents",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
               },
               {
                 "title": "Liability Coverage",
                 "description": "Coverage of your liability to third parties within your home",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               }
             ]
           }
@@ -421,27 +421,32 @@
               {
                 "icon": "Heart",
                 "title": "Comprehensive family insurance",
-                "description": "Complete protection for you and your family with multiple coverages tailored to your needs"
+                "description": "Complete protection for you and your family with multiple coverages tailored to your needs",
+                "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80"
               },
               {
                 "icon": "AlertTriangle",
                 "title": "Accident and disability protection",
-                "description": "Coverage for personal accidents and temporary or permanent disability"
+                "description": "Coverage for personal accidents and temporary or permanent disability",
+                "image": "https://images.unsplash.com/photo-1633356713697-9ef10663a3dc?w=800&q=80"
               },
               {
                 "icon": "Shield",
                 "title": "Death and income protection",
-                "description": "Capital and income for your loved ones in case of death of breadwinner"
+                "description": "Capital and income for your loved ones in case of death of breadwinner",
+                "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80"
               },
               {
                 "icon": "Plane",
                 "title": "Travel insurance",
-                "description": "Complete coverage for all your family trips with assistance abroad"
+                "description": "Complete coverage for all your family trips with assistance abroad",
+                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80"
               },
               {
                 "icon": "Scale",
                 "title": "Legal assistance and protection",
-                "description": "24/7 legal advice and court representation for all your personal disputes"
+                "description": "24/7 legal advice and court representation for all your personal disputes",
+                "image": "https://images.unsplash.com/photo-1554224311-beaf415c15e7?w=800&q=80"
               }
             ]
           }
@@ -617,22 +622,22 @@
               {
                 "title": "Hospitalization Coverage",
                 "description": "Reimbursement of hospitalization and hospital stay costs",
-                "image": "/images/services/hospitalisation-couverture.svg"
+                "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=800&q=80"
               },
               {
                 "title": "Medical Coverage",
                 "description": "Reimbursement of medical fees, consultations and treatments",
-                "image": "/images/services/medical-coverage.svg"
+                "image": "https://images.unsplash.com/photo-1631217314830-4e3015a64a51?w=800&q=80"
               },
               {
                 "title": "Medical Assistance",
                 "description": "Emergency medical assistance and medical evacuation services",
-                "image": "/images/services/medical-assistance.svg"
+                "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&q=80"
               },
               {
                 "title": "Daily Allowance",
                 "description": "Daily benefit during hospitalization or period of work stoppage",
-                "image": "/images/services/daily-allowance.svg"
+                "image": "https://images.unsplash.com/photo-1579154204601-01d3f2d751e0?w=800&q=80"
               }
             ]
           }
@@ -678,22 +683,22 @@
               {
                 "title": "Insurance Savings Plans",
                 "description": "Savings solutions with integrated life insurance coverage",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1579621970563-430f63602d4a?w=800&q=80"
               },
               {
                 "title": "Diversified Investments",
                 "description": "Access to various investment funds tailored to your profile",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               },
               {
                 "title": "Regular Returns",
                 "description": "Generate regular income and build your capital over time",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1518146409394-e4c3d675a91c?w=800&q=80"
               },
               {
                 "title": "Wealth Protection",
                 "description": "Secure your savings and pass on your assets with peace of mind",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1590283603385-8acbe6a4d9e9?w=800&q=80"
               }
             ]
           }
@@ -709,22 +714,22 @@
               {
                 "title": "Retirement Planning",
                 "description": "Progressively build your retirement capital and ensure your future",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1450101499163-c8917c7b4c3e?w=800&q=80"
               },
               {
                 "title": "Income Supplements",
                 "description": "Ensure a satisfactory standard of living after your professional activity ends",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Family Protection",
                 "description": "Secure your family's well-being in case of death or disability",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Capital Growth",
                 "description": "Optimize the growth and returns of your retirement investments",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               }
             ]
           }
@@ -790,22 +795,22 @@
               {
                 "title": "Professional Liability",
                 "description": "Coverage of your professional liability to third parties",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Property Damage",
                 "description": "Protection of facilities, equipment and inventory against incidents",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Personnel Insurance",
                 "description": "Coverage of work accidents and occupational illnesses",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Cybersecurity and Theft",
                 "description": "Protection against cyber risk, data theft and fraud",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               }
             ]
           }
@@ -885,22 +890,22 @@
               {
                 "title": "Accident Insurance",
                 "description": "Coverage of work accidents and bodily injury related to your profession",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Personal Protection",
                 "description": "Protection in case of incapacity, disability or professional death",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Professional Coverage",
                 "description": "Protect your professional status and self-employed activity",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Protected Income",
                 "description": "Ensure continuity of your income in case of activity interruption",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1590283603385-8acbe6a4d9e9?w=800&q=80"
               }
             ]
           }
@@ -964,22 +969,22 @@
               {
                 "title": "Income Loss Coverage",
                 "description": "Protection of your income in case of incapacity or activity interruption",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               },
               {
                 "title": "Unemployment Insurance",
                 "description": "Additional income in case of involuntary unemployment or job loss",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1518146409394-e4c3d675a91c?w=800&q=80"
               },
               {
                 "title": "Disability Annuity",
                 "description": "Guaranteed monthly annuity in case of permanent or partial disability",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Credit Protection",
                 "description": "Protect your borrowers and guarantee loan repayment",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1579621970563-430f63602d4a?w=800&q=80"
               }
             ]
           }

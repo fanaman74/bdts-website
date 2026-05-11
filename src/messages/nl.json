@@ -152,22 +152,22 @@
               {
                 "title": "Autoverzekering",
                 "description": "Aansprakelijkheid en materiële bescherming voor uw voertuig met 24/7 wegenwacht",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=800&q=80"
               },
               {
                 "title": "Motorfiets Verzekering",
                 "description": "Gespecialiseerde dekking voor motorfietsen, scooters en gemotoriseerde fietsen",
-                "image": "/images/services/moto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               },
               {
                 "title": "Fietsverzekering",
                 "description": "Volledige bescherming voor uw fietsen tegen diefstal, schade en aansprakelijkheid",
-                "image": "/images/services/bike-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               },
               {
                 "title": "Motorhome Verzekering",
                 "description": "Dekking voor campers en caravans met gespecialiseerde wegenwacht",
-                "image": "/images/services/auto-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80"
               }
             ]
           }
@@ -312,22 +312,22 @@
               {
                 "title": "Brandverzekering",
                 "description": "Bescherming tegen schade veroorzaakt door brand, rook en gerelateerde incidenten",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
               },
               {
                 "title": "Diefstalverzekering",
                 "description": "Volledige dekking tegen diefstal, inbraak en diefstalpoging",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming van uw bezittingen tegen schade veroorzaakt door verschillende incidenten",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
               },
               {
                 "title": "Aansprakelijkheid",
                 "description": "Dekking van uw aansprakelijkheid tegenover derden in uw woning",
-                "image": "/images/services/fire-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
               }
             ]
           }
@@ -617,22 +617,22 @@
               {
                 "title": "Ziekenhuisdekking",
                 "description": "Terugbetaling van ziekenhuiskosten en verblijfskosten",
-                "image": "/images/services/hospitalisation-couverture.svg"
+                "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=800&q=80"
               },
               {
                 "title": "Medische Dekking",
                 "description": "Terugbetaling van medische honoraria, consulten en behandelingen",
-                "image": "/images/services/medical-coverage.svg"
+                "image": "https://images.unsplash.com/photo-1631217314830-4e3015a64a51?w=800&q=80"
               },
               {
                 "title": "Medische Bijstand",
                 "description": "Noodhulp en medische evacuatiediensten",
-                "image": "/images/services/medical-assistance.svg"
+                "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&q=80"
               },
               {
                 "title": "Dagvergoeding",
                 "description": "Dagelijkse uitkering tijdens ziekenhuisopname of werkloosheid",
-                "image": "/images/services/daily-allowance.svg"
+                "image": "https://images.unsplash.com/photo-1579154204601-01d3f2d751e0?w=800&q=80"
               }
             ]
           }
@@ -678,22 +678,22 @@
               {
                 "title": "Spaarverzekeringsplannen",
                 "description": "Spaaroplossingen met geïntegreerde levensverzekering",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1579621970563-430f63602d4a?w=800&q=80"
               },
               {
                 "title": "Gediversifieerde Beleggingen",
                 "description": "Toegang tot gevarieerde beleggingsfondsen afgestemd op uw profiel",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               },
               {
                 "title": "Regelmatige Opbrengsten",
                 "description": "Genereer regelmatige inkomsten en bouw uw vermogen op",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1518146409394-e4c3d675a91c?w=800&q=80"
               },
               {
                 "title": "Vermogensbescherming",
                 "description": "Beveilig uw spaargelden en draag uw erfenis veilig over",
-                "image": "/images/services/savings-investment.svg"
+                "image": "https://images.unsplash.com/photo-1590283603385-8acbe6a4d9e9?w=800&q=80"
               }
             ]
           }
@@ -709,22 +709,22 @@
               {
                 "title": "Pensioenplanning",
                 "description": "Bouw geleidelijk uw pensioenkapitaal op en zeker uw toekomst",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1450101499163-c8917c7b4c3e?w=800&q=80"
               },
               {
                 "title": "Inkomensaanvulling",
                 "description": "Zorg voor een bevredigend levensniveau na uw beroepscarrière",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Gezinsbescherming",
                 "description": "Zorg voor het welzijn van uw familie bij overlijden of invaliditeit",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Kapitaalgroei",
                 "description": "Optimaliseer de groei en opbrengsten van uw pensioenuitkeringen",
-                "image": "/images/services/retirement-planning.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               }
             ]
           }
@@ -790,22 +790,22 @@
               {
                 "title": "Beroepsaansprakelijkheid",
                 "description": "Dekking van uw beroepsaansprakelijkheid tegenover derden",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Schadebijstand",
                 "description": "Bescherming van gebouwen, apparatuur en voorraad tegen incidenten",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Personeelsverzekering",
                 "description": "Dekking van werkongeval en beroepsziekten",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Cyberbeveiliging en Diefstal",
                 "description": "Bescherming tegen cyberrisico, gegevensdiefstal en fraude",
-                "image": "/images/services/business-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               }
             ]
           }
@@ -885,22 +885,22 @@
               {
                 "title": "Ongevallenverzekering",
                 "description": "Dekking van werkongeval en lichamelijk letsel gerelateerd aan uw beroep",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               },
               {
                 "title": "Persoonlijke Bescherming",
                 "description": "Bescherming bij arbeidsongeschiktheid, invaliditeit of beroepsdood",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
               },
               {
                 "title": "Beroepsdekking",
                 "description": "Bescherm uw beroepsstatus en zelfstandige activiteiten",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Beschermde Inkomens",
                 "description": "Zorg voor continuïteit van uw inkomsten bij activiteitsonderbreking",
-                "image": "/images/services/personnel-insurance.svg"
+                "image": "https://images.unsplash.com/photo-1590283603385-8acbe6a4d9e9?w=800&q=80"
               }
             ]
           }
@@ -964,22 +964,22 @@
               {
                 "title": "Inkomstendervingsdekking",
                 "description": "Bescherming van uw inkomsten bij arbeidsongeschiktheid of onderbreking",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=800&q=80"
               },
               {
                 "title": "Werkloosheidsverzekering",
                 "description": "Aanvullend inkomen bij onvrijwillige werkloosheid of baanverlies",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1518146409394-e4c3d675a91c?w=800&q=80"
               },
               {
                 "title": "Invaliditeitsrente",
                 "description": "Gegarandeerde maandelijkse rente bij blijvende of gedeeltelijke invaliditeit",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
               },
               {
                 "title": "Kredietbescherming",
                 "description": "Bescherm uw leners en garandeer terugbetaling van leningen",
-                "image": "/images/services/revenue-protection.svg"
+                "image": "https://images.unsplash.com/photo-1579621970563-430f63602d4a?w=800&q=80"
               }
             ]
           }
