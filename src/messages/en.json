@@ -455,24 +455,24 @@
             "title": "Coverage included",
             "content": [
               {
-                "icon": "Users",
                 "title": "Children and parents coverage",
-                "description": "Extended protection for all family members including children and elderly parents"
+                "description": "Extended protection for all family members including children and elderly parents",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Family health assistance",
-                "description": "Health assistance services and medical support accessible to the whole family"
+                "description": "Health assistance services and medical support accessible to the whole family",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "Handshake",
                 "title": "Family support services",
-                "description": "Support and social assistance when families face financial difficulties"
+                "description": "Support and social assistance when families face financial difficulties",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "TrendingUp",
                 "title": "Family income on death",
-                "description": "Guaranteed income to spouse and children if breadwinner passes away"
+                "description": "Guaranteed income to spouse and children if breadwinner passes away",
+                "image": "/images/services/family-insurance.svg"
               }
             ]
           }
@@ -486,24 +486,24 @@
             "title": "Accident coverage",
             "content": [
               {
-                "icon": "AlertCircle",
                 "title": "24/7 accident benefits",
-                "description": "Complete coverage for accidents occurring at any time of day or night"
+                "description": "Complete coverage for accidents occurring at any time of day or night",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "Wheelchair",
                 "title": "Permanent disability coverage",
-                "description": "Financial protection if you become permanently disabled from an accident"
+                "description": "Financial protection if you become permanently disabled from an accident",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "Pill",
                 "title": "Medical and hospital expenses",
-                "description": "Reimbursement of medical and hospital fees resulting from accidents"
+                "description": "Reimbursement of medical and hospital fees resulting from accidents",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Temporary disability income",
-                "description": "Income replacement during periods of temporary disability from accidents"
+                "description": "Income replacement during periods of temporary disability from accidents",
+                "image": "/images/services/accident-insurance.svg"
               }
             ]
           }
@@ -517,24 +517,24 @@
             "title": "Death protection",
             "content": [
               {
-                "icon": "DollarSign",
                 "title": "Death capital",
-                "description": "Capital paid to designated beneficiaries in case of insured's death"
+                "description": "Capital paid to designated beneficiaries in case of insured's death",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Spouse survivor income",
-                "description": "Monthly or annual guaranteed income to surviving spouse until their death"
+                "description": "Monthly or annual guaranteed income to surviving spouse until their death",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "Baby",
                 "title": "Minor children coverage",
-                "description": "Additional capital or income to support education of minor children"
+                "description": "Additional capital or income to support education of minor children",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "CheckCircle",
                 "title": "Fast payout to beneficiaries",
-                "description": "Accelerated process for payment of capital to designated beneficiaries"
+                "description": "Accelerated process for payment of capital to designated beneficiaries",
+                "image": "/images/services/death-insurance.svg"
               }
             ]
           }
@@ -548,29 +548,29 @@
             "title": "Travel coverage",
             "content": [
               {
-                "icon": "Stethoscope",
                 "title": "Medical assistance abroad",
-                "description": "24/7 medical service and medical evacuation if needed during your travels"
+                "description": "24/7 medical service and medical evacuation if needed during your travels",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Plane",
                 "title": "Medical evacuation",
-                "description": "Complete coverage of medical repatriation if seriously hospitalized abroad"
+                "description": "Complete coverage of medical repatriation if seriously hospitalized abroad",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Calendar",
                 "title": "Flight cancellation and delay",
-                "description": "Reimbursement if your trip is cancelled or flight significantly delayed"
+                "description": "Reimbursement if your trip is cancelled or flight significantly delayed",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Baggage and personal effects",
-                "description": "Protection and reimbursement for lost, stolen or damaged luggage"
+                "description": "Protection and reimbursement for lost, stolen or damaged luggage",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Liability insurance",
-                "description": "Liability coverage for damages caused to third parties during your trip"
+                "description": "Liability coverage for damages caused to third parties during your trip",
+                "image": "/images/services/travel-insurance.svg"
               }
             ]
           }
@@ -584,24 +584,24 @@
             "title": "Legal services",
             "content": [
               {
-                "icon": "Phone",
                 "title": "24/7 legal advice",
-                "description": "Phone consultation with legal experts available day and night"
+                "description": "Phone consultation with legal experts available day and night",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Court defense",
-                "description": "Representation and defense by a lawyer in your legal proceedings"
+                "description": "Representation and defense by a lawyer in your legal proceedings",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Legal costs covered",
-                "description": "Complete coverage of court fees and lawyer fees"
+                "description": "Complete coverage of court fees and lawyer fees",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "CheckCircle",
                 "title": "Assisted legal recourse",
-                "description": "Full support in all your legal claims and court actions"
+                "description": "Full support in all your legal claims and court actions",
+                "image": "/images/services/legal-protection.svg"
               }
             ]
           }

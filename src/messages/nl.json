@@ -455,24 +455,24 @@
             "title": "Inbegrepen dekkingen",
             "content": [
               {
-                "icon": "Users",
                 "title": "Dekking kinderen en ouders",
-                "description": "Uitgebreide bescherming voor alle gezinsleden inclusief kinderen en bejaarde ouders"
+                "description": "Uitgebreide bescherming voor alle gezinsleden inclusief kinderen en bejaarde ouders",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Familiaal gezondheidsondersteuning",
-                "description": "Gezondheidsondersteuningsdiensten en medische hulp beschikbaar voor het hele gezin"
+                "description": "Gezondheidsondersteuningsdiensten en medische hulp beschikbaar voor het hele gezin",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "Handshake",
                 "title": "Gezinsondersteuningsdiensten",
-                "description": "Hulp en sociale bijstand wanneer gezinnen financiële moeilijkheden ondervinden"
+                "description": "Hulp en sociale bijstand wanneer gezinnen financiële moeilijkheden ondervinden",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "TrendingUp",
                 "title": "Gezinsinkomst bij overlijden",
-                "description": "Gegarandeerde inkomsten voor echtgenoot en kinderen bij overlijden van kostwinner"
+                "description": "Gegarandeerde inkomsten voor echtgenoot en kinderen bij overlijden van kostwinner",
+                "image": "/images/services/family-insurance.svg"
               }
             ]
           }
@@ -486,24 +486,24 @@
             "title": "Ongevallendekking",
             "content": [
               {
-                "icon": "AlertCircle",
                 "title": "24/7 ongelallenverzekering",
-                "description": "Complete dekking voor ongevallen die op elk moment van dag of nacht plaatsvinden"
+                "description": "Complete dekking voor ongevallen die op elk moment van dag of nacht plaatsvinden",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "Wheelchair",
                 "title": "Permanente invaliditeitsdekking",
-                "description": "Financiële bescherming bij permanente arbeidsongeschiktheid door een ongeval"
+                "description": "Financiële bescherming bij permanente arbeidsongeschiktheid door een ongeval",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "Pill",
                 "title": "Medische en ziekenhuiskosten",
-                "description": "Vergoeding van medische en ziekenhuiskosten als gevolg van ongevallen"
+                "description": "Vergoeding van medische en ziekenhuiskosten als gevolg van ongevallen",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Temporaire invaliditeitsinkomsten",
-                "description": "Inkomstevervanging tijdens perioden van tijdelijke arbeidsongeschiktheid"
+                "description": "Inkomstevervanging tijdens perioden van tijdelijke arbeidsongeschiktheid",
+                "image": "/images/services/accident-insurance.svg"
               }
             ]
           }
@@ -517,24 +517,24 @@
             "title": "Overlijdensbescherming",
             "content": [
               {
-                "icon": "DollarSign",
                 "title": "Kapitaal bij overlijden",
-                "description": "Kapitaal uitbetaald aan aangewezen begunstigden in geval van overlijden verzekerde"
+                "description": "Kapitaal uitbetaald aan aangewezen begunstigden in geval van overlijden verzekerde",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Inkomsten partner overlevende",
-                "description": "Maandelijkse of jaarlijkse gegarandeerde inkomsten voor overlevende echtgenoot"
+                "description": "Maandelijkse of jaarlijkse gegarandeerde inkomsten voor overlevende echtgenoot",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "Baby",
                 "title": "Dekking minderjarige kinderen",
-                "description": "Aanvullend kapitaal of inkomsten ter ondersteuning van scholing minderjarige kinderen"
+                "description": "Aanvullend kapitaal of inkomsten ter ondersteuning van scholing minderjarige kinderen",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "CheckCircle",
                 "title": "Snelle uitbetaling aan begunstigden",
-                "description": "Versneld proces voor betaling van kapitaal aan aangewezen begunstigden"
+                "description": "Versneld proces voor betaling van kapitaal aan aangewezen begunstigden",
+                "image": "/images/services/death-insurance.svg"
               }
             ]
           }
@@ -548,29 +548,29 @@
             "title": "Reisdekking",
             "content": [
               {
-                "icon": "Stethoscope",
                 "title": "Medische bijstand in het buitenland",
-                "description": "24/7 medische dienst en medische evacuatie indien nodig tijdens uw reizen"
+                "description": "24/7 medische dienst en medische evacuatie indien nodig tijdens uw reizen",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Plane",
                 "title": "Medische evacuatie",
-                "description": "Complete dekking van medische repatriëring bij ernstige ziekenhuisopname in het buitenland"
+                "description": "Complete dekking van medische repatriëring bij ernstige ziekenhuisopname in het buitenland",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Calendar",
                 "title": "Vluchtannulering en vertraging",
-                "description": "Vergoeding indien uw reis wordt geannuleerd of vlucht aanzienlijk vertraagd"
+                "description": "Vergoeding indien uw reis wordt geannuleerd of vlucht aanzienlijk vertraagd",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Bagages en persoonlijke bezittingen",
-                "description": "Bescherming en vergoeding bij verlies, diefstal of beschadiging van bagage"
+                "description": "Bescherming en vergoeding bij verlies, diefstal of beschadiging van bagage",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Aansprakelijkheidsverzekering",
-                "description": "Aansprakelijkheidsdekking voor schade veroorzaakt aan derden tijdens uw reis"
+                "description": "Aansprakelijkheidsdekking voor schade veroorzaakt aan derden tijdens uw reis",
+                "image": "/images/services/travel-insurance.svg"
               }
             ]
           }
@@ -584,24 +584,24 @@
             "title": "Juridische diensten",
             "content": [
               {
-                "icon": "Phone",
                 "title": "24/7 juridisch advies",
-                "description": "Telefonisch advies van juridische experts beschikbaar dag en nacht"
+                "description": "Telefonisch advies van juridische experts beschikbaar dag en nacht",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Verdediging in gerechtszaken",
-                "description": "Vertegenwoordiging en verdediging door een advocaat in uw juridische procedures"
+                "description": "Vertegenwoordiging en verdediging door een advocaat in uw juridische procedures",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Gerechtelijke kosten gedekt",
-                "description": "Complete dekking van gerechtelijke vergoedingen en advocaathonorariums"
+                "description": "Complete dekking van gerechtelijke vergoedingen en advocaathonorariums",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "CheckCircle",
                 "title": "Ondersteunde juridische verhaalsmogelijkheden",
-                "description": "Volledige ondersteuning in al uw juridische vorderingen en gerechtelijke procedures"
+                "description": "Volledige ondersteuning in al uw juridische vorderingen en gerechtelijke procedures",
+                "image": "/images/services/legal-protection.svg"
               }
             ]
           }

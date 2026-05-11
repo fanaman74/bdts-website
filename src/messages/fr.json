@@ -455,24 +455,24 @@
             "title": "Couvertures incluses",
             "content": [
               {
-                "icon": "Users",
                 "title": "Couverture enfants et parents",
-                "description": "Protection étendue pour tous les membres de la famille incluant enfants et parents"
+                "description": "Protection étendue pour tous les membres de la famille incluant enfants et parents",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Assistance santé familiale",
-                "description": "Services d'assistance santé et support médical accessible à toute la famille"
+                "description": "Services d'assistance santé et support médical accessible à toute la famille",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "Handshake",
                 "title": "Services de soutien aux familles",
-                "description": "Support et aide sociale en cas de difficultés pour les familles en détresse"
+                "description": "Support et aide sociale en cas de difficultés pour les familles en détresse",
+                "image": "/images/services/family-insurance.svg"
               },
               {
-                "icon": "TrendingUp",
                 "title": "Rente familiale en cas de décès",
-                "description": "Rente garantie au conjoint et aux enfants en cas de décès du soutien principal"
+                "description": "Rente garantie au conjoint et aux enfants en cas de décès du soutien principal",
+                "image": "/images/services/family-insurance.svg"
               }
             ]
           }
@@ -486,24 +486,24 @@
             "title": "Couvertures accidents",
             "content": [
               {
-                "icon": "AlertCircle",
                 "title": "Indemnités accidents 24/7",
-                "description": "Couverture complète des accidents survenus à tout moment du jour ou de la nuit"
+                "description": "Couverture complète des accidents survenus à tout moment du jour ou de la nuit",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "Wheelchair",
                 "title": "Couverture invalidité permanente",
-                "description": "Protection financière en cas d'invalidité permanente suite à un accident"
+                "description": "Protection financière en cas d'invalidité permanente suite à un accident",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "Pill",
                 "title": "Frais médicaux et hospitalisation",
-                "description": "Remboursement des frais médicaux et hospitalisation consécutifs à un accident"
+                "description": "Remboursement des frais médicaux et hospitalisation consécutifs à un accident",
+                "image": "/images/services/accident-insurance.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Rente d'invalidité temporaire",
-                "description": "Rente de remplacement de revenu pendant la période d'invalidité temporaire"
+                "description": "Rente de remplacement de revenu pendant la période d'invalidité temporaire",
+                "image": "/images/services/accident-insurance.svg"
               }
             ]
           }
@@ -517,24 +517,24 @@
             "title": "Protections décès",
             "content": [
               {
-                "icon": "DollarSign",
                 "title": "Capital en cas de décès",
-                "description": "Capital versé aux bénéficiaires désignés en cas de décès assuré"
+                "description": "Capital versé aux bénéficiaires désignés en cas de décès assuré",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "Heart",
                 "title": "Rente au conjoint survivant",
-                "description": "Rente mensuelle ou annuelle garantie au conjoint survivant jusqu'à son décès"
+                "description": "Rente mensuelle ou annuelle garantie au conjoint survivant jusqu'à son décès",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "Baby",
                 "title": "Couverture enfants mineurs",
-                "description": "Capitale ou rente supplémentaire pour soutenir l'éducation des enfants mineurs"
+                "description": "Capitale ou rente supplémentaire pour soutenir l'éducation des enfants mineurs",
+                "image": "/images/services/death-insurance.svg"
               },
               {
-                "icon": "CheckCircle",
                 "title": "Versement rapide aux bénéficiaires",
-                "description": "Processus accéléré de versement du capital aux bénéficiaires désignés"
+                "description": "Processus accéléré de versement du capital aux bénéficiaires désignés",
+                "image": "/images/services/death-insurance.svg"
               }
             ]
           }
@@ -548,29 +548,29 @@
             "title": "Couvertures voyage",
             "content": [
               {
-                "icon": "Stethoscope",
                 "title": "Assistance médicale à l'étranger",
-                "description": "Service médical 24/7 et rapatriement sanitaire si nécessaire lors de vos voyages"
+                "description": "Service médical 24/7 et rapatriement sanitaire si nécessaire lors de vos voyages",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Plane",
                 "title": "Rapatriement sanitaire",
-                "description": "Couverture complète du rapatriement médical en cas d'hospitalisation grave à l'étranger"
+                "description": "Couverture complète du rapatriement médical en cas d'hospitalisation grave à l'étranger",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Calendar",
                 "title": "Annulation et retard de vol",
-                "description": "Remboursement en cas d'annulation de voyage ou de retard de vol important"
+                "description": "Remboursement en cas d'annulation de voyage ou de retard de vol important",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Briefcase",
                 "title": "Bagages et effets personnels",
-                "description": "Protection et remboursement en cas de perte, vol ou détérioration des bagages"
+                "description": "Protection et remboursement en cas de perte, vol ou détérioration des bagages",
+                "image": "/images/services/travel-insurance.svg"
               },
               {
-                "icon": "Shield",
                 "title": "Assurance responsabilité civile",
-                "description": "Couverture responsabilité civile pour dommages causés à des tiers pendant le voyage"
+                "description": "Couverture responsabilité civile pour dommages causés à des tiers pendant le voyage",
+                "image": "/images/services/travel-insurance.svg"
               }
             ]
           }
@@ -584,24 +584,24 @@
             "title": "Services juridiques",
             "content": [
               {
-                "icon": "Phone",
                 "title": "Conseil juridique 24/7",
-                "description": "Consultation téléphonique avec des experts juridiques disponibles jour et nuit"
+                "description": "Consultation téléphonique avec des experts juridiques disponibles jour et nuit",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "Gavel",
                 "title": "Défense en justice",
-                "description": "Représentation et défense par un avocat dans vos procédures judiciaires"
+                "description": "Représentation et défense par un avocat dans vos procédures judiciaires",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "DollarSign",
                 "title": "Frais de procédure couverts",
-                "description": "Prise en charge complète des frais de justice et honoraires d'avocats"
+                "description": "Prise en charge complète des frais de justice et honoraires d'avocats",
+                "image": "/images/services/legal-protection.svg"
               },
               {
-                "icon": "CheckCircle",
                 "title": "Recours juridiques assistés",
-                "description": "Accompagnement complet dans tous vos recours et actions en justice"
+                "description": "Accompagnement complet dans tous vos recours et actions en justice",
+                "image": "/images/services/legal-protection.svg"
               }
             ]
           }
