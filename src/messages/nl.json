@@ -530,6 +530,232 @@
         ]
       }
     },
+    "professionnel": {
+      "entreprise": {
+        "title": "Bedrijf",
+        "subtitle": "Uitgebreide verzekeringoplossingen ter bescherming van uw bedrijf",
+        "sections": [
+          {
+            "title": "Bedrijfsdekking",
+            "content": [
+              "Beroepszekering voertuigen",
+              "Bescherming gebouwen en locaties",
+              "Dekking apparatuur en materiaal",
+              "Beroepsaansprakelijkheid",
+              "Bedrijfsonderbreking"
+            ]
+          }
+        ]
+      },
+      "vehicules": {
+        "title": "Beroepszekering Voertuigen",
+        "subtitle": "Bescherming voor uw wagenpark",
+        "sections": [
+          {
+            "title": "Voertuigdekking",
+            "content": [
+              "Wettelijke aansprakelijkheid",
+              "Materiaalsschadedekking",
+              "Diefstal en brand",
+              "Prioritaire pechverhelping",
+              "Chauffeursdekking"
+            ]
+          }
+        ]
+      },
+      "batiments": {
+        "title": "Gebouwverzekering",
+        "subtitle": "Bescherming van terreinen en installaties",
+        "sections": [
+          {
+            "title": "Gebouwdekking",
+            "content": [
+              "Volledige eigendommensschadedekking",
+              "Technische installatie dekking",
+              "Risicobescherming",
+              "Eigenaarsverzekering",
+              "Uitbreidingsdekking"
+            ]
+          }
+        ]
+      },
+      "materiel": {
+        "title": "Apparatuur & Materiaaldekking",
+        "subtitle": "Bescherming van uw materiële middelen",
+        "sections": [
+          {
+            "title": "Materiaaldekking",
+            "content": [
+              "Beroepsuitrustingsdekking",
+              "Machines- en gereedschapsverzekering",
+              "Elektronics- en IT-bescherming",
+              "Diefstal en schadevergoeding",
+              "Opslagumdekking"
+            ]
+          }
+        ]
+      },
+      "responsabilite": {
+        "title": "Beroepsaansprakelijkheid",
+        "subtitle": "Bescherming tegen aansprakelijkheidsvorderingen",
+        "sections": [
+          {
+            "title": "Aansprakelijkheidsdekking",
+            "content": [
+              "Algemene aansprakelijkheid",
+              "Product- en servicedekking",
+              "Schadevergoeding aan derden",
+              "Verdedigingskosten",
+              "Vorderingendekking"
+            ]
+          }
+        ]
+      },
+      "personnel": {
+        "title": "Personeel",
+        "subtitle": "Socialebescherming en gezondheidsoplossingen voor uw werknemers",
+        "sections": [
+          {
+            "title": "Personeelsdekking",
+            "content": [
+              "Bedrijfsongevallenverzekering",
+              "Groepszorgverzekering",
+              "Ziekenhuisbescherming",
+              "Salaristoeslagen",
+              "Werknemerssociaal bijstand"
+            ]
+          }
+        ]
+      },
+      "accidents_travail": {
+        "title": "Bedrijfsongevallenverzekering",
+        "subtitle": "Werknemersbescherming tegen beroepsrisico's",
+        "sections": [
+          {
+            "title": "Ongevallendekking",
+            "content": [
+              "Bedrijfsongevallenvergoeding",
+              "Beroepsziekten",
+              "Gezondheidsvoordelen",
+              "Invaliditeitsinkomsten",
+              "Revalidingsondersteuning"
+            ]
+          }
+        ]
+      },
+      "assurance_groupe": {
+        "title": "Groepsverzekering",
+        "subtitle": "Collectieve gezondheidsbescherming voor werknemers",
+        "sections": [
+          {
+            "title": "Groepsdekking",
+            "content": [
+              "Collectieve zorgverzekering",
+              "Gezinsdekking werknemer",
+              "Tandarts- en gezichtsvoordelen",
+              "Preventieve diensten",
+              "Vereenvoudigde schadebeheer"
+            ]
+          }
+        ]
+      },
+      "hospitalisation": {
+        "title": "Beroeps Ziekenhuisdekking",
+        "subtitle": "Ziekenhuisdekking voor het bedrijf",
+        "sections": [
+          {
+            "title": "Ziekenhuisdiensten",
+            "content": [
+              "Ziekenhuiskostendekking",
+              "Temporaire invaliditeitsinkomsten",
+              "Ondersteuning na ziekenhuisopname",
+              "Aanvullende diensten",
+              "Administratief beheer"
+            ]
+          }
+        ]
+      },
+      "revenu": {
+        "title": "Inkomsten",
+        "subtitle": "Oplossingen voor beveiliging van beroepsinkomsten en vermogen",
+        "sections": [
+          {
+            "title": "Inkomstendekking",
+            "content": [
+              "Gegarandeerde inkomstenverzekering",
+              "Beroepspensioendekking",
+              "Overlijdens- en invaliditeitsverzekering",
+              "Investeringsoplossingen",
+              "Vermogensbeheer"
+            ]
+          }
+        ]
+      },
+      "revenu_garanti": {
+        "title": "Gegarandeerd Inkomen",
+        "subtitle": "Bescherming van beroepsinkomsten",
+        "sections": [
+          {
+            "title": "Inkomstendekking",
+            "content": [
+              "Invaliditeitsuitkeringen",
+              "Inkomstenvervanging",
+              "Vaste uitgavendekking",
+              "Bedrijfsheropstartondersteuning",
+              "Contractuele flexibiliteit"
+            ]
+          }
+        ]
+      },
+      "pension": {
+        "title": "Beroepspensioen",
+        "subtitle": "Pensioenplannen voor beroepsbeoefenaren",
+        "sections": [
+          {
+            "title": "Pensioensoplossingen",
+            "content": [
+              "Beroepspensioenbesparing",
+              "Partnerdekking",
+              "Flexibele pensioenplannen",
+              "Gegarandeerde pensioeninkomsten",
+              "Belastingvoordelen"
+            ]
+          }
+        ]
+      },
+      "deces": {
+        "title": "Beroeps Overlijdensverzekering",
+        "subtitle": "Bescherming echtgenoot en gezin",
+        "sections": [
+          {
+            "title": "Overlijdensdekking",
+            "content": [
+              "Overlijdenskapitaal",
+              "Inkomsten achterblijvers",
+              "Beroepsleeningdekking",
+              "Bedrijfsbescherming",
+              "Snelle uitbetaling"
+            ]
+          }
+        ]
+      },
+      "placements": {
+        "title": "Investeringsoplossingen",
+        "subtitle": "Vermogensbeheer en beleggen",
+        "sections": [
+          {
+            "title": "Investeringsstrategiëen",
+            "content": [
+              "Investeringsportefeuille",
+              "Gediversifieerde beleggingsfondsen",
+              "Vermogensbeheer",
+              "Beleggingsadvies",
+              "Prestatiebewaking"
+            ]
+          }
+        ]
+      }
+    },
     "test": {
       "sample": {
         "title": "Voorbeelddienst",

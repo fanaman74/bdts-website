@@ -530,6 +530,232 @@
         ]
       }
     },
+    "professionnel": {
+      "entreprise": {
+        "title": "Entreprise",
+        "subtitle": "Solutions d'assurance complètes pour protéger votre entreprise",
+        "sections": [
+          {
+            "title": "Couvertures entreprise",
+            "content": [
+              "Assurance véhicules professionnels",
+              "Protection bâtiments et locaux",
+              "Couverture matériel et équipement",
+              "Responsabilité civile professionnelle",
+              "Perte d'exploitation"
+            ]
+          }
+        ]
+      },
+      "vehicules": {
+        "title": "Assurance Véhicules Professionnels",
+        "subtitle": "Protection pour votre flotte automobile",
+        "sections": [
+          {
+            "title": "Couvertures véhicules",
+            "content": [
+              "Responsabilité civile obligatoire",
+              "Dégâts matériels propriétaires",
+              "Vol et incendie",
+              "Assistance dépannage prioritaire",
+              "Couverture conducteur"
+            ]
+          }
+        ]
+      },
+      "batiments": {
+        "title": "Assurance Bâtiments",
+        "subtitle": "Protection des locaux et installations",
+        "sections": [
+          {
+            "title": "Couvertures bâtiments",
+            "content": [
+              "Dégâts immobiliers complets",
+              "Couverture installations techniques",
+              "Protection contre les risques",
+              "Assurance responsabilité propriétaire",
+              "Couverture agrandissements"
+            ]
+          }
+        ]
+      },
+      "materiel": {
+        "title": "Assurance Matériel et Équipement",
+        "subtitle": "Protection de vos ressources matérielles",
+        "sections": [
+          {
+            "title": "Couvertures matériel",
+            "content": [
+              "Couverture équipement professionnel",
+              "Assurance machines et outils",
+              "Protection électronique et informatique",
+              "Vol et détérioration",
+              "Couverture stockages"
+            ]
+          }
+        ]
+      },
+      "responsabilite": {
+        "title": "Responsabilité Civile Professionnelle",
+        "subtitle": "Protection contre les sinistres responsabilité",
+        "sections": [
+          {
+            "title": "Couvertures responsabilité",
+            "content": [
+              "Responsabilité civile exploitation",
+              "Couverture produits et services",
+              "Indemnisation tiers lésés",
+              "Frais de défense",
+              "Couverture réclamations"
+            ]
+          }
+        ]
+      },
+      "personnel": {
+        "title": "Personnel",
+        "subtitle": "Solutions de protection sociales et de santé pour vos employés",
+        "sections": [
+          {
+            "title": "Couvertures personnel",
+            "content": [
+              "Assurance accidents du travail",
+              "Assurance groupe santé",
+              "Protection hospitalisation",
+              "Compléments salaire",
+              "Aide sociale employés"
+            ]
+          }
+        ]
+      },
+      "accidents_travail": {
+        "title": "Assurance Accidents du Travail",
+        "subtitle": "Protection des salariés contre les risques professionnels",
+        "sections": [
+          {
+            "title": "Couvertures accidents",
+            "content": [
+              "Indemnisations accidents travail",
+              "Maladies professionnelles",
+              "Prestations santé",
+              "Rentes d'invalidité",
+              "Assistance réadaptation"
+            ]
+          }
+        ]
+      },
+      "assurance_groupe": {
+        "title": "Assurance Groupe",
+        "subtitle": "Protection collective santé pour les employés",
+        "sections": [
+          {
+            "title": "Couvertures groupe",
+            "content": [
+              "Assurance santé collective",
+              "Couverture familiale employé",
+              "Prestations dentaires et optique",
+              "Services préventifs",
+              "Gestion sinistre facilitée"
+            ]
+          }
+        ]
+      },
+      "hospitalisation": {
+        "title": "Hospitalisation Professionnelle",
+        "subtitle": "Couverture hospitalisation pour l'entreprise",
+        "sections": [
+          {
+            "title": "Services hospitalisation",
+            "content": [
+              "Couverture frais hospitaliers",
+              "Rentes d'invalidité temporaire",
+              "Assistance après hospitalisation",
+              "Services complémentaires",
+              "Gestion administrative"
+            ]
+          }
+        ]
+      },
+      "revenu": {
+        "title": "Revenu",
+        "subtitle": "Solutions de sécurisation des revenus et patrimoines professionnels",
+        "sections": [
+          {
+            "title": "Couvertures revenu",
+            "content": [
+              "Assurance revenu garanti",
+              "Couverture pension professionnelle",
+              "Assurance décès et invalidité",
+              "Solutions de placement",
+              "Gestion de patrimoine"
+            ]
+          }
+        ]
+      },
+      "revenu_garanti": {
+        "title": "Revenu Garanti",
+        "subtitle": "Protection du revenu professionnel",
+        "sections": [
+          {
+            "title": "Couvertures revenu",
+            "content": [
+              "Indemnité en cas d'incapacité",
+              "Remplacement de chiffre d'affaires",
+              "Couverture dépenses fixes",
+              "Assistance redémarrage activité",
+              "Flexibilité contractuelle"
+            ]
+          }
+        ]
+      },
+      "pension": {
+        "title": "Pension Professionnelle",
+        "subtitle": "Plans de retraite pour professionnels",
+        "sections": [
+          {
+            "title": "Solutions pension",
+            "content": [
+              "Épargne-pension professionnelle",
+              "Couverture partenaires",
+              "Plans de retraite flexibles",
+              "Rente de retraite garantie",
+              "Avantages fiscaux"
+            ]
+          }
+        ]
+      },
+      "deces": {
+        "title": "Assurance Décès Professionnel",
+        "subtitle": "Protection du conjoint et famille",
+        "sections": [
+          {
+            "title": "Couvertures décès",
+            "content": [
+              "Capital décès",
+              "Rente survivants",
+              "Couverture emprunt professionnel",
+              "Protection entreprise",
+              "Versement rapide"
+            ]
+          }
+        ]
+      },
+      "placements": {
+        "title": "Solutions de Placement",
+        "subtitle": "Gestion et placement de patrimoine",
+        "sections": [
+          {
+            "title": "Stratégies placement",
+            "content": [
+              "Portefeuille d'investissements",
+              "Fonds de placement diversifiés",
+              "Gestion patrimoniale",
+              "Conseil en investissement",
+              "Suivi de performance"
+            ]
+          }
+        ]
+      }
+    },
     "test": {
       "sample": {
         "title": "Service d'exemple",

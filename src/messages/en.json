@@ -530,6 +530,232 @@
         ]
       }
     },
+    "professionnel": {
+      "entreprise": {
+        "title": "Business",
+        "subtitle": "Comprehensive insurance solutions to protect your business",
+        "sections": [
+          {
+            "title": "Business coverage",
+            "content": [
+              "Professional vehicle insurance",
+              "Building and facility protection",
+              "Equipment and material coverage",
+              "Professional liability",
+              "Business interruption loss"
+            ]
+          }
+        ]
+      },
+      "vehicules": {
+        "title": "Professional Vehicle Insurance",
+        "subtitle": "Protection for your fleet",
+        "sections": [
+          {
+            "title": "Vehicle coverage",
+            "content": [
+              "Mandatory liability",
+              "Material damage for owners",
+              "Theft and fire",
+              "Priority roadside assistance",
+              "Driver coverage"
+            ]
+          }
+        ]
+      },
+      "batiments": {
+        "title": "Building Insurance",
+        "subtitle": "Protection of facilities and installations",
+        "sections": [
+          {
+            "title": "Building coverage",
+            "content": [
+              "Complete property damage",
+              "Technical installation coverage",
+              "Risk protection",
+              "Owner liability insurance",
+              "Extensions coverage"
+            ]
+          }
+        ]
+      },
+      "materiel": {
+        "title": "Equipment & Material Insurance",
+        "subtitle": "Protection of your material resources",
+        "sections": [
+          {
+            "title": "Material coverage",
+            "content": [
+              "Professional equipment coverage",
+              "Machinery and tools insurance",
+              "Electronics and IT protection",
+              "Theft and damage",
+              "Storage coverage"
+            ]
+          }
+        ]
+      },
+      "responsabilite": {
+        "title": "Professional Liability",
+        "subtitle": "Protection against liability claims",
+        "sections": [
+          {
+            "title": "Liability coverage",
+            "content": [
+              "General liability",
+              "Product and service coverage",
+              "Third-party indemnification",
+              "Defense costs",
+              "Claims coverage"
+            ]
+          }
+        ]
+      },
+      "personnel": {
+        "title": "Personnel",
+        "subtitle": "Social protection and health solutions for your employees",
+        "sections": [
+          {
+            "title": "Personnel coverage",
+            "content": [
+              "Work accident insurance",
+              "Group health insurance",
+              "Hospitalization protection",
+              "Salary supplements",
+              "Employee social assistance"
+            ]
+          }
+        ]
+      },
+      "accidents_travail": {
+        "title": "Work Accident Insurance",
+        "subtitle": "Employee protection against occupational hazards",
+        "sections": [
+          {
+            "title": "Accident coverage",
+            "content": [
+              "Work accident compensation",
+              "Occupational diseases",
+              "Health benefits",
+              "Disability income",
+              "Rehabilitation assistance"
+            ]
+          }
+        ]
+      },
+      "assurance_groupe": {
+        "title": "Group Insurance",
+        "subtitle": "Collective health protection for employees",
+        "sections": [
+          {
+            "title": "Group coverage",
+            "content": [
+              "Collective health insurance",
+              "Employee family coverage",
+              "Dental and vision benefits",
+              "Preventive services",
+              "Simplified claims management"
+            ]
+          }
+        ]
+      },
+      "hospitalisation": {
+        "title": "Professional Hospitalization",
+        "subtitle": "Hospitalization coverage for the company",
+        "sections": [
+          {
+            "title": "Hospitalization services",
+            "content": [
+              "Hospital expense coverage",
+              "Temporary disability income",
+              "Post-hospitalization assistance",
+              "Complementary services",
+              "Administrative management"
+            ]
+          }
+        ]
+      },
+      "revenu": {
+        "title": "Income",
+        "subtitle": "Solutions to secure professional income and assets",
+        "sections": [
+          {
+            "title": "Income coverage",
+            "content": [
+              "Guaranteed income insurance",
+              "Professional pension coverage",
+              "Death and disability insurance",
+              "Investment solutions",
+              "Asset management"
+            ]
+          }
+        ]
+      },
+      "revenu_garanti": {
+        "title": "Guaranteed Income",
+        "subtitle": "Professional income protection",
+        "sections": [
+          {
+            "title": "Income coverage",
+            "content": [
+              "Disability benefits",
+              "Revenue replacement",
+              "Fixed expense coverage",
+              "Business recovery assistance",
+              "Contractual flexibility"
+            ]
+          }
+        ]
+      },
+      "pension": {
+        "title": "Professional Pension",
+        "subtitle": "Retirement plans for professionals",
+        "sections": [
+          {
+            "title": "Pension solutions",
+            "content": [
+              "Professional pension savings",
+              "Partner coverage",
+              "Flexible retirement plans",
+              "Guaranteed retirement income",
+              "Tax benefits"
+            ]
+          }
+        ]
+      },
+      "deces": {
+        "title": "Professional Death Insurance",
+        "subtitle": "Spouse and family protection",
+        "sections": [
+          {
+            "title": "Death coverage",
+            "content": [
+              "Death capital",
+              "Survivor income",
+              "Professional loan coverage",
+              "Business protection",
+              "Fast payout"
+            ]
+          }
+        ]
+      },
+      "placements": {
+        "title": "Investment Solutions",
+        "subtitle": "Wealth management and investment",
+        "sections": [
+          {
+            "title": "Investment strategies",
+            "content": [
+              "Investment portfolio",
+              "Diversified investment funds",
+              "Wealth management",
+              "Investment advice",
+              "Performance tracking"
+            ]
+          }
+        ]
+      }
+    },
     "test": {
       "sample": {
         "title": "Sample Service",
