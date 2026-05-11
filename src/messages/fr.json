@@ -91,6 +91,23 @@
     "value4": "Réactivité",
     "value4_desc": "Réponses le jour même, assistance sinistres rapide et bilans annuels personnalisés."
   },
+  "appointment": {
+    "title": "Prendre rendez-vous",
+    "subtitle": "Choisissez une date et un horaire — gratuit, sans engagement",
+    "select_date_prompt": "← Sélectionnez une date pour voir les disponibilités",
+    "hours_note": "Heures de bureau : lun–ven 9h00–12h00 et 13h30–17h00",
+    "field_name": "Nom complet",
+    "field_name_placeholder": "Jean Dupont",
+    "field_email": "Adresse e-mail",
+    "field_email_placeholder": "vous@exemple.com",
+    "field_phone": "Numéro de téléphone",
+    "field_phone_placeholder": "+32 ...",
+    "submit": "Confirmer le rendez-vous",
+    "submitting": "Envoi en cours...",
+    "success_title": "Demande envoyée !",
+    "success_body": "Nous confirmerons votre créneau dans les 24 heures.",
+    "error": "Une erreur s'est produite. Réessayez ou appelez-nous."
+  },
   "services": {
     "home_title": "Assurance habitation",
     "home_sub": "Locataires et propriétaires — la bonne couverture pour les résidents bruxellois",

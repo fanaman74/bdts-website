@@ -38,7 +38,7 @@ export function Header() {
     { label: t("businesses"), href: `/${locale}/entreprises` },
     { label: t("growing"), href: `/${locale}/croissance` },
     { label: t("about"), href: `/${locale}/about` },
-    { label: t("contact"), href: `/${locale}/contact` },
+    { label: t("contact"), href: `/${locale}/appointment` },
   ];
 
   return (
@@ -96,7 +96,7 @@ export function Header() {
               ))}
             </div>
             <a
-              href={`/${locale}/contact`}
+              href={`/${locale}/appointment`}
               className="px-5 py-2 bg-gold text-navy-dark font-semibold text-sm rounded-md hover:bg-gold-light transition-colors"
             >
               {t("cta")}
@@ -147,7 +147,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href={`/${locale}/contact`}
+            href={`/${locale}/appointment`}
             onClick={() => setMobileOpen(false)}
             className="mt-6 py-4 bg-gold text-navy-dark font-bold text-center rounded-md hover:bg-gold-light transition-colors"
           >

@@ -91,6 +91,23 @@
     "value4": "Responsiveness",
     "value4_desc": "Same-day replies, fast claims support, and annual check-ins as your life changes."
   },
+  "appointment": {
+    "title": "Book a Consultation",
+    "subtitle": "Choose a date and time — free, no obligation",
+    "select_date_prompt": "← Select a date to see available times",
+    "hours_note": "Office hours: Mon–Fri 9:00–12:00 and 13:30–17:00",
+    "field_name": "Full name",
+    "field_name_placeholder": "Jean Dupont",
+    "field_email": "Email address",
+    "field_email_placeholder": "you@example.com",
+    "field_phone": "Phone number",
+    "field_phone_placeholder": "+32 ...",
+    "submit": "Confirm appointment",
+    "submitting": "Sending...",
+    "success_title": "Appointment requested!",
+    "success_body": "We will confirm your slot within 24 hours.",
+    "error": "Something went wrong. Please try again or call us."
+  },
   "services": {
     "home_title": "Home Insurance",
     "home_sub": "Renters and homeowners — the right coverage for Brussels residents",

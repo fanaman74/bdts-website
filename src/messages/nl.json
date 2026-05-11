@@ -91,6 +91,23 @@
     "value4": "Responsiviteit",
     "value4_desc": "Antwoord dezelfde dag, snelle schadehulp en jaarlijkse check-ins."
   },
+  "appointment": {
+    "title": "Afspraak boeken",
+    "subtitle": "Kies een datum en tijdstip — gratis, zonder verplichting",
+    "select_date_prompt": "← Selecteer een datum om beschikbare tijden te zien",
+    "hours_note": "Kantooruren: ma–vr 9:00–12:00 en 13:30–17:00",
+    "field_name": "Volledige naam",
+    "field_name_placeholder": "Jan Janssen",
+    "field_email": "E-mailadres",
+    "field_email_placeholder": "u@voorbeeld.com",
+    "field_phone": "Telefoonnummer",
+    "field_phone_placeholder": "+32 ...",
+    "submit": "Afspraak bevestigen",
+    "submitting": "Verzenden...",
+    "success_title": "Aanvraag verzonden!",
+    "success_body": "Wij bevestigen uw tijdslot binnen 24 uur.",
+    "error": "Er is iets misgegaan. Probeer opnieuw of bel ons."
+  },
   "services": {
     "home_title": "Woonverzekering",
     "home_sub": "Huurders en eigenaars — de juiste dekking voor Brusselse bewoners",
