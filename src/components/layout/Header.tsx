@@ -281,7 +281,7 @@ export function Header() {
           <a
             href={`/${locale}/appointment`}
             onClick={() => setMobileOpen(false)}
-            className="mt-6 py-4 bg-amber-400 text-navy font-bold text-center rounded-md hover:bg-orange-600 transition-colors"
+            className="mt-6 py-4 bg-amber-400 text-navy font-bold text-center rounded-md hover:bg-amber-500 transition-colors"
           >
             {t("cta")}
           </a>
