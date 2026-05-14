@@ -4,7 +4,7 @@ export const runtime = "nodejs";
 export const maxDuration = 60;
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const MODEL = "deepseek/deepseek-v4-flash:free";
+const MODEL = "deepseek/deepseek-v4-flash";
 
 const SYSTEM_PROMPT = `# Agent Instructions: European Belgium Insurance Broker (McKinsey Edition)
 
