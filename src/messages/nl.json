@@ -152,22 +152,26 @@
               {
                 "title": "Autoverzekering",
                 "description": "Aansprakelijkheid en materiële bescherming voor uw voertuig met 24/7 wegenwacht",
-                "image": "https://picsum.photos/seed/car-insurance/800/400"
+                "image": "https://picsum.photos/seed/car-insurance/800/400",
+                "href": "/particuliers/mobilite/auto"
               },
               {
                 "title": "Motorfiets Verzekering",
                 "description": "Gespecialiseerde dekking voor motorfietsen, scooters en gemotoriseerde fietsen",
-                "image": "https://picsum.photos/seed/motorcycle/800/400"
+                "image": "https://picsum.photos/seed/motorcycle/800/400",
+                "href": "/particuliers/mobilite/moto"
               },
               {
                 "title": "Fietsverzekering",
                 "description": "Volledige bescherming voor uw fietsen tegen diefstal, schade en aansprakelijkheid",
-                "image": "https://picsum.photos/seed/bicycle-city/800/400"
+                "image": "https://picsum.photos/seed/bicycle-city/800/400",
+                "href": "/particuliers/mobilite/velo"
               },
               {
                 "title": "Motorhome Verzekering",
                 "description": "Dekking voor campers en caravans met gespecialiseerde wegenwacht",
-                "image": "https://picsum.photos/seed/motorhome-travel/800/400"
+                "image": "https://picsum.photos/seed/motorhome-travel/800/400",
+                "href": "/particuliers/mobilite/motorhome"
               }
             ]
           }
@@ -312,12 +316,14 @@
               {
                 "title": "Brandverzekering",
                 "description": "Bescherming tegen schade veroorzaakt door brand, rook en gerelateerde incidenten",
-                "image": "https://picsum.photos/seed/house-fire/800/400"
+                "image": "https://picsum.photos/seed/house-fire/800/400",
+                "href": "/particuliers/habitation/incendie"
               },
               {
                 "title": "Diefstalverzekering",
                 "description": "Volledige dekking tegen diefstal, inbraak en diefstalpoging",
-                "image": "https://picsum.photos/seed/home-security/800/400"
+                "image": "https://picsum.photos/seed/home-security/800/400",
+                "href": "/particuliers/habitation/vol"
               },
               {
                 "title": "Materiële Schade",
@@ -623,12 +629,14 @@
               {
                 "title": "Ziekenhuisdekking",
                 "description": "Terugbetaling van ziekenhuiskosten en verblijfskosten",
-                "image": "https://picsum.photos/seed/hospital-room/800/400"
+                "image": "https://picsum.photos/seed/hospital-room/800/400",
+                "href": "/particuliers/hospitalisation/individuelle"
               },
               {
                 "title": "Medische Dekking",
                 "description": "Terugbetaling van medische honoraria, consulten en behandelingen",
-                "image": "https://picsum.photos/seed/doctor-consultation/800/400"
+                "image": "https://picsum.photos/seed/doctor-consultation/800/400",
+                "href": "/particuliers/hospitalisation/groupe"
               },
               {
                 "title": "Medische Bijstand",
@@ -715,17 +723,20 @@
               {
                 "title": "Pensioenplanning",
                 "description": "Bouw geleidelijk uw pensioenkapitaal op en zeker uw toekomst",
-                "image": "https://picsum.photos/seed/retirement-planning/800/400"
+                "image": "https://picsum.photos/seed/retirement-planning/800/400",
+                "href": "/particuliers/pension/epargne-pension"
               },
               {
                 "title": "Inkomensaanvulling",
                 "description": "Zorg voor een bevredigend levensniveau na uw beroepscarrière",
-                "image": "https://picsum.photos/seed/pension-income/800/400"
+                "image": "https://picsum.photos/seed/pension-income/800/400",
+                "href": "/particuliers/pension/epargne-longterme"
               },
               {
                 "title": "Gezinsbescherming",
                 "description": "Zorg voor het welzijn van uw familie bij overlijden of invaliditeit",
-                "image": "https://picsum.photos/seed/family-security/800/400"
+                "image": "https://picsum.photos/seed/family-security/800/400",
+                "href": "/particuliers/pension/assurance-groupe"
               },
               {
                 "title": "Kapitaalgroei",
@@ -795,31 +806,36 @@
                 "icon": "Heart",
                 "title": "Uitgebreide familiaalverzekering",
                 "description": "Volledige bescherming voor u en uw gezin met meerdere dekkingen aangepast aan uw behoeften",
-                "image": "https://picsum.photos/seed/family-beach/800/400"
+                "image": "https://picsum.photos/seed/family-beach/800/400",
+                "href": "/particuliers/famille/familiale"
               },
               {
                 "icon": "AlertTriangle",
                 "title": "Bescherming tegen ongevallen en invaliditeit",
                 "description": "Dekking bij persoonlijke ongevallen en tijdelijke of permanente invaliditeit",
-                "image": "https://picsum.photos/seed/medical-care/800/400"
+                "image": "https://picsum.photos/seed/medical-care/800/400",
+                "href": "/particuliers/famille/accidents"
               },
               {
                 "icon": "Shield",
                 "title": "Overlijdens- en inkomstenzekering",
                 "description": "Kapitaal en rente om uw naasten te beschermen bij overlijden van de kostwinner",
-                "image": "https://picsum.photos/seed/family-protection/800/400"
+                "image": "https://picsum.photos/seed/family-protection/800/400",
+                "href": "/particuliers/famille/deces"
               },
               {
                 "icon": "Plane",
                 "title": "Reisverzekering",
                 "description": "Volledige dekking voor alle gezinsreizen met bijstand in het buitenland",
-                "image": "https://picsum.photos/seed/family-travel/800/400"
+                "image": "https://picsum.photos/seed/family-travel/800/400",
+                "href": "/particuliers/famille/voyage"
               },
               {
                 "icon": "Scale",
                 "title": "Juridische bijstand",
                 "description": "Juridisch advies 24/7 en verdediging voor alle persoonlijke of familiale geschillen",
-                "image": "https://picsum.photos/seed/legal-protection/800/400"
+                "image": "https://picsum.photos/seed/legal-protection/800/400",
+                "href": "/particuliers/famille/protection-juridique"
               }
             ]
           }
@@ -837,22 +853,26 @@
               {
                 "title": "Beroepsaansprakelijkheid",
                 "description": "Dekking van uw beroepsaansprakelijkheid tegenover derden",
-                "image": "https://picsum.photos/seed/business-liability/800/400"
+                "image": "https://picsum.photos/seed/business-liability/800/400",
+                "href": "/professionnels/entreprise/responsabilite"
               },
               {
                 "title": "Schadebijstand",
                 "description": "Bescherming van gebouwen, apparatuur en voorraad tegen incidenten",
-                "image": "https://picsum.photos/seed/office-building/800/400"
+                "image": "https://picsum.photos/seed/office-building/800/400",
+                "href": "/professionnels/entreprise/batiments"
               },
               {
                 "title": "Personeelsverzekering",
                 "description": "Dekking van werkongeval en beroepsziekten",
-                "image": "https://picsum.photos/seed/workplace-team/800/400"
+                "image": "https://picsum.photos/seed/workplace-team/800/400",
+                "href": "/professionnels/personnel"
               },
               {
                 "title": "Cyberbeveiliging en Diefstal",
                 "description": "Bescherming tegen cyberrisico, gegevensdiefstal en fraude",
-                "image": "https://picsum.photos/seed/cyber-security/800/400"
+                "image": "https://picsum.photos/seed/cyber-security/800/400",
+                "href": "/professionnels/entreprise/materiel"
               }
             ]
           }
@@ -932,22 +952,26 @@
               {
                 "title": "Ongevallenverzekering",
                 "description": "Dekking van werkongeval en lichamelijk letsel gerelateerd aan uw beroep",
-                "image": "https://picsum.photos/seed/workplace-safety/800/400"
+                "image": "https://picsum.photos/seed/workplace-safety/800/400",
+                "href": "/professionnels/personnel/accidents-travail"
               },
               {
                 "title": "Persoonlijke Bescherming",
                 "description": "Bescherming bij arbeidsongeschiktheid, invaliditeit of beroepsdood",
-                "image": "https://picsum.photos/seed/professional-care/800/400"
+                "image": "https://picsum.photos/seed/professional-care/800/400",
+                "href": "/professionnels/personnel/assurance-groupe"
               },
               {
                 "title": "Beroepsdekking",
                 "description": "Bescherm uw beroepsstatus en zelfstandige activiteiten",
-                "image": "https://picsum.photos/seed/professional-work/800/400"
+                "image": "https://picsum.photos/seed/professional-work/800/400",
+                "href": "/professionnels/personnel/hospitalisation"
               },
               {
                 "title": "Beschermde Inkomens",
                 "description": "Zorg voor continuïteit van uw inkomsten bij activiteitsonderbreking",
-                "image": "https://picsum.photos/seed/income-protection/800/400"
+                "image": "https://picsum.photos/seed/income-protection/800/400",
+                "href": "/professionnels/revenu/revenu-garanti"
               }
             ]
           }
@@ -1011,22 +1035,26 @@
               {
                 "title": "Inkomstendervingsdekking",
                 "description": "Bescherming van uw inkomsten bij arbeidsongeschiktheid of onderbreking",
-                "image": "https://picsum.photos/seed/income-loss/800/400"
+                "image": "https://picsum.photos/seed/income-loss/800/400",
+                "href": "/professionnels/revenu/revenu-garanti"
               },
               {
                 "title": "Werkloosheidsverzekering",
                 "description": "Aanvullend inkomen bij onvrijwillige werkloosheid of baanverlies",
-                "image": "https://picsum.photos/seed/unemployment-protection/800/400"
+                "image": "https://picsum.photos/seed/unemployment-protection/800/400",
+                "href": "/professionnels/revenu/pension"
               },
               {
                 "title": "Invaliditeitsrente",
                 "description": "Gegarandeerde maandelijkse rente bij blijvende of gedeeltelijke invaliditeit",
-                "image": "https://picsum.photos/seed/disability-pension/800/400"
+                "image": "https://picsum.photos/seed/disability-pension/800/400",
+                "href": "/professionnels/revenu/deces"
               },
               {
                 "title": "Kredietbescherming",
                 "description": "Bescherm uw leners en garandeer terugbetaling van leningen",
-                "image": "https://picsum.photos/seed/credit-protection/800/400"
+                "image": "https://picsum.photos/seed/credit-protection/800/400",
+                "href": "/professionnels/revenu/placements"
               }
             ]
           }

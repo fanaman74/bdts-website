@@ -152,22 +152,26 @@
               {
                 "title": "Assurance Auto",
                 "description": "Responsabilité civile et couvertures matérielles pour votre automobile et assistance routière 24/7",
-                "image": "https://picsum.photos/seed/car-insurance/800/400"
+                "image": "https://picsum.photos/seed/car-insurance/800/400",
+                "href": "/particuliers/mobilite/auto"
               },
               {
                 "title": "Assurance Moto",
                 "description": "Protection spécialisée pour motos, scooters et vélos motorisés avec équipement compris",
-                "image": "https://picsum.photos/seed/motorcycle/800/400"
+                "image": "https://picsum.photos/seed/motorcycle/800/400",
+                "href": "/particuliers/mobilite/moto"
               },
               {
                 "title": "Assurance Vélo",
                 "description": "Couverture complète pour vos bicyclettes contre le vol, dégâts matériels et responsabilité civile",
-                "image": "https://picsum.photos/seed/bicycle-city/800/400"
+                "image": "https://picsum.photos/seed/bicycle-city/800/400",
+                "href": "/particuliers/mobilite/velo"
               },
               {
                 "title": "Assurance Motorhome",
                 "description": "Protection pour camping-cars et caravanes avec assistance routière spécialisée",
-                "image": "https://picsum.photos/seed/motorhome-travel/800/400"
+                "image": "https://picsum.photos/seed/motorhome-travel/800/400",
+                "href": "/particuliers/mobilite/motorhome"
               }
             ]
           }
@@ -312,12 +316,14 @@
               {
                 "title": "Assurance Incendie",
                 "description": "Protection contre les dégâts causés par le feu, la fumée et les sinistres connexes",
-                "image": "https://picsum.photos/seed/house-fire/800/400"
+                "image": "https://picsum.photos/seed/house-fire/800/400",
+                "href": "/particuliers/habitation/incendie"
               },
               {
                 "title": "Assurance Vol",
                 "description": "Couverture complète contre le vol, le cambriolage et les tentatives de vol",
-                "image": "https://picsum.photos/seed/home-security/800/400"
+                "image": "https://picsum.photos/seed/home-security/800/400",
+                "href": "/particuliers/habitation/vol"
               },
               {
                 "title": "Dégâts Matériels",
@@ -422,31 +428,36 @@
                 "icon": "Heart",
                 "title": "Assurance familiale complète",
                 "description": "Protection complète pour vous et votre famille avec couvertures multiples adaptées à vos besoins",
-                "image": "https://picsum.photos/seed/family-beach/800/400"
+                "image": "https://picsum.photos/seed/family-beach/800/400",
+                "href": "/particuliers/famille/familiale"
               },
               {
                 "icon": "AlertTriangle",
                 "title": "Protection accidents et invalidité",
                 "description": "Couverture en cas d'accidents personnels et d'invalidité temporaire ou permanente",
-                "image": "https://picsum.photos/seed/medical-care/800/400"
+                "image": "https://picsum.photos/seed/medical-care/800/400",
+                "href": "/particuliers/famille/accidents"
               },
               {
                 "icon": "Shield",
                 "title": "Assurance décès et rente",
                 "description": "Capital et rente pour protéger vos proches en cas de décès du soutien de famille",
-                "image": "https://picsum.photos/seed/family-protection/800/400"
+                "image": "https://picsum.photos/seed/family-protection/800/400",
+                "href": "/particuliers/famille/deces"
               },
               {
                 "icon": "Plane",
                 "title": "Assurance voyage famille",
                 "description": "Couverture complète pour tous vos déplacements en famille avec assistance à l'étranger",
-                "image": "https://picsum.photos/seed/family-travel/800/400"
+                "image": "https://picsum.photos/seed/family-travel/800/400",
+                "href": "/particuliers/famille/voyage"
               },
               {
                 "icon": "Scale",
                 "title": "Assistance juridique et protection",
                 "description": "Conseil juridique 24/7 et défense en justice pour tous vos litiges personnels ou familiaux",
-                "image": "https://picsum.photos/seed/legal-protection/800/400"
+                "image": "https://picsum.photos/seed/legal-protection/800/400",
+                "href": "/particuliers/famille/protection-juridique"
               }
             ]
           }
@@ -622,12 +633,14 @@
               {
                 "title": "Couverture Hospitalisation",
                 "description": "Remboursement des frais d'hospitalisation et de séjour à l'hôpital",
-                "image": "https://picsum.photos/seed/hospital-room/800/400"
+                "image": "https://picsum.photos/seed/hospital-room/800/400",
+                "href": "/particuliers/hospitalisation/individuelle"
               },
               {
                 "title": "Couverture Médicale",
                 "description": "Remboursement des honoraires médicaux, consultations et traitements",
-                "image": "https://picsum.photos/seed/doctor-consultation/800/400"
+                "image": "https://picsum.photos/seed/doctor-consultation/800/400",
+                "href": "/particuliers/hospitalisation/groupe"
               },
               {
                 "title": "Assistance Médicale",
@@ -714,17 +727,20 @@
               {
                 "title": "Prévoyance Retraite",
                 "description": "Constituer progressivement votre capital retraite et assurer votre futur",
-                "image": "https://picsum.photos/seed/retirement-planning/800/400"
+                "image": "https://picsum.photos/seed/retirement-planning/800/400",
+                "href": "/particuliers/pension/epargne-pension"
               },
               {
                 "title": "Compléments de Revenu",
                 "description": "Assurer un niveau de vie satisfait après la fin de votre activité professionnelle",
-                "image": "https://picsum.photos/seed/pension-income/800/400"
+                "image": "https://picsum.photos/seed/pension-income/800/400",
+                "href": "/particuliers/pension/epargne-longterme"
               },
               {
                 "title": "Protection Famille",
                 "description": "Sécuriser le bien-être de votre famille en cas de décès ou invalidité",
-                "image": "https://picsum.photos/seed/family-security/800/400"
+                "image": "https://picsum.photos/seed/family-security/800/400",
+                "href": "/particuliers/pension/assurance-groupe"
               },
               {
                 "title": "Croissance du Capital",
@@ -795,22 +811,26 @@
               {
                 "title": "Assurance Responsabilité",
                 "description": "Couverture de votre responsabilité civile professionnelle envers les tiers",
-                "image": "https://picsum.photos/seed/business-liability/800/400"
+                "image": "https://picsum.photos/seed/business-liability/800/400",
+                "href": "/professionnels/entreprise/responsabilite"
               },
               {
                 "title": "Dégâts Immobiliers",
                 "description": "Protection des locaux, équipements et inventaire contre les sinistres",
-                "image": "https://picsum.photos/seed/office-building/800/400"
+                "image": "https://picsum.photos/seed/office-building/800/400",
+                "href": "/professionnels/entreprise/batiments"
               },
               {
                 "title": "Assurance Personnel",
                 "description": "Couverture des accidents de travail et maladies professionnelles",
-                "image": "https://picsum.photos/seed/workplace-team/800/400"
+                "image": "https://picsum.photos/seed/workplace-team/800/400",
+                "href": "/professionnels/personnel"
               },
               {
                 "title": "Cybersécurité et Vol",
                 "description": "Protection contre le cyberrisque, vol de données et fraude informatique",
-                "image": "https://picsum.photos/seed/cyber-security/800/400"
+                "image": "https://picsum.photos/seed/cyber-security/800/400",
+                "href": "/professionnels/entreprise/materiel"
               }
             ]
           }
@@ -890,22 +910,26 @@
               {
                 "title": "Assurance Accident",
                 "description": "Couverture des accidents de travail et sinistres corporels liés au métier",
-                "image": "https://picsum.photos/seed/workplace-safety/800/400"
+                "image": "https://picsum.photos/seed/workplace-safety/800/400",
+                "href": "/professionnels/personnel/accidents-travail"
               },
               {
                 "title": "Prévoyance Personnelle",
                 "description": "Protection en cas d'incapacité, invalidité ou décès professionnel",
-                "image": "https://picsum.photos/seed/professional-care/800/400"
+                "image": "https://picsum.photos/seed/professional-care/800/400",
+                "href": "/professionnels/personnel/assurance-groupe"
               },
               {
                 "title": "Couverture Professionnelle",
                 "description": "Protégez votre statut professionnel et votre activité d'indépendant",
-                "image": "https://picsum.photos/seed/professional-work/800/400"
+                "image": "https://picsum.photos/seed/professional-work/800/400",
+                "href": "/professionnels/personnel/hospitalisation"
               },
               {
                 "title": "Revenus Protégés",
                 "description": "Assurer la continuité de vos revenus en cas d'interruption d'activité",
-                "image": "https://picsum.photos/seed/income-protection/800/400"
+                "image": "https://picsum.photos/seed/income-protection/800/400",
+                "href": "/professionnels/revenu/revenu-garanti"
               }
             ]
           }
@@ -969,22 +993,26 @@
               {
                 "title": "Couverture Perte de Revenu",
                 "description": "Protection de vos revenus en cas d'incapacité ou interruption d'activité",
-                "image": "https://picsum.photos/seed/income-loss/800/400"
+                "image": "https://picsum.photos/seed/income-loss/800/400",
+                "href": "/professionnels/revenu/revenu-garanti"
               },
               {
                 "title": "Assurance Chômage",
                 "description": "Complément de revenus en cas de chômage involontaire ou cessation d'emploi",
-                "image": "https://picsum.photos/seed/unemployment-protection/800/400"
+                "image": "https://picsum.photos/seed/unemployment-protection/800/400",
+                "href": "/professionnels/revenu/pension"
               },
               {
                 "title": "Rente Invalidité",
                 "description": "Rente mensuelle garantie en cas d'invalidité permanente ou partielle",
-                "image": "https://picsum.photos/seed/disability-pension/800/400"
+                "image": "https://picsum.photos/seed/disability-pension/800/400",
+                "href": "/professionnels/revenu/deces"
               },
               {
                 "title": "Protection Crédit",
                 "description": "Protégez vos emprunteurs et garantissez le remboursement de vos crédits",
-                "image": "https://picsum.photos/seed/credit-protection/800/400"
+                "image": "https://picsum.photos/seed/credit-protection/800/400",
+                "href": "/professionnels/revenu/placements"
               }
             ]
           }

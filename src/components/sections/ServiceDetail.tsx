@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import type { Variants } from "framer-motion";
 import { CheckCircle } from "lucide-react";
@@ -12,6 +12,7 @@ interface CardItem {
   image?: string;
   title: string;
   description: string;
+  href?: string;
 }
 
 interface Section {
@@ -47,6 +48,7 @@ function isCardFormat(content: any): content is CardItem[] {
 
 export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
   const t = useTranslations();
+  const locale = useLocale();
 
   // Fetch service data from translations
   const serviceData = t.raw(`services.${categoryKey}.${serviceKey}`);
@@ -119,6 +121,7 @@ export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
                         title={card.title}
                         description={card.description}
                         image={card.image}
+                        href={card.href ? `/${locale}${card.href}` : undefined}
                       />
                     );
                   })}
