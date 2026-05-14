@@ -46,9 +46,25 @@ const CATEGORY_LABEL: Record<string, string> = {
   "IPID - Insurance Product Information Document": "IPID",
   "KID - Key Information Document": "KID",
   "Information commerciale produit": "Commercial",
+  "Information commerciale produit et campagne marketing": "Marketing",
   "Information légale / fiscale": "Légal/Fiscal",
   "Autre": "Autre",
 };
+
+// Unique pastel colour per category (bg + text Tailwind classes)
+const CATEGORY_COLOR: Record<string, string> = {
+  "Information contractuelle produit (cond. gén.)": "bg-indigo-100 text-indigo-700",
+  "IPID - Insurance Product Information Document":  "bg-emerald-100 text-emerald-700",
+  "KID - Key Information Document":                  "bg-violet-100 text-violet-700",
+  "Information commerciale produit":                 "bg-amber-100 text-amber-700",
+  "Information commerciale produit et campagne marketing": "bg-pink-100 text-pink-700",
+  "Information légale / fiscale":                    "bg-cyan-100 text-cyan-700",
+  "Autre":                                           "bg-stone-100 text-stone-600",
+};
+
+function categoryColor(raw: string): string {
+  return CATEGORY_COLOR[raw] ?? "bg-gray-100 text-gray-600";
+}
 
 function domainLabel(raw: string): string {
   return DOMAIN_LABEL[raw] ?? raw;
@@ -87,6 +103,7 @@ function PdfIcon() {
 
 function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
   const catLabel = categoryLabel(doc.category);
+  const catColor = categoryColor(doc.category);
 
   return (
     <div className="group flex items-center gap-4 px-4 py-4 rounded-lg bg-white border border-border hover:border-gold/40 hover:shadow-sm hover:shadow-gold/10 transition-all duration-150 hover:translate-x-0.5">
@@ -109,7 +126,7 @@ function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
       </span>
 
       {/* Category tag */}
-      <span className="hidden md:inline-flex flex-shrink-0 items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-sky-100 text-sky-700 whitespace-nowrap">
+      <span className={`hidden md:inline-flex flex-shrink-0 items-center px-2.5 py-0.5 rounded-full text-xs font-medium whitespace-nowrap ${catColor}`}>
         {catLabel}
       </span>
 
