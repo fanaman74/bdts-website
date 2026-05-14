@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useTranslations } from "next-intl";
 import { DocumentChat } from "./DocumentChat";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -125,7 +126,7 @@ function PdfIcon() {
   );
 }
 
-function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
+function DocumentRow({ doc, onChat, askLabel, openLabel }: { doc: Document; onChat: () => void; askLabel: string; openLabel: string }) {
   const catLabel = categoryLabel(doc.category);
   const catColor = categoryColor(doc.category);
 
@@ -157,9 +158,9 @@ function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
       {/* Chat button — light blue */}
       <button
         onClick={onChat}
-        title="Poser une question sur ce document"
+        title={askLabel}
         className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-sky-200 bg-sky-50 text-sky-500 hover:bg-sky-100 hover:text-sky-600 hover:border-sky-300 transition-all"
-        aria-label="Poser une question"
+        aria-label={askLabel}
       >
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
           <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
@@ -172,7 +173,7 @@ function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
         target="_blank"
         rel="noopener noreferrer"
         className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-orange-200 bg-orange-50 text-orange-500 hover:bg-orange-100 hover:text-orange-600 hover:border-orange-300 transition-all"
-        aria-label={`Ouvrir ${doc.title}`}
+        aria-label={`${openLabel} ${doc.title}`}
       >
         <svg
           className="w-4 h-4"
@@ -202,6 +203,7 @@ interface DocumentsClientProps {
 }
 
 export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientProps) {
+  const t = useTranslations("documents.filter");
   const [search, setSearch] = useState("");
   const [selectedDomain, setSelectedDomain] = useState("All");
   const [activeChat, setActiveChat] = useState<Document | null>(null);
@@ -332,7 +334,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
                   ) : (
                     <span className={`w-2 h-2 rounded-full flex-shrink-0 ${dot}`} />
                   )}
-                  {label}
+                  {label === "All" ? t("all") : (t(`domains.${label}` as any) ?? label)}
                   <span className={`text-[10px] font-normal ${active ? "text-white/70" : "text-mid-gray"}`}>
                     {count}
                   </span>
@@ -352,7 +354,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           >
             {companies.map((c) => (
               <option key={c} value={c}>
-                {c === "All" ? "All companies" : c}
+                {c === "All" ? t("all_companies") : c}
               </option>
             ))}
           </select>
@@ -365,7 +367,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           >
             {categories.map((c) => (
               <option key={c} value={c}>
-                {c === "All" ? "All categories" : c}
+                {c === "All" ? t("all_categories") : c}
               </option>
             ))}
           </select>
@@ -386,14 +388,14 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           {/* Result count */}
           <p className="text-sm text-mid-gray">
             {filtered.length === 0 ? (
-              "Aucun résultat"
+              t("no_results")
             ) : (
               <>
-                Affichage{" "}
+                {t("showing")}{" "}
                 <span className="font-medium text-navy">{pageStart + 1}–{pageEnd}</span>
-                {" "}de{" "}
+                {" "}{t("of")}{" "}
                 <span className="font-medium text-navy">{filtered.length.toLocaleString("fr-BE")}</span>
-                {" "}résultats
+                {" "}{t("docs")}
               </>
             )}
           </p>
@@ -402,7 +404,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
         {/* Document list */}
         {filtered.length === 0 ? (
           <div className="text-center py-20">
-            <p className="text-mid-gray text-lg">Aucun document ne correspond à votre recherche.</p>
+            <p className="text-mid-gray text-lg">{t("no_results")}</p>
             <button
               onClick={() => {
                 setSearch("");
@@ -413,13 +415,13 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
               }}
               className="mt-4 text-sm text-gold hover:text-gold-dark font-medium underline underline-offset-2"
             >
-              Réinitialiser les filtres
+              {t("reset")}
             </button>
           </div>
         ) : (
           <div className="space-y-2">
             {pageDocs.map((doc) => (
-              <DocumentRow key={doc.id} doc={doc} onChat={() => setActiveChat(doc)} />
+              <DocumentRow key={doc.id} doc={doc} onChat={() => setActiveChat(doc)} askLabel={t("ask")} openLabel={t("open")} />
             ))}
           </div>
         )}
@@ -474,6 +476,11 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           docUrl={activeChat.url}
           company={activeChat.company}
           onClose={() => setActiveChat(null)}
+          readingText={t("reading")}
+          placeholder={t("placeholder")}
+          sendHint={t("send_hint")}
+          assistantName={t("assistant_name")}
+          assistantDesc={t("assistant_desc")}
         />
       )}
     </section>

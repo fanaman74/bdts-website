@@ -14,9 +14,14 @@ interface DocumentChatProps {
   docUrl: string;
   company: string;
   onClose: () => void;
+  readingText?: string;
+  placeholder?: string;
+  sendHint?: string;
+  assistantName?: string;
+  assistantDesc?: string;
 }
 
-export function DocumentChat({ docTitle, docUrl, company, onClose }: DocumentChatProps) {
+export function DocumentChat({ docTitle, docUrl, company, onClose, readingText = "Lecture du document…", placeholder = "Posez une question sur ce document…", sendHint = "Entrée pour envoyer · Shift+Entrée pour nouvelle ligne", assistantName = "Assistant IA — BDTS", assistantDesc = "Posez vos questions sur ce document d'assurance. Je lis le document et réponds en français, anglais ou néerlandais." }: DocumentChatProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -146,9 +151,9 @@ export function DocumentChat({ docTitle, docUrl, company, onClose }: DocumentCha
               <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Bot size={22} className="text-gold" />
               </div>
-              <p className="text-navy font-semibold text-sm mb-1">Assistant IA — BDTS</p>
+              <p className="text-navy font-semibold text-sm mb-1">{assistantName}</p>
               <p className="text-mid-gray text-xs max-w-xs mx-auto">
-                Posez vos questions sur ce document d'assurance. Je lis le document et réponds en français, anglais ou néerlandais.
+                {assistantDesc}
               </p>
               <div className="mt-4 flex flex-wrap gap-2 justify-center">
                 {[
@@ -194,7 +199,7 @@ export function DocumentChat({ docTitle, docUrl, company, onClose }: DocumentCha
                 ) : (
                   <span className="flex items-center gap-1.5 text-mid-gray">
                     <Loader2 size={13} className="animate-spin" />
-                    Lecture du document…
+                    {readingText}
                   </span>
                 )}
               </div>
@@ -223,7 +228,7 @@ export function DocumentChat({ docTitle, docUrl, company, onClose }: DocumentCha
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Posez une question sur ce document…"
+              placeholder={placeholder}
               rows={1}
               disabled={loading}
               className="flex-1 resize-none bg-off-white border border-border rounded-lg px-3 py-2 text-sm text-dark-gray placeholder:text-mid-gray focus:outline-none focus:border-gold/60 disabled:opacity-50 max-h-28"
@@ -238,7 +243,7 @@ export function DocumentChat({ docTitle, docUrl, company, onClose }: DocumentCha
             </button>
           </form>
           <p className="text-mid-gray/60 text-xs mt-1.5 text-center">
-            Entrée pour envoyer · Shift+Entrée pour nouvelle ligne
+            {sendHint}
           </p>
         </div>
       </div>

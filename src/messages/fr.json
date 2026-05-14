@@ -1119,7 +1119,52 @@
     "subtitle": "Téléchargez les documents utiles",
     "forms": "Formulaires",
     "guides": "Guides",
-    "legal": "Documents légaux"
+    "legal": "Documents légaux",
+    "filter": {
+      "all": "Tous",
+      "all_companies": "Toutes les compagnies",
+      "all_categories": "Toutes les catégories",
+      "reset": "Réinitialiser les filtres",
+      "synced": "Synchronisé",
+      "no_results": "Aucun document ne correspond à vos filtres.",
+      "showing": "Affichage",
+      "of": "sur",
+      "docs": "documents",
+      "ask": "Poser une question sur ce document",
+      "open": "Ouvrir le document",
+      "reading": "Lecture du document…",
+      "placeholder": "Posez une question sur ce document…",
+      "send_hint": "Entrée pour envoyer · Shift+Entrée pour nouvelle ligne",
+      "assistant_name": "Assistant IA — BDTS",
+      "assistant_desc": "Posez vos questions sur ce document d'assurance. Je lis le document et réponds en français, anglais ou néerlandais.",
+      "domains": {
+        "Home": "Habitation",
+        "Mobility": "Mobilité",
+        "Family": "Famille",
+        "Health": "Hospitalisation",
+        "Savings": "Épargne & Pension",
+        "Business": "Entreprise",
+        "Personnel": "Personnel",
+        "Legal Protection": "Protection juridique",
+        "Travel": "Voyage",
+        "Assistance": "Assistance",
+        "Various": "Divers",
+        "Multi-domain": "Multi-domaine",
+        "Individual": "Individuelle",
+        "Transport": "Transport",
+        "Loan": "Prêt",
+        "Other": "Autres"
+      },
+      "categories": {
+        "cond_gen": "Cond. générales",
+        "ipid": "IPID",
+        "kid": "KID",
+        "commercial": "Commercial",
+        "marketing": "Marketing",
+        "legal_fiscal": "Légal/Fiscal",
+        "other": "Autre"
+      }
+    }
   },
   "news": {
     "title": "Actualités",

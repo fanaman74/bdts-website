@@ -1161,7 +1161,52 @@
     "subtitle": "Download nuttige documenten",
     "forms": "Formulieren",
     "guides": "Gidsen",
-    "legal": "Juridische Documenten"
+    "legal": "Juridische Documenten",
+    "filter": {
+      "all": "Alle",
+      "all_companies": "Alle maatschappijen",
+      "all_categories": "Alle categorieën",
+      "reset": "Filters resetten",
+      "synced": "Gesynchroniseerd",
+      "no_results": "Geen documenten komen overeen met uw filters.",
+      "showing": "Weergave",
+      "of": "van",
+      "docs": "documenten",
+      "ask": "Stel een vraag over dit document",
+      "open": "Document openen",
+      "reading": "Document lezen…",
+      "placeholder": "Stel een vraag over dit document…",
+      "send_hint": "Enter om te verzenden · Shift+Enter voor nieuwe regel",
+      "assistant_name": "AI-assistent — BDTS",
+      "assistant_desc": "Stel vragen over dit verzekeringsdocument. Ik lees het document en antwoord in het Frans, Engels of Nederlands.",
+      "domains": {
+        "Home": "Woning",
+        "Mobility": "Mobiliteit",
+        "Family": "Gezin",
+        "Health": "Hospitalisatie",
+        "Savings": "Sparen & Pensioen",
+        "Business": "Onderneming",
+        "Personnel": "Personeel",
+        "Legal Protection": "Rechtsbescherming",
+        "Travel": "Reizen",
+        "Assistance": "Bijstand",
+        "Various": "Diverse",
+        "Multi-domain": "Multi-domein",
+        "Individual": "Individueel",
+        "Transport": "Transport",
+        "Loan": "Lening",
+        "Other": "Andere"
+      },
+      "categories": {
+        "cond_gen": "Alg. Voorwaarden",
+        "ipid": "IPID",
+        "kid": "KID",
+        "commercial": "Commercieel",
+        "marketing": "Marketing",
+        "legal_fiscal": "Juridisch/Fiscaal",
+        "other": "Andere"
+      }
+    }
   },
   "news": {
     "title": "Nieuws",

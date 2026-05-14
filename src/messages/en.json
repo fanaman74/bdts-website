@@ -1119,7 +1119,52 @@
     "subtitle": "Download useful documents",
     "forms": "Forms",
     "guides": "Guides",
-    "legal": "Legal Documents"
+    "legal": "Legal Documents",
+    "filter": {
+      "all": "All",
+      "all_companies": "All companies",
+      "all_categories": "All categories",
+      "reset": "Reset filters",
+      "synced": "Synced",
+      "no_results": "No documents match your filters.",
+      "showing": "Showing",
+      "of": "of",
+      "docs": "documents",
+      "ask": "Ask a question about this document",
+      "open": "Open document",
+      "reading": "Reading document…",
+      "placeholder": "Ask a question about this document…",
+      "send_hint": "Enter to send · Shift+Enter for new line",
+      "assistant_name": "AI Assistant — BDTS",
+      "assistant_desc": "Ask questions about this insurance document. I read the document and respond in French, English or Dutch.",
+      "domains": {
+        "Home": "Home",
+        "Mobility": "Mobility",
+        "Family": "Family",
+        "Health": "Health",
+        "Savings": "Savings",
+        "Business": "Business",
+        "Personnel": "Personnel",
+        "Legal Protection": "Legal Protection",
+        "Travel": "Travel",
+        "Assistance": "Assistance",
+        "Various": "Various",
+        "Multi-domain": "Multi-domain",
+        "Individual": "Individual",
+        "Transport": "Transport",
+        "Loan": "Loan",
+        "Other": "Other"
+      },
+      "categories": {
+        "cond_gen": "Gen. Conditions",
+        "ipid": "IPID",
+        "kid": "KID",
+        "commercial": "Commercial",
+        "marketing": "Marketing",
+        "legal_fiscal": "Legal/Fiscal",
+        "other": "Other"
+      }
+    }
   },
   "news": {
     "title": "News",
