@@ -41,15 +41,18 @@ export async function POST(req: NextRequest) {
       }
 
       const pdfBuffer = await pdfRes.arrayBuffer();
+      console.log("[DOCUMENT-CHAT] PDF fetched, size:", pdfBuffer.byteLength);
 
       // pdf-parse v2 API: class-based, data passed in constructor
+      // v2 getText uses first/last params (not max)
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const { PDFParse } = (await import("pdf-parse")) as any;
       const uint8 = new Uint8Array(pdfBuffer);
       const parser = new PDFParse({ data: uint8 });
       await parser.load();
-      const parsed = await parser.getText({ max: 50 }); // limit to 50 pages
+      const parsed = await parser.getText({ first: 50 }); // first 50 pages
       pdfText = (parsed.text ?? "").trim();
+      console.log("[DOCUMENT-CHAT] Extracted text length:", pdfText.length);
 
       if (!pdfText) {
         throw new Error("No text extracted from PDF");
@@ -59,10 +62,10 @@ export async function POST(req: NextRequest) {
       if (pdfText.length > 80000) {
         pdfText = pdfText.slice(0, 80000) + "\n\n[Document truncated — showing first 80,000 characters]";
       }
-    } catch (err) {
-      console.error("[DOCUMENT-CHAT] PDF extraction error:", err);
+    } catch (err: any) {
+      console.error("[DOCUMENT-CHAT] PDF extraction error:", err?.message ?? err);
       return NextResponse.json({
-        error: "Could not read this document. It may be protected or unavailable.",
+        error: `Could not read this document: ${err?.message ?? "unknown error"}`,
       }, { status: 422 });
     }
 
