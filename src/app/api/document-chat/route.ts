@@ -41,14 +41,15 @@ export async function POST(req: NextRequest) {
       }
 
       const pdfBuffer = await pdfRes.arrayBuffer();
-      const buffer = Buffer.from(pdfBuffer);
 
-      // Dynamically import pdf-parse (avoids edge runtime issues)
+      // pdf-parse v2 API: class-based, data passed in constructor
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const pdfParseModule = (await import("pdf-parse")) as any;
-      const pdfParse = pdfParseModule.default ?? pdfParseModule;
-      const data = await pdfParse(buffer, { max: 50 }); // limit to 50 pages
-      pdfText = data.text.trim();
+      const { PDFParse } = (await import("pdf-parse")) as any;
+      const uint8 = new Uint8Array(pdfBuffer);
+      const parser = new PDFParse({ data: uint8 });
+      await parser.load();
+      const parsed = await parser.getText({ max: 50 }); // limit to 50 pages
+      pdfText = (parsed.text ?? "").trim();
 
       if (!pdfText) {
         throw new Error("No text extracted from PDF");
