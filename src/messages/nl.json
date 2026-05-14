@@ -2711,7 +2711,13 @@
   },
   "news": {
     "title": "Nieuws",
-    "subtitle": "Blijf op de hoogte met ons laatste nieuws"
+    "subtitle": "Blijf op de hoogte met ons laatste nieuws",
+    "read_more": "Lees meer",
+    "newsletter_title": "Blijf op de hoogte",
+    "newsletter_subtitle": "Ontvang ons laatste verzekeringsnieuws en regelgevingsupdates rechtstreeks in uw inbox.",
+    "newsletter_placeholder": "Uw e-mailadres",
+    "newsletter_cta": "Inschrijven",
+    "newsletter_thanks": "Bedankt! U bent nu ingeschreven."
   },
   "jobs": {
     "title": "Arbeidsplaatsen",

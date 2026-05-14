@@ -2664,7 +2664,13 @@
   },
   "news": {
     "title": "Actualités",
-    "subtitle": "Restez informé de nos dernières actualités"
+    "subtitle": "Restez informé de nos dernières actualités",
+    "read_more": "Lire la suite",
+    "newsletter_title": "Restez informé",
+    "newsletter_subtitle": "Recevez nos dernières actualités assurance et mises à jour réglementaires directement dans votre boîte mail.",
+    "newsletter_placeholder": "Votre adresse e-mail",
+    "newsletter_cta": "S'abonner",
+    "newsletter_thanks": "Merci ! Vous êtes maintenant abonné."
   },
   "jobs": {
     "title": "Opportunités d'emploi",

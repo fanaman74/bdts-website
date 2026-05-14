@@ -2664,7 +2664,13 @@
   },
   "news": {
     "title": "News",
-    "subtitle": "Stay informed with our latest news"
+    "subtitle": "Stay informed with our latest news",
+    "read_more": "Read more",
+    "newsletter_title": "Stay Informed",
+    "newsletter_subtitle": "Receive our latest insurance news and regulatory updates directly in your inbox.",
+    "newsletter_placeholder": "Your email address",
+    "newsletter_cta": "Subscribe",
+    "newsletter_thanks": "Thank you! You are now subscribed."
   },
   "jobs": {
     "title": "Job Opportunities",
