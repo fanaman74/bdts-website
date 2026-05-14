@@ -144,9 +144,11 @@ function DocumentRow({ doc }: { doc: Document }) {
 
 interface DocumentsClientProps {
   documents: Document[];
+  syncedAt?: string;
+  count?: number;
 }
 
-export function DocumentsClient({ documents }: DocumentsClientProps) {
+export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientProps) {
   const [search, setSearch] = useState("");
   const [selectedDomain, setSelectedDomain] = useState("Tous");
   const [selectedCompany, setSelectedCompany] = useState("Tous");
@@ -304,8 +306,21 @@ export function DocumentsClient({ documents }: DocumentsClientProps) {
             ))}
           </select>
 
+          {/* Sync timestamp */}
+          {syncedAt && (
+            <p className="text-xs text-mid-gray/70 ml-auto mr-4">
+              Dernière sync :{" "}
+              <span className="font-medium">
+                {new Date(syncedAt).toLocaleDateString("fr-BE", {
+                  day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit"
+                })}
+              </span>
+              {count && <> — {count.toLocaleString("fr-BE")} documents</>}
+            </p>
+          )}
+
           {/* Result count */}
-          <p className="ml-auto text-sm text-mid-gray">
+          <p className="text-sm text-mid-gray">
             {filtered.length === 0 ? (
               "Aucun résultat"
             ) : (
