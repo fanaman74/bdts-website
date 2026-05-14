@@ -51,6 +51,30 @@ const CATEGORY_LABEL: Record<string, string> = {
   "Autre": "Autre",
 };
 
+// Dot colour per domain label (tailwind bg class for the dot)
+const DOMAIN_DOT: Record<string, string> = {
+  "Habitation":          "bg-orange-400",
+  "Auto":                "bg-blue-500",
+  "Famille":             "bg-yellow-400",
+  "Hospitalisation":     "bg-emerald-500",
+  "Épargne & Pension":   "bg-amber-500",
+  "Entreprise":          "bg-slate-700",
+  "Personnel":           "bg-violet-400",
+  "Protection juridique":"bg-purple-400",
+  "Voyage":              "bg-sky-400",
+  "Assistance":          "bg-rose-400",
+  "Divers":              "bg-teal-400",
+  "Multi-domaine":       "bg-fuchsia-400",
+  "Individuelle":        "bg-lime-500",
+  "Transport":           "bg-cyan-500",
+  "Prêt":                "bg-pink-400",
+  "Autres":              "bg-gray-400",
+};
+
+function domainDot(label: string): string {
+  return DOMAIN_DOT[label] ?? "bg-gray-400";
+}
+
 // Unique pastel colour per category (bg + text Tailwind classes)
 const CATEGORY_COLOR: Record<string, string> = {
   "Information contractuelle produit (cond. gén.)": "bg-indigo-100 text-indigo-700",
@@ -283,24 +307,34 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
         </div>
 
         {/* Domain tabs */}
-        <div className="mb-6 -mx-1">
-          <div className="flex gap-2 overflow-x-auto pb-2 px-1 scrollbar-none" style={{ scrollbarWidth: "none" }}>
+        <div className="mb-6">
+          <div className="flex flex-wrap gap-2">
             {domainTabs.map((label) => {
               const count = label === "Tous" ? documents.length : (domainCounts[label] ?? 0);
               const active = selectedDomain === label;
+              const dot = domainDot(label);
               return (
                 <button
                   key={label}
                   onClick={() => handleFilterChange(setSelectedDomain, label)}
-                  className={`flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all duration-150 whitespace-nowrap border ${
+                  className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all duration-150 whitespace-nowrap border ${
                     active
-                      ? "bg-gold text-navy-dark border-gold shadow-sm"
-                      : "bg-white text-mid-gray border-border hover:border-gold/50 hover:text-navy"
+                      ? "bg-navy text-white border-navy shadow-sm"
+                      : "bg-white text-dark-gray border-border hover:border-navy/30 hover:text-navy"
                   }`}
                 >
+                  {label === "Tous" ? (
+                    <span className="inline-flex gap-0.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                    </span>
+                  ) : (
+                    <span className={`w-2 h-2 rounded-full flex-shrink-0 ${dot}`} />
+                  )}
                   {label}
-                  <span className={`text-[10px] font-normal ${active ? "text-navy-dark/70" : "text-mid-gray"}`}>
-                    ({count})
+                  <span className={`text-[10px] font-normal ${active ? "text-white/70" : "text-mid-gray"}`}>
+                    {count}
                   </span>
                 </button>
               );
