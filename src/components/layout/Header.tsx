@@ -174,7 +174,7 @@ export function Header() {
             </div>
             <a
               href={`/${locale}/appointment`}
-              className="px-5 py-2 bg-amber-400 text-navy font-bold text-sm rounded-md hover:bg-orange-600 transition-colors"
+              className="px-5 py-2 bg-amber-400 text-navy font-bold text-sm rounded-md hover:bg-amber-500 transition-colors"
             >
               {t("cta")}
             </a>
