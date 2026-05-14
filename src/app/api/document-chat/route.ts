@@ -4,7 +4,7 @@ export const runtime = "nodejs";
 export const maxDuration = 60;
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const MODEL = "google/gemma-3-27b-it:free";
+const MODEL = "google/gemma-4-26b-a4b-it:free";
 
 const SYSTEM_PROMPT = `You are an expert insurance advisor assistant for BDTS, a Belgian insurance broker.
 You help clients understand insurance policy documents (conditions générales, IPID, KID, etc.).
