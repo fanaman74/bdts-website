@@ -57,11 +57,11 @@ function getIconForCard(title: string, index: number): LucideIcon {
   // Car / Auto
   if (/\bauto\b|voiture|véhicule|vehicle|wagen|car\b/.test(lower)) return Icons.Car;
   // Bike / Vélo
-  if (/vélo|velo|fiets|bike/.test(lower)) return Icons.Bike;
-  // Moto
-  if (/moto|motorcycle/.test(lower)) return Icons.Bike;
-  // Motorhome / Camping
-  if (/camp|motorhome|caravan/.test(lower)) return Icons.Truck;
+  if (/vélo|velo|fiets|\bbike\b/.test(lower)) return Icons.Bike;
+  // Motorhome / Camping — must come BEFORE moto check (contains "motor")
+  if (/motorhome|camping.car|caravan|kampeer/.test(lower)) return Icons.Caravan;
+  // Moto / Motorcycle / Scooter
+  if (/\bmoto\b|motorcycle|scooter/.test(lower)) return Icons.Motorbike;
   // Travel / Voyage
   if (/voyage|travel|reis|trip/.test(lower)) return Icons.Plane;
   // Accident
