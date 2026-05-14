@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { DocumentChat } from "./DocumentChat";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -84,7 +85,7 @@ function PdfIcon() {
   );
 }
 
-function DocumentRow({ doc }: { doc: Document }) {
+function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
   const catLabel = categoryLabel(doc.category);
 
   return (
@@ -111,6 +112,18 @@ function DocumentRow({ doc }: { doc: Document }) {
       <span className="hidden md:inline-flex flex-shrink-0 items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-light-gray text-dark-gray whitespace-nowrap">
         {catLabel}
       </span>
+
+      {/* Chat button */}
+      <button
+        onClick={onChat}
+        title="Poser une question sur ce document"
+        className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-border text-mid-gray hover:border-gold hover:text-gold hover:bg-gold/5 transition-all"
+        aria-label="Poser une question"
+      >
+        <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+        </svg>
+      </button>
 
       {/* Open button */}
       <a
@@ -151,6 +164,7 @@ interface DocumentsClientProps {
 export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientProps) {
   const [search, setSearch] = useState("");
   const [selectedDomain, setSelectedDomain] = useState("Tous");
+  const [activeChat, setActiveChat] = useState<Document | null>(null);
   const [selectedCompany, setSelectedCompany] = useState("Tous");
   const [selectedCategory, setSelectedCategory] = useState("Tous");
   const [page, setPage] = useState(1);
@@ -355,7 +369,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
         ) : (
           <div className="space-y-2">
             {pageDocs.map((doc) => (
-              <DocumentRow key={doc.id} doc={doc} />
+              <DocumentRow key={doc.id} doc={doc} onChat={() => setActiveChat(doc)} />
             ))}
           </div>
         )}
@@ -403,6 +417,15 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           </div>
         )}
       </div>
+
+      {activeChat && (
+        <DocumentChat
+          docTitle={activeChat.title}
+          docUrl={activeChat.url}
+          company={activeChat.company}
+          onClose={() => setActiveChat(null)}
+        />
+      )}
     </section>
   );
 }
