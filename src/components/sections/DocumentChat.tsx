@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { X, Send, Bot, User, Loader2, FileText } from "lucide-react";
+import ReactMarkdown from "react-markdown";
 
 interface Message {
   role: "user" | "assistant";
@@ -184,7 +185,13 @@ export function DocumentChat({ docTitle, docUrl, company, onClose }: DocumentCha
                     : "bg-white text-dark-gray border border-border rounded-tl-sm"
                 }`}
               >
-                {msg.content || (
+                {msg.content ? (
+                  msg.role === "assistant" ? (
+                    <div className="prose prose-sm max-w-none prose-headings:text-navy prose-headings:font-semibold prose-strong:text-dark-gray prose-p:my-1 prose-li:my-0.5 prose-h2:text-sm prose-h3:text-xs">
+                      <ReactMarkdown>{msg.content}</ReactMarkdown>
+                    </div>
+                  ) : msg.content
+                ) : (
                   <span className="flex items-center gap-1.5 text-mid-gray">
                     <Loader2 size={13} className="animate-spin" />
                     Lecture du document…

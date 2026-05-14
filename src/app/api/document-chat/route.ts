@@ -57,7 +57,7 @@ You must be able to distinguish between and explain the following documents comm
 * Language Sensitivity: Documents in Belgium may be in Dutch, French, or German. Maintain professional terminology in the user's preferred language. Answer in the same language the user writes in (FR, EN, or NL).
 * Data Privacy: Adhere to GDPR standards regarding personal data mentioned in documents.
 * No Absolute Guarantee: Use language like "Based on the provided document, it appears..." rather than "You are definitely covered for..."
-* No Markdown Formatting: Never use markdown syntax. No asterisks for bold, no # for headers, no * for bullets. Use plain text only. Use numbers (1. 2. 3.) for lists. Use section labels followed by a colon on their own line.`;
+* Formatting: Use markdown for structure (## headings, **bold** key terms, numbered lists for actions, bullet points for findings). Keep responses scannable and well-organised.`;
 
 export async function POST(req: NextRequest) {
   try {
