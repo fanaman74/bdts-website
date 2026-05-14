@@ -13,6 +13,7 @@ export default async function MotoPage() {
         subtitle={t("services.particulier.moto.subtitle")}
         bg="navy"
         breadcrumb="Mobilité"
+        image="https://images.pexels.com/photos/104842/bmw-ride-motorcycle-speed-104842.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="moto" categoryKey="particulier" />
       <HomeCTA />

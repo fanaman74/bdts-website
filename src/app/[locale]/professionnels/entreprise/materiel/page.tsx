@@ -13,6 +13,7 @@ export default async function MaterielPage() {
         subtitle={t("services.professionnel.materiel.subtitle")}
         bg="navy"
         breadcrumb="Entreprise"
+        image="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="materiel" categoryKey="professionnel" />
       <HomeCTA />

@@ -12,6 +12,7 @@ export default async function ClientPortalPage() {
         subtitle={t("client_portal.subtitle")}
         bg="navy"
         breadcrumb="BDTS"
+        image="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <section className="py-20 bg-off-white">
         <div className="max-w-4xl mx-auto px-4">

@@ -13,6 +13,7 @@ export default async function BatimentsPage() {
         subtitle={t("services.professionnel.batiments.subtitle")}
         bg="navy"
         breadcrumb="Entreprise"
+        image="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="batiments" categoryKey="professionnel" />
       <HomeCTA />

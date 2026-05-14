@@ -13,6 +13,7 @@ export default async function MotorhomePage() {
         subtitle={t("services.particulier.motorhome.subtitle")}
         bg="navy"
         breadcrumb="Mobilité"
+        image="https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="motorhome" categoryKey="particulier" />
       <HomeCTA />

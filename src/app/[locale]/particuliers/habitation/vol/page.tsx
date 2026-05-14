@@ -13,6 +13,7 @@ export default async function VolPage() {
         subtitle={t("services.particulier.vol.subtitle")}
         bg="navy"
         breadcrumb="Habitation"
+        image="https://images.pexels.com/photos/277559/pexels-photo-277559.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="vol" categoryKey="particulier" />
       <HomeCTA />

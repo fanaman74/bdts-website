@@ -13,6 +13,7 @@ export default async function EntrepriseCategoryPage() {
         subtitle={t("services.professionnel.entreprise.subtitle")}
         bg="navy"
         breadcrumb="Professionnel"
+        image="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="entreprise" categoryKey="professionnel" />
       <HomeCTA />

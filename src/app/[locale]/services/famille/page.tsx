@@ -13,7 +13,7 @@ export default async function FamillePage() {
   ];
   return (
     <>
-      <PageHero title={t("family_title")} subtitle={t("family_sub")} bg="navy" breadcrumb="Services" />
+      <PageHero title={t("family_title")} subtitle={t("family_sub")} bg="navy" breadcrumb="Services" image="https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1400" />
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-6">What&apos;s included</h2>

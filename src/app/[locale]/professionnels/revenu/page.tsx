@@ -13,6 +13,7 @@ export default async function RevenuCategoryPage() {
         subtitle={t("services.professionnel.revenu.subtitle")}
         bg="navy"
         breadcrumb="Professionnel"
+        image="https://images.pexels.com/photos/4386442/pexels-photo-4386442.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="revenu" categoryKey="professionnel" />
       <HomeCTA />

@@ -22,7 +22,7 @@ export default async function HabitationPage() {
 
   return (
     <>
-      <PageHero title={t("home_title")} subtitle={t("home_sub")} bg="navy" breadcrumb="Services" />
+      <PageHero title={t("home_title")} subtitle={t("home_sub")} bg="navy" breadcrumb="Services" image="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1400" />
 
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

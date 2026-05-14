@@ -13,6 +13,7 @@ export default async function FamilleMainPage() {
         subtitle={t("services.particulier.famille.subtitle")}
         bg="navy"
         breadcrumb="Particulier"
+        image="https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="famille" categoryKey="particulier" />
       <HomeCTA />

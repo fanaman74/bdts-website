@@ -13,6 +13,7 @@ export default async function MobiliteCategoryPage() {
         subtitle={t("services.particulier.mobilite.subtitle")}
         bg="navy"
         breadcrumb="Particulier"
+        image="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="mobilite" categoryKey="particulier" />
       <HomeCTA />

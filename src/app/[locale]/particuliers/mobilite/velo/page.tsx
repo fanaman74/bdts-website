@@ -13,6 +13,7 @@ export default async function VeloPage() {
         subtitle={t("services.particulier.velo.subtitle")}
         bg="navy"
         breadcrumb="Mobilité"
+        image="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="velo" categoryKey="particulier" />
       <HomeCTA />

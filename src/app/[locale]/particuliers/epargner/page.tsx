@@ -13,6 +13,7 @@ export default async function EpargnerPage() {
         subtitle={t("services.particulier.epargner.subtitle")}
         bg="navy"
         breadcrumb="Particulier"
+        image="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="epargner" categoryKey="particulier" />
       <HomeCTA />

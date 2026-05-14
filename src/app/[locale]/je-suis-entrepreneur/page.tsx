@@ -42,7 +42,7 @@ export default async function JeSuisEntrepreneurPage() {
 
   return (
     <>
-      <PageHero title={t("entrepreneur_title")} subtitle={t("entrepreneur_sub")} bg="navy" breadcrumb="BDTS" />
+      <PageHero title={t("entrepreneur_title")} subtitle={t("entrepreneur_sub")} bg="navy" breadcrumb="BDTS" image="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1400" />
 
       <section className="py-20 bg-off-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -13,6 +13,7 @@ export default async function PartnersPage() {
         subtitle={t("partners.subtitle")}
         bg="navy"
         breadcrumb="BDTS"
+        image="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <PartnersSection />
       <HomeCTA />

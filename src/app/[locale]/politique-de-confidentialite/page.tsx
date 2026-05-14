@@ -6,7 +6,7 @@ export default async function PolitiqueDeConfidentialitePage() {
 
   return (
     <>
-      <PageHero title={t("privacy_title")} subtitle={t("privacy_subtitle")} bg="navy" breadcrumb="BDTS" />
+      <PageHero title={t("privacy_title")} subtitle={t("privacy_subtitle")} bg="navy" breadcrumb="BDTS" image="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg?auto=compress&cs=tinysrgb&w=1400" />
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -13,6 +13,7 @@ export default async function AssuranceGroupePage() {
         subtitle={t("services.professionnel.assurance_groupe.subtitle")}
         bg="navy"
         breadcrumb="Personnel"
+        image="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="assurance_groupe" categoryKey="professionnel" />
       <HomeCTA />

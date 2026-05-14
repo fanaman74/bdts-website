@@ -13,6 +13,7 @@ export default async function BailleurLocatairePage() {
         subtitle={t("services.particulier.bailleur_locataire.subtitle")}
         bg="navy"
         breadcrumb="Habitation"
+        image="https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="bailleur_locataire" categoryKey="particulier" />
       <HomeCTA />

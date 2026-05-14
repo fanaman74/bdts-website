@@ -8,7 +8,7 @@ export default async function ProcessPage() {
 
   return (
     <>
-      <PageHero title={t("title")} subtitle={t("subtitle")} bg="navy" breadcrumb="BDTS" />
+      <PageHero title={t("title")} subtitle={t("subtitle")} bg="navy" breadcrumb="BDTS" image="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1400" />
       <ProcessSteps />
       <HomeCTA />
     </>

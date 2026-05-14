@@ -13,6 +13,7 @@ export default async function ResponsabilitePage() {
         subtitle={t("services.professionnel.responsabilite.subtitle")}
         bg="navy"
         breadcrumb="Entreprise"
+        image="https://images.pexels.com/photos/5668770/pexels-photo-5668770.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="responsabilite" categoryKey="professionnel" />
       <HomeCTA />

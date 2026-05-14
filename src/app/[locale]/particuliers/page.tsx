@@ -14,6 +14,7 @@ export default async function ParticuliersPage() {
         subtitle={t("paths.individuals_sub")}
         bg="navy"
         breadcrumb="BDTS"
+        image="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <IndividualsServices />
       <ProcessSteps />

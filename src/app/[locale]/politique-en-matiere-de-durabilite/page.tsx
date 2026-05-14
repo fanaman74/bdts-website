@@ -8,7 +8,7 @@ export default async function PolitiqueEnMatiereDeDurabilitePage() {
 
   return (
     <>
-      <PageHero title={t("sustainability_title")} subtitle={t("sustainability_subtitle")} bg="navy" breadcrumb="BDTS" />
+      <PageHero title={t("sustainability_title")} subtitle={t("sustainability_subtitle")} bg="navy" breadcrumb="BDTS" image="https://images.pexels.com/photos/1125776/pexels-photo-1125776.jpeg?auto=compress&cs=tinysrgb&w=1400" />
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

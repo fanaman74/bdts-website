@@ -13,6 +13,7 @@ export default async function EntreprisesPage() {
         subtitle={t("paths.businesses_sub")}
         bg="navy"
         breadcrumb="BDTS"
+        image="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <BusinessServices />
       <HomeCTA />

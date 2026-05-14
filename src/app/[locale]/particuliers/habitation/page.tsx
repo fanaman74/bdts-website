@@ -13,6 +13,7 @@ export default async function HabitationCategoryPage() {
         subtitle={t("services.particulier.habitation.subtitle")}
         bg="navy"
         breadcrumb="Particulier"
+        image="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="habitation" categoryKey="particulier" />
       <HomeCTA />

@@ -23,7 +23,7 @@ export default async function ResponsabilitePage() {
 
   return (
     <>
-      <PageHero title={t("liability_title")} subtitle={t("liability_sub")} bg="navy" breadcrumb="Services" />
+      <PageHero title={t("liability_title")} subtitle={t("liability_sub")} bg="navy" breadcrumb="Services" image="https://images.pexels.com/photos/5668770/pexels-photo-5668770.jpeg?auto=compress&cs=tinysrgb&w=1400" />
 
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">

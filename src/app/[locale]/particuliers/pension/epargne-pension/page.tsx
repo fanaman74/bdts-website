@@ -13,6 +13,7 @@ export default async function EpargnepensiontPage() {
         subtitle={t("services.particulier.epargne_pension.subtitle")}
         bg="navy"
         breadcrumb="Pension"
+        image="https://images.pexels.com/photos/4386442/pexels-photo-4386442.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="epargne_pension" categoryKey="particulier" />
       <HomeCTA />

@@ -13,6 +13,7 @@ export default async function PensionProfessionnellePage() {
         subtitle={t("services.professionnel.pension.subtitle")}
         bg="navy"
         breadcrumb="Revenu"
+        image="https://images.pexels.com/photos/3768131/pexels-photo-3768131.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="pension" categoryKey="professionnel" />
       <HomeCTA />

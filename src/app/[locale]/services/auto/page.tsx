@@ -24,7 +24,7 @@ export default async function AutoPage() {
 
   return (
     <>
-      <PageHero title={t("auto_title")} subtitle={t("auto_sub")} bg="navy" breadcrumb="Services" />
+      <PageHero title={t("auto_title")} subtitle={t("auto_sub")} bg="navy" breadcrumb="Services" image="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=1400" />
 
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">

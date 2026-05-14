@@ -13,6 +13,7 @@ export default async function DecesProfessionnelPage() {
         subtitle={t("services.professionnel.deces.subtitle")}
         bg="navy"
         breadcrumb="Revenu"
+        image="https://images.pexels.com/photos/5257499/pexels-photo-5257499.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="deces" categoryKey="professionnel" />
       <HomeCTA />

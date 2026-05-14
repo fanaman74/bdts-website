@@ -11,7 +11,7 @@ export default async function EpargnePage() {
   ];
   return (
     <>
-      <PageHero title={t("savings_title")} subtitle={t("savings_sub")} bg="navy" breadcrumb="Services" />
+      <PageHero title={t("savings_title")} subtitle={t("savings_sub")} bg="navy" breadcrumb="Services" image="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&w=1400" />
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-6">

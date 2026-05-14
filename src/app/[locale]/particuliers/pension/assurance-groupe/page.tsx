@@ -13,6 +13,7 @@ export default async function AssuranceGroupePensionPage() {
         subtitle={t("services.particulier.assurance_groupe.subtitle")}
         bg="navy"
         breadcrumb="Pension"
+        image="https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1400"
       />
       <ServiceDetail serviceKey="assurance_groupe" categoryKey="particulier" />
       <HomeCTA />

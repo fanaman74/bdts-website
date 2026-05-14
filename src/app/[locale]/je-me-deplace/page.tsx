@@ -36,7 +36,7 @@ export default async function JeMeDeplacePage() {
 
   return (
     <>
-      <PageHero title={t("deplace_title")} subtitle={t("deplace_sub")} bg="navy" breadcrumb="BDTS" />
+      <PageHero title={t("deplace_title")} subtitle={t("deplace_sub")} bg="navy" breadcrumb="BDTS" image="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1400" />
 
       <section className="py-20 bg-off-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
