@@ -21,24 +21,24 @@ export interface Document {
 // ─── Mapping tables ───────────────────────────────────────────────────────────
 
 const DOMAIN_LABEL: Record<string, string> = {
-  "Auto": "Auto",
-  "Incendie risques simples": "Habitation",
-  "Incendie risques spéciaux": "Habitation",
-  "RC du particulier": "Famille",
-  "Protection juridique": "Protection juridique",
-  "Hospitalisation et soins de santé": "Hospitalisation",
-  "Vie et placements": "Épargne & Pension",
+  "Auto": "Mobility",
+  "Incendie risques simples": "Home",
+  "Incendie risques spéciaux": "Home",
+  "RC du particulier": "Family",
+  "Protection juridique": "Legal Protection",
+  "Hospitalisation et soins de santé": "Health",
+  "Vie et placements": "Savings",
   "Accidents du travail et assurances collectives": "Personnel",
-  "RC autre que particuliers": "Entreprise",
-  "Responsabilité Objective et immeuble": "Entreprise",
-  "Voyage": "Voyage",
+  "RC autre que particuliers": "Business",
+  "Responsabilité Objective et immeuble": "Business",
+  "Voyage": "Travel",
   "Assistance": "Assistance",
-  "Individuelle": "Individuelle",
-  "Divers": "Divers",
-  "Multi-domaine (packages)": "Multi-domaine",
+  "Individuelle": "Individual",
+  "Divers": "Various",
+  "Multi-domaine (packages)": "Multi-domain",
   "Transport & marine": "Transport",
-  "Prêt": "Prêt",
-  "Pas de domaine": "Autres",
+  "Prêt": "Loan",
+  "Pas de domaine": "Other",
 };
 
 const CATEGORY_LABEL: Record<string, string> = {
@@ -53,22 +53,22 @@ const CATEGORY_LABEL: Record<string, string> = {
 
 // Dot colour per domain label (tailwind bg class for the dot)
 const DOMAIN_DOT: Record<string, string> = {
-  "Habitation":          "bg-orange-400",
-  "Auto":                "bg-blue-500",
-  "Famille":             "bg-yellow-400",
-  "Hospitalisation":     "bg-emerald-500",
-  "Épargne & Pension":   "bg-amber-500",
-  "Entreprise":          "bg-slate-700",
-  "Personnel":           "bg-violet-400",
-  "Protection juridique":"bg-purple-400",
-  "Voyage":              "bg-sky-400",
-  "Assistance":          "bg-rose-400",
-  "Divers":              "bg-teal-400",
-  "Multi-domaine":       "bg-fuchsia-400",
-  "Individuelle":        "bg-lime-500",
-  "Transport":           "bg-cyan-500",
-  "Prêt":                "bg-pink-400",
-  "Autres":              "bg-gray-400",
+  "Home":             "bg-orange-400",
+  "Mobility":         "bg-blue-500",
+  "Family":           "bg-yellow-400",
+  "Health":           "bg-emerald-500",
+  "Savings":          "bg-amber-500",
+  "Business":         "bg-slate-700",
+  "Personnel":        "bg-violet-400",
+  "Legal Protection": "bg-purple-400",
+  "Travel":           "bg-sky-400",
+  "Assistance":       "bg-rose-400",
+  "Various":          "bg-teal-400",
+  "Multi-domain":     "bg-fuchsia-400",
+  "Individual":       "bg-lime-500",
+  "Transport":        "bg-cyan-500",
+  "Loan":             "bg-pink-400",
+  "Other":               "bg-gray-400",
 };
 
 function domainDot(label: string): string {
@@ -203,10 +203,10 @@ interface DocumentsClientProps {
 
 export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientProps) {
   const [search, setSearch] = useState("");
-  const [selectedDomain, setSelectedDomain] = useState("Tous");
+  const [selectedDomain, setSelectedDomain] = useState("All");
   const [activeChat, setActiveChat] = useState<Document | null>(null);
-  const [selectedCompany, setSelectedCompany] = useState("Tous");
-  const [selectedCategory, setSelectedCategory] = useState("Tous");
+  const [selectedCompany, setSelectedCompany] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const [page, setPage] = useState(1);
 
   // ── Derive unique filter options ──────────────────────────────────────────
@@ -222,19 +222,19 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
 
   const domainTabs = useMemo(() => {
     const labels = Object.keys(domainCounts).sort((a, b) => domainCounts[b] - domainCounts[a]);
-    return ["Tous", ...labels];
+    return ["All", ...labels];
   }, [domainCounts]);
 
   const companies = useMemo(() => {
     const set = new Set<string>();
     for (const doc of documents) set.add(doc.company);
-    return ["Tous", ...Array.from(set).sort()];
+    return ["All", ...Array.from(set).sort()];
   }, [documents]);
 
   const categories = useMemo(() => {
     const set = new Set<string>();
     for (const doc of documents) set.add(categoryLabel(doc.category));
-    return ["Tous", ...Array.from(set).sort()];
+    return ["All", ...Array.from(set).sort()];
   }, [documents]);
 
   // ── Filter + search ───────────────────────────────────────────────────────
@@ -242,9 +242,9 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return documents.filter((doc) => {
-      if (selectedDomain !== "Tous" && domainLabel(doc.domain) !== selectedDomain) return false;
-      if (selectedCompany !== "Tous" && doc.company !== selectedCompany) return false;
-      if (selectedCategory !== "Tous" && categoryLabel(doc.category) !== selectedCategory) return false;
+      if (selectedDomain !== "All" && domainLabel(doc.domain) !== selectedDomain) return false;
+      if (selectedCompany !== "All" && doc.company !== selectedCompany) return false;
+      if (selectedCategory !== "All" && categoryLabel(doc.category) !== selectedCategory) return false;
       if (q && !doc.title.toLowerCase().includes(q) && !doc.company.toLowerCase().includes(q) && !doc.product.toLowerCase().includes(q)) return false;
       return true;
     });
@@ -310,7 +310,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
         <div className="mb-6">
           <div className="flex flex-wrap gap-2">
             {domainTabs.map((label) => {
-              const count = label === "Tous" ? documents.length : (domainCounts[label] ?? 0);
+              const count = label === "All" ? documents.length : (domainCounts[label] ?? 0);
               const active = selectedDomain === label;
               const dot = domainDot(label);
               return (
@@ -323,7 +323,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
                       : "bg-white text-dark-gray border-border hover:border-navy/30 hover:text-navy"
                   }`}
                 >
-                  {label === "Tous" ? (
+                  {label === "All" ? (
                     <span className="inline-flex gap-0.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
@@ -352,7 +352,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           >
             {companies.map((c) => (
               <option key={c} value={c}>
-                {c === "Tous" ? "Toutes les compagnies" : c}
+                {c === "All" ? "All companies" : c}
               </option>
             ))}
           </select>
@@ -365,7 +365,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           >
             {categories.map((c) => (
               <option key={c} value={c}>
-                {c === "Tous" ? "Toutes les catégories" : c}
+                {c === "All" ? "All categories" : c}
               </option>
             ))}
           </select>
@@ -406,9 +406,9 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
             <button
               onClick={() => {
                 setSearch("");
-                setSelectedDomain("Tous");
-                setSelectedCompany("Tous");
-                setSelectedCategory("Tous");
+                setSelectedDomain("All");
+                setSelectedCompany("All");
+                setSelectedCategory("All");
                 setPage(1);
               }}
               className="mt-4 text-sm text-gold hover:text-gold-dark font-medium underline underline-offset-2"
