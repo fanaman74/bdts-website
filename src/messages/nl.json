@@ -152,25 +152,25 @@
               {
                 "title": "Autoverzekering",
                 "description": "Aansprakelijkheid en materiële bescherming voor uw voertuig met 24/7 wegenwacht",
-                "image": "https://picsum.photos/seed/car-insurance/800/400",
+                "image": "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto"
               },
               {
                 "title": "Motorfiets Verzekering",
                 "description": "Gespecialiseerde dekking voor motorfietsen, scooters en gemotoriseerde fietsen",
-                "image": "https://picsum.photos/seed/motorcycle/800/400",
+                "image": "https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto"
               },
               {
                 "title": "Fietsverzekering",
                 "description": "Volledige bescherming voor uw fietsen tegen diefstal, schade en aansprakelijkheid",
-                "image": "https://picsum.photos/seed/bicycle-city/800/400",
+                "image": "https://images.pexels.com/photos/1174103/pexels-photo-1174103.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo"
               },
               {
                 "title": "Motorhome Verzekering",
                 "description": "Dekking voor campers en caravans met gespecialiseerde wegenwacht",
-                "image": "https://picsum.photos/seed/motorhome-travel/800/400",
+                "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome"
               }
             ]
@@ -187,31 +187,31 @@
               {
                 "title": "Aansprakelijkheid",
                 "description": "Verplichte dekking die derden beschermt in geval van ongeluk waarvoor u aansprakelijk bent",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/responsabilite-civile"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming tegen schade aan uw voertuig veroorzaakt door botsing of incident",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/dommages-materiels"
               },
               {
                 "title": "Diefstal en Brand",
                 "description": "Volledige dekking bij diefstal, diefstalpoging of brandschade aan uw auto",
-                "image": "https://picsum.photos/seed/security-lock/800/400",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/vol-et-incendie"
               },
               {
                 "title": "Rechtsbijstand",
                 "description": "Juridische bescherming en bijstand in geschillen met betrekking tot uw voertuig",
-                "image": "https://picsum.photos/seed/law-books/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/protection-juridique-auto"
               },
               {
                 "title": "Pechservice",
                 "description": "24/7 service met gratis sleepwagen en noodmechanische bijstand",
-                "image": "https://picsum.photos/seed/car-repair/800/400",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/assistance-depannage"
               }
             ]
@@ -385,25 +385,25 @@
               {
                 "title": "Aansprakelijkheid",
                 "description": "Verplichte juridische dekking voor motorfietsen en gemotoriseerde tweewielers",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto/responsabilite-civile-moto"
               },
               {
                 "title": "Uitrustingsbescherming",
                 "description": "Dekking van uw uitrusting (helm, handschoenen, kleding) bij ongeluk of diefstal",
-                "image": "https://picsum.photos/seed/motorcycle-gear/800/400",
+                "image": "https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto/protection-equipement"
               },
               {
                 "title": "Mechaische Bijstand",
                 "description": "Gespecialiseerde tweewieler-bijstand met sleepwagen en noodreparaties",
-                "image": "https://picsum.photos/seed/mechanic-workshop/800/400",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto/assistance-mecanique"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming tegen schade aan uw motorfiets door incident, botsing of aansprakelijkheid",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto/dommages-materiels-moto"
               }
             ]
@@ -546,25 +546,25 @@
               {
                 "title": "Diefstalschutz",
                 "description": "Volledige dekking in geval uw fiets wordt gestolen, ook met een hangslot",
-                "image": "https://picsum.photos/seed/safe-lock/800/400",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo/protection-vol-velo"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming tegen schade en reparatiekosten na ongeluk of incident",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo/dommages-materiels-velo"
               },
               {
                 "title": "Reparatiebijstand",
                 "description": "Snelle reparatieservices en vervoerskosten bij pech of ongeluk",
-                "image": "https://picsum.photos/seed/bicycle-repair/800/400",
+                "image": "https://images.pexels.com/photos/1174103/pexels-photo-1174103.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo/assistance-reparation"
               },
               {
                 "title": "Aansprakelijkheid",
                 "description": "Dekking van uw aansprakelijkheid in geval van ongeluk met betrokkenheid van derden",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo/responsabilite-civile-velo"
               }
             ]
@@ -707,25 +707,25 @@
               {
                 "title": "Aansprakelijkheid",
                 "description": "Juridische dekking voor schade aan derden met uw camper of caravan",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome/responsabilite-civile-motorhome"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming tegen schade aan uw motorhome door incident, botsing of aansprakelijkheid",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome/dommages-materiels-motorhome"
               },
               {
                 "title": "Wegenwacht",
                 "description": "24/7 gespecialiseerde service met sleepwagen, reparatie en pechservice voor campers",
-                "image": "https://picsum.photos/seed/roadside-help/800/400",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome/assistance-specialisee"
               },
               {
                 "title": "Binnenuitrusting",
                 "description": "Dekking van uw binnenuitrusting, elektrohuishoudelijke apparaten en voorzieningen",
-                "image": "https://picsum.photos/seed/interior-home/800/400",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome/equipement-interieur"
               }
             ]
@@ -868,25 +868,25 @@
               {
                 "title": "Brandverzekering",
                 "description": "Bescherming tegen schade veroorzaakt door brand, rook en gerelateerde incidenten",
-                "image": "https://picsum.photos/seed/house-fire/800/400",
+                "image": "https://images.pexels.com/photos/266696/pexels-photo-266696.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie"
               },
               {
                 "title": "Diefstalverzekering",
                 "description": "Volledige dekking tegen diefstal, inbraak en diefstalpoging",
-                "image": "https://picsum.photos/seed/home-security/800/400",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming van uw bezittingen tegen schade veroorzaakt door verschillende incidenten",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/degats-des-eaux"
               },
               {
                 "title": "Aansprakelijkheid",
                 "description": "Dekking van uw aansprakelijkheid tegenover derden in uw woning",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/responsabilite-civile"
               }
             ]
@@ -903,25 +903,25 @@
               {
                 "title": "Brandschade",
                 "description": "Volledige dekking van directe schade veroorzaakt door brand en verbranding",
-                "image": "https://picsum.photos/seed/fire-damage/800/400",
+                "image": "https://images.pexels.com/photos/266696/pexels-photo-266696.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie/degats-du-feu"
               },
               {
                 "title": "Rook en Roet",
                 "description": "Bescherming tegen schade veroorzaakt door rook, roet en verbrandingsgassen",
-                "image": "https://picsum.photos/seed/smoke-damage/800/400",
+                "image": "https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie/fumee-et-suie"
               },
               {
                 "title": "Tijdelijke Verhuizing",
                 "description": "Huisvestings- en verhuizingskosten terwijl uw woning wordt gerepareerd",
-                "image": "https://picsum.photos/seed/temporary-housing/800/400",
+                "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie/relogement-temporaire"
               },
               {
                 "title": "Herstel en Schoonmaak",
                 "description": "Professionele schoonmaakservices en herstel na brandschade",
-                "image": "https://picsum.photos/seed/cleaning-service/800/400",
+                "image": "https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie/recuperation-nettoyage"
               }
             ]
@@ -1064,25 +1064,25 @@
               {
                 "title": "Huisraad",
                 "description": "Volledige dekking van uw meubilair en persoonlijke bezittingen tegen diefstal",
-                "image": "https://picsum.photos/seed/furniture-home/800/400",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol/biens-mobiliers"
               },
               {
                 "title": "Apparaten en Elektronica",
                 "description": "Bescherming van uw elektrische, elektronische en technische apparatuur",
-                "image": "https://picsum.photos/seed/electronics/800/400",
+                "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol/electromenagers-electronique"
               },
               {
                 "title": "Sieraden en Waarden",
                 "description": "Speciale dekking voor sieraden, horloges en waardevolle objecten",
-                "image": "https://picsum.photos/seed/jewelry-luxury/800/400",
+                "image": "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol/bijoux-valeurs"
               },
               {
                 "title": "Persoonlijke Spullen",
                 "description": "Bescherming van uw kleding, bagage en persoonlijke bezittingen tegen diefstal",
-                "image": "https://picsum.photos/seed/personal-belongings/800/400",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol/effets-personnels"
               }
             ]
@@ -1242,35 +1242,35 @@
                 "icon": "Heart",
                 "title": "Uitgebreide familiaalverzekering",
                 "description": "Complete bescherming voor u en uw gezin met meerdere dekkingen aangepast aan uw behoeften",
-                "image": "https://picsum.photos/seed/family-beach/800/400",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale"
               },
               {
                 "icon": "AlertTriangle",
                 "title": "Bescherming tegen ongevallen en invaliditeit",
                 "description": "Dekking voor persoonlijke ongevallen en tijdelijke of permanente arbeidsongeschiktheid",
-                "image": "https://picsum.photos/seed/medical-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents"
               },
               {
                 "icon": "Shield",
                 "title": "Overlijdens- en inkomstenzekering",
                 "description": "Kapitaal en inkomsten voor uw naasten in geval van overlijden van kostwinner",
-                "image": "https://picsum.photos/seed/family-protection/800/400",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces"
               },
               {
                 "icon": "Plane",
                 "title": "Reisverzekering",
                 "description": "Complete dekking voor al uw familietrips met hulp in het buitenland",
-                "image": "https://picsum.photos/seed/family-travel/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage"
               },
               {
                 "icon": "Scale",
                 "title": "Juridische bijstand",
                 "description": "24/7 juridisch advies en procesvertegenwoordiging voor al uw persoonlijke geschillen",
-                "image": "https://picsum.photos/seed/legal-protection/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique"
               }
             ]
@@ -1287,25 +1287,25 @@
               {
                 "title": "Dekking kinderen en ouders",
                 "description": "Uitgebreide bescherming voor alle gezinsleden inclusief kinderen en bejaarde ouders",
-                "image": "https://picsum.photos/seed/family-children/800/400",
+                "image": "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale/enfants-parents"
               },
               {
                 "title": "Familiaal gezondheidsondersteuning",
                 "description": "Gezondheidsondersteuningsdiensten en medische hulp beschikbaar voor het hele gezin",
-                "image": "https://picsum.photos/seed/family-health/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale/assistance-sante-famille"
               },
               {
                 "title": "Gezinsondersteuningsdiensten",
                 "description": "Hulp en sociale bijstand wanneer gezinnen financiële moeilijkheden ondervinden",
-                "image": "https://picsum.photos/seed/family-support/800/400",
+                "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale/services-soutien-famille"
               },
               {
                 "title": "Gezinsinkomst bij overlijden",
                 "description": "Gegarandeerde inkomsten voor echtgenoot en kinderen bij overlijden van kostwinner",
-                "image": "https://picsum.photos/seed/family-future/800/400",
+                "image": "https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale/rente-familiale-deces"
               }
             ]
@@ -1448,25 +1448,25 @@
               {
                 "title": "24/7 ongelallenverzekering",
                 "description": "Complete dekking voor ongevallen die op elk moment van dag of nacht plaatsvinden",
-                "image": "https://picsum.photos/seed/emergency-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents/accidents-24h"
               },
               {
                 "title": "Permanente invaliditeitsdekking",
                 "description": "Financiële bescherming bij permanente arbeidsongeschiktheid door een ongeval",
-                "image": "https://picsum.photos/seed/disability-care/800/400",
+                "image": "https://images.pexels.com/photos/3952234/pexels-photo-3952234.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents/invalidite-permanente"
               },
               {
                 "title": "Medische en ziekenhuiskosten",
                 "description": "Vergoeding van medische en ziekenhuiskosten als gevolg van ongevallen",
-                "image": "https://picsum.photos/seed/medical-bills/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents/frais-medicaux-hospitaliers"
               },
               {
                 "title": "Temporaire invaliditeitsinkomsten",
                 "description": "Inkomstevervanging tijdens perioden van tijdelijke arbeidsongeschiktheid",
-                "image": "https://picsum.photos/seed/recovery-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents/incapacite-temporaire"
               }
             ]
@@ -1609,25 +1609,25 @@
               {
                 "title": "Kapitaal bij overlijden",
                 "description": "Kapitaal uitbetaald aan aangewezen begunstigden in geval van overlijden verzekerde",
-                "image": "https://picsum.photos/seed/life-insurance/800/400",
+                "image": "https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces/capital-deces"
               },
               {
                 "title": "Inkomsten partner overlevende",
                 "description": "Maandelijkse of jaarlijkse gegarandeerde inkomsten voor overlevende echtgenoot",
-                "image": "https://picsum.photos/seed/elderly-couple/800/400",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces/rente-conjoint"
               },
               {
                 "title": "Dekking minderjarige kinderen",
                 "description": "Aanvullend kapitaal of inkomsten ter ondersteuning van scholing minderjarige kinderen",
-                "image": "https://picsum.photos/seed/children-future/800/400",
+                "image": "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces/protection-enfants-mineurs"
               },
               {
                 "title": "Snelle uitbetaling aan begunstigden",
                 "description": "Versneld proces voor betaling van kapitaal aan aangewezen begunstigden",
-                "image": "https://picsum.photos/seed/financial-planning/800/400",
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces/paiement-accelere"
               }
             ]
@@ -1770,37 +1770,37 @@
               {
                 "title": "Medische bijstand in het buitenland",
                 "description": "24/7 medische dienst en medische evacuatie indien nodig tijdens uw reizen",
-                "image": "https://picsum.photos/seed/travel-medical/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/assistance-medicale-etranger"
               },
               {
                 "title": "Medische evacuatie",
                 "description": "Complete dekking van medische repatriëring bij ernstige ziekenhuisopname in het buitenland",
-                "image": "https://picsum.photos/seed/medical-flight/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/evacuation-medicale"
               },
               {
                 "title": "Vluchtannulering en vertraging",
                 "description": "Vergoeding indien uw reis wordt geannuleerd of vlucht aanzienlijk vertraagd",
-                "image": "https://picsum.photos/seed/airport-travel/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/annulation-retard-vol"
               },
               {
                 "title": "Bagages en persoonlijke bezittingen",
                 "description": "Bescherming en vergoeding bij verlies, diefstal of beschadiging van bagage",
-                "image": "https://picsum.photos/seed/travel-luggage/800/400",
+                "image": "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/bagages-effets-personnels"
               },
               {
                 "title": "Aansprakelijkheidsverzekering",
                 "description": "Aansprakelijkheidsdekking voor schade veroorzaakt aan derden tijdens uw reis",
-                "image": "https://picsum.photos/seed/travel-insurance/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/responsabilite-civile-voyage"
               }
             ]
           }
         ],
-        "image": "https://picsum.photos/seed/family-travel/800/400",
+        "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
         "coverages": {
           "assistance-medicale-etranger": {
             "title": "Medische Hulp in het Buitenland",
@@ -1969,25 +1969,25 @@
               {
                 "title": "24/7 juridisch advies",
                 "description": "Telefonisch advies van juridische experts beschikbaar dag en nacht",
-                "image": "https://picsum.photos/seed/legal-advice/800/400",
+                "image": "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique/conseil-juridique-24h"
               },
               {
                 "title": "Verdediging in gerechtszaken",
                 "description": "Vertegenwoordiging en verdediging door een advocaat in uw juridische procedures",
-                "image": "https://picsum.photos/seed/court-justice/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique/defense-en-justice"
               },
               {
                 "title": "Gerechtelijke kosten gedekt",
                 "description": "Complete dekking van gerechtelijke vergoedingen en advocaathonorariums",
-                "image": "https://picsum.photos/seed/legal-costs/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique/frais-juridiques"
               },
               {
                 "title": "Ondersteunde juridische verhaalsmogelijkheden",
                 "description": "Volledige ondersteuning in al uw juridische vorderingen en gerechtelijke procedures",
-                "image": "https://picsum.photos/seed/legal-support/800/400",
+                "image": "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique/recours-juridique-assiste"
               }
             ]
@@ -2130,24 +2130,24 @@
               {
                 "title": "Ziekenhuisdekking",
                 "description": "Terugbetaling van ziekenhuiskosten en verblijfskosten",
-                "image": "https://picsum.photos/seed/hospital-room/800/400",
+                "image": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/hospitalisation/individuelle"
               },
               {
                 "title": "Medische Dekking",
                 "description": "Terugbetaling van medische honoraria, consulten en behandelingen",
-                "image": "https://picsum.photos/seed/doctor-consultation/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/hospitalisation/groupe"
               },
               {
                 "title": "Medische Bijstand",
                 "description": "Noodhulp en medische evacuatiediensten",
-                "image": "https://picsum.photos/seed/ambulance-medical/800/400"
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800"
               },
               {
                 "title": "Dagvergoeding",
                 "description": "Dagelijkse uitkering tijdens ziekenhuisopname of werkloosheid",
-                "image": "https://picsum.photos/seed/daily-allowance/800/400"
+                "image": "https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&w=800"
               }
             ]
           }
@@ -2193,22 +2193,22 @@
               {
                 "title": "Spaarverzekeringsplannen",
                 "description": "Spaaroplossingen met geïntegreerde levensverzekering",
-                "image": "https://picsum.photos/seed/savings-plan/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               },
               {
                 "title": "Gediversifieerde Beleggingen",
                 "description": "Toegang tot gevarieerde beleggingsfondsen afgestemd op uw profiel",
-                "image": "https://picsum.photos/seed/investment-portfolio/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               },
               {
                 "title": "Regelmatige Opbrengsten",
                 "description": "Genereer regelmatige inkomsten en bouw uw vermogen op",
-                "image": "https://picsum.photos/seed/financial-growth/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               },
               {
                 "title": "Vermogensbescherming",
                 "description": "Beveilig uw spaargelden en draag uw erfenis veilig over",
-                "image": "https://picsum.photos/seed/wealth-management/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               }
             ]
           }
@@ -2224,25 +2224,25 @@
               {
                 "title": "Pensioenplanning",
                 "description": "Bouw geleidelijk uw pensioenkapitaal op en zeker uw toekomst",
-                "image": "https://picsum.photos/seed/retirement-planning/800/400",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/pension/epargne-pension"
               },
               {
                 "title": "Inkomensaanvulling",
                 "description": "Zorg voor een bevredigend levensniveau na uw beroepscarrière",
-                "image": "https://picsum.photos/seed/pension-income/800/400",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/pension/epargne-longterme"
               },
               {
                 "title": "Gezinsbescherming",
                 "description": "Zorg voor het welzijn van uw familie bij overlijden of invaliditeit",
-                "image": "https://picsum.photos/seed/family-security/800/400",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/pension/assurance-groupe"
               },
               {
                 "title": "Kapitaalgroei",
                 "description": "Optimaliseer de groei en opbrengsten van uw pensioenuitkeringen",
-                "image": "https://picsum.photos/seed/capital-growth/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               }
             ]
           }
@@ -2307,35 +2307,35 @@
                 "icon": "Heart",
                 "title": "Uitgebreide familiaalverzekering",
                 "description": "Volledige bescherming voor u en uw gezin met meerdere dekkingen aangepast aan uw behoeften",
-                "image": "https://picsum.photos/seed/family-beach/800/400",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale"
               },
               {
                 "icon": "AlertTriangle",
                 "title": "Bescherming tegen ongevallen en invaliditeit",
                 "description": "Dekking bij persoonlijke ongevallen en tijdelijke of permanente invaliditeit",
-                "image": "https://picsum.photos/seed/medical-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents"
               },
               {
                 "icon": "Shield",
                 "title": "Overlijdens- en inkomstenzekering",
                 "description": "Kapitaal en rente om uw naasten te beschermen bij overlijden van de kostwinner",
-                "image": "https://picsum.photos/seed/family-protection/800/400",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces"
               },
               {
                 "icon": "Plane",
                 "title": "Reisverzekering",
                 "description": "Volledige dekking voor alle gezinsreizen met bijstand in het buitenland",
-                "image": "https://picsum.photos/seed/family-travel/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage"
               },
               {
                 "icon": "Scale",
                 "title": "Juridische bijstand",
                 "description": "Juridisch advies 24/7 en verdediging voor alle persoonlijke of familiale geschillen",
-                "image": "https://picsum.photos/seed/legal-protection/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique"
               }
             ]
@@ -2354,25 +2354,25 @@
               {
                 "title": "Beroepsaansprakelijkheid",
                 "description": "Dekking van uw beroepsaansprakelijkheid tegenover derden",
-                "image": "https://picsum.photos/seed/business-liability/800/400",
+                "image": "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/entreprise/responsabilite"
               },
               {
                 "title": "Schadebijstand",
                 "description": "Bescherming van gebouwen, apparatuur en voorraad tegen incidenten",
-                "image": "https://picsum.photos/seed/office-building/800/400",
+                "image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/entreprise/batiments"
               },
               {
                 "title": "Personeelsverzekering",
                 "description": "Dekking van werkongeval en beroepsziekten",
-                "image": "https://picsum.photos/seed/workplace-team/800/400",
+                "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/personnel"
               },
               {
                 "title": "Cyberbeveiliging en Diefstal",
                 "description": "Bescherming tegen cyberrisico, gegevensdiefstal en fraude",
-                "image": "https://picsum.photos/seed/cyber-security/800/400",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/entreprise/materiel"
               }
             ]
@@ -2453,25 +2453,25 @@
               {
                 "title": "Ongevallenverzekering",
                 "description": "Dekking van werkongeval en lichamelijk letsel gerelateerd aan uw beroep",
-                "image": "https://picsum.photos/seed/workplace-safety/800/400",
+                "image": "https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/personnel/accidents-travail"
               },
               {
                 "title": "Persoonlijke Bescherming",
                 "description": "Bescherming bij arbeidsongeschiktheid, invaliditeit of beroepsdood",
-                "image": "https://picsum.photos/seed/professional-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/personnel/assurance-groupe"
               },
               {
                 "title": "Beroepsdekking",
                 "description": "Bescherm uw beroepsstatus en zelfstandige activiteiten",
-                "image": "https://picsum.photos/seed/professional-work/800/400",
+                "image": "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/personnel/hospitalisation"
               },
               {
                 "title": "Beschermde Inkomens",
                 "description": "Zorg voor continuïteit van uw inkomsten bij activiteitsonderbreking",
-                "image": "https://picsum.photos/seed/income-protection/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/revenu-garanti"
               }
             ]
@@ -2536,25 +2536,25 @@
               {
                 "title": "Inkomstendervingsdekking",
                 "description": "Bescherming van uw inkomsten bij arbeidsongeschiktheid of onderbreking",
-                "image": "https://picsum.photos/seed/income-loss/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/revenu-garanti"
               },
               {
                 "title": "Werkloosheidsverzekering",
                 "description": "Aanvullend inkomen bij onvrijwillige werkloosheid of baanverlies",
-                "image": "https://picsum.photos/seed/unemployment-protection/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/pension"
               },
               {
                 "title": "Invaliditeitsrente",
                 "description": "Gegarandeerde maandelijkse rente bij blijvende of gedeeltelijke invaliditeit",
-                "image": "https://picsum.photos/seed/disability-pension/800/400",
+                "image": "https://images.pexels.com/photos/3952234/pexels-photo-3952234.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/deces"
               },
               {
                 "title": "Kredietbescherming",
                 "description": "Bescherm uw leners en garandeer terugbetaling van leningen",
-                "image": "https://picsum.photos/seed/credit-protection/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/placements"
               }
             ]

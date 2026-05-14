@@ -152,25 +152,25 @@
               {
                 "title": "Assurance Auto",
                 "description": "Responsabilité civile et couvertures matérielles pour votre automobile et assistance routière 24/7",
-                "image": "https://picsum.photos/seed/car-insurance/800/400",
+                "image": "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto"
               },
               {
                 "title": "Assurance Moto",
                 "description": "Protection spécialisée pour motos, scooters et vélos motorisés avec équipement compris",
-                "image": "https://picsum.photos/seed/motorcycle/800/400",
+                "image": "https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto"
               },
               {
                 "title": "Assurance Vélo",
                 "description": "Couverture complète pour vos bicyclettes contre le vol, dégâts matériels et responsabilité civile",
-                "image": "https://picsum.photos/seed/bicycle-city/800/400",
+                "image": "https://images.pexels.com/photos/1174103/pexels-photo-1174103.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo"
               },
               {
                 "title": "Assurance Motorhome",
                 "description": "Protection pour camping-cars et caravanes avec assistance routière spécialisée",
-                "image": "https://picsum.photos/seed/motorhome-travel/800/400",
+                "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome"
               }
             ]
@@ -187,31 +187,31 @@
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture obligatoire protégeant les tiers en cas d'accident responsable de votre part",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/responsabilite-civile"
               },
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection contre les dommages à votre véhicule causés par collision ou sinistre",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/dommages-materiels"
               },
               {
                 "title": "Vol et Incendie",
                 "description": "Couverture complète en cas de vol, tentative de vol ou incendie de votre automobile",
-                "image": "https://picsum.photos/seed/security-lock/800/400",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/vol-et-incendie"
               },
               {
                 "title": "Couverture Juridique",
                 "description": "Protection juridique et assistance en cas de litiges liés à votre véhicule",
-                "image": "https://picsum.photos/seed/law-books/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/protection-juridique-auto"
               },
               {
                 "title": "Assistance Dépannage",
                 "description": "Service 24h/24 avec remorquage gratuit et assistance mécanique d'urgence",
-                "image": "https://picsum.photos/seed/car-repair/800/400",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/auto/assistance-depannage"
               }
             ]
@@ -385,25 +385,25 @@
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture légale obligatoire pour les deux-roues motorisés et cyclomoteurs",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto/responsabilite-civile-moto"
               },
               {
                 "title": "Protection Équipement",
                 "description": "Couverture de vos équipements (casque, gants, vêtements) en cas d'accident ou vol",
-                "image": "https://picsum.photos/seed/motorcycle-gear/800/400",
+                "image": "https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto/protection-equipement"
               },
               {
                 "title": "Assistance Mécanique",
                 "description": "Assistance spécialisée pour deux-roues avec remorquage et réparation d'urgence",
-                "image": "https://picsum.photos/seed/mechanic-workshop/800/400",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto/assistance-mecanique"
               },
               {
                 "title": "Dommages Matériels",
                 "description": "Protection contre les dégâts à votre moto causés par sinistre, collision ou responsabilité civile",
-                "image": "https://picsum.photos/seed/vehicle-damage/800/400",
+                "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/moto/dommages-materiels-moto"
               }
             ]
@@ -546,25 +546,25 @@
               {
                 "title": "Protection Vol",
                 "description": "Couverture complète en cas de vol de votre vélo, même assuré avec un cadenas",
-                "image": "https://picsum.photos/seed/safe-lock/800/400",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo/protection-vol-velo"
               },
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection contre les dommages et réparations suite à un accident ou incident",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo/dommages-materiels-velo"
               },
               {
                 "title": "Assistance Réparation",
                 "description": "Services de réparation rapide et frais de transport en cas de panne ou accident",
-                "image": "https://picsum.photos/seed/bicycle-repair/800/400",
+                "image": "https://images.pexels.com/photos/1174103/pexels-photo-1174103.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo/assistance-reparation"
               },
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture de votre responsabilité civile en cas d'accident impliquant un tiers",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/velo/responsabilite-civile-velo"
               }
             ]
@@ -707,25 +707,25 @@
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture légale pour les dommages causés à autrui avec votre camping-car ou caravane",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome/responsabilite-civile-motorhome"
               },
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection contre les dommages à votre motorhome suite à sinistre, collision ou responsabilité",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome/dommages-materiels-motorhome"
               },
               {
                 "title": "Assistance Routière",
                 "description": "Service 24/7 spécialisé avec remorquage, réparation et dépannage pour motorhomes",
-                "image": "https://picsum.photos/seed/roadside-help/800/400",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome/assistance-specialisee"
               },
               {
                 "title": "Équipements Intérieurs",
                 "description": "Couverture de vos équipements intérieurs, électroménagers et aménagements du motorhome",
-                "image": "https://picsum.photos/seed/interior-home/800/400",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/mobilite/motorhome/equipement-interieur"
               }
             ]
@@ -868,25 +868,25 @@
               {
                 "title": "Assurance Incendie",
                 "description": "Protection contre les dégâts causés par le feu, la fumée et les sinistres connexes",
-                "image": "https://picsum.photos/seed/house-fire/800/400",
+                "image": "https://images.pexels.com/photos/266696/pexels-photo-266696.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie"
               },
               {
                 "title": "Assurance Vol",
                 "description": "Couverture complète contre le vol, le cambriolage et les tentatives de vol",
-                "image": "https://picsum.photos/seed/home-security/800/400",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol"
               },
               {
                 "title": "Dégâts Matériels",
                 "description": "Protection de vos biens contre les dommages causés par divers sinistres",
-                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/degats-des-eaux"
               },
               {
                 "title": "Responsabilité Civile",
                 "description": "Couverture de votre responsabilité civile envers les tiers dans votre logement",
-                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/responsabilite-civile"
               }
             ]
@@ -903,25 +903,25 @@
               {
                 "title": "Dégâts du Feu",
                 "description": "Couverture complète des dommages directs causés par le feu et la combustion",
-                "image": "https://picsum.photos/seed/fire-damage/800/400",
+                "image": "https://images.pexels.com/photos/266696/pexels-photo-266696.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie/degats-du-feu"
               },
               {
                 "title": "Fumée et Suie",
                 "description": "Protection contre les dégâts causés par la fumée, la suie et les gaz de combustion",
-                "image": "https://picsum.photos/seed/smoke-damage/800/400",
+                "image": "https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie/fumee-et-suie"
               },
               {
                 "title": "Relogement Temporaire",
                 "description": "Frais de relogement et d'hébergement pendant les réparations de votre logement",
-                "image": "https://picsum.photos/seed/temporary-housing/800/400",
+                "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie/relogement-temporaire"
               },
               {
                 "title": "Récupération et Nettoyage",
                 "description": "Services de nettoyage professionnel et récupération après sinistre incendie",
-                "image": "https://picsum.photos/seed/cleaning-service/800/400",
+                "image": "https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/incendie/recuperation-nettoyage"
               }
             ]
@@ -1064,25 +1064,25 @@
               {
                 "title": "Protection Bien Mobiliers",
                 "description": "Couverture complète de vos meubles et biens personnels contre le vol",
-                "image": "https://picsum.photos/seed/furniture-home/800/400",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol/biens-mobiliers"
               },
               {
                 "title": "Électroménagers et Électronique",
                 "description": "Protection de vos appareils électriques, électroniques et équipements technologiques",
-                "image": "https://picsum.photos/seed/electronics/800/400",
+                "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol/electromenagers-electronique"
               },
               {
                 "title": "Bijoux et Objets de Valeur",
                 "description": "Couverture spéciale pour les bijoux, montres précieuses et objets de valeur",
-                "image": "https://picsum.photos/seed/jewelry-luxury/800/400",
+                "image": "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol/bijoux-valeurs"
               },
               {
                 "title": "Effets Personnels",
                 "description": "Protection de vos vêtements, bagages et autres effets personnels contre le vol",
-                "image": "https://picsum.photos/seed/personal-belongings/800/400",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/habitation/vol/effets-personnels"
               }
             ]
@@ -1242,35 +1242,35 @@
                 "icon": "Heart",
                 "title": "Assurance familiale complète",
                 "description": "Protection complète pour vous et votre famille avec couvertures multiples adaptées à vos besoins",
-                "image": "https://picsum.photos/seed/family-beach/800/400",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale"
               },
               {
                 "icon": "AlertTriangle",
                 "title": "Protection accidents et invalidité",
                 "description": "Couverture en cas d'accidents personnels et d'invalidité temporaire ou permanente",
-                "image": "https://picsum.photos/seed/medical-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents"
               },
               {
                 "icon": "Shield",
                 "title": "Assurance décès et rente",
                 "description": "Capital et rente pour protéger vos proches en cas de décès du soutien de famille",
-                "image": "https://picsum.photos/seed/family-protection/800/400",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces"
               },
               {
                 "icon": "Plane",
                 "title": "Assurance voyage famille",
                 "description": "Couverture complète pour tous vos déplacements en famille avec assistance à l'étranger",
-                "image": "https://picsum.photos/seed/family-travel/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage"
               },
               {
                 "icon": "Scale",
                 "title": "Assistance juridique et protection",
                 "description": "Conseil juridique 24/7 et défense en justice pour tous vos litiges personnels ou familiaux",
-                "image": "https://picsum.photos/seed/legal-protection/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique"
               }
             ]
@@ -1287,25 +1287,25 @@
               {
                 "title": "Couverture enfants et parents",
                 "description": "Protection étendue pour tous les membres de la famille incluant enfants et parents",
-                "image": "https://picsum.photos/seed/family-children/800/400",
+                "image": "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale/enfants-parents"
               },
               {
                 "title": "Assistance santé familiale",
                 "description": "Services d'assistance santé et support médical accessible à toute la famille",
-                "image": "https://picsum.photos/seed/family-health/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale/assistance-sante-famille"
               },
               {
                 "title": "Services de soutien aux familles",
                 "description": "Support et aide sociale en cas de difficultés pour les familles en détresse",
-                "image": "https://picsum.photos/seed/family-support/800/400",
+                "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale/services-soutien-famille"
               },
               {
                 "title": "Rente familiale en cas de décès",
                 "description": "Rente garantie au conjoint et aux enfants en cas de décès du soutien principal",
-                "image": "https://picsum.photos/seed/family-future/800/400",
+                "image": "https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/familiale/rente-familiale-deces"
               }
             ]
@@ -1448,25 +1448,25 @@
               {
                 "title": "Indemnités accidents 24/7",
                 "description": "Couverture complète des accidents survenus à tout moment du jour ou de la nuit",
-                "image": "https://picsum.photos/seed/emergency-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents/accidents-24h"
               },
               {
                 "title": "Couverture invalidité permanente",
                 "description": "Protection financière en cas d'invalidité permanente suite à un accident",
-                "image": "https://picsum.photos/seed/disability-care/800/400",
+                "image": "https://images.pexels.com/photos/3952234/pexels-photo-3952234.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents/invalidite-permanente"
               },
               {
                 "title": "Frais médicaux et hospitalisation",
                 "description": "Remboursement des frais médicaux et hospitalisation consécutifs à un accident",
-                "image": "https://picsum.photos/seed/medical-bills/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents/frais-medicaux-hospitaliers"
               },
               {
                 "title": "Rente d'invalidité temporaire",
                 "description": "Rente de remplacement de revenu pendant la période d'invalidité temporaire",
-                "image": "https://picsum.photos/seed/recovery-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/accidents/incapacite-temporaire"
               }
             ]
@@ -1609,25 +1609,25 @@
               {
                 "title": "Capital en cas de décès",
                 "description": "Capital versé aux bénéficiaires désignés en cas de décès assuré",
-                "image": "https://picsum.photos/seed/life-insurance/800/400",
+                "image": "https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces/capital-deces"
               },
               {
                 "title": "Rente au conjoint survivant",
                 "description": "Rente mensuelle ou annuelle garantie au conjoint survivant jusqu'à son décès",
-                "image": "https://picsum.photos/seed/elderly-couple/800/400",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces/rente-conjoint"
               },
               {
                 "title": "Couverture enfants mineurs",
                 "description": "Capitale ou rente supplémentaire pour soutenir l'éducation des enfants mineurs",
-                "image": "https://picsum.photos/seed/children-future/800/400",
+                "image": "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces/protection-enfants-mineurs"
               },
               {
                 "title": "Versement rapide aux bénéficiaires",
                 "description": "Processus accéléré de versement du capital aux bénéficiaires désignés",
-                "image": "https://picsum.photos/seed/financial-planning/800/400",
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/deces/paiement-accelere"
               }
             ]
@@ -1770,31 +1770,31 @@
               {
                 "title": "Assistance médicale à l'étranger",
                 "description": "Service médical 24/7 et rapatriement sanitaire si nécessaire lors de vos voyages",
-                "image": "https://picsum.photos/seed/travel-medical/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/assistance-medicale-etranger"
               },
               {
                 "title": "Rapatriement sanitaire",
                 "description": "Couverture complète du rapatriement médical en cas d'hospitalisation grave à l'étranger",
-                "image": "https://picsum.photos/seed/medical-flight/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/evacuation-medicale"
               },
               {
                 "title": "Annulation et retard de vol",
                 "description": "Remboursement en cas d'annulation de voyage ou de retard de vol important",
-                "image": "https://picsum.photos/seed/airport-travel/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/annulation-retard-vol"
               },
               {
                 "title": "Bagages et effets personnels",
                 "description": "Protection et remboursement en cas de perte, vol ou détérioration des bagages",
-                "image": "https://picsum.photos/seed/travel-luggage/800/400",
+                "image": "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/bagages-effets-personnels"
               },
               {
                 "title": "Assurance responsabilité civile",
                 "description": "Couverture responsabilité civile pour dommages causés à des tiers pendant le voyage",
-                "image": "https://picsum.photos/seed/travel-insurance/800/400",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/voyage/responsabilite-civile-voyage"
               }
             ]
@@ -1968,25 +1968,25 @@
               {
                 "title": "Conseil juridique 24/7",
                 "description": "Consultation téléphonique avec des experts juridiques disponibles jour et nuit",
-                "image": "https://picsum.photos/seed/legal-advice/800/400",
+                "image": "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique/conseil-juridique-24h"
               },
               {
                 "title": "Défense en justice",
                 "description": "Représentation et défense par un avocat dans vos procédures judiciaires",
-                "image": "https://picsum.photos/seed/court-justice/800/400",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique/defense-en-justice"
               },
               {
                 "title": "Frais de procédure couverts",
                 "description": "Prise en charge complète des frais de justice et honoraires d'avocats",
-                "image": "https://picsum.photos/seed/legal-costs/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique/frais-juridiques"
               },
               {
                 "title": "Recours juridiques assistés",
                 "description": "Accompagnement complet dans tous vos recours et actions en justice",
-                "image": "https://picsum.photos/seed/legal-support/800/400",
+                "image": "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/famille/protection-juridique/recours-juridique-assiste"
               }
             ]
@@ -2129,24 +2129,24 @@
               {
                 "title": "Couverture Hospitalisation",
                 "description": "Remboursement des frais d'hospitalisation et de séjour à l'hôpital",
-                "image": "https://picsum.photos/seed/hospital-room/800/400",
+                "image": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/hospitalisation/individuelle"
               },
               {
                 "title": "Couverture Médicale",
                 "description": "Remboursement des honoraires médicaux, consultations et traitements",
-                "image": "https://picsum.photos/seed/doctor-consultation/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/hospitalisation/groupe"
               },
               {
                 "title": "Assistance Médicale",
                 "description": "Services d'assistance médicale d'urgence et évacuation sanitaire",
-                "image": "https://picsum.photos/seed/ambulance-medical/800/400"
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800"
               },
               {
                 "title": "Indemnité Journalière",
                 "description": "Indemnité quotidienne pendant la période d'hospitalisation ou d'arrêt de travail",
-                "image": "https://picsum.photos/seed/daily-allowance/800/400"
+                "image": "https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&w=800"
               }
             ]
           }
@@ -2192,22 +2192,22 @@
               {
                 "title": "Plans d'Épargne Assurantielle",
                 "description": "Solutions d'épargne avec couverture d'assurance-vie intégrée",
-                "image": "https://picsum.photos/seed/savings-plan/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               },
               {
                 "title": "Placements Diversifiés",
                 "description": "Accès à des fonds d'investissement variés adaptés à votre profil",
-                "image": "https://picsum.photos/seed/investment-portfolio/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               },
               {
                 "title": "Rendements Réguliers",
                 "description": "Générer des revenus réguliers et constituer votre capital à long terme",
-                "image": "https://picsum.photos/seed/financial-growth/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               },
               {
                 "title": "Protection du Patrimoine",
                 "description": "Sécuriser votre épargne et transmettre votre patrimoine sereinement",
-                "image": "https://picsum.photos/seed/wealth-management/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               }
             ]
           }
@@ -2223,25 +2223,25 @@
               {
                 "title": "Prévoyance Retraite",
                 "description": "Constituer progressivement votre capital retraite et assurer votre futur",
-                "image": "https://picsum.photos/seed/retirement-planning/800/400",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/pension/epargne-pension"
               },
               {
                 "title": "Compléments de Revenu",
                 "description": "Assurer un niveau de vie satisfait après la fin de votre activité professionnelle",
-                "image": "https://picsum.photos/seed/pension-income/800/400",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/pension/epargne-longterme"
               },
               {
                 "title": "Protection Famille",
                 "description": "Sécuriser le bien-être de votre famille en cas de décès ou invalidité",
-                "image": "https://picsum.photos/seed/family-security/800/400",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/particuliers/pension/assurance-groupe"
               },
               {
                 "title": "Croissance du Capital",
                 "description": "Optimiser la croissance et la rente de vos placements retraite",
-                "image": "https://picsum.photos/seed/capital-growth/800/400"
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
               }
             ]
           }
@@ -2307,25 +2307,25 @@
               {
                 "title": "Assurance Responsabilité",
                 "description": "Couverture de votre responsabilité civile professionnelle envers les tiers",
-                "image": "https://picsum.photos/seed/business-liability/800/400",
+                "image": "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/entreprise/responsabilite"
               },
               {
                 "title": "Dégâts Immobiliers",
                 "description": "Protection des locaux, équipements et inventaire contre les sinistres",
-                "image": "https://picsum.photos/seed/office-building/800/400",
+                "image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/entreprise/batiments"
               },
               {
                 "title": "Assurance Personnel",
                 "description": "Couverture des accidents de travail et maladies professionnelles",
-                "image": "https://picsum.photos/seed/workplace-team/800/400",
+                "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/personnel"
               },
               {
                 "title": "Cybersécurité et Vol",
                 "description": "Protection contre le cyberrisque, vol de données et fraude informatique",
-                "image": "https://picsum.photos/seed/cyber-security/800/400",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/entreprise/materiel"
               }
             ]
@@ -2406,25 +2406,25 @@
               {
                 "title": "Assurance Accident",
                 "description": "Couverture des accidents de travail et sinistres corporels liés au métier",
-                "image": "https://picsum.photos/seed/workplace-safety/800/400",
+                "image": "https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/personnel/accidents-travail"
               },
               {
                 "title": "Prévoyance Personnelle",
                 "description": "Protection en cas d'incapacité, invalidité ou décès professionnel",
-                "image": "https://picsum.photos/seed/professional-care/800/400",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/personnel/assurance-groupe"
               },
               {
                 "title": "Couverture Professionnelle",
                 "description": "Protégez votre statut professionnel et votre activité d'indépendant",
-                "image": "https://picsum.photos/seed/professional-work/800/400",
+                "image": "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/personnel/hospitalisation"
               },
               {
                 "title": "Revenus Protégés",
                 "description": "Assurer la continuité de vos revenus en cas d'interruption d'activité",
-                "image": "https://picsum.photos/seed/income-protection/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/revenu-garanti"
               }
             ]
@@ -2489,25 +2489,25 @@
               {
                 "title": "Couverture Perte de Revenu",
                 "description": "Protection de vos revenus en cas d'incapacité ou interruption d'activité",
-                "image": "https://picsum.photos/seed/income-loss/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/revenu-garanti"
               },
               {
                 "title": "Assurance Chômage",
                 "description": "Complément de revenus en cas de chômage involontaire ou cessation d'emploi",
-                "image": "https://picsum.photos/seed/unemployment-protection/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/pension"
               },
               {
                 "title": "Rente Invalidité",
                 "description": "Rente mensuelle garantie en cas d'invalidité permanente ou partielle",
-                "image": "https://picsum.photos/seed/disability-pension/800/400",
+                "image": "https://images.pexels.com/photos/3952234/pexels-photo-3952234.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/deces"
               },
               {
                 "title": "Protection Crédit",
                 "description": "Protégez vos emprunteurs et garantissez le remboursement de vos crédits",
-                "image": "https://picsum.photos/seed/credit-protection/800/400",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
                 "href": "/professionnels/revenu/placements"
               }
             ]
