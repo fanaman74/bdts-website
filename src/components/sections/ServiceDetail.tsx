@@ -118,8 +118,7 @@ export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
         <motion.div
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
+          animate="visible"
           className="space-y-12"
         >
           {data.sections?.map((section) => (
