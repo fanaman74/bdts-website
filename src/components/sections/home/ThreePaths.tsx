@@ -25,7 +25,7 @@ export function ThreePaths() {
       sub: t("businesses_sub"),
       cta: t("businesses_cta"),
       href: `/${locale}/entreprises`,
-      featured: true,
+      featured: false,
       image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
       imageAlt: "Business team meeting",
     },

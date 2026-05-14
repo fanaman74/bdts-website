@@ -113,9 +113,24 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white/40 text-xs">© {new Date().getFullYear()} BDTS — BDT Sironval. {t("rights")}.</p>
-          <p className="text-white/30 text-xs">Laeken, Brussels | FSMA regulated</p>
+        <div className="mt-12 pt-6 border-t border-white/10">
+          <div className="flex flex-wrap gap-x-6 gap-y-2 mb-4">
+            {[
+              { label: "Protection du client", href: `/${locale}/protection-du-client` },
+              { label: "Confidentialité", href: `/${locale}/politique-de-confidentialite` },
+              { label: "Conditions d'utilisation", href: `/${locale}/conditions-generales-dutilisation` },
+              { label: "Cookies", href: `/${locale}/politique-en-matiere-de-cookies` },
+              { label: "Durabilité", href: `/${locale}/politique-en-matiere-de-durabilite` },
+            ].map((link) => (
+              <a key={link.href} href={link.href} className="text-white/40 hover:text-white/70 text-xs transition-colors">
+                {link.label}
+              </a>
+            ))}
+          </div>
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-white/40 text-xs">© {new Date().getFullYear()} BDTS — BDT Sironval. {t("rights")}.</p>
+            <p className="text-white/30 text-xs">Laeken, Brussels | FSMA regulated</p>
+          </div>
         </div>
       </div>
     </footer>
