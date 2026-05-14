@@ -102,7 +102,7 @@ export async function POST(req: NextRequest) {
     if (!response.ok) {
       const err = await response.text();
       console.error("[DOCUMENT-CHAT] OpenRouter error:", err);
-      return NextResponse.json({ error: "AI service error" }, { status: 502 });
+      return NextResponse.json({ error: `AI service error (${response.status}): ${err.slice(0, 300)}` }, { status: 502 });
     }
 
     // Stream response back to client
