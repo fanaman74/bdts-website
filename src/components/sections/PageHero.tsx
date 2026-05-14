@@ -33,7 +33,7 @@ export function PageHero({ title, subtitle, bg = "navy", breadcrumb, image }: Pa
       )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {breadcrumb && (
-          <p className="text-gold text-xs font-semibold tracking-widest uppercase mb-4">
+          <p className="text-orange-500 text-xs font-bold tracking-widest uppercase mb-4">
             {breadcrumb}
           </p>
         )}

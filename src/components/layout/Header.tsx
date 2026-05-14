@@ -88,7 +88,7 @@ export function Header() {
               onMouseEnter={() => setOpenDropdown("particulier")}
               onMouseLeave={() => setOpenDropdown(null)}
             >
-              <button className="text-sm font-medium text-dark-gray hover:text-gold transition-colors flex items-center gap-1.5">
+              <button className="text-sm font-medium text-dark-gray hover:text-orange-500 transition-colors flex items-center gap-1.5">
                 {t("particulier")}
                 <ChevronDown size={16} className="group-hover:rotate-180 transition-transform" />
               </button>
@@ -118,7 +118,7 @@ export function Header() {
               onMouseEnter={() => setOpenDropdown("professionnel")}
               onMouseLeave={() => setOpenDropdown(null)}
             >
-              <button className="text-sm font-medium text-dark-gray hover:text-gold transition-colors flex items-center gap-1.5">
+              <button className="text-sm font-medium text-dark-gray hover:text-orange-500 transition-colors flex items-center gap-1.5">
                 {t("professionnel")}
                 <ChevronDown size={16} className="group-hover:rotate-180 transition-transform" />
               </button>
@@ -147,7 +147,7 @@ export function Header() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-dark-gray hover:text-gold transition-colors"
+                className="text-sm font-medium text-dark-gray hover:text-orange-500 transition-colors"
               >
                 {link.label}
               </a>
@@ -164,7 +164,7 @@ export function Header() {
                   className={cn(
                     "px-2.5 py-1 text-xs font-semibold transition-colors",
                     locale === l.code
-                      ? "bg-gold text-navy-dark"
+                      ? "bg-orange-500 text-white font-bold"
                       : "text-mid-gray hover:text-navy hover:bg-off-white"
                   )}
                 >
@@ -174,7 +174,7 @@ export function Header() {
             </div>
             <a
               href={`/${locale}/appointment`}
-              className="px-5 py-2 bg-gold text-navy-dark font-semibold text-sm rounded-md hover:bg-gold-light transition-colors"
+              className="px-5 py-2 bg-orange-500 text-white font-bold text-sm rounded-md hover:bg-orange-600 transition-colors"
             >
               {t("cta")}
             </a>
@@ -189,7 +189,7 @@ export function Header() {
                   onClick={() => switchLocale(l.code)}
                   className={cn(
                     "px-1.5 py-0.5 text-xs font-semibold rounded transition-colors",
-                    locale === l.code ? "bg-gold text-navy-dark" : "text-mid-gray"
+                    locale === l.code ? "bg-orange-500 text-white font-bold" : "text-mid-gray"
                   )}
                 >
                   {l.label}
@@ -198,7 +198,7 @@ export function Header() {
             </div>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="text-navy hover:text-gold transition-colors p-1"
+              className="text-navy hover:text-orange-500 transition-colors p-1"
               aria-label="Toggle menu"
             >
               {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -219,7 +219,7 @@ export function Header() {
           <div>
             <button
               onClick={() => setOpenDropdown(openDropdown === "mobile-particulier" ? null : "mobile-particulier")}
-              className="w-full text-left text-lg font-medium text-navy hover:text-gold py-3 border-b border-border transition-colors flex items-center justify-between"
+              className="w-full text-left text-lg font-medium text-navy hover:text-orange-500 py-3 border-b border-border transition-colors flex items-center justify-between"
             >
               {t("particulier")}
               <ChevronDown size={20} className={cn("transition-transform", openDropdown === "mobile-particulier" && "rotate-180")} />
@@ -233,7 +233,7 @@ export function Header() {
                     setMobileOpen(false);
                     setOpenDropdown(null);
                   }}
-                  className="block pl-8 pr-6 py-2 text-base text-dark-gray hover:text-gold hover:bg-off-white transition-colors"
+                  className="block pl-8 pr-6 py-2 text-base text-dark-gray hover:text-orange-500 hover:bg-off-white transition-colors"
                 >
                   {item.label}
                 </a>
@@ -245,7 +245,7 @@ export function Header() {
           <div>
             <button
               onClick={() => setOpenDropdown(openDropdown === "mobile-professionnel" ? null : "mobile-professionnel")}
-              className="w-full text-left text-lg font-medium text-navy hover:text-gold py-3 border-b border-border transition-colors flex items-center justify-between"
+              className="w-full text-left text-lg font-medium text-navy hover:text-orange-500 py-3 border-b border-border transition-colors flex items-center justify-between"
             >
               {t("professionnel")}
               <ChevronDown size={20} className={cn("transition-transform", openDropdown === "mobile-professionnel" && "rotate-180")} />
@@ -259,7 +259,7 @@ export function Header() {
                     setMobileOpen(false);
                     setOpenDropdown(null);
                   }}
-                  className="block pl-8 pr-6 py-2 text-base text-dark-gray hover:text-gold hover:bg-off-white transition-colors"
+                  className="block pl-8 pr-6 py-2 text-base text-dark-gray hover:text-orange-500 hover:bg-off-white transition-colors"
                 >
                   {item.label}
                 </a>
@@ -273,7 +273,7 @@ export function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className="text-lg font-medium text-navy hover:text-gold py-3 border-b border-border transition-colors"
+              className="text-lg font-medium text-navy hover:text-orange-500 py-3 border-b border-border transition-colors"
             >
               {link.label}
             </a>
@@ -281,7 +281,7 @@ export function Header() {
           <a
             href={`/${locale}/appointment`}
             onClick={() => setMobileOpen(false)}
-            className="mt-6 py-4 bg-gold text-navy-dark font-bold text-center rounded-md hover:bg-gold-light transition-colors"
+            className="mt-6 py-4 bg-orange-500 text-white font-bold text-center rounded-md hover:bg-orange-600 transition-colors"
           >
             {t("cta")}
           </a>
