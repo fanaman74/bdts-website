@@ -89,9 +89,9 @@ function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
   const catLabel = categoryLabel(doc.category);
 
   return (
-    <div className="group flex items-start gap-4 px-4 py-4 rounded-lg bg-white border border-border hover:border-gold/40 hover:shadow-sm hover:shadow-gold/10 transition-all duration-150 hover:translate-x-0.5">
-      {/* Left gold accent on hover */}
-      <div className="flex-shrink-0 mt-0.5">
+    <div className="group flex items-center gap-4 px-4 py-4 rounded-lg bg-white border border-border hover:border-gold/40 hover:shadow-sm hover:shadow-gold/10 transition-all duration-150 hover:translate-x-0.5">
+      {/* PDF icon */}
+      <div className="flex-shrink-0">
         <PdfIcon />
       </div>
 
@@ -109,15 +109,15 @@ function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
       </span>
 
       {/* Category tag */}
-      <span className="hidden md:inline-flex flex-shrink-0 items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-light-gray text-dark-gray whitespace-nowrap">
+      <span className="hidden md:inline-flex flex-shrink-0 items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-sky-100 text-sky-700 whitespace-nowrap">
         {catLabel}
       </span>
 
-      {/* Chat button */}
+      {/* Chat button — light blue */}
       <button
         onClick={onChat}
         title="Poser une question sur ce document"
-        className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-border text-mid-gray hover:border-gold hover:text-gold hover:bg-gold/5 transition-all"
+        className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-sky-200 bg-sky-50 text-sky-500 hover:bg-sky-100 hover:text-sky-600 hover:border-sky-300 transition-all"
         aria-label="Poser une question"
       >
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
@@ -125,12 +125,12 @@ function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
         </svg>
       </button>
 
-      {/* Open button */}
+      {/* Open button — orange */}
       <a
         href={doc.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-border text-mid-gray hover:border-gold hover:text-gold hover:bg-gold/5 transition-all"
+        className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-orange-200 bg-orange-50 text-orange-500 hover:bg-orange-100 hover:text-orange-600 hover:border-orange-300 transition-all"
         aria-label={`Ouvrir ${doc.title}`}
       >
         <svg
