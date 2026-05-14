@@ -57,6 +57,7 @@ export function Header() {
   ];
 
   return (
+    <>
     <header className={cn(
       "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
       scrolled
@@ -196,9 +197,11 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile menu */}
+    </header>
+
+      {/* Mobile menu — outside <header> to avoid backdrop-filter containing-block bug */}
       <div className={cn(
-        "lg:hidden fixed inset-0 top-16 bg-white transition-all duration-300 overflow-y-auto",
+        "lg:hidden fixed inset-0 top-16 sm:top-20 bg-white z-40 transition-all duration-300 overflow-y-auto",
         mobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
       )}>
         <nav className="flex flex-col px-6 py-8 gap-2">
@@ -281,6 +284,6 @@ export function Header() {
           </a>
         </nav>
       </div>
-    </header>
+    </>
   );
 }
