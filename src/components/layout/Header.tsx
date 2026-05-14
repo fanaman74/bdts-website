@@ -164,7 +164,7 @@ export function Header() {
                   className={cn(
                     "px-2.5 py-1 text-xs font-semibold transition-colors",
                     locale === l.code
-                      ? "bg-orange-500 text-white font-bold"
+                      ? "bg-amber-400 text-navy font-bold"
                       : "text-mid-gray hover:text-navy hover:bg-off-white"
                   )}
                 >
@@ -174,7 +174,7 @@ export function Header() {
             </div>
             <a
               href={`/${locale}/appointment`}
-              className="px-5 py-2 bg-orange-500 text-white font-bold text-sm rounded-md hover:bg-orange-600 transition-colors"
+              className="px-5 py-2 bg-amber-400 text-navy font-bold text-sm rounded-md hover:bg-orange-600 transition-colors"
             >
               {t("cta")}
             </a>
@@ -189,7 +189,7 @@ export function Header() {
                   onClick={() => switchLocale(l.code)}
                   className={cn(
                     "px-1.5 py-0.5 text-xs font-semibold rounded transition-colors",
-                    locale === l.code ? "bg-orange-500 text-white font-bold" : "text-mid-gray"
+                    locale === l.code ? "bg-amber-400 text-navy font-bold" : "text-mid-gray"
                   )}
                 >
                   {l.label}
@@ -281,7 +281,7 @@ export function Header() {
           <a
             href={`/${locale}/appointment`}
             onClick={() => setMobileOpen(false)}
-            className="mt-6 py-4 bg-orange-500 text-white font-bold text-center rounded-md hover:bg-orange-600 transition-colors"
+            className="mt-6 py-4 bg-amber-400 text-navy font-bold text-center rounded-md hover:bg-orange-600 transition-colors"
           >
             {t("cta")}
           </a>
