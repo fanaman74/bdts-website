@@ -130,10 +130,9 @@ function DocumentRow({ doc, onChat }: { doc: Document; onChat: () => void }) {
         href={doc.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex-shrink-0 inline-flex items-center gap-1 text-xs font-semibold text-gold hover:text-gold-dark transition-colors whitespace-nowrap"
+        className="flex-shrink-0 inline-flex items-center text-gold hover:text-gold-dark transition-colors"
         aria-label={`Ouvrir ${doc.title}`}
       >
-        Ouvrir
         <svg
           className="w-3.5 h-3.5"
           viewBox="0 0 24 24"
