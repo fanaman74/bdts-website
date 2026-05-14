@@ -41,18 +41,13 @@ export async function POST(req: NextRequest) {
       }
 
       const pdfBuffer = await pdfRes.arrayBuffer();
-      console.log("[DOCUMENT-CHAT] PDF fetched, size:", pdfBuffer.byteLength);
+      const buffer = Buffer.from(pdfBuffer);
 
-      // pdf-parse v2 API: class-based, data passed in constructor
-      // v2 getText uses first/last params (not max)
+      // pdf-parse v1: simple default-export function, no worker required
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const { PDFParse } = (await import("pdf-parse")) as any;
-      const uint8 = new Uint8Array(pdfBuffer);
-      const parser = new PDFParse({ data: uint8 });
-      await parser.load();
-      const parsed = await parser.getText({ first: 50 }); // first 50 pages
+      const pdfParse = (await import("pdf-parse")).default as any;
+      const parsed = await pdfParse(buffer, { max: 50 }); // first 50 pages
       pdfText = (parsed.text ?? "").trim();
-      console.log("[DOCUMENT-CHAT] Extracted text length:", pdfText.length);
 
       if (!pdfText) {
         throw new Error("No text extracted from PDF");
