@@ -98,7 +98,12 @@ export function Header() {
                     <a
                       key={item.href}
                       href={item.href}
-                      className="block px-4 py-2 text-sm text-dark-gray hover:bg-off-white hover:text-gold transition-colors"
+                      className={cn(
+                        "block px-4 py-2 text-sm transition-colors hover:bg-off-white hover:text-orange-500",
+                        pathname.includes(item.href.split("/").slice(2).join("/"))
+                          ? "text-orange-500 font-semibold bg-off-white"
+                          : "text-dark-gray"
+                      )}
                     >
                       {item.label}
                     </a>
@@ -123,7 +128,12 @@ export function Header() {
                     <a
                       key={item.href}
                       href={item.href}
-                      className="block px-4 py-2 text-sm text-dark-gray hover:bg-off-white hover:text-gold transition-colors"
+                      className={cn(
+                        "block px-4 py-2 text-sm transition-colors hover:bg-off-white hover:text-orange-500",
+                        pathname.includes(item.href.split("/").slice(2).join("/"))
+                          ? "text-orange-500 font-semibold bg-off-white"
+                          : "text-dark-gray"
+                      )}
                     >
                       {item.label}
                     </a>
