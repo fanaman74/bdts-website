@@ -187,31 +187,193 @@
               {
                 "title": "Liability Coverage",
                 "description": "Mandatory coverage protecting third parties in case of accident you are responsible for",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/mobilite/auto/responsabilite-civile"
               },
               {
                 "title": "Material Damage",
                 "description": "Protection against damage to your vehicle caused by collision or other incidents",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/mobilite/auto/dommages-materiels"
               },
               {
                 "title": "Theft and Fire",
                 "description": "Complete coverage in case of vehicle theft, theft attempt or fire damage",
-                "image": "https://picsum.photos/seed/security-lock/800/400"
+                "image": "https://picsum.photos/seed/security-lock/800/400",
+                "href": "/particuliers/mobilite/auto/vol-et-incendie"
               },
               {
                 "title": "Legal Coverage",
                 "description": "Legal protection and assistance in disputes related to your vehicle",
-                "image": "https://picsum.photos/seed/law-books/800/400"
+                "image": "https://picsum.photos/seed/law-books/800/400",
+                "href": "/particuliers/mobilite/auto/protection-juridique-auto"
               },
               {
                 "title": "Breakdown Assistance",
                 "description": "24/7 service with free towing and emergency mechanical assistance",
-                "image": "https://picsum.photos/seed/car-repair/800/400"
+                "image": "https://picsum.photos/seed/car-repair/800/400",
+                "href": "/particuliers/mobilite/auto/assistance-depannage"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "responsabilite-civile": {
+            "title": "Liability Coverage",
+            "subtitle": "Mandatory third-party liability protection for your vehicle",
+            "image": "https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Third-party liability (RC Auto) is mandatory in Belgium and covers damage you cause to other people, their vehicles and their property. Our coverage meets and exceeds Belgian legal minimums.",
+              "In the event of an accident where you are at fault, all bodily injury and property damage costs for third parties are covered without limit on personal injury claims."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Unlimited bodily injury",
+                "description": "No cap on personal injury compensation paid to accident victims"
+              },
+              {
+                "icon": "Car",
+                "title": "Third-party vehicle damage",
+                "description": "Full repair or replacement costs for vehicles damaged in accidents you cause"
+              },
+              {
+                "icon": "Users",
+                "title": "Passenger protection",
+                "description": "Passengers in your vehicle are covered as third parties if injured"
+              },
+              {
+                "icon": "Globe",
+                "title": "European coverage",
+                "description": "Liability coverage valid across all EU member states with green card"
+              }
+            ]
+          },
+          "dommages-materiels": {
+            "title": "Material Damage",
+            "subtitle": "Protection against damage to your own vehicle",
+            "image": "https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Material damage coverage (Omnium or Mini-Omnium) protects your own vehicle against collision damage, regardless of fault. Both partial and full omnium options are available to match your needs and budget.",
+              "Agreed vehicle value settlement ensures a fair payout without depreciation disputes, and a replacement vehicle is provided while yours is being repaired."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Collision damage",
+                "description": "Repair costs for your vehicle after any collision, whether at fault or not"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Weather and natural events",
+                "description": "Hail, storm, flood and other weather-related damage to your vehicle"
+              },
+              {
+                "icon": "Key",
+                "title": "Replacement vehicle",
+                "description": "Rental vehicle provided while your car is undergoing repairs"
+              },
+              {
+                "icon": "Euro",
+                "title": "Agreed value settlement",
+                "description": "Payout based on agreed vehicle value, not depreciated market estimates"
+              }
+            ]
+          },
+          "vol-et-incendie": {
+            "title": "Theft and Fire",
+            "subtitle": "Coverage against vehicle theft, attempted theft and fire",
+            "image": "https://images.pexels.com/photos/4393668/pexels-photo-4393668.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Vehicle theft is a significant risk in Brussels and the wider Belgian urban environment. Our theft and fire coverage ensures you are fully compensated if your vehicle is stolen or damaged by fire.",
+              "Attempted theft damage — broken windows, forced locks, damaged ignition — is covered even when the vehicle itself is not taken."
+            ],
+            "benefits": [
+              {
+                "icon": "ShieldAlert",
+                "title": "Full theft replacement",
+                "description": "Market value replacement if your vehicle is not recovered within 30 days"
+              },
+              {
+                "icon": "Flame",
+                "title": "Fire damage coverage",
+                "description": "Complete repair or replacement if your vehicle is damaged or destroyed by fire"
+              },
+              {
+                "icon": "Lock",
+                "title": "Attempted theft damage",
+                "description": "Broken windows, locks and ignition damage from theft attempts are covered"
+              },
+              {
+                "icon": "MapPin",
+                "title": "Tracking service",
+                "description": "GPS tracking assistance and coordination with police for stolen vehicles"
+              }
+            ]
+          },
+          "protection-juridique-auto": {
+            "title": "Legal Coverage",
+            "subtitle": "Legal protection and assistance for vehicle-related disputes",
+            "image": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Vehicle-related legal disputes — from contested accident liability to garage repair disputes and traffic offence defence — are covered by our auto legal protection.",
+              "Expert legal advisors handle your case from initial consultation through to court representation, with all associated costs covered by your policy."
+            ],
+            "benefits": [
+              {
+                "icon": "Scale",
+                "title": "Accident liability disputes",
+                "description": "Legal representation when fault in an accident is contested by another party"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Traffic offence defence",
+                "description": "Legal defence for traffic offences where you wish to contest the charge"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Garage and repair disputes",
+                "description": "Legal assistance for disputes with garages over repairs or billing"
+              },
+              {
+                "icon": "Phone",
+                "title": "24/7 legal helpline",
+                "description": "Immediate telephone access to qualified legal advisors day and night"
+              }
+            ]
+          },
+          "assistance-depannage": {
+            "title": "Breakdown Assistance",
+            "subtitle": "24/7 roadside assistance and towing service",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Breakdown assistance gives you peace of mind knowing that wherever you break down in Belgium or Europe, help is just one phone call away. Our 24/7 service dispatches a qualified mechanic or tow truck.",
+              "From flat tyres and dead batteries to complex mechanical failures, we cover roadside repair or towing to the nearest approved garage, plus onward travel for you and your passengers."
+            ],
+            "benefits": [
+              {
+                "icon": "Wrench",
+                "title": "Roadside repair",
+                "description": "On-site mechanic for minor repairs to get you back on the road quickly"
+              },
+              {
+                "icon": "Truck",
+                "title": "Free towing",
+                "description": "Towing to the nearest approved garage at no cost to you"
+              },
+              {
+                "icon": "Users",
+                "title": "Passenger onward travel",
+                "description": "Transport or accommodation for you and passengers if the vehicle cannot be repaired"
+              },
+              {
+                "icon": "Globe",
+                "title": "Europe-wide service",
+                "description": "Assistance network covering all EU countries plus Switzerland and Norway"
+              }
+            ]
+          }
+        }
       },
       "moto": {
         "title": "Motorcycle Insurance",
@@ -223,26 +385,156 @@
               {
                 "title": "Liability Coverage",
                 "description": "Mandatory legal coverage for motorcycles and motorized two-wheelers",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/mobilite/moto/responsabilite-civile-moto"
               },
               {
                 "title": "Equipment Protection",
                 "description": "Coverage for your equipment (helmet, gloves, clothes) in case of accident or theft",
-                "image": "https://picsum.photos/seed/motorcycle-gear/800/400"
+                "image": "https://picsum.photos/seed/motorcycle-gear/800/400",
+                "href": "/particuliers/mobilite/moto/protection-equipement"
               },
               {
                 "title": "Mechanical Assistance",
                 "description": "Specialized two-wheeler assistance with towing and emergency repairs",
-                "image": "https://picsum.photos/seed/mechanic-workshop/800/400"
+                "image": "https://picsum.photos/seed/mechanic-workshop/800/400",
+                "href": "/particuliers/mobilite/moto/assistance-mecanique"
               },
               {
                 "title": "Material Damage",
                 "description": "Protection against damage to your motorcycle from incident, collision or liability",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/mobilite/moto/dommages-materiels-moto"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "responsabilite-civile-moto": {
+            "title": "Liability Coverage",
+            "subtitle": "Mandatory third-party liability for motorcycles and scooters",
+            "image": "https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Motorcycle liability insurance is legally required in Belgium. Our RC Moto policy covers all damage and injury you cause to third parties while riding, with coverage across the European Union.",
+              "Unlimited bodily injury compensation ensures victims receive full compensation, and your legal costs are covered in the event of dispute."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Unlimited injury coverage",
+                "description": "No cap on personal injury compensation for accident victims"
+              },
+              {
+                "icon": "Globe",
+                "title": "EU-wide validity",
+                "description": "Coverage valid across all European Union countries with international green card"
+              },
+              {
+                "icon": "Users",
+                "title": "Pillion passenger cover",
+                "description": "Passengers on your motorcycle covered as third parties if injured"
+              },
+              {
+                "icon": "Scale",
+                "title": "Legal defence included",
+                "description": "Legal representation if accident liability is disputed by another party"
+              }
+            ]
+          },
+          "protection-equipement": {
+            "title": "Equipment Protection",
+            "subtitle": "Coverage for helmet, gloves, jacket and riding gear",
+            "image": "https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Quality motorcycle equipment is expensive. Our equipment protection covers your helmet, gloves, jacket, boots and other riding gear in the event of theft or damage in an accident.",
+              "New for old replacement for equipment under 2 years old ensures you receive modern safety-certified replacements rather than depreciated settlements."
+            ],
+            "benefits": [
+              {
+                "icon": "HardHat",
+                "title": "Helmet replacement",
+                "description": "Certified helmet replaced after any accident, even without visible damage"
+              },
+              {
+                "icon": "Shirt",
+                "title": "Full riding gear",
+                "description": "Jacket, trousers, gloves and boots covered for theft or accident damage"
+              },
+              {
+                "icon": "Star",
+                "title": "New for old under 2 years",
+                "description": "Equipment under 2 years old replaced with current equivalent model"
+              },
+              {
+                "icon": "Lock",
+                "title": "Theft from vehicle",
+                "description": "Gear stolen from your parked motorcycle is covered by the policy"
+              }
+            ]
+          },
+          "assistance-mecanique": {
+            "title": "Mechanical Assistance",
+            "subtitle": "Specialist two-wheeler breakdown and towing service",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Motorcycle breakdowns require specialist handling. Our two-wheeler assistance service dispatches mechanics and transporters equipped for motorcycles and scooters across Belgium and Europe.",
+              "If your motorcycle cannot be repaired at the roadside, dedicated motorcycle transport is arranged to the nearest approved workshop, with alternative transport for you."
+            ],
+            "benefits": [
+              {
+                "icon": "Wrench",
+                "title": "Specialist mechanics",
+                "description": "Two-wheeler trained mechanics dispatched to your breakdown location"
+              },
+              {
+                "icon": "Truck",
+                "title": "Motorcycle transport",
+                "description": "Dedicated enclosed transport for your motorcycle to the nearest workshop"
+              },
+              {
+                "icon": "MapPin",
+                "title": "Belgium and Europe",
+                "description": "Coverage across Belgium and all EU countries plus Switzerland"
+              },
+              {
+                "icon": "Phone",
+                "title": "24/7 assistance line",
+                "description": "Round-the-clock telephone assistance for all breakdown situations"
+              }
+            ]
+          },
+          "dommages-materiels-moto": {
+            "title": "Material Damage",
+            "subtitle": "Protection for your motorcycle against collision and incident damage",
+            "image": "https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Material damage coverage for your motorcycle covers repair costs after a collision or incident, whether or not you are at fault. Both mini-omnium and full omnium options are available.",
+              "Agreed value settlement prevents depreciation disputes and ensures a fair payout that reflects what your motorcycle is actually worth."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Collision repair",
+                "description": "Full repair costs after collision regardless of fault"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Weather damage",
+                "description": "Storm, hail and flood damage to your motorcycle covered"
+              },
+              {
+                "icon": "Euro",
+                "title": "Agreed value payout",
+                "description": "Settlement based on agreed value, not depreciated estimates"
+              },
+              {
+                "icon": "Key",
+                "title": "Replacement motorcycle",
+                "description": "Temporary replacement motorcycle while yours is being repaired"
+              }
+            ]
+          }
+        }
       },
       "velo": {
         "title": "Bicycle Insurance",
@@ -254,26 +546,156 @@
               {
                 "title": "Theft Protection",
                 "description": "Complete coverage in case your bicycle is stolen, even with a padlock",
-                "image": "https://picsum.photos/seed/safe-lock/800/400"
+                "image": "https://picsum.photos/seed/safe-lock/800/400",
+                "href": "/particuliers/mobilite/velo/protection-vol-velo"
               },
               {
                 "title": "Material Damage",
                 "description": "Protection against damage and repair costs following accident or incident",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/mobilite/velo/dommages-materiels-velo"
               },
               {
                 "title": "Repair Assistance",
                 "description": "Quick repair services and transport costs in case of breakdown or accident",
-                "image": "https://picsum.photos/seed/bicycle-repair/800/400"
+                "image": "https://picsum.photos/seed/bicycle-repair/800/400",
+                "href": "/particuliers/mobilite/velo/assistance-reparation"
               },
               {
                 "title": "Liability Coverage",
                 "description": "Coverage of your liability in case of accident involving a third party",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/mobilite/velo/responsabilite-civile-velo"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "protection-vol-velo": {
+            "title": "Theft Protection",
+            "subtitle": "Complete coverage if your bicycle is stolen",
+            "image": "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Bicycle theft is extremely common in Belgian cities. Our theft protection covers your bike whether stolen from the street, a car park or even your home, as long as it was secured with an approved lock.",
+              "Electric bicycles and high-value bikes receive full replacement value coverage, ensuring you can get back on the road quickly after a theft."
+            ],
+            "benefits": [
+              {
+                "icon": "Lock",
+                "title": "Street and indoor theft",
+                "description": "Coverage whether your bike is stolen from public spaces or private property"
+              },
+              {
+                "icon": "Zap",
+                "title": "E-bike specific cover",
+                "description": "Electric bicycle battery and motor components fully covered for theft"
+              },
+              {
+                "icon": "Star",
+                "title": "Full replacement value",
+                "description": "Replacement at current retail price for bikes under 3 years old"
+              },
+              {
+                "icon": "Shield",
+                "title": "Accessory coverage",
+                "description": "Lights, locks, panniers and mounted accessories included in coverage"
+              }
+            ]
+          },
+          "dommages-materiels-velo": {
+            "title": "Material Damage",
+            "subtitle": "Protection against damage and repair costs from accidents",
+            "image": "https://images.pexels.com/photos/1208777/pexels-photo-1208777.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Bicycle damage from collisions, falls and incidents is covered by our material damage protection. Whether damaged by a car door or crashed in slippery conditions, repair costs are reimbursed.",
+              "For e-bikes, electronic components including batteries, motors and displays are specifically covered for accidental damage."
+            ],
+            "benefits": [
+              {
+                "icon": "Bike",
+                "title": "Collision damage",
+                "description": "Repair costs after collision with vehicles, obstacles or other cyclists"
+              },
+              {
+                "icon": "Zap",
+                "title": "E-bike electronics",
+                "description": "Battery, motor and display damage covered for electric bicycles"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Frame and components",
+                "description": "Frame, wheels, brakes and drivetrain repair or replacement covered"
+              },
+              {
+                "icon": "Star",
+                "title": "New for old under 2 years",
+                "description": "Bikes under 2 years old replaced at full retail value if damaged beyond repair"
+              }
+            ]
+          },
+          "assistance-reparation": {
+            "title": "Repair Assistance",
+            "subtitle": "Quick repair and transport services for breakdowns and accidents",
+            "image": "https://images.pexels.com/photos/1595236/pexels-photo-1595236.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "When your bicycle breaks down far from home, our assistance service arranges transport back to your home or the nearest bicycle workshop, so you are never stranded.",
+              "Emergency bicycle repair referrals and partial cost reimbursement for urgent repairs carried out at local shops are included in the service."
+            ],
+            "benefits": [
+              {
+                "icon": "Truck",
+                "title": "Transport home",
+                "description": "Bicycle and rider transport back home or to a repair shop if breakdown occurs"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Emergency repair referral",
+                "description": "Network of approved Brussels repair shops for priority service"
+              },
+              {
+                "icon": "Euro",
+                "title": "Repair cost contribution",
+                "description": "Partial reimbursement of emergency repair costs up to covered limits"
+              },
+              {
+                "icon": "Phone",
+                "title": "Assistance hotline",
+                "description": "Dedicated phone line for breakdown situations during commuting hours"
+              }
+            ]
+          },
+          "responsabilite-civile-velo": {
+            "title": "Liability Coverage",
+            "subtitle": "Coverage of your liability if you injure or damage a third party",
+            "image": "https://images.pexels.com/photos/2364143/pexels-photo-2364143.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "As a cyclist, you can be held liable if you cause injury to a pedestrian or damage to property. Our bicycle liability coverage protects you against these claims without financial stress.",
+              "Legal defence costs are included if your liability is contested, and coverage extends to family members who also use the bicycle."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Personal injury to third parties",
+                "description": "Full compensation for injury caused to pedestrians or other road users"
+              },
+              {
+                "icon": "Home",
+                "title": "Property damage",
+                "description": "Damage to vehicles, shop windows or other property caused by cycling accidents"
+              },
+              {
+                "icon": "Users",
+                "title": "Family member coverage",
+                "description": "Spouse and children using the bicycle are also covered under the policy"
+              },
+              {
+                "icon": "Scale",
+                "title": "Legal defence",
+                "description": "Legal costs covered if your liability is disputed by the injured party"
+              }
+            ]
+          }
+        }
       },
       "motorhome": {
         "title": "Motorhome Insurance",
@@ -285,26 +707,156 @@
               {
                 "title": "Liability Coverage",
                 "description": "Legal coverage for damage caused to others with your motorhome or caravan",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/mobilite/motorhome/responsabilite-civile-motorhome"
               },
               {
                 "title": "Material Damage",
                 "description": "Protection against damage to your motorhome from incident, collision or liability",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/mobilite/motorhome/dommages-materiels-motorhome"
               },
               {
                 "title": "Roadside Assistance",
                 "description": "24/7 specialized service with towing, repair and breakdown assistance for motorhomes",
-                "image": "https://picsum.photos/seed/roadside-help/800/400"
+                "image": "https://picsum.photos/seed/roadside-help/800/400",
+                "href": "/particuliers/mobilite/motorhome/assistance-specialisee"
               },
               {
                 "title": "Interior Equipment",
                 "description": "Coverage of your interior equipment, appliances and fixtures in the motorhome",
-                "image": "https://picsum.photos/seed/interior-home/800/400"
+                "image": "https://picsum.photos/seed/interior-home/800/400",
+                "href": "/particuliers/mobilite/motorhome/equipement-interieur"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "responsabilite-civile-motorhome": {
+            "title": "Liability Coverage",
+            "subtitle": "Third-party liability for your motorhome or caravan",
+            "image": "https://images.pexels.com/photos/1112993/pexels-photo-1112993.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Motorhome liability coverage is mandatory and covers all damage and injury caused to third parties while driving or towing your motorhome or caravan across Belgium and Europe.",
+              "Due to the size and weight of motorhomes, potential damages can be substantial. Our unlimited personal injury coverage ensures victims receive full compensation."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Unlimited injury compensation",
+                "description": "No limit on personal injury claims from accidents involving your motorhome"
+              },
+              {
+                "icon": "Globe",
+                "title": "European validity",
+                "description": "Coverage across all EU countries, Switzerland and Norway with green card"
+              },
+              {
+                "icon": "Truck",
+                "title": "Caravan towing covered",
+                "description": "Liability extends to damage caused by a caravan or trailer you are towing"
+              },
+              {
+                "icon": "Users",
+                "title": "All named drivers",
+                "description": "All drivers named on the policy are covered for liability"
+              }
+            ]
+          },
+          "dommages-materiels-motorhome": {
+            "title": "Material Damage",
+            "subtitle": "Coverage for damage to your motorhome from collision or incidents",
+            "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Motorhomes represent a significant investment and require comprehensive material damage coverage. Our policy covers collision damage, weather events and other incidents that can damage your vehicle.",
+              "Interior fixtures, appliances and custom fittings unique to your motorhome are specifically covered, not just the vehicle structure."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Collision and accident damage",
+                "description": "Full repair costs after any collision regardless of who was at fault"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Weather damage",
+                "description": "Storm, hail and flood damage to your motorhome exterior and interior"
+              },
+              {
+                "icon": "Home",
+                "title": "Interior fittings covered",
+                "description": "Kitchen units, beds, bathroom and living area fixtures included"
+              },
+              {
+                "icon": "Euro",
+                "title": "Agreed value settlement",
+                "description": "Motorhome insured at agreed value to prevent depreciation disputes"
+              }
+            ]
+          },
+          "assistance-specialisee": {
+            "title": "Roadside Assistance",
+            "subtitle": "24/7 specialist motorhome breakdown and recovery service",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Motorhome breakdowns require specialist recovery vehicles and equipment. Our dedicated motorhome assistance service has the right equipment to handle vehicles of all sizes anywhere in Europe.",
+              "If your motorhome cannot be repaired within 24 hours, alternative accommodation costs for your holiday party are covered while the vehicle is being repaired."
+            ],
+            "benefits": [
+              {
+                "icon": "Truck",
+                "title": "Specialist heavy recovery",
+                "description": "Recovery vehicles equipped for motorhomes and large campervans"
+              },
+              {
+                "icon": "Hotel",
+                "title": "Alternative accommodation",
+                "description": "Hotel costs covered for your party if motorhome cannot be repaired quickly"
+              },
+              {
+                "icon": "MapPin",
+                "title": "Europe-wide network",
+                "description": "Assistance network across all European countries for total peace of mind"
+              },
+              {
+                "icon": "Phone",
+                "title": "Multilingual helpline",
+                "description": "24/7 assistance available in French, Dutch, English and German"
+              }
+            ]
+          },
+          "equipement-interieur": {
+            "title": "Interior Equipment",
+            "subtitle": "Coverage for interior appliances, fixtures and equipment",
+            "image": "https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "The interior of your motorhome contains appliances, electronics and bespoke fittings that are not typically covered by standard vehicle policies. Our interior equipment coverage fills this gap.",
+              "From solar panels and satellite systems to refrigerators and entertainment systems, all the equipment that makes motorhome living comfortable is protected."
+            ],
+            "benefits": [
+              {
+                "icon": "Zap",
+                "title": "Electrical systems",
+                "description": "Solar panels, inverters and 12V electrical systems covered for damage or theft"
+              },
+              {
+                "icon": "Tv",
+                "title": "Entertainment equipment",
+                "description": "TV, satellite dish and audio systems covered inside and on the roof"
+              },
+              {
+                "icon": "Utensils",
+                "title": "Kitchen appliances",
+                "description": "Gas cooker, refrigerator, microwave and water systems covered"
+              },
+              {
+                "icon": "Lock",
+                "title": "Theft from motorhome",
+                "description": "Equipment and personal belongings stolen from your locked motorhome covered"
+              }
+            ]
+          }
+        }
       },
       "habitation": {
         "title": "Home Insurance",
@@ -328,12 +880,14 @@
               {
                 "title": "Material Damage",
                 "description": "Protection of your property against damage caused by various incidents",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/habitation/degats-des-eaux"
               },
               {
                 "title": "Liability Coverage",
                 "description": "Coverage of your liability to third parties within your home",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/habitation/responsabilite-civile"
               }
             ]
           }
@@ -349,26 +903,156 @@
               {
                 "title": "Fire Damage",
                 "description": "Complete coverage of direct damage caused by fire and combustion",
-                "image": "https://picsum.photos/seed/fire-damage/800/400"
+                "image": "https://picsum.photos/seed/fire-damage/800/400",
+                "href": "/particuliers/habitation/incendie/degats-du-feu"
               },
               {
                 "title": "Smoke and Soot",
                 "description": "Protection against damage caused by smoke, soot and combustion gases",
-                "image": "https://picsum.photos/seed/smoke-damage/800/400"
+                "image": "https://picsum.photos/seed/smoke-damage/800/400",
+                "href": "/particuliers/habitation/incendie/fumee-et-suie"
               },
               {
                 "title": "Temporary Relocation",
                 "description": "Accommodation and relocation costs while your home is being repaired",
-                "image": "https://picsum.photos/seed/temporary-housing/800/400"
+                "image": "https://picsum.photos/seed/temporary-housing/800/400",
+                "href": "/particuliers/habitation/incendie/relogement-temporaire"
               },
               {
                 "title": "Recovery and Cleaning",
                 "description": "Professional cleaning services and recovery following fire damage",
-                "image": "https://picsum.photos/seed/cleaning-service/800/400"
+                "image": "https://picsum.photos/seed/cleaning-service/800/400",
+                "href": "/particuliers/habitation/incendie/recuperation-nettoyage"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "degats-du-feu": {
+            "title": "Fire Damage",
+            "subtitle": "Complete coverage for direct fire and combustion damage to your home",
+            "image": "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Fire damage coverage protects your home against all direct damage caused by fire, combustion and related incidents. From kitchen fires to structural blazes, your property is fully covered.",
+              "Our fire damage policy includes rapid intervention, professional assessment, and full rebuilding costs so you can restore your home without financial stress."
+            ],
+            "benefits": [
+              {
+                "icon": "Flame",
+                "title": "Full structural coverage",
+                "description": "Complete repair or rebuilding of walls, roof and structure damaged by fire"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Contents included",
+                "description": "Furniture, appliances and personal belongings destroyed by fire are covered"
+              },
+              {
+                "icon": "Clock",
+                "title": "Rapid claims processing",
+                "description": "Priority assessment within 48 hours of declaration to start repairs quickly"
+              },
+              {
+                "icon": "Euro",
+                "title": "No excess on total loss",
+                "description": "Zero excess applies when the damage results in a total loss of your home"
+              }
+            ]
+          },
+          "fumee-et-suie": {
+            "title": "Smoke and Soot Damage",
+            "subtitle": "Protection against damage caused by smoke, soot and combustion gases",
+            "image": "https://images.pexels.com/photos/3771807/pexels-photo-3771807.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Smoke and soot can cause extensive damage to walls, ceilings, fabrics and electronics even when a fire is quickly extinguished. Our coverage ensures these hidden costs are fully reimbursed.",
+              "Professional cleaning and decontamination services are included, along with replacement of items permanently stained or corroded by combustion gases."
+            ],
+            "benefits": [
+              {
+                "icon": "Wind",
+                "title": "Full decontamination costs",
+                "description": "Professional cleaning of all surfaces, textiles and HVAC systems affected by smoke"
+              },
+              {
+                "icon": "Home",
+                "title": "Decoration and repainting",
+                "description": "Repainting and re-wallpapering of rooms damaged by soot and smoke discolouration"
+              },
+              {
+                "icon": "Tv",
+                "title": "Electronics replacement",
+                "description": "Electronic devices corroded or damaged by smoke gases are covered for replacement"
+              },
+              {
+                "icon": "CheckCircle",
+                "title": "Air quality restoration",
+                "description": "Air purification and odour elimination treatments included in the claim"
+              }
+            ]
+          },
+          "relogement-temporaire": {
+            "title": "Temporary Relocation",
+            "subtitle": "Accommodation and moving costs while your home is repaired",
+            "image": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "When fire makes your home uninhabitable, we cover the cost of temporary accommodation for you and your family — hotels, furnished apartments or other suitable lodging — for the full duration of repairs.",
+              "Relocation expenses including moving costs, storage fees and extra living costs above your normal budget are reimbursed so you can focus on recovery."
+            ],
+            "benefits": [
+              {
+                "icon": "Hotel",
+                "title": "Hotel or furnished rental",
+                "description": "Up to 12 months of temporary housing covered at comparable standard to your home"
+              },
+              {
+                "icon": "Truck",
+                "title": "Moving and storage costs",
+                "description": "Professional moving and secure storage of your belongings during repairs"
+              },
+              {
+                "icon": "Utensils",
+                "title": "Extra living expenses",
+                "description": "Additional food, transport and daily expenses above normal budget are reimbursed"
+              },
+              {
+                "icon": "Phone",
+                "title": "24/7 relocation assistance",
+                "description": "Emergency housing coordination service available around the clock"
+              }
+            ]
+          },
+          "recuperation-nettoyage": {
+            "title": "Recovery and Cleaning",
+            "subtitle": "Professional restoration and cleaning services following fire damage",
+            "image": "https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "After a fire, professional recovery and cleaning are essential before any reconstruction can begin. Our policy covers the full cost of specialist fire damage restoration companies.",
+              "From debris removal and structural drying to deep cleaning and salvage of personal belongings, every step of the recovery process is included in your coverage."
+            ],
+            "benefits": [
+              {
+                "icon": "Trash2",
+                "title": "Debris removal",
+                "description": "Complete clearance of damaged materials and fire debris from the property"
+              },
+              {
+                "icon": "Droplets",
+                "title": "Water and moisture treatment",
+                "description": "Drying and treatment of water damage caused by firefighting operations"
+              },
+              {
+                "icon": "Package",
+                "title": "Salvage and recovery",
+                "description": "Professional salvage of undamaged or repairable personal items and valuables"
+              },
+              {
+                "icon": "Star",
+                "title": "Certified restoration firms",
+                "description": "Access to our network of certified fire restoration specialists in Belgium"
+              }
+            ]
+          }
+        }
       },
       "vol": {
         "title": "Theft Insurance",
@@ -380,26 +1064,156 @@
               {
                 "title": "Personal Property",
                 "description": "Complete coverage of your furniture and personal belongings against theft",
-                "image": "https://picsum.photos/seed/furniture-home/800/400"
+                "image": "https://picsum.photos/seed/furniture-home/800/400",
+                "href": "/particuliers/habitation/vol/biens-mobiliers"
               },
               {
                 "title": "Appliances and Electronics",
                 "description": "Protection of your electrical, electronic and tech equipment",
-                "image": "https://picsum.photos/seed/electronics/800/400"
+                "image": "https://picsum.photos/seed/electronics/800/400",
+                "href": "/particuliers/habitation/vol/electromenagers-electronique"
               },
               {
                 "title": "Jewelry and Valuables",
                 "description": "Special coverage for jewelry, watches and valuable objects",
-                "image": "https://picsum.photos/seed/jewelry-luxury/800/400"
+                "image": "https://picsum.photos/seed/jewelry-luxury/800/400",
+                "href": "/particuliers/habitation/vol/bijoux-valeurs"
               },
               {
                 "title": "Personal Effects",
                 "description": "Protection of your clothing, luggage and personal effects against theft",
-                "image": "https://picsum.photos/seed/personal-belongings/800/400"
+                "image": "https://picsum.photos/seed/personal-belongings/800/400",
+                "href": "/particuliers/habitation/vol/effets-personnels"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "biens-mobiliers": {
+            "title": "Personal Property",
+            "subtitle": "Complete coverage for furniture and personal belongings against theft",
+            "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Your furniture, clothing, household goods and personal belongings are covered against theft and burglary. Whether a window is broken or a door forced, the damage and loss are reimbursed.",
+              "We cover replacement value so you can replace stolen items with equivalent new ones, not depreciated estimates."
+            ],
+            "benefits": [
+              {
+                "icon": "Sofa",
+                "title": "All furniture covered",
+                "description": "All furniture and household items replaced at current market value"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Forced entry damage",
+                "description": "Repair costs for broken locks, doors and windows caused during burglary"
+              },
+              {
+                "icon": "Package",
+                "title": "Clothing and textiles",
+                "description": "Clothing, linen and personal textiles stolen from your home are reimbursed"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Attempted burglary",
+                "description": "Damage from attempted break-ins is covered even if nothing is taken"
+              }
+            ]
+          },
+          "electromenagers-electronique": {
+            "title": "Appliances and Electronics",
+            "subtitle": "Protection of electrical, electronic and tech equipment against theft",
+            "image": "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Televisions, computers, audio systems, kitchen appliances and other electronic devices are high-value targets for thieves. Our coverage ensures full replacement at current retail prices.",
+              "New for old replacement applies to electronics under 3 years old, ensuring you receive a modern equivalent rather than a depreciated payout."
+            ],
+            "benefits": [
+              {
+                "icon": "Tv",
+                "title": "TV and audio systems",
+                "description": "All televisions, sound systems and home cinema equipment covered at full value"
+              },
+              {
+                "icon": "Laptop",
+                "title": "Computers and tablets",
+                "description": "Laptops, desktop PCs, tablets and peripherals replaced at current market price"
+              },
+              {
+                "icon": "Zap",
+                "title": "Kitchen appliances",
+                "description": "Large and small kitchen appliances including fridges, ovens and coffee machines"
+              },
+              {
+                "icon": "Smartphone",
+                "title": "Smart home devices",
+                "description": "Smart speakers, security cameras and home automation devices are covered"
+              }
+            ]
+          },
+          "bijoux-valeurs": {
+            "title": "Jewelry and Valuables",
+            "subtitle": "Specialist coverage for jewelry, watches and valuable objects",
+            "image": "https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Jewelry, fine watches, artworks and collector items require specific coverage beyond standard home insurance limits. Our valuables extension provides dedicated protection with agreed values.",
+              "Items are covered both inside your home and when carried with you. Expert valuation assistance is available to ensure your possessions are adequately insured."
+            ],
+            "benefits": [
+              {
+                "icon": "Gem",
+                "title": "Agreed value settlement",
+                "description": "Items insured at agreed value so there is no dispute over worth at claim time"
+              },
+              {
+                "icon": "Eye",
+                "title": "Expert valuation service",
+                "description": "Professional jewelry and art valuation assistance at no additional cost"
+              },
+              {
+                "icon": "Lock",
+                "title": "Safe storage incentive",
+                "description": "Reduced premium when valuables are kept in an approved home safe"
+              },
+              {
+                "icon": "Globe",
+                "title": "Worldwide coverage option",
+                "description": "Optional worldwide coverage for jewelry worn or carried outside the home"
+              }
+            ]
+          },
+          "effets-personnels": {
+            "title": "Personal Effects",
+            "subtitle": "Coverage for clothing, luggage and personal items against theft",
+            "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Personal effects including clothing, handbags, luggage and everyday personal items are covered when stolen from your home during a burglary.",
+              "The coverage accounts for reasonable wear and includes replacement costs so your daily life is restored with minimum disruption."
+            ],
+            "benefits": [
+              {
+                "icon": "ShoppingBag",
+                "title": "Clothing replacement",
+                "description": "All clothing and accessories stolen from your home reimbursed at replacement value"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Luggage and bags",
+                "description": "Suitcases, backpacks and handbags covered if taken during a burglary"
+              },
+              {
+                "icon": "Watch",
+                "title": "Everyday accessories",
+                "description": "Everyday watches, glasses and personal accessories included in coverage"
+              },
+              {
+                "icon": "Key",
+                "title": "Lock replacement",
+                "description": "All locks and keys replaced after theft to secure your home again"
+              }
+            ]
+          }
+        }
       },
       "bailleur_locataire": {
         "title": "Landlord-Tenant Insurance",
@@ -473,26 +1287,156 @@
               {
                 "title": "Children and parents coverage",
                 "description": "Extended protection for all family members including children and elderly parents",
-                "image": "https://picsum.photos/seed/family-children/800/400"
+                "image": "https://picsum.photos/seed/family-children/800/400",
+                "href": "/particuliers/famille/familiale/enfants-parents"
               },
               {
                 "title": "Family health assistance",
                 "description": "Health assistance services and medical support accessible to the whole family",
-                "image": "https://picsum.photos/seed/family-health/800/400"
+                "image": "https://picsum.photos/seed/family-health/800/400",
+                "href": "/particuliers/famille/familiale/assistance-sante-famille"
               },
               {
                 "title": "Family support services",
                 "description": "Support and social assistance when families face financial difficulties",
-                "image": "https://picsum.photos/seed/family-support/800/400"
+                "image": "https://picsum.photos/seed/family-support/800/400",
+                "href": "/particuliers/famille/familiale/services-soutien-famille"
               },
               {
                 "title": "Family income on death",
                 "description": "Guaranteed income to spouse and children if breadwinner passes away",
-                "image": "https://picsum.photos/seed/family-future/800/400"
+                "image": "https://picsum.photos/seed/family-future/800/400",
+                "href": "/particuliers/famille/familiale/rente-familiale-deces"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "enfants-parents": {
+            "title": "Children and Parents Coverage",
+            "subtitle": "Extended protection for all family members",
+            "image": "https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Our family insurance extends to cover all household members, including children at school, elderly parents living with you, and other dependants — ensuring the whole family is protected under one policy.",
+              "Coverage follows family members throughout daily life, from school activities and sports to everyday accidents at home or in public."
+            ],
+            "benefits": [
+              {
+                "icon": "Users",
+                "title": "All household members",
+                "description": "Every person living at the insured address covered automatically"
+              },
+              {
+                "icon": "School",
+                "title": "School activities",
+                "description": "Accidents occurring during school time and extracurricular activities covered"
+              },
+              {
+                "icon": "Heart",
+                "title": "Elderly parent coverage",
+                "description": "Parents living in the household included without age restriction"
+              },
+              {
+                "icon": "Baby",
+                "title": "Newborns included",
+                "description": "New family members covered from birth without policy update required"
+              }
+            ]
+          },
+          "assistance-sante-famille": {
+            "title": "Family Health Assistance",
+            "subtitle": "Health assistance and medical support for the whole family",
+            "image": "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Family health assistance provides a range of medical support services accessible to all family members, from GP referrals and second medical opinions to home care and psychological support.",
+              "Telemedicine consultations, mental health support and specialist referral coordination are included to ensure your family receives care when it matters most."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "24/7 medical helpline",
+                "description": "Round-the-clock telephone access to qualified medical advisors"
+              },
+              {
+                "icon": "Brain",
+                "title": "Psychological support",
+                "description": "Up to 8 sessions with a qualified psychologist following a traumatic event"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Second medical opinion",
+                "description": "Expert second opinion service for serious diagnoses at no extra cost"
+              },
+              {
+                "icon": "Home",
+                "title": "Home care coordination",
+                "description": "Assistance organising home nursing or care services after hospitalisation"
+              }
+            ]
+          },
+          "services-soutien-famille": {
+            "title": "Family Support Services",
+            "subtitle": "Practical support when families face difficult situations",
+            "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Life events like serious illness, disability or the loss of a breadwinner can create practical challenges beyond financial ones. Our family support services provide hands-on assistance when you need it most.",
+              "From childcare coordination and home help to administrative support and legal advice, we help families navigate difficult periods with expert guidance."
+            ],
+            "benefits": [
+              {
+                "icon": "Baby",
+                "title": "Emergency childcare",
+                "description": "Childcare coordination if a parent is hospitalised or incapacitated"
+              },
+              {
+                "icon": "Home",
+                "title": "Home help services",
+                "description": "Domestic assistance and home maintenance during recovery periods"
+              },
+              {
+                "icon": "FileText",
+                "title": "Administrative support",
+                "description": "Help navigating government benefits, insurance claims and paperwork"
+              },
+              {
+                "icon": "Scale",
+                "title": "Legal guidance",
+                "description": "Access to legal advisors for family law, inheritance and dispute matters"
+              }
+            ]
+          },
+          "rente-familiale-deces": {
+            "title": "Family Income on Death",
+            "subtitle": "Guaranteed income for spouse and children if the breadwinner passes away",
+            "image": "https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "The death of a breadwinner can leave a family in acute financial difficulty. Our family income death benefit provides a guaranteed monthly income to the surviving spouse and children for an agreed period.",
+              "Capital lump-sum options are also available alongside or instead of income, ensuring flexibility to pay off a mortgage or cover immediate expenses."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Monthly guaranteed income",
+                "description": "Regular income paid to surviving spouse for up to 20 years after death"
+              },
+              {
+                "icon": "GraduationCap",
+                "title": "Children's education fund",
+                "description": "Additional capital to fund children's education through to university"
+              },
+              {
+                "icon": "Home",
+                "title": "Mortgage protection option",
+                "description": "Lump sum option sized to repay the outstanding home loan"
+              },
+              {
+                "icon": "Clock",
+                "title": "Fast benefit payment",
+                "description": "First payment within 30 days of death certificate submission"
+              }
+            ]
+          }
+        }
       },
       "accidents": {
         "title": "Accident & Disability",
@@ -504,26 +1448,156 @@
               {
                 "title": "24/7 accident benefits",
                 "description": "Complete coverage for accidents occurring at any time of day or night",
-                "image": "https://picsum.photos/seed/emergency-care/800/400"
+                "image": "https://picsum.photos/seed/emergency-care/800/400",
+                "href": "/particuliers/famille/accidents/accidents-24h"
               },
               {
                 "title": "Permanent disability coverage",
                 "description": "Financial protection if you become permanently disabled from an accident",
-                "image": "https://picsum.photos/seed/disability-care/800/400"
+                "image": "https://picsum.photos/seed/disability-care/800/400",
+                "href": "/particuliers/famille/accidents/invalidite-permanente"
               },
               {
                 "title": "Medical and hospital expenses",
                 "description": "Reimbursement of medical and hospital fees resulting from accidents",
-                "image": "https://picsum.photos/seed/medical-bills/800/400"
+                "image": "https://picsum.photos/seed/medical-bills/800/400",
+                "href": "/particuliers/famille/accidents/frais-medicaux-hospitaliers"
               },
               {
                 "title": "Temporary disability income",
                 "description": "Income replacement during periods of temporary disability from accidents",
-                "image": "https://picsum.photos/seed/recovery-care/800/400"
+                "image": "https://picsum.photos/seed/recovery-care/800/400",
+                "href": "/particuliers/famille/accidents/incapacite-temporaire"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "accidents-24h": {
+            "title": "24/7 Accident Benefits",
+            "subtitle": "Complete coverage for accidents at any time of day or night",
+            "image": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Our 24/7 accident coverage protects you against the financial consequences of any personal accident, whether it occurs at work, at home, during sport or leisure activities.",
+              "Coverage is worldwide and continuous — there is no restriction on the time or place of the accident, giving you complete peace of mind in all daily situations."
+            ],
+            "benefits": [
+              {
+                "icon": "Clock",
+                "title": "Round-the-clock protection",
+                "description": "Coverage active 24 hours a day, 7 days a week, 365 days a year"
+              },
+              {
+                "icon": "Globe",
+                "title": "Worldwide coverage",
+                "description": "Accidents covered anywhere in the world, not just in Belgium"
+              },
+              {
+                "icon": "Activity",
+                "title": "Sports and leisure",
+                "description": "Accidents during sporting activities and hobbies are covered"
+              },
+              {
+                "icon": "Zap",
+                "title": "Immediate benefit payment",
+                "description": "Benefits paid within 30 days of medical certification of the accident"
+              }
+            ]
+          },
+          "invalidite-permanente": {
+            "title": "Permanent Disability Coverage",
+            "subtitle": "Financial protection if you become permanently disabled",
+            "image": "https://images.pexels.com/photos/3768913/pexels-photo-3768913.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Permanent disability from an accident can fundamentally change your life and earning capacity. Our disability benefit provides a capital lump sum based on the degree of disability assessed by an independent medical expert.",
+              "Partial disability is covered on a pro-rata basis, ensuring that even partial loss of function results in meaningful financial support."
+            ],
+            "benefits": [
+              {
+                "icon": "BarChart2",
+                "title": "Pro-rata partial disability",
+                "description": "Compensation proportional to degree of disability from 5% upward"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Independent medical assessment",
+                "description": "Disability degree assessed by a neutral, independent medical expert"
+              },
+              {
+                "icon": "Euro",
+                "title": "Capital lump sum",
+                "description": "One-time payment allowing you to adapt your home or lifestyle as needed"
+              },
+              {
+                "icon": "RefreshCw",
+                "title": "Rehabilitation support",
+                "description": "Reimbursement of rehabilitation costs to maximise recovery potential"
+              }
+            ]
+          },
+          "frais-medicaux-hospitaliers": {
+            "title": "Medical and Hospital Expenses",
+            "subtitle": "Reimbursement of medical fees resulting from accidents",
+            "image": "https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Accidents generate medical expenses that are not always fully covered by Belgian public health insurance. Our accident medical coverage tops up your statutory reimbursements to ensure no out-of-pocket costs.",
+              "Emergency treatment, hospitalisation, physiotherapy, dental repair and prosthetics following accidents are all reimbursed up to the insured limit."
+            ],
+            "benefits": [
+              {
+                "icon": "Stethoscope",
+                "title": "Emergency treatment",
+                "description": "Emergency room and urgent care costs reimbursed in full"
+              },
+              {
+                "icon": "Activity",
+                "title": "Physiotherapy",
+                "description": "Full course of physiotherapy following accident injury covered"
+              },
+              {
+                "icon": "Smile",
+                "title": "Dental repair",
+                "description": "Dental injuries from accidents repaired and reimbursed"
+              },
+              {
+                "icon": "Package",
+                "title": "Prosthetics and aids",
+                "description": "Prosthetic limbs, wheelchairs and mobility aids covered after accident"
+              }
+            ]
+          },
+          "incapacite-temporaire": {
+            "title": "Temporary Disability Income",
+            "subtitle": "Income replacement during temporary disability from accidents",
+            "image": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "When an accident prevents you from working temporarily, our daily benefit pays a fixed daily allowance for every day you are medically certified as unable to work, supplementing your employer's sick pay or statutory benefits.",
+              "The benefit begins from the first day of disability (or after a short waiting period depending on your chosen option) and continues until you are certified fit to return to work."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Daily cash benefit",
+                "description": "Fixed daily allowance paid for each day of certified work incapacity"
+              },
+              {
+                "icon": "Calendar",
+                "title": "From day one option",
+                "description": "Optional coverage from the very first day of disability with no waiting period"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Self-employed protection",
+                "description": "Especially valuable for self-employed whose income stops immediately with disability"
+              },
+              {
+                "icon": "FileText",
+                "title": "Simple certification",
+                "description": "Benefit triggered by GP medical certificate, no complex claims process"
+              }
+            ]
+          }
+        }
       },
       "deces": {
         "title": "Death Benefit Insurance",
@@ -535,26 +1609,156 @@
               {
                 "title": "Death capital",
                 "description": "Capital paid to designated beneficiaries in case of insured's death",
-                "image": "https://picsum.photos/seed/life-insurance/800/400"
+                "image": "https://picsum.photos/seed/life-insurance/800/400",
+                "href": "/particuliers/famille/deces/capital-deces"
               },
               {
                 "title": "Spouse survivor income",
                 "description": "Monthly or annual guaranteed income to surviving spouse until their death",
-                "image": "https://picsum.photos/seed/elderly-couple/800/400"
+                "image": "https://picsum.photos/seed/elderly-couple/800/400",
+                "href": "/particuliers/famille/deces/rente-conjoint"
               },
               {
                 "title": "Minor children coverage",
                 "description": "Additional capital or income to support education of minor children",
-                "image": "https://picsum.photos/seed/children-future/800/400"
+                "image": "https://picsum.photos/seed/children-future/800/400",
+                "href": "/particuliers/famille/deces/protection-enfants-mineurs"
               },
               {
                 "title": "Fast payout to beneficiaries",
                 "description": "Accelerated process for payment of capital to designated beneficiaries",
-                "image": "https://picsum.photos/seed/financial-planning/800/400"
+                "image": "https://picsum.photos/seed/financial-planning/800/400",
+                "href": "/particuliers/famille/deces/paiement-accelere"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "capital-deces": {
+            "title": "Death Capital",
+            "subtitle": "Lump sum paid to beneficiaries upon the insured's death",
+            "image": "https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "A death capital policy provides a one-time lump sum payment to your designated beneficiaries upon your death. The capital can be used to pay off a mortgage, cover funeral costs or provide financial stability.",
+              "You choose the capital amount and the beneficiaries. Coverage is available with or without a medical exam depending on the sum insured, and premiums are fixed for the duration of the policy."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Flexible capital amounts",
+                "description": "Choose the capital from €25,000 to €1,000,000 based on your family's needs"
+              },
+              {
+                "icon": "Users",
+                "title": "Named beneficiaries",
+                "description": "You designate exactly who receives the capital and in what proportions"
+              },
+              {
+                "icon": "Clock",
+                "title": "30-day payment guarantee",
+                "description": "Capital paid to beneficiaries within 30 days of death certificate receipt"
+              },
+              {
+                "icon": "Home",
+                "title": "Mortgage protection use",
+                "description": "Capital sized to repay your outstanding mortgage for complete home security"
+              }
+            ]
+          },
+          "rente-conjoint": {
+            "title": "Spouse Survivor Income",
+            "subtitle": "Monthly income guaranteed to the surviving spouse",
+            "image": "https://images.pexels.com/photos/3807734/pexels-photo-3807734.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "A survivor income policy guarantees your spouse a monthly or annual income for a defined period or for life following your death. This provides sustainable financial security beyond a one-time capital payment.",
+              "Income can be indexed to inflation and can include an optional survivor guarantee ensuring a minimum total payout regardless of when the surviving spouse dies."
+            ],
+            "benefits": [
+              {
+                "icon": "Calendar",
+                "title": "Monthly income for life option",
+                "description": "Income paid to surviving spouse for their entire remaining lifetime"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Inflation indexing",
+                "description": "Income indexed annually to maintain purchasing power over time"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Minimum payout guarantee",
+                "description": "Guaranteed minimum total payout regardless of beneficiary's lifespan"
+              },
+              {
+                "icon": "FileText",
+                "title": "Tax-efficient structure",
+                "description": "Survivor income benefits benefit from favourable Belgian tax treatment"
+              }
+            ]
+          },
+          "protection-enfants-mineurs": {
+            "title": "Minor Children Coverage",
+            "subtitle": "Capital or income to support children's education after a parent's death",
+            "image": "https://images.pexels.com/photos/1416736/pexels-photo-1416736.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "The death of a parent creates not only emotional but also financial challenges for minor children. Our children's death benefit provides dedicated capital or monthly income to fund education and support until children reach adulthood.",
+              "Benefits can be structured to increase as children reach key milestones — secondary school, higher education — ensuring adequate funding at each stage."
+            ],
+            "benefits": [
+              {
+                "icon": "GraduationCap",
+                "title": "Education capital",
+                "description": "Dedicated capital to fund primary, secondary and higher education"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Milestone-based payments",
+                "description": "Structured payments timed to coincide with key educational transitions"
+              },
+              {
+                "icon": "Baby",
+                "title": "Per-child benefit",
+                "description": "Separate capital or income allocated to each minor child in the family"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Until age of majority",
+                "description": "Benefits paid until each child reaches 18 or 25 if still in education"
+              }
+            ]
+          },
+          "paiement-accelere": {
+            "title": "Fast Payout to Beneficiaries",
+            "subtitle": "Accelerated benefit payment process for designated beneficiaries",
+            "image": "https://images.pexels.com/photos/4386367/pexels-photo-4386367.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Our priority claims process ensures that death benefits reach your beneficiaries as quickly as possible — typically within 30 days of receiving a valid death certificate and completed claim form.",
+              "A dedicated claims advisor is assigned to your family from the moment of notification to guide them through the process and minimise paperwork during a difficult time."
+            ],
+            "benefits": [
+              {
+                "icon": "Clock",
+                "title": "30-day payment target",
+                "description": "Capital or first income payment within 30 days of valid claim submission"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Dedicated claims advisor",
+                "description": "Personal claims handler assigned to guide your family through the process"
+              },
+              {
+                "icon": "FileText",
+                "title": "Simplified paperwork",
+                "description": "Minimal documentation requirements — death certificate and ID are sufficient"
+              },
+              {
+                "icon": "Phone",
+                "title": "24/7 bereavement line",
+                "description": "Immediate support line available to notify and begin the claims process"
+              }
+            ]
+          }
+        }
       },
       "voyage": {
         "title": "Travel Insurance",
@@ -566,31 +1770,193 @@
               {
                 "title": "Medical assistance abroad",
                 "description": "24/7 medical service and medical evacuation if needed during your travels",
-                "image": "https://picsum.photos/seed/travel-medical/800/400"
+                "image": "https://picsum.photos/seed/travel-medical/800/400",
+                "href": "/particuliers/famille/voyage/assistance-medicale-etranger"
               },
               {
                 "title": "Medical evacuation",
                 "description": "Complete coverage of medical repatriation if seriously hospitalized abroad",
-                "image": "https://picsum.photos/seed/medical-flight/800/400"
+                "image": "https://picsum.photos/seed/medical-flight/800/400",
+                "href": "/particuliers/famille/voyage/evacuation-medicale"
               },
               {
                 "title": "Flight cancellation and delay",
                 "description": "Reimbursement if your trip is cancelled or flight significantly delayed",
-                "image": "https://picsum.photos/seed/airport-travel/800/400"
+                "image": "https://picsum.photos/seed/airport-travel/800/400",
+                "href": "/particuliers/famille/voyage/annulation-retard-vol"
               },
               {
                 "title": "Baggage and personal effects",
                 "description": "Protection and reimbursement for lost, stolen or damaged luggage",
-                "image": "https://picsum.photos/seed/travel-luggage/800/400"
+                "image": "https://picsum.photos/seed/travel-luggage/800/400",
+                "href": "/particuliers/famille/voyage/bagages-effets-personnels"
               },
               {
                 "title": "Liability insurance",
                 "description": "Liability coverage for damages caused to third parties during your trip",
-                "image": "https://picsum.photos/seed/travel-insurance/800/400"
+                "image": "https://picsum.photos/seed/travel-insurance/800/400",
+                "href": "/particuliers/famille/voyage/responsabilite-civile-voyage"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "assistance-medicale-etranger": {
+            "title": "Medical Assistance Abroad",
+            "subtitle": "24/7 medical service and evacuation during your travels",
+            "image": "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Medical emergencies abroad can be frightening and expensive. Our medical assistance service is available 24/7 in multiple languages to coordinate your care, liaise with local hospitals and arrange payment guarantees.",
+              "From a simple GP visit to emergency surgery, we handle the logistics so you can focus on recovery. All medical costs are covered directly — no upfront payment required."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "24/7 multilingual helpline",
+                "description": "Medical assistance line available in French, Dutch, English and more"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Hospital cost guarantee",
+                "description": "Direct payment guarantee to foreign hospitals — no upfront payment needed"
+              },
+              {
+                "icon": "Globe",
+                "title": "Worldwide coverage",
+                "description": "Medical assistance available in every country including outside Europe"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Medical monitoring",
+                "description": "Our team monitors your condition throughout hospitalisation abroad"
+              }
+            ]
+          },
+          "evacuation-medicale": {
+            "title": "Medical Evacuation",
+            "subtitle": "Repatriation if seriously hospitalised abroad",
+            "image": "https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "If you are seriously ill or injured abroad and require specialist treatment unavailable locally, or if you wish to be treated in Belgium, our medical evacuation service organises medically supervised repatriation.",
+              "All costs — air ambulance, medical escort, ground transport and family member travel — are covered without limit."
+            ],
+            "benefits": [
+              {
+                "icon": "Plane",
+                "title": "Air ambulance service",
+                "description": "Medically equipped air transport back to Belgium when medically necessary"
+              },
+              {
+                "icon": "Users",
+                "title": "Family member travel",
+                "description": "One accompanying family member's travel costs covered during repatriation"
+              },
+              {
+                "icon": "Home",
+                "title": "Repatriation of remains",
+                "description": "Dignified repatriation of remains to Belgium covered in the event of death"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Medical escort",
+                "description": "Qualified medical professional accompanies you during evacuation flight"
+              }
+            ]
+          },
+          "annulation-retard-vol": {
+            "title": "Flight Cancellation and Delay",
+            "subtitle": "Reimbursement if your trip is cancelled or flight significantly delayed",
+            "image": "https://images.pexels.com/photos/1534057/pexels-photo-1534057.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Travel disruption can result in significant financial loss — non-refundable hotel bookings, tour packages and event tickets. Our cancellation and delay coverage reimburses these costs when travel is disrupted for covered reasons.",
+              "Covered reasons include illness, death in the family, redundancy, jury service, natural disasters and airline insolvency, among others."
+            ],
+            "benefits": [
+              {
+                "icon": "Calendar",
+                "title": "Trip cancellation",
+                "description": "Non-refundable prepaid costs reimbursed if trip cancelled for covered reasons"
+              },
+              {
+                "icon": "Clock",
+                "title": "Delay compensation",
+                "description": "Daily allowance for delays over 4 hours including meals and accommodation"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Missed connection",
+                "description": "Additional costs covered when a delay causes you to miss a connecting flight"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Airline insolvency",
+                "description": "Reimbursement if your airline or tour operator becomes insolvent"
+              }
+            ]
+          },
+          "bagages-effets-personnels": {
+            "title": "Baggage and Personal Effects",
+            "subtitle": "Protection for lost, stolen or damaged luggage during travel",
+            "image": "https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Lost luggage and stolen belongings can disrupt your entire trip. Our baggage coverage provides reimbursement for lost, stolen or damaged luggage and personal effects, plus emergency purchases if your bags are delayed.",
+              "Valuables, electronics and sports equipment carried in your luggage can be specifically declared for higher coverage limits."
+            ],
+            "benefits": [
+              {
+                "icon": "Briefcase",
+                "title": "Lost or stolen luggage",
+                "description": "Full reimbursement of luggage contents at replacement value"
+              },
+              {
+                "icon": "Clock",
+                "title": "Delayed luggage allowance",
+                "description": "Emergency purchase allowance if luggage is delayed by more than 12 hours"
+              },
+              {
+                "icon": "Laptop",
+                "title": "Electronics declaration",
+                "description": "Higher limits available for declared electronics and valuables"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Airline liability top-up",
+                "description": "Covers the gap between airline liability limits and actual item value"
+              }
+            ]
+          },
+          "responsabilite-civile-voyage": {
+            "title": "Liability Insurance",
+            "subtitle": "Liability coverage for damage caused to third parties during travel",
+            "image": "https://images.pexels.com/photos/1436116/pexels-photo-1436116.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Accidents during travel can result in claims against you — a collision on a ski slope, accidental damage to a hotel room or injury to another tourist. Our travel liability coverage protects you against these claims.",
+              "Coverage extends to all family members travelling together and includes legal defence costs if your liability is contested."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Personal injury to third parties",
+                "description": "Compensation for injury accidentally caused to others during your trip"
+              },
+              {
+                "icon": "Hotel",
+                "title": "Property damage",
+                "description": "Accidental damage to hotel rooms, rental equipment and third-party property"
+              },
+              {
+                "icon": "Users",
+                "title": "Whole family covered",
+                "description": "All family members on the same trip covered under the single policy"
+              },
+              {
+                "icon": "Scale",
+                "title": "Legal defence costs",
+                "description": "Lawyer fees and court costs covered if liability is legally contested"
+              }
+            ]
+          }
+        }
       },
       "protection_juridique": {
         "title": "Legal Protection",
@@ -602,26 +1968,156 @@
               {
                 "title": "24/7 legal advice",
                 "description": "Phone consultation with legal experts available day and night",
-                "image": "https://picsum.photos/seed/legal-advice/800/400"
+                "image": "https://picsum.photos/seed/legal-advice/800/400",
+                "href": "/particuliers/famille/protection-juridique/conseil-juridique-24h"
               },
               {
                 "title": "Court defense",
                 "description": "Representation and defense by a lawyer in your legal proceedings",
-                "image": "https://picsum.photos/seed/court-justice/800/400"
+                "image": "https://picsum.photos/seed/court-justice/800/400",
+                "href": "/particuliers/famille/protection-juridique/defense-en-justice"
               },
               {
                 "title": "Legal costs covered",
                 "description": "Complete coverage of court fees and lawyer fees",
-                "image": "https://picsum.photos/seed/legal-costs/800/400"
+                "image": "https://picsum.photos/seed/legal-costs/800/400",
+                "href": "/particuliers/famille/protection-juridique/frais-juridiques"
               },
               {
                 "title": "Assisted legal recourse",
                 "description": "Full support in all your legal claims and court actions",
-                "image": "https://picsum.photos/seed/legal-support/800/400"
+                "image": "https://picsum.photos/seed/legal-support/800/400",
+                "href": "/particuliers/famille/protection-juridique/recours-juridique-assiste"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "conseil-juridique-24h": {
+            "title": "24/7 Legal Advice",
+            "subtitle": "Phone consultation with legal experts available day and night",
+            "image": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Legal questions don't respect office hours. Our 24/7 legal advice hotline gives you immediate telephone access to qualified Belgian lawyers who can advise on your situation at any time.",
+              "From consumer disputes and neighbour conflicts to employment questions and family law, our advisors cover the full range of everyday legal matters."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "Round-the-clock availability",
+                "description": "Legal advisors available by phone 24 hours a day, 7 days a week"
+              },
+              {
+                "icon": "Scale",
+                "title": "All areas of law",
+                "description": "Advice on civil, consumer, employment, family and administrative law"
+              },
+              {
+                "icon": "Globe",
+                "title": "French, Dutch and English",
+                "description": "Legal advice available in all three Belgian national languages plus English"
+              },
+              {
+                "icon": "MessageCircle",
+                "title": "Written follow-up",
+                "description": "Written summary of advice provided for your records after each consultation"
+              }
+            ]
+          },
+          "defense-en-justice": {
+            "title": "Court Defense",
+            "subtitle": "Legal representation and defense in your court proceedings",
+            "image": "https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "When a dispute escalates to legal proceedings, our legal protection coverage funds your full legal defense. You choose your own lawyer — we pay their fees and all associated court costs.",
+              "Coverage applies to both defending against claims made against you and pursuing claims on your behalf against a third party."
+            ],
+            "benefits": [
+              {
+                "icon": "Gavel",
+                "title": "Free choice of lawyer",
+                "description": "You choose your own lawyer — we cover their fees without restriction"
+              },
+              {
+                "icon": "Scale",
+                "title": "All court levels",
+                "description": "Proceedings at first instance, appeal and cassation levels all covered"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Prosecution and defence",
+                "description": "Coverage both for bringing claims against others and defending against claims"
+              },
+              {
+                "icon": "Euro",
+                "title": "No coverage cap on legal fees",
+                "description": "Legal fees covered in full without a ceiling for covered disputes"
+              }
+            ]
+          },
+          "frais-juridiques": {
+            "title": "Legal Costs Covered",
+            "subtitle": "Complete coverage of court fees and lawyer fees",
+            "image": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Legal proceedings generate numerous costs beyond lawyer fees — court registry fees, expert witness costs, bailiff fees, translation costs and more. Our policy covers all of these without a separate budget for each.",
+              "Even if you lose your case, all costs incurred up to the policy limit are covered, protecting you from a double financial blow."
+            ],
+            "benefits": [
+              {
+                "icon": "FileText",
+                "title": "Court registry fees",
+                "description": "All official court fees and registry costs covered in full"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Expert witness costs",
+                "description": "Court-appointed and privately instructed expert fees covered"
+              },
+              {
+                "icon": "Truck",
+                "title": "Bailiff fees",
+                "description": "Costs of bailiff services for enforcement of court orders covered"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Costs even on loss",
+                "description": "Legal costs covered even if the court rules against you"
+              }
+            ]
+          },
+          "recours-juridique-assiste": {
+            "title": "Assisted Legal Recourse",
+            "subtitle": "Full support in all your legal claims and court actions",
+            "image": "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Pursuing a legal claim can be complex and time-consuming. Our assisted recourse service provides a dedicated case manager who coordinates your legal team, monitors deadlines and keeps you informed throughout.",
+              "From initial advice through to final judgment, you have a single point of contact who understands your situation and ensures nothing falls through the cracks."
+            ],
+            "benefits": [
+              {
+                "icon": "UserCheck",
+                "title": "Dedicated case manager",
+                "description": "Personal case coordinator who guides you throughout your legal proceedings"
+              },
+              {
+                "icon": "Clock",
+                "title": "Deadline monitoring",
+                "description": "All legal deadlines tracked and alerts sent to ensure nothing is missed"
+              },
+              {
+                "icon": "MessageCircle",
+                "title": "Regular progress updates",
+                "description": "Status updates at every key stage of your case without needing to ask"
+              },
+              {
+                "icon": "Target",
+                "title": "Mediation first",
+                "description": "Mediation and amicable resolution explored first to save time and cost"
+              }
+            ]
+          }
+        }
       },
       "hospitalisation": {
         "title": "Hospitalization",

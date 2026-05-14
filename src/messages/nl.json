@@ -187,31 +187,193 @@
               {
                 "title": "Aansprakelijkheid",
                 "description": "Verplichte dekking die derden beschermt in geval van ongeluk waarvoor u aansprakelijk bent",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/mobilite/auto/responsabilite-civile"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming tegen schade aan uw voertuig veroorzaakt door botsing of incident",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/mobilite/auto/dommages-materiels"
               },
               {
                 "title": "Diefstal en Brand",
                 "description": "Volledige dekking bij diefstal, diefstalpoging of brandschade aan uw auto",
-                "image": "https://picsum.photos/seed/security-lock/800/400"
+                "image": "https://picsum.photos/seed/security-lock/800/400",
+                "href": "/particuliers/mobilite/auto/vol-et-incendie"
               },
               {
                 "title": "Rechtsbijstand",
                 "description": "Juridische bescherming en bijstand in geschillen met betrekking tot uw voertuig",
-                "image": "https://picsum.photos/seed/law-books/800/400"
+                "image": "https://picsum.photos/seed/law-books/800/400",
+                "href": "/particuliers/mobilite/auto/protection-juridique-auto"
               },
               {
                 "title": "Pechservice",
                 "description": "24/7 service met gratis sleepwagen en noodmechanische bijstand",
-                "image": "https://picsum.photos/seed/car-repair/800/400"
+                "image": "https://picsum.photos/seed/car-repair/800/400",
+                "href": "/particuliers/mobilite/auto/assistance-depannage"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "responsabilite-civile": {
+            "title": "Burgerlijke Aansprakelijkheid",
+            "subtitle": "Verplichte BA-verzekering voor uw voertuig",
+            "image": "https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "De burgerlijke aansprakelijkheidsverzekering (BA Auto) is verplicht in België en dekt schade die u veroorzaakt aan andere personen, hun voertuigen en eigendommen. Onze dekking voldoet aan en overstijgt de Belgische wettelijke minimums.",
+              "Bij een ongeval waarvoor u aansprakelijk bent, worden alle lichamelijke en materiële schade voor derden gedekt zonder limiet op schadevergoeding voor lichamelijk letsel."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Onbeperkte lichamelijke schade",
+                "description": "Geen plafond voor schadevergoeding voor lichamelijk letsel aan slachtoffers van ongevallen"
+              },
+              {
+                "icon": "Car",
+                "title": "Schade aan voertuigen van derden",
+                "description": "Volledige reparatie- of vervangingskosten voor voertuigen beschadigd bij door u veroorzaakte ongevallen"
+              },
+              {
+                "icon": "Users",
+                "title": "Bescherming inzittenden",
+                "description": "Passagiers in uw voertuig zijn gedekt als derden bij letsel"
+              },
+              {
+                "icon": "Globe",
+                "title": "Europese dekking",
+                "description": "BA-dekking geldig in alle EU-lidstaten met groene kaart"
+              }
+            ]
+          },
+          "dommages-materiels": {
+            "title": "Materiële Schade",
+            "subtitle": "Bescherming tegen schade aan uw eigen voertuig",
+            "image": "https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Materiële schade (Omnium of Mini-Omnium) beschermt uw eigen voertuig tegen botsingsschade, ongeacht schuld. Zowel gedeeltelijke als volledige omniumopties beschikbaar.",
+              "Overeengekomen voertuigwaarderegeling garandeert een eerlijke uitkering zonder afschrijvingsgeschillen, en een vervangend voertuig wordt verstrekt terwijl het uwe wordt gerepareerd."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Botsingsschade",
+                "description": "Reparatiekosten voor uw voertuig na elke botsing, al dan niet uw schuld"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Weersomstandigheden en natuurgebeurtenissen",
+                "description": "Hagel, storm, overstromingen en andere weergerelateerde schade aan uw voertuig"
+              },
+              {
+                "icon": "Key",
+                "title": "Vervangend voertuig",
+                "description": "Huurauto verstrekt terwijl uw auto wordt gerepareerd"
+              },
+              {
+                "icon": "Euro",
+                "title": "Overeengekomen waardevereffening",
+                "description": "Uitkering gebaseerd op overeengekomen voertuigwaarde, geen afgeschreven marktschattingen"
+              }
+            ]
+          },
+          "vol-et-incendie": {
+            "title": "Diefstal en Brand",
+            "subtitle": "Dekking tegen voertuigdiefstal, poging tot diefstal en brand",
+            "image": "https://images.pexels.com/photos/4393668/pexels-photo-4393668.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Voertuigdiefstal is een significant risico in Brussel en de bredere Belgische stedelijke omgeving. Onze diefstal- en branddekking zorgt ervoor dat u volledig vergoed wordt als uw voertuig gestolen of beschadigd door brand.",
+              "Schade door diefstalpoging — gebroken ruiten, geforceerde sloten, beschadigd contactslot — is gedekt, zelfs wanneer het voertuig zelf niet wordt meegenomen."
+            ],
+            "benefits": [
+              {
+                "icon": "ShieldAlert",
+                "title": "Volledige diefstalsvervanging",
+                "description": "Marktwaardevervanging als uw voertuig niet binnen 30 dagen wordt teruggevonden"
+              },
+              {
+                "icon": "Flame",
+                "title": "Branddekking",
+                "description": "Volledige reparatie of vervanging als uw voertuig beschadigd of vernietigd is door brand"
+              },
+              {
+                "icon": "Lock",
+                "title": "Schade bij diefstalpoging",
+                "description": "Gebroken ruiten, sloten en contactslotschade bij diefstalpogingen gedekt"
+              },
+              {
+                "icon": "MapPin",
+                "title": "Traceerservice",
+                "description": "GPS-traceringsassistentie en coördinatie met politie voor gestolen voertuigen"
+              }
+            ]
+          },
+          "protection-juridique-auto": {
+            "title": "Rechtsbijstand Auto",
+            "subtitle": "Juridische bescherming en hulp bij voertuiggerelateerde geschillen",
+            "image": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Voertuiggerelateerde juridische geschillen — van betwiste aansprakelijkheid bij een ongeval tot garagegeschillen en verdediging bij verkeersboetes — zijn gedekt door onze auto-rechtsbijstand.",
+              "Deskundige juridische adviseurs behandelen uw zaak van eerste consultatie tot rechtbanksvertegenwoordiging, met alle bijbehorende kosten gedekt door uw polis."
+            ],
+            "benefits": [
+              {
+                "icon": "Scale",
+                "title": "Aansprakelijkheidsgeschillen bij ongevallen",
+                "description": "Juridische vertegenwoordiging wanneer schuld bij een ongeval door een andere partij wordt betwist"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Verdediging bij verkeersboetes",
+                "description": "Juridische verdediging voor verkeersboetes die u wilt betwisten"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Garage- en reparatiegeschillen",
+                "description": "Juridische hulp bij geschillen met garages over reparaties of facturering"
+              },
+              {
+                "icon": "Phone",
+                "title": "24/7 juridische helpdesk",
+                "description": "Onmiddellijke telefonische toegang tot gekwalificeerde juridische adviseurs dag en nacht"
+              }
+            ]
+          },
+          "assistance-depannage": {
+            "title": "Pechhulp",
+            "subtitle": "24/7 pechhulp en takelservice",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Pechhulp geeft u gemoedsrust in de wetenschap dat waar u ook pech heeft in België of Europa, hulp een telefoontje ver weg is. Onze 24/7 service stuurt een gekwalificeerde monteur of takelwagen.",
+              "Van lekke banden en lege accu's tot complexe mechanische storingen, wij dekken reparatie ter plaatse of takelen naar de dichtstbijzijnde erkende garage, plus doorgaand reizen voor u en uw passagiers."
+            ],
+            "benefits": [
+              {
+                "icon": "Wrench",
+                "title": "Reparatie ter plaatse",
+                "description": "Monteur op locatie voor kleine reparaties om u snel weer op weg te helpen"
+              },
+              {
+                "icon": "Truck",
+                "title": "Gratis takelservice",
+                "description": "Takelen naar de dichtstbijzijnde erkende garage zonder kosten voor u"
+              },
+              {
+                "icon": "Users",
+                "title": "Doorgaand reizen passagiers",
+                "description": "Transport of accommodatie voor u en passagiers als het voertuig niet gerepareerd kan worden"
+              },
+              {
+                "icon": "Globe",
+                "title": "Europese service",
+                "description": "Hulpnetwerk dat alle EU-landen plus Zwitserland en Noorwegen dekt"
+              }
+            ]
+          }
+        }
       },
       "moto": {
         "title": "Motorfietsverzekering",
@@ -223,26 +385,156 @@
               {
                 "title": "Aansprakelijkheid",
                 "description": "Verplichte juridische dekking voor motorfietsen en gemotoriseerde tweewielers",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/mobilite/moto/responsabilite-civile-moto"
               },
               {
                 "title": "Uitrustingsbescherming",
                 "description": "Dekking van uw uitrusting (helm, handschoenen, kleding) bij ongeluk of diefstal",
-                "image": "https://picsum.photos/seed/motorcycle-gear/800/400"
+                "image": "https://picsum.photos/seed/motorcycle-gear/800/400",
+                "href": "/particuliers/mobilite/moto/protection-equipement"
               },
               {
                 "title": "Mechaische Bijstand",
                 "description": "Gespecialiseerde tweewieler-bijstand met sleepwagen en noodreparaties",
-                "image": "https://picsum.photos/seed/mechanic-workshop/800/400"
+                "image": "https://picsum.photos/seed/mechanic-workshop/800/400",
+                "href": "/particuliers/mobilite/moto/assistance-mecanique"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming tegen schade aan uw motorfiets door incident, botsing of aansprakelijkheid",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/mobilite/moto/dommages-materiels-moto"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "responsabilite-civile-moto": {
+            "title": "BA Motorfiets",
+            "subtitle": "Verplichte BA voor motorfietsen en scooters",
+            "image": "https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Motorrijtuigenverzekering is wettelijk verplicht in België. Onze BA Moto polis dekt alle schade en letsel die u veroorzaakt aan derden tijdens het rijden, met dekking door de hele Europese Unie.",
+              "Onbeperkte schadevergoeding voor lichamelijk letsel zorgt ervoor dat slachtoffers volledige vergoeding ontvangen, en uw juridische kosten zijn gedekt bij een geschil."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Onbeperkte letselsdekking",
+                "description": "Geen plafond voor schadevergoeding voor lichamelijk letsel aan slachtoffers van ongevallen"
+              },
+              {
+                "icon": "Globe",
+                "title": "EU-brede geldigheid",
+                "description": "Dekking geldig in alle landen van de Europese Unie met internationale groene kaart"
+              },
+              {
+                "icon": "Users",
+                "title": "Passagiersdekking",
+                "description": "Passagiers op uw motorfiets zijn gedekt als derden bij letsel"
+              },
+              {
+                "icon": "Scale",
+                "title": "Juridische verdediging inbegrepen",
+                "description": "Juridische vertegenwoordiging als aansprakelijkheid bij het ongeval wordt betwist"
+              }
+            ]
+          },
+          "protection-equipement": {
+            "title": "Bescherming Uitrusting",
+            "subtitle": "Dekking voor helm, handschoenen, jas en rijuitrusting",
+            "image": "https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Kwaliteitsuitrusting voor motorrijden is duur. Onze uitrustingsbescherming dekt uw helm, handschoenen, jas, laarzen en andere rijkleding bij diefstal of schade bij een ongeval.",
+              "Nieuw-voor-oud-vervanging voor uitrusting jonger dan 2 jaar zorgt voor moderne veiligheidsgecertificeerde vervangingen in plaats van afgeschreven uitkeringen."
+            ],
+            "benefits": [
+              {
+                "icon": "HardHat",
+                "title": "Helmvervanging",
+                "description": "Gecertificeerde helm vervangen na elk ongeval, ook zonder zichtbare schade"
+              },
+              {
+                "icon": "Shirt",
+                "title": "Volledige rijuitrusting",
+                "description": "Jas, broek, handschoenen en laarzen gedekt voor diefstal of schade bij een ongeval"
+              },
+              {
+                "icon": "Star",
+                "title": "Nieuw voor oud onder 2 jaar",
+                "description": "Uitrusting jonger dan 2 jaar vervangen door het huidige equivalente model"
+              },
+              {
+                "icon": "Lock",
+                "title": "Diefstal van voertuig",
+                "description": "Uitrusting gestolen van uw geparkeerde motorfiets is gedekt door de polis"
+              }
+            ]
+          },
+          "assistance-mecanique": {
+            "title": "Mechanische Pechhulp",
+            "subtitle": "Gespecialiseerde pechhulp en takelservice voor tweewielers",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Motorfietsdefecten vereisen gespecialiseerde behandeling. Onze tweewieler-pechhulpservice stuurt monteurs en transporteurs uitgerust voor motorfietsen en scooters door heel België en Europa.",
+              "Als uw motorfiets niet ter plaatse gerepareerd kan worden, wordt speciaal motorfietsvervoer geregeld naar de dichtstbijzijnde erkende werkplaats, met alternatief vervoer voor u."
+            ],
+            "benefits": [
+              {
+                "icon": "Wrench",
+                "title": "Gespecialiseerde monteurs",
+                "description": "Op tweewielers getrainde monteurs gestuurd naar uw pechlocatie"
+              },
+              {
+                "icon": "Truck",
+                "title": "Motorfietsvervoer",
+                "description": "Gesloten vervoer voor uw motorfiets naar de dichtstbijzijnde werkplaats"
+              },
+              {
+                "icon": "MapPin",
+                "title": "België en Europa",
+                "description": "Dekking door heel België en alle EU-landen plus Zwitserland"
+              },
+              {
+                "icon": "Phone",
+                "title": "24/7 pechhulplijn",
+                "description": "Telefonische pechhulp de klok rond voor alle defectsituaties"
+              }
+            ]
+          },
+          "dommages-materiels-moto": {
+            "title": "Materiële Schade Moto",
+            "subtitle": "Bescherming voor uw motorfiets tegen botsingsschade en incidenten",
+            "image": "https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Materiële schade voor uw motorfiets dekt reparatiekosten na een botsing of incident, ongeacht of u schuldig bent. Zowel mini-omnium als volledige omniumopties zijn beschikbaar.",
+              "Overeengekomen waardevereffening voorkomt afschrijvingsgeschillen en garandeert een eerlijke uitkering die de werkelijke waarde van uw motorfiets weerspiegelt."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Botsingsreparatie",
+                "description": "Volledige reparatiekosten na botsing ongeacht schuld"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Weerschade",
+                "description": "Storm-, hagel- en overstromingsschade aan uw motorfiets gedekt"
+              },
+              {
+                "icon": "Euro",
+                "title": "Overeengekomen waarde-uitkering",
+                "description": "Uitkering gebaseerd op overeengekomen waarde, geen afgeschreven schattingen"
+              },
+              {
+                "icon": "Key",
+                "title": "Vervangende motorfiets",
+                "description": "Tijdelijke vervangende motorfiets terwijl de uwe wordt gerepareerd"
+              }
+            ]
+          }
+        }
       },
       "velo": {
         "title": "Fietsverzekering",
@@ -254,26 +546,156 @@
               {
                 "title": "Diefstalschutz",
                 "description": "Volledige dekking in geval uw fiets wordt gestolen, ook met een hangslot",
-                "image": "https://picsum.photos/seed/safe-lock/800/400"
+                "image": "https://picsum.photos/seed/safe-lock/800/400",
+                "href": "/particuliers/mobilite/velo/protection-vol-velo"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming tegen schade en reparatiekosten na ongeluk of incident",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/mobilite/velo/dommages-materiels-velo"
               },
               {
                 "title": "Reparatiebijstand",
                 "description": "Snelle reparatieservices en vervoerskosten bij pech of ongeluk",
-                "image": "https://picsum.photos/seed/bicycle-repair/800/400"
+                "image": "https://picsum.photos/seed/bicycle-repair/800/400",
+                "href": "/particuliers/mobilite/velo/assistance-reparation"
               },
               {
                 "title": "Aansprakelijkheid",
                 "description": "Dekking van uw aansprakelijkheid in geval van ongeluk met betrokkenheid van derden",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/mobilite/velo/responsabilite-civile-velo"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "protection-vol-velo": {
+            "title": "Diefstalbescherming Fiets",
+            "subtitle": "Volledige dekking als uw fiets gestolen wordt",
+            "image": "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Fietsdiefstal komt zeer vaak voor in Belgische steden. Onze diefstalbescherming dekt uw fiets of hij nu gestolen wordt van de straat, een parkeerplaats of zelfs uw woning, zolang hij beveiligd was met een goedgekeurd slot.",
+              "Elektrische fietsen en dure fietsen ontvangen volledige vervangingswaardedekking, zodat u snel na een diefstal weer op weg kunt."
+            ],
+            "benefits": [
+              {
+                "icon": "Lock",
+                "title": "Diefstal op straat en binnenshuis",
+                "description": "Dekking of uw fiets gestolen wordt op openbare of privéplekken"
+              },
+              {
+                "icon": "Zap",
+                "title": "Specifieke e-bike dekking",
+                "description": "Accu en motor van elektrische fiets volledig gedekt voor diefstal"
+              },
+              {
+                "icon": "Star",
+                "title": "Volledige vervangingswaarde",
+                "description": "Vervanging aan huidige verkoopprijs voor fietsen jonger dan 3 jaar"
+              },
+              {
+                "icon": "Shield",
+                "title": "Accessoiredekking",
+                "description": "Verlichting, sloten, tassen en gemonteerde accessoires inbegrepen in dekking"
+              }
+            ]
+          },
+          "dommages-materiels-velo": {
+            "title": "Materiële Schade Fiets",
+            "subtitle": "Bescherming tegen schade en reparatiekosten na ongevallen",
+            "image": "https://images.pexels.com/photos/1208777/pexels-photo-1208777.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Fietsschade door botsingen, vallen en incidenten is gedekt door onze materiële schadebescherming. Of uw fiets nu beschadigd wordt door een portier of bij gladde omstandigheden, reparatiekosten worden vergoed.",
+              "Voor e-bikes worden elektronische componenten inclusief accu's, motoren en displays specifiek gedekt voor accidentele schade."
+            ],
+            "benefits": [
+              {
+                "icon": "Bike",
+                "title": "Botsingsschade",
+                "description": "Reparatiekosten na botsing met voertuigen, obstakels of andere fietsers"
+              },
+              {
+                "icon": "Zap",
+                "title": "E-bike elektronica",
+                "description": "Accu-, motor- en displayschade gedekt voor elektrische fietsen"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Frame en onderdelen",
+                "description": "Reparatie of vervanging van frame, wielen, remmen en aandrijving gedekt"
+              },
+              {
+                "icon": "Star",
+                "title": "Nieuw voor oud onder 2 jaar",
+                "description": "Fietsen jonger dan 2 jaar vervangen aan volledige verkoopprijs bij schade voorbij reparatie"
+              }
+            ]
+          },
+          "assistance-reparation": {
+            "title": "Reparatiehulp",
+            "subtitle": "Snelle reparatie- en vervoersdiensten bij defecten en ongevallen",
+            "image": "https://images.pexels.com/photos/1595236/pexels-photo-1595236.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Wanneer uw fiets ver van huis defect raakt, regelt onze hulpservice vervoer terug naar uw woning of de dichtstbijzijnde fietsenwerkplaats, zodat u nooit gestrand bent.",
+              "Spoedgerefereerde fietsreparaties en gedeeltelijke kostenvergoeding voor urgente reparaties uitgevoerd bij lokale winkels zijn inbegrepen in de service."
+            ],
+            "benefits": [
+              {
+                "icon": "Truck",
+                "title": "Vervoer naar huis",
+                "description": "Fiets- en rijdervervoer naar huis of een reparatiewerkplaats bij defect"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Noodreparatiereferentie",
+                "description": "Netwerk van erkende Brusselse reparatiewerkplaatsen voor prioriteitsservice"
+              },
+              {
+                "icon": "Euro",
+                "title": "Reparatiekostenbijdrage",
+                "description": "Gedeeltelijke vergoeding van spoedreperatiekosten tot gedekte limieten"
+              },
+              {
+                "icon": "Phone",
+                "title": "Hulplijn",
+                "description": "Speciale telefoonlijn voor defectsituaties tijdens pendeltijden"
+              }
+            ]
+          },
+          "responsabilite-civile-velo": {
+            "title": "BA Fiets",
+            "subtitle": "Dekking van uw aansprakelijkheid als u een derde bezeert of schade veroorzaakt",
+            "image": "https://images.pexels.com/photos/2364143/pexels-photo-2364143.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Als fietser kunt u aansprakelijk worden gesteld als u een voetganger bezeert of schade veroorzaakt aan eigendom. Onze fiets-BA dekt u tegen deze claims zonder financiële stress.",
+              "Juridische verdedigingskosten zijn inbegrepen als uw aansprakelijkheid wordt betwist, en de dekking strekt zich uit tot familieleden die de fiets ook gebruiken."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Lichamelijk letsel aan derden",
+                "description": "Volledige vergoeding voor letsel veroorzaakt aan voetgangers of andere weggebruikers"
+              },
+              {
+                "icon": "Home",
+                "title": "Materiële schade",
+                "description": "Schade aan voertuigen, winkelramen of ander eigendom veroorzaakt bij fietsincidenten"
+              },
+              {
+                "icon": "Users",
+                "title": "Familieleden gedekt",
+                "description": "Echtgenoot en kinderen die de fiets gebruiken zijn ook gedekt onder de polis"
+              },
+              {
+                "icon": "Scale",
+                "title": "Juridische verdediging",
+                "description": "Juridische kosten gedekt als uw aansprakelijkheid wordt betwist door de benadeelde partij"
+              }
+            ]
+          }
+        }
       },
       "motorhome": {
         "title": "Camperverzekering",
@@ -285,26 +707,156 @@
               {
                 "title": "Aansprakelijkheid",
                 "description": "Juridische dekking voor schade aan derden met uw camper of caravan",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/mobilite/motorhome/responsabilite-civile-motorhome"
               },
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming tegen schade aan uw motorhome door incident, botsing of aansprakelijkheid",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/mobilite/motorhome/dommages-materiels-motorhome"
               },
               {
                 "title": "Wegenwacht",
                 "description": "24/7 gespecialiseerde service met sleepwagen, reparatie en pechservice voor campers",
-                "image": "https://picsum.photos/seed/roadside-help/800/400"
+                "image": "https://picsum.photos/seed/roadside-help/800/400",
+                "href": "/particuliers/mobilite/motorhome/assistance-specialisee"
               },
               {
                 "title": "Binnenuitrusting",
                 "description": "Dekking van uw binnenuitrusting, elektrohuishoudelijke apparaten en voorzieningen",
-                "image": "https://picsum.photos/seed/interior-home/800/400"
+                "image": "https://picsum.photos/seed/interior-home/800/400",
+                "href": "/particuliers/mobilite/motorhome/equipement-interieur"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "responsabilite-civile-motorhome": {
+            "title": "BA Camper",
+            "subtitle": "Aansprakelijkheidsdekking voor uw camper of caravan",
+            "image": "https://images.pexels.com/photos/1112993/pexels-photo-1112993.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Camperverzekering is verplicht en dekt alle schade en letsel veroorzaakt aan derden tijdens het rijden of trekken van uw camper of caravan door België en Europa.",
+              "Door de omvang en het gewicht van campers kunnen potentiële schades aanzienlijk zijn. Onze onbeperkte persoonlijke letselsdekking zorgt ervoor dat slachtoffers volledige vergoeding ontvangen."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Onbeperkte letselvergoeding",
+                "description": "Geen limiet op claims voor lichamelijk letsel bij incidenten met uw camper"
+              },
+              {
+                "icon": "Globe",
+                "title": "Europese geldigheid",
+                "description": "Dekking in alle EU-landen, Zwitserland en Noorwegen met groene kaart"
+              },
+              {
+                "icon": "Truck",
+                "title": "Caravantrekken gedekt",
+                "description": "Aansprakelijkheid strekt zich uit tot schade veroorzaakt door getrokken caravan of aanhangwagen"
+              },
+              {
+                "icon": "Users",
+                "title": "Alle genoemde bestuurders",
+                "description": "Alle bestuurders op de polis zijn gedekt voor aansprakelijkheid"
+              }
+            ]
+          },
+          "dommages-materiels-motorhome": {
+            "title": "Materiële Schade Camper",
+            "subtitle": "Dekking voor schade aan uw camper bij botsingen of incidenten",
+            "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Campers vertegenwoordigen een aanzienlijke investering en vereisen uitgebreide materiële schadedekking. Onze polis dekt botsingsschade, weergebeurtenissen en andere incidenten.",
+              "Interieuruitrusting, apparaten en op maat gemaakte inrichtingen die uniek zijn voor uw camper zijn specifiek gedekt, niet alleen de voertuigstructuur."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Botsings- en ongevalsschade",
+                "description": "Volledige reparatiekosten na elke botsing ongeacht schuld"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Weerschade",
+                "description": "Storm-, hagel- en overstromingsschade aan exterieur en interieur van uw camper"
+              },
+              {
+                "icon": "Home",
+                "title": "Interieuruitrusting gedekt",
+                "description": "Keukenkasten, bedden, badkamer en woongedeelte meubilair inbegrepen"
+              },
+              {
+                "icon": "Euro",
+                "title": "Overeengekomen waardevereffening",
+                "description": "Camper verzekerd aan overeengekomen waarde om afschrijvingsgeschillen te voorkomen"
+              }
+            ]
+          },
+          "assistance-specialisee": {
+            "title": "Gespecialiseerde Pechhulp",
+            "subtitle": "24/7 gespecialiseerde camperpechhulp en bergingsservice",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Camperdefecten vereisen gespecialiseerde bergingsvoertuigen en uitrusting. Onze speciale camperpechhulpservice heeft de juiste uitrusting voor voertuigen van alle maten overal in Europa.",
+              "Als uw camper niet binnen 24 uur gerepareerd kan worden, worden de alternatieve accommodatiekosten voor uw reisgezelschap gedekt terwijl het voertuig wordt gerepareerd."
+            ],
+            "benefits": [
+              {
+                "icon": "Truck",
+                "title": "Gespecialiseerde zware berging",
+                "description": "Bergingsvoertuigen uitgerust voor campers en grote bestelwagens"
+              },
+              {
+                "icon": "Hotel",
+                "title": "Alternatieve accommodatie",
+                "description": "Hotelkosten gedekt voor uw reisgezelschap als camper niet snel gerepareerd kan worden"
+              },
+              {
+                "icon": "MapPin",
+                "title": "Europees netwerk",
+                "description": "Hulpnetwerk door alle Europese landen voor totale gemoedsrust"
+              },
+              {
+                "icon": "Phone",
+                "title": "Meertalige helpdesk",
+                "description": "24/7 hulp beschikbaar in het Frans, Nederlands, Engels en Duits"
+              }
+            ]
+          },
+          "equipement-interieur": {
+            "title": "Interieuruitrusting",
+            "subtitle": "Dekking voor binnenapparaten, inrichtingen en uitrusting",
+            "image": "https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Het interieur van uw camper bevat apparaten, elektronica en op maat gemaakte inrichtingen die normaal gesproken niet gedekt zijn door standaard voertuigpolissen. Onze interieuruitrustingsdekking vult dit gat.",
+              "Van zonnepanelen en satellietsystemen tot koelkasten en entertainmentsystemen, alle uitrusting die het camperleven comfortabel maakt, is beschermd."
+            ],
+            "benefits": [
+              {
+                "icon": "Zap",
+                "title": "Elektrische systemen",
+                "description": "Zonnepanelen, omvormers en 12V elektrische systemen gedekt voor schade of diefstal"
+              },
+              {
+                "icon": "Tv",
+                "title": "Entertainmentuitrusting",
+                "description": "TV, schotelantenne en audiosystemen gedekt binnen en op het dak"
+              },
+              {
+                "icon": "Utensils",
+                "title": "Keukenapparaten",
+                "description": "Gasfornuis, koelkast, magnetron en watersystemen gedekt"
+              },
+              {
+                "icon": "Lock",
+                "title": "Diefstal uit camper",
+                "description": "Uitrusting en persoonlijke bezittingen gestolen uit uw afgesloten camper gedekt"
+              }
+            ]
+          }
+        }
       },
       "habitation": {
         "title": "Huisverzekering",
@@ -328,12 +880,14 @@
               {
                 "title": "Materiële Schade",
                 "description": "Bescherming van uw bezittingen tegen schade veroorzaakt door verschillende incidenten",
-                "image": "https://picsum.photos/seed/home-damage/800/400"
+                "image": "https://picsum.photos/seed/home-damage/800/400",
+                "href": "/particuliers/habitation/degats-des-eaux"
               },
               {
                 "title": "Aansprakelijkheid",
                 "description": "Dekking van uw aansprakelijkheid tegenover derden in uw woning",
-                "image": "https://picsum.photos/seed/legal-document/800/400"
+                "image": "https://picsum.photos/seed/legal-document/800/400",
+                "href": "/particuliers/habitation/responsabilite-civile"
               }
             ]
           }
@@ -349,26 +903,156 @@
               {
                 "title": "Brandschade",
                 "description": "Volledige dekking van directe schade veroorzaakt door brand en verbranding",
-                "image": "https://picsum.photos/seed/fire-damage/800/400"
+                "image": "https://picsum.photos/seed/fire-damage/800/400",
+                "href": "/particuliers/habitation/incendie/degats-du-feu"
               },
               {
                 "title": "Rook en Roet",
                 "description": "Bescherming tegen schade veroorzaakt door rook, roet en verbrandingsgassen",
-                "image": "https://picsum.photos/seed/smoke-damage/800/400"
+                "image": "https://picsum.photos/seed/smoke-damage/800/400",
+                "href": "/particuliers/habitation/incendie/fumee-et-suie"
               },
               {
                 "title": "Tijdelijke Verhuizing",
                 "description": "Huisvestings- en verhuizingskosten terwijl uw woning wordt gerepareerd",
-                "image": "https://picsum.photos/seed/temporary-housing/800/400"
+                "image": "https://picsum.photos/seed/temporary-housing/800/400",
+                "href": "/particuliers/habitation/incendie/relogement-temporaire"
               },
               {
                 "title": "Herstel en Schoonmaak",
                 "description": "Professionele schoonmaakservices en herstel na brandschade",
-                "image": "https://picsum.photos/seed/cleaning-service/800/400"
+                "image": "https://picsum.photos/seed/cleaning-service/800/400",
+                "href": "/particuliers/habitation/incendie/recuperation-nettoyage"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "degats-du-feu": {
+            "title": "Brandschade",
+            "subtitle": "Volledige dekking van directe schade veroorzaakt door brand en verbranding",
+            "image": "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Brandschadedekking beschermt uw woning tegen alle directe schade veroorzaakt door brand, verbranding en gerelateerde incidenten. Van keukenbranden tot structurele branden, uw eigendom is volledig gedekt.",
+              "Ons brandverzekeringspakket omvat snelle interventie, professionele expertise en volledige herbouwkosten zodat u uw woning kunt herstellen zonder financiële stress."
+            ],
+            "benefits": [
+              {
+                "icon": "Flame",
+                "title": "Volledige structuurdirekking",
+                "description": "Volledige reparatie of herbouw van muren, dak en structuur beschadigd door brand"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Inhoud inbegrepen",
+                "description": "Meubels, apparaten en persoonlijke bezittingen vernietigd door brand zijn gedekt"
+              },
+              {
+                "icon": "Clock",
+                "title": "Snelle schadebehandeling",
+                "description": "Prioritaire expertise binnen 48 uur na aangifte om herstellingen snel te starten"
+              },
+              {
+                "icon": "Euro",
+                "title": "Geen vrijstelling bij totaalverlies",
+                "description": "Geen vrijstelling van toepassing bij totaalverlies van uw woning"
+              }
+            ]
+          },
+          "fumee-et-suie": {
+            "title": "Rook en Roet",
+            "subtitle": "Bescherming tegen schade veroorzaakt door rook, roet en verbrandingsgassen",
+            "image": "https://images.pexels.com/photos/3771807/pexels-photo-3771807.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Rook en roet kunnen uitgebreide schade veroorzaken aan muren, plafonds, stoffen en elektronica, zelfs wanneer een brand snel wordt geblust. Onze dekking zorgt voor volledige vergoeding van deze verborgen kosten.",
+              "Professionele reinigings- en decontaminatiediensten zijn inbegrepen, samen met vervanging van items die permanent bevlekt of aangetast zijn door verbrandingsgassen."
+            ],
+            "benefits": [
+              {
+                "icon": "Wind",
+                "title": "Volledige decontaminatiekosten",
+                "description": "Professionele reiniging van alle oppervlakken, textiel en ventilatiesystemen getroffen door rook"
+              },
+              {
+                "icon": "Home",
+                "title": "Decoratie en herschildering",
+                "description": "Herschilderen en behangen van ruimtes beschadigd door roet en rookverkleuring"
+              },
+              {
+                "icon": "Tv",
+                "title": "Vervanging elektronica",
+                "description": "Elektronische apparaten aangetast door rookgassen gedekt voor vervanging"
+              },
+              {
+                "icon": "CheckCircle",
+                "title": "Luchtkwaliteitsherstel",
+                "description": "Luchtzuivering en geurverwijderingbehandelingen inbegrepen in de schade"
+              }
+            ]
+          },
+          "relogement-temporaire": {
+            "title": "Tijdelijke Herhuisvesting",
+            "subtitle": "Huisvesting en verhuiskosten terwijl uw woning wordt gerepareerd",
+            "image": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Wanneer brand uw woning onbewoonbaar maakt, dekken wij de kosten van tijdelijke huisvesting voor u en uw gezin — hotels, gemeubileerde appartementen of andere geschikte accommodatie — voor de volledige duur van de herstellingen.",
+              "Verhuiskosten inclusief verhuizing, opslagkosten en extra leefkosten boven uw normaal budget worden vergoed zodat u zich kunt concentreren op herstel."
+            ],
+            "benefits": [
+              {
+                "icon": "Hotel",
+                "title": "Hotel of gemeubileerde huur",
+                "description": "Tot 12 maanden tijdelijke huisvesting gedekt op vergelijkbaar niveau als uw woning"
+              },
+              {
+                "icon": "Truck",
+                "title": "Verhuis- en opslagkosten",
+                "description": "Professionele verhuizing en veilige opslag van uw bezittingen tijdens herstellingen"
+              },
+              {
+                "icon": "Utensils",
+                "title": "Extra leefkosten",
+                "description": "Extra voedsel-, transport- en dagelijkse kosten boven normaal budget worden vergoed"
+              },
+              {
+                "icon": "Phone",
+                "title": "24/7 herhuisvestingshulp",
+                "description": "Noodhuisvestingscoördinatieservice beschikbaar de klok rond"
+              }
+            ]
+          },
+          "recuperation-nettoyage": {
+            "title": "Herstel en Reiniging",
+            "subtitle": "Professionele restauratie en reinigingsdiensten na brandschade",
+            "image": "https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Na een brand zijn professioneel herstel en reiniging essentieel voordat enige reconstructie kan beginnen. Onze polis dekt de volledige kosten van gespecialiseerde brandschaderestauratiebedrijven.",
+              "Van puinruiming en structureel drogen tot grondige reiniging en berging van persoonlijke bezittingen, elke stap van het herstelproces is inbegrepen in uw dekking."
+            ],
+            "benefits": [
+              {
+                "icon": "Trash2",
+                "title": "Puinruiming",
+                "description": "Volledige verwijdering van beschadigde materialen en brandresten van het pand"
+              },
+              {
+                "icon": "Droplets",
+                "title": "Water- en vochtbehandeling",
+                "description": "Drogen en behandeling van waterschade veroorzaakt door brandbestrijding"
+              },
+              {
+                "icon": "Package",
+                "title": "Berging en herstel",
+                "description": "Professionele berging van onbeschadigde of herstelbare persoonlijke items en waardevolle spullen"
+              },
+              {
+                "icon": "Star",
+                "title": "Gecertificeerde restauratiebedrijven",
+                "description": "Toegang tot ons netwerk van gecertificeerde brandrestauratiespecialisten in België"
+              }
+            ]
+          }
+        }
       },
       "vol": {
         "title": "Diefstalverzekering",
@@ -380,26 +1064,156 @@
               {
                 "title": "Huisraad",
                 "description": "Volledige dekking van uw meubilair en persoonlijke bezittingen tegen diefstal",
-                "image": "https://picsum.photos/seed/furniture-home/800/400"
+                "image": "https://picsum.photos/seed/furniture-home/800/400",
+                "href": "/particuliers/habitation/vol/biens-mobiliers"
               },
               {
                 "title": "Apparaten en Elektronica",
                 "description": "Bescherming van uw elektrische, elektronische en technische apparatuur",
-                "image": "https://picsum.photos/seed/electronics/800/400"
+                "image": "https://picsum.photos/seed/electronics/800/400",
+                "href": "/particuliers/habitation/vol/electromenagers-electronique"
               },
               {
                 "title": "Sieraden en Waarden",
                 "description": "Speciale dekking voor sieraden, horloges en waardevolle objecten",
-                "image": "https://picsum.photos/seed/jewelry-luxury/800/400"
+                "image": "https://picsum.photos/seed/jewelry-luxury/800/400",
+                "href": "/particuliers/habitation/vol/bijoux-valeurs"
               },
               {
                 "title": "Persoonlijke Spullen",
                 "description": "Bescherming van uw kleding, bagage en persoonlijke bezittingen tegen diefstal",
-                "image": "https://picsum.photos/seed/personal-belongings/800/400"
+                "image": "https://picsum.photos/seed/personal-belongings/800/400",
+                "href": "/particuliers/habitation/vol/effets-personnels"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "biens-mobiliers": {
+            "title": "Huisraad",
+            "subtitle": "Volledige dekking van uw meubels en persoonlijke bezittingen tegen diefstal",
+            "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Uw meubels, kleding, huishoudelijke goederen en persoonlijke bezittingen zijn gedekt tegen diefstal en inbraak. Of een raam gebroken is of een deur geforceerd, de schade en verliezen worden vergoed.",
+              "Wij dekken de vervangingswaarde zodat u gestolen items kunt vervangen door gelijkwaardige nieuwe exemplaren, geen afgeschreven schattingen."
+            ],
+            "benefits": [
+              {
+                "icon": "Sofa",
+                "title": "Alle meubels gedekt",
+                "description": "Alle meubels en huishoudelijke items vervangen aan huidige marktwaarde"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Inbraakschade",
+                "description": "Reparatiekosten voor gebroken sloten, deuren en ramen veroorzaakt tijdens inbraak"
+              },
+              {
+                "icon": "Package",
+                "title": "Kleding en textiel",
+                "description": "Kleding, beddengoed en persoonlijk textiel gestolen uit uw woning worden vergoed"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Poging tot inbraak",
+                "description": "Schade van mislukte inbraakpogingen is gedekt, ook als er niets gestolen is"
+              }
+            ]
+          },
+          "electromenagers-electronique": {
+            "title": "Apparaten en Elektronica",
+            "subtitle": "Bescherming van elektrische, elektronische en technische apparatuur tegen diefstal",
+            "image": "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Televisies, computers, audiosystemen, keukenapparaten en andere elektronische apparaten zijn populaire doelwitten voor inbrekers. Onze dekking garandeert volledige vervanging aan huidige verkoopprijzen.",
+              "Nieuw-voor-oud-vervanging is van toepassing op elektronica jonger dan 3 jaar, zodat u een modern equivalent ontvangt in plaats van een afgeschreven uitkering."
+            ],
+            "benefits": [
+              {
+                "icon": "Tv",
+                "title": "TV en audiosystemen",
+                "description": "Alle televisies, geluidssystemen en home cinema-apparatuur gedekt aan volledige waarde"
+              },
+              {
+                "icon": "Laptop",
+                "title": "Computers en tablets",
+                "description": "Laptops, desktop-pc's, tablets en randapparatuur vervangen aan huidige marktprijs"
+              },
+              {
+                "icon": "Zap",
+                "title": "Keukenapparaten",
+                "description": "Grote en kleine keukenapparaten inclusief koelkasten, ovens en koffiezetten"
+              },
+              {
+                "icon": "Smartphone",
+                "title": "Smart home-apparaten",
+                "description": "Slimme luidsprekers, beveiligingscamera's en domotica-apparaten zijn gedekt"
+              }
+            ]
+          },
+          "bijoux-valeurs": {
+            "title": "Sieraden en Waarden",
+            "subtitle": "Gespecialiseerde dekking voor sieraden, horloges en waardevolle objecten",
+            "image": "https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Sieraden, luxehorloges, kunstwerken en verzamelobjecten vereisen specifieke dekking buiten de standaard limieten van de woonverzekering. Onze waardevollenextensie biedt toegewijde bescherming met overeengekomen waarden.",
+              "Items zijn gedekt zowel in uw woning als wanneer u ze draagt. Professionele taxatiehulp is beschikbaar om ervoor te zorgen dat uw bezittingen adequaat verzekerd zijn."
+            ],
+            "benefits": [
+              {
+                "icon": "Gem",
+                "title": "Overeengekomen waardevereffening",
+                "description": "Items verzekerd aan overeengekomen waarde zodat er geen discussie is over de waarde bij schade"
+              },
+              {
+                "icon": "Eye",
+                "title": "Professionele taxatiedienst",
+                "description": "Professionele taxatieassistentie voor sieraden en kunst zonder extra kosten"
+              },
+              {
+                "icon": "Lock",
+                "title": "Stimulans voor kluisopslag",
+                "description": "Verlaagde premie wanneer waardevolle spullen worden bewaard in een goedgekeurde thuiskluis"
+              },
+              {
+                "icon": "Globe",
+                "title": "Optie wereldwijde dekking",
+                "description": "Optionele wereldwijde dekking voor sieraden gedragen of meegenomen buiten de woning"
+              }
+            ]
+          },
+          "effets-personnels": {
+            "title": "Persoonlijke Spullen",
+            "subtitle": "Dekking voor kleding, bagage en persoonlijke items tegen diefstal",
+            "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Persoonlijke spullen inclusief kleding, handtassen, bagage en alledaagse persoonlijke items zijn gedekt wanneer ze gestolen worden uit uw woning tijdens een inbraak.",
+              "De dekking houdt rekening met redelijke slijtage en omvat vervangingskosten zodat uw dagelijks leven wordt hersteld met minimale verstoring."
+            ],
+            "benefits": [
+              {
+                "icon": "ShoppingBag",
+                "title": "Kledingvervanging",
+                "description": "Alle kleding en accessoires gestolen uit uw woning vergoed aan vervangingswaarde"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Bagage en tassen",
+                "description": "Koffers, rugzakken en handtassen gedekt als ze meegenomen worden tijdens een inbraak"
+              },
+              {
+                "icon": "Watch",
+                "title": "Alledaagse accessoires",
+                "description": "Alledaagse horloges, brillen en persoonlijke accessoires inbegrepen in dekking"
+              },
+              {
+                "icon": "Key",
+                "title": "Slotvervanging",
+                "description": "Alle sloten en sleutels vervangen na diefstal om uw woning opnieuw te beveiligen"
+              }
+            ]
+          }
+        }
       },
       "bailleur_locataire": {
         "title": "Huurbaas-Huurder Verzekering",
@@ -428,31 +1242,36 @@
                 "icon": "Heart",
                 "title": "Uitgebreide familiaalverzekering",
                 "description": "Complete bescherming voor u en uw gezin met meerdere dekkingen aangepast aan uw behoeften",
-                "image": "https://picsum.photos/seed/family-beach/800/400"
+                "image": "https://picsum.photos/seed/family-beach/800/400",
+                "href": "/particuliers/famille/familiale"
               },
               {
                 "icon": "AlertTriangle",
                 "title": "Bescherming tegen ongevallen en invaliditeit",
                 "description": "Dekking voor persoonlijke ongevallen en tijdelijke of permanente arbeidsongeschiktheid",
-                "image": "https://picsum.photos/seed/medical-care/800/400"
+                "image": "https://picsum.photos/seed/medical-care/800/400",
+                "href": "/particuliers/famille/accidents"
               },
               {
                 "icon": "Shield",
                 "title": "Overlijdens- en inkomstenzekering",
                 "description": "Kapitaal en inkomsten voor uw naasten in geval van overlijden van kostwinner",
-                "image": "https://picsum.photos/seed/family-protection/800/400"
+                "image": "https://picsum.photos/seed/family-protection/800/400",
+                "href": "/particuliers/famille/deces"
               },
               {
                 "icon": "Plane",
                 "title": "Reisverzekering",
                 "description": "Complete dekking voor al uw familietrips met hulp in het buitenland",
-                "image": "https://picsum.photos/seed/family-travel/800/400"
+                "image": "https://picsum.photos/seed/family-travel/800/400",
+                "href": "/particuliers/famille/voyage"
               },
               {
                 "icon": "Scale",
                 "title": "Juridische bijstand",
                 "description": "24/7 juridisch advies en procesvertegenwoordiging voor al uw persoonlijke geschillen",
-                "image": "https://picsum.photos/seed/legal-protection/800/400"
+                "image": "https://picsum.photos/seed/legal-protection/800/400",
+                "href": "/particuliers/famille/protection-juridique"
               }
             ]
           }
@@ -468,26 +1287,156 @@
               {
                 "title": "Dekking kinderen en ouders",
                 "description": "Uitgebreide bescherming voor alle gezinsleden inclusief kinderen en bejaarde ouders",
-                "image": "https://picsum.photos/seed/family-children/800/400"
+                "image": "https://picsum.photos/seed/family-children/800/400",
+                "href": "/particuliers/famille/familiale/enfants-parents"
               },
               {
                 "title": "Familiaal gezondheidsondersteuning",
                 "description": "Gezondheidsondersteuningsdiensten en medische hulp beschikbaar voor het hele gezin",
-                "image": "https://picsum.photos/seed/family-health/800/400"
+                "image": "https://picsum.photos/seed/family-health/800/400",
+                "href": "/particuliers/famille/familiale/assistance-sante-famille"
               },
               {
                 "title": "Gezinsondersteuningsdiensten",
                 "description": "Hulp en sociale bijstand wanneer gezinnen financiële moeilijkheden ondervinden",
-                "image": "https://picsum.photos/seed/family-support/800/400"
+                "image": "https://picsum.photos/seed/family-support/800/400",
+                "href": "/particuliers/famille/familiale/services-soutien-famille"
               },
               {
                 "title": "Gezinsinkomst bij overlijden",
                 "description": "Gegarandeerde inkomsten voor echtgenoot en kinderen bij overlijden van kostwinner",
-                "image": "https://picsum.photos/seed/family-future/800/400"
+                "image": "https://picsum.photos/seed/family-future/800/400",
+                "href": "/particuliers/famille/familiale/rente-familiale-deces"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "enfants-parents": {
+            "title": "Dekking Kinderen en Ouders",
+            "subtitle": "Uitgebreide bescherming voor alle familieleden",
+            "image": "https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Onze familieverzekering strekt zich uit tot alle huishoudleden, inclusief kinderen op school, bejaarde ouders die bij u wonen en andere afhankelijke personen.",
+              "Dekking volgt familieleden door het dagelijks leven, van schoolactiviteiten en sport tot alledaagse ongelukken thuis of in het openbaar."
+            ],
+            "benefits": [
+              {
+                "icon": "Users",
+                "title": "Alle huishoudleden",
+                "description": "Elke persoon die op het verzekerde adres woont automatisch gedekt"
+              },
+              {
+                "icon": "School",
+                "title": "Schoolactiviteiten",
+                "description": "Ongelukken tijdens schooltijd en buitenschoolse activiteiten gedekt"
+              },
+              {
+                "icon": "Heart",
+                "title": "Dekking bejaarde ouders",
+                "description": "Ouders wonend in het huishouden inbegrepen zonder leeftijdsbeperking"
+              },
+              {
+                "icon": "Baby",
+                "title": "Pasgeborenen inbegrepen",
+                "description": "Nieuwe familieleden gedekt vanaf geboorte zonder polisupdate vereist"
+              }
+            ]
+          },
+          "assistance-sante-famille": {
+            "title": "Familiale Gezondheidshulp",
+            "subtitle": "Gezondheidshulp en medische ondersteuning voor het hele gezin",
+            "image": "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Familiale gezondheidshulp biedt een reeks medische ondersteuningsdiensten toegankelijk voor alle familieleden, van huisartsreferenties en tweede medische meningen tot thuiszorg.",
+              "Teleconsultaties, mentale gezondheidshulp en specialistenreferentiecoördinatie zijn inbegrepen om ervoor te zorgen dat uw gezin op het juiste moment zorg ontvangt."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "24/7 medische hulplijn",
+                "description": "Permanente telefonische toegang tot gekwalificeerde medische adviseurs"
+              },
+              {
+                "icon": "Brain",
+                "title": "Psychologische ondersteuning",
+                "description": "Tot 8 sessies met een gekwalificeerde psycholoog na een traumatische gebeurtenis"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Tweede medisch advies",
+                "description": "Deskundige tweede opiniedienst voor ernstige diagnoses zonder extra kosten"
+              },
+              {
+                "icon": "Home",
+                "title": "Thuiszorgcoördinatie",
+                "description": "Hulp bij het organiseren van thuisverpleging of zorgdiensten na ziekenhuisopname"
+              }
+            ]
+          },
+          "rente-familiale-deces": {
+            "title": "Gezinsinkomen bij Overlijden",
+            "subtitle": "Gegarandeerd inkomen voor echtgenoot en kinderen als de kostwinner overlijdt",
+            "image": "https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Het overlijden van een kostwinner kan een gezin in acute financiële moeilijkheden brengen. Onze familiale overlijdensuitkering biedt een gegarandeerd maandelijks inkomen aan de langstlevende echtgenoot en kinderen.",
+              "Kapitaalsuitkeringsopties zijn ook beschikbaar naast of in plaats van inkomen, wat flexibiliteit biedt om een hypotheek af te lossen of onmiddellijke kosten te dekken."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Maandelijks gegarandeerd inkomen",
+                "description": "Regelmatig inkomen betaald aan langstlevende echtgenoot voor maximaal 20 jaar na overlijden"
+              },
+              {
+                "icon": "GraduationCap",
+                "title": "Onderwijsfonds kinderen",
+                "description": "Extra kapitaal om de opleiding van kinderen tot en met universiteit te financieren"
+              },
+              {
+                "icon": "Home",
+                "title": "Hypotheekbeschermingsoptie",
+                "description": "Kapitaalsoptie om de uitstaande hypotheek af te lossen"
+              },
+              {
+                "icon": "Clock",
+                "title": "Snelle uitbetalingsgarantie",
+                "description": "Eerste betaling binnen 30 dagen na indiening van overlijdensakte"
+              }
+            ]
+          },
+          "services-soutien-famille": {
+            "title": "Familiale Ondersteuningsdiensten",
+            "subtitle": "Praktische hulp wanneer gezinnen moeilijke situaties doormaken",
+            "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Levensgebeurtenissen zoals ernstige ziekte, invaliditeit of het verlies van een kostwinner creëren praktische uitdagingen naast financiële. Onze ondersteuningsdiensten bieden praktische hulp wanneer u het meest nodig heeft.",
+              "Van kinderopvangcoördinatie en huishoudelijke hulp tot administratieve ondersteuning en juridisch advies, wij helpen gezinnen moeilijke periodes te navigeren."
+            ],
+            "benefits": [
+              {
+                "icon": "Baby",
+                "title": "Noodkinderopvang",
+                "description": "Kinderopvangcoördinatie als een ouder gehospitaliseerd of arbeidsongeschikt is"
+              },
+              {
+                "icon": "Home",
+                "title": "Huishoudelijke hulp",
+                "description": "Huishoudelijke assistentie en woningonderhoud tijdens herstelperiodes"
+              },
+              {
+                "icon": "FileText",
+                "title": "Administratieve ondersteuning",
+                "description": "Hulp bij overheidsuitkeringen, schadeclaims en papierwerk"
+              },
+              {
+                "icon": "Scale",
+                "title": "Juridische begeleiding",
+                "description": "Toegang tot juridische adviseurs voor familierecht, erfenissen en geschillen"
+              }
+            ]
+          }
+        }
       },
       "accidents": {
         "title": "Ongevallen & Invaliditeit",
@@ -499,26 +1448,156 @@
               {
                 "title": "24/7 ongelallenverzekering",
                 "description": "Complete dekking voor ongevallen die op elk moment van dag of nacht plaatsvinden",
-                "image": "https://picsum.photos/seed/emergency-care/800/400"
+                "image": "https://picsum.photos/seed/emergency-care/800/400",
+                "href": "/particuliers/famille/accidents/accidents-24h"
               },
               {
                 "title": "Permanente invaliditeitsdekking",
                 "description": "Financiële bescherming bij permanente arbeidsongeschiktheid door een ongeval",
-                "image": "https://picsum.photos/seed/disability-care/800/400"
+                "image": "https://picsum.photos/seed/disability-care/800/400",
+                "href": "/particuliers/famille/accidents/invalidite-permanente"
               },
               {
                 "title": "Medische en ziekenhuiskosten",
                 "description": "Vergoeding van medische en ziekenhuiskosten als gevolg van ongevallen",
-                "image": "https://picsum.photos/seed/medical-bills/800/400"
+                "image": "https://picsum.photos/seed/medical-bills/800/400",
+                "href": "/particuliers/famille/accidents/frais-medicaux-hospitaliers"
               },
               {
                 "title": "Temporaire invaliditeitsinkomsten",
                 "description": "Inkomstevervanging tijdens perioden van tijdelijke arbeidsongeschiktheid",
-                "image": "https://picsum.photos/seed/recovery-care/800/400"
+                "image": "https://picsum.photos/seed/recovery-care/800/400",
+                "href": "/particuliers/famille/accidents/incapacite-temporaire"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "accidents-24h": {
+            "title": "Ontzellingen 24u/24",
+            "subtitle": "Volledige dekking voor ongelukken op elk moment van de dag of nacht",
+            "image": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Onze 24/7 ongelukdekking beschermt u tegen de financiële gevolgen van elk persoonlijk ongeluk, of het nu op het werk, thuis, tijdens sport of vrijetijdsactiviteiten plaatsvindt.",
+              "Dekking is wereldwijd en continu — er is geen beperking op het tijdstip of de plaats van het ongeluk, wat u complete gemoedsrust geeft in alle dagelijkse situaties."
+            ],
+            "benefits": [
+              {
+                "icon": "Clock",
+                "title": "Permanente bescherming",
+                "description": "Dekking actief 24 uur per dag, 7 dagen per week, 365 dagen per jaar"
+              },
+              {
+                "icon": "Globe",
+                "title": "Wereldwijde dekking",
+                "description": "Ongelukken gedekt overal ter wereld, niet alleen in België"
+              },
+              {
+                "icon": "Activity",
+                "title": "Sport en vrije tijd",
+                "description": "Ongelukken tijdens sportactiviteiten en hobby's zijn gedekt"
+              },
+              {
+                "icon": "Zap",
+                "title": "Onmiddellijke uitbetalingsgarantie",
+                "description": "Uitkeringen betaald binnen 30 dagen na medische certificering van het ongeluk"
+              }
+            ]
+          },
+          "invalidite-permanente": {
+            "title": "Blijvende Invaliditeitsdekking",
+            "subtitle": "Financiële bescherming bij blijvende invaliditeit",
+            "image": "https://images.pexels.com/photos/3768913/pexels-photo-3768913.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Blijvende invaliditeit door een ongeluk kan uw leven en werkvermogen fundamenteel veranderen. Onze invaliditeitsuitkering biedt een kapitaalsuitkering op basis van de invaliditeitsgraad beoordeeld door een onafhankelijk medisch expert.",
+              "Gedeeltelijke invaliditeit is gedekt op pro-ratabasis, zodat zelfs gedeeltelijk functieverlies resulteert in betekenisvolle financiële steun."
+            ],
+            "benefits": [
+              {
+                "icon": "BarChart2",
+                "title": "Gedeeltelijke invaliditeit pro-rata",
+                "description": "Vergoeding in verhouding tot invaliditeitsgraad vanaf 5% opwaarts"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Onafhankelijke medische beoordeling",
+                "description": "Invaliditeitsgraad beoordeeld door een neutrale, onafhankelijke medische expert"
+              },
+              {
+                "icon": "Euro",
+                "title": "Eenmalige kapitaaluitkering",
+                "description": "Eenmalige betaling waardoor u uw woning of levensstijl kunt aanpassen"
+              },
+              {
+                "icon": "RefreshCw",
+                "title": "Revalidatieondersteuning",
+                "description": "Vergoeding van revalidatiekosten om het herstelpotentieel te maximaliseren"
+              }
+            ]
+          },
+          "frais-medicaux-hospitaliers": {
+            "title": "Medische en Ziekenhuiskosten",
+            "subtitle": "Terugbetaling van medische kosten als gevolg van ongelukken",
+            "image": "https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Ongelukken genereren medische kosten die niet altijd volledig gedekt zijn door de Belgische publieke ziekteverzekering. Onze ongelukmedische dekking vult uw wettelijke terugbetalingen aan.",
+              "Spoedbehandeling, ziekenhuisopname, kinesitherapie, tandheelkundige reparatie en prothesen na ongelukken worden allemaal vergoed tot de verzekerde limiet."
+            ],
+            "benefits": [
+              {
+                "icon": "Stethoscope",
+                "title": "Spoedbehandeling",
+                "description": "Kosten voor spoedeisende hulp en urgente zorg volledig vergoed"
+              },
+              {
+                "icon": "Activity",
+                "title": "Kinesitherapie",
+                "description": "Volledige kinesitherapiekuur na ongelukverwonding gedekt"
+              },
+              {
+                "icon": "Smile",
+                "title": "Tandheelkundige reparatie",
+                "description": "Tandheelkundige verwondingen door ongelukken gerepareerd en vergoed"
+              },
+              {
+                "icon": "Package",
+                "title": "Prothesen en hulpmiddelen",
+                "description": "Protheseledematen, rolstoelen en mobiliteitshulpmiddelen gedekt na ongeluk"
+              }
+            ]
+          },
+          "incapacite-temporaire": {
+            "title": "Tijdelijke Arbeidsongeschiktheidsinkomen",
+            "subtitle": "Inkomensvervangend inkomen tijdens tijdelijke arbeidsongeschiktheid door ongelukken",
+            "image": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Wanneer een ongeluk u tijdelijk verhindert te werken, betaalt onze dagelijkse uitkering een vaste dagvergoeding voor elke dag dat u medisch gecertificeerd bent als werkonbekwaam.",
+              "De uitkering begint vanaf de eerste dag van invaliditeit (of na een korte wachttijd afhankelijk van uw gekozen optie) en gaat door totdat u arbeidsbekwaam wordt verklaard."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Dagelijkse gelduitkering",
+                "description": "Vaste dagelijkse vergoeding betaald voor elke dag van gecertificeerde werkonbekwaamheid"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Optie vanaf dag één",
+                "description": "Optionele dekking vanaf de allereerste dag van invaliditeit zonder wachttijd"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Bescherming zelfstandigen",
+                "description": "Bijzonder waardevol voor zelfstandigen wiens inkomen onmiddellijk stopt bij invaliditeit"
+              },
+              {
+                "icon": "FileText",
+                "title": "Eenvoudige certificering",
+                "description": "Uitkering getriggerd door huisartscertificaat, geen complex claimsproces"
+              }
+            ]
+          }
+        }
       },
       "deces": {
         "title": "Overlijdensverzekering",
@@ -530,26 +1609,156 @@
               {
                 "title": "Kapitaal bij overlijden",
                 "description": "Kapitaal uitbetaald aan aangewezen begunstigden in geval van overlijden verzekerde",
-                "image": "https://picsum.photos/seed/life-insurance/800/400"
+                "image": "https://picsum.photos/seed/life-insurance/800/400",
+                "href": "/particuliers/famille/deces/capital-deces"
               },
               {
                 "title": "Inkomsten partner overlevende",
                 "description": "Maandelijkse of jaarlijkse gegarandeerde inkomsten voor overlevende echtgenoot",
-                "image": "https://picsum.photos/seed/elderly-couple/800/400"
+                "image": "https://picsum.photos/seed/elderly-couple/800/400",
+                "href": "/particuliers/famille/deces/rente-conjoint"
               },
               {
                 "title": "Dekking minderjarige kinderen",
                 "description": "Aanvullend kapitaal of inkomsten ter ondersteuning van scholing minderjarige kinderen",
-                "image": "https://picsum.photos/seed/children-future/800/400"
+                "image": "https://picsum.photos/seed/children-future/800/400",
+                "href": "/particuliers/famille/deces/protection-enfants-mineurs"
               },
               {
                 "title": "Snelle uitbetaling aan begunstigden",
                 "description": "Versneld proces voor betaling van kapitaal aan aangewezen begunstigden",
-                "image": "https://picsum.photos/seed/financial-planning/800/400"
+                "image": "https://picsum.photos/seed/financial-planning/800/400",
+                "href": "/particuliers/famille/deces/paiement-accelere"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "capital-deces": {
+            "title": "Overlijdenskapitaal",
+            "subtitle": "Eenmalige uitkering aan begunstigden bij overlijden van de verzekerde",
+            "image": "https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Een overlijdenskapitaalpolis voorziet in een eenmalige uitkering aan uw aangewezen begunstigden bij uw overlijden. Het kapitaal kan gebruikt worden om een hypotheek af te lossen, begrafeniskosten te dekken of financiële stabiliteit te bieden.",
+              "U kiest het kapitaalbedrag en de begunstigden. Dekking is beschikbaar met of zonder medisch onderzoek afhankelijk van de verzekerde som, en premies zijn vast voor de duur van de polis."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Flexibele kapitaalbedragen",
+                "description": "Kies het kapitaal van €25.000 tot €1.000.000 op basis van de behoeften van uw gezin"
+              },
+              {
+                "icon": "Users",
+                "title": "Aangewezen begunstigden",
+                "description": "U wijst precies aan wie het kapitaal ontvangt en in welke verhoudingen"
+              },
+              {
+                "icon": "Clock",
+                "title": "30-daagse betalingsgarantie",
+                "description": "Kapitaal betaald aan begunstigden binnen 30 dagen na ontvangst van overlijdensakte"
+              },
+              {
+                "icon": "Home",
+                "title": "Gebruik voor hypotheekbescherming",
+                "description": "Kapitaal dimensioneel afgestemd om uw uitstaande hypotheek af te lossen"
+              }
+            ]
+          },
+          "rente-conjoint": {
+            "title": "Nabestaandenrente Echtgenoot",
+            "subtitle": "Maandelijks gegarandeerd inkomen voor de langstlevende echtgenoot",
+            "image": "https://images.pexels.com/photos/3807734/pexels-photo-3807734.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Een nabestaandenrentepolis garandeert uw echtgenoot een maandelijks of jaarlijks inkomen voor een bepaalde periode of levenslang na uw overlijden.",
+              "Inkomen kan geïndexeerd worden aan inflatie en kan een minimale nabestaandengarantie bevatten die een minimale totaaluitkering verzekert ongeacht wanneer de langstlevende overlijdt."
+            ],
+            "benefits": [
+              {
+                "icon": "Calendar",
+                "title": "Optie levenslang inkomen",
+                "description": "Inkomen betaald aan langstlevende echtgenoot voor hun gehele resterende leven"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Inflatieindexering",
+                "description": "Inkomen jaarlijks geïndexeerd om koopkracht in de loop der tijd te behouden"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Minimale uitbetalingsgarantie",
+                "description": "Gegarandeerde minimale totaaluitkering ongeacht de levensduur van de begunstigde"
+              },
+              {
+                "icon": "FileText",
+                "title": "Fiscaal gunstige structuur",
+                "description": "Nabestaandenrenteuitkeringen profiteren van gunstige Belgische fiscale behandeling"
+              }
+            ]
+          },
+          "protection-enfants-mineurs": {
+            "title": "Bescherming Minderjarige Kinderen",
+            "subtitle": "Kapitaal of inkomen om de opleiding van kinderen na het overlijden van een ouder te ondersteunen",
+            "image": "https://images.pexels.com/photos/1416736/pexels-photo-1416736.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Het overlijden van een ouder creëert niet alleen emotionele maar ook financiële uitdagingen voor minderjarige kinderen. Onze kinderenoverlijdensuitkering biedt toegewijd kapitaal of maandelijks inkomen om onderwijs te financieren.",
+              "Uitkeringen kunnen gestructureerd worden om te stijgen bij sleutelmijlpalen — middelbaar, hoger onderwijs — wat adequate financiering in elke fase garandeert."
+            ],
+            "benefits": [
+              {
+                "icon": "GraduationCap",
+                "title": "Onderwijskapitaal",
+                "description": "Toegewijd kapitaal om basis-, secundair en hoger onderwijs te financieren"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Mijlpaalgebaseerde betalingen",
+                "description": "Gestructureerde betalingen afgestemd op sleuteleducatietransities"
+              },
+              {
+                "icon": "Baby",
+                "title": "Uitkering per kind",
+                "description": "Apart kapitaal of inkomen toegewezen aan elk minderjarig kind in het gezin"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Tot meerderjarigheid",
+                "description": "Uitkeringen betaald totdat elk kind 18 bereikt of 25 als nog in opleiding"
+              }
+            ]
+          },
+          "paiement-accelere": {
+            "title": "Snelle Uitbetaling aan Begunstigden",
+            "subtitle": "Versneld uitbetalingsproces voor overlijdensuitkeringen",
+            "image": "https://images.pexels.com/photos/4386367/pexels-photo-4386367.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Ons prioriteitsclaims-proces zorgt ervoor dat overlijdensuitkeringen uw begunstigden zo snel mogelijk bereiken — doorgaans binnen 30 dagen na ontvangst van een geldige overlijdensakte.",
+              "Een toegewijde schadeadviseur wordt aan uw familie toegewezen vanaf het moment van melding om hen door het proces te leiden en papierwerk te minimaliseren."
+            ],
+            "benefits": [
+              {
+                "icon": "Clock",
+                "title": "30-daagse betalingsdoelstelling",
+                "description": "Kapitaal of eerste inkomstenbetaling binnen 30 dagen na geldige claimindiening"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Toegewijde schadeadviseur",
+                "description": "Persoonlijke schadebehandelaar toegewezen om uw familie door het proces te begeleiden"
+              },
+              {
+                "icon": "FileText",
+                "title": "Vereenvoudigd papierwerk",
+                "description": "Minimale documentatievereisten — overlijdensakte en identiteitsbewijs zijn voldoende"
+              },
+              {
+                "icon": "Phone",
+                "title": "24/7 rouwlijn",
+                "description": "Directe ondersteuningslijn beschikbaar om te melden en het claimsproces te starten"
+              }
+            ]
+          }
+        }
       },
       "voyage": {
         "title": "Reisverzekering",
@@ -561,32 +1770,194 @@
               {
                 "title": "Medische bijstand in het buitenland",
                 "description": "24/7 medische dienst en medische evacuatie indien nodig tijdens uw reizen",
-                "image": "https://picsum.photos/seed/travel-medical/800/400"
+                "image": "https://picsum.photos/seed/travel-medical/800/400",
+                "href": "/particuliers/famille/voyage/assistance-medicale-etranger"
               },
               {
                 "title": "Medische evacuatie",
                 "description": "Complete dekking van medische repatriëring bij ernstige ziekenhuisopname in het buitenland",
-                "image": "https://picsum.photos/seed/medical-flight/800/400"
+                "image": "https://picsum.photos/seed/medical-flight/800/400",
+                "href": "/particuliers/famille/voyage/evacuation-medicale"
               },
               {
                 "title": "Vluchtannulering en vertraging",
                 "description": "Vergoeding indien uw reis wordt geannuleerd of vlucht aanzienlijk vertraagd",
-                "image": "https://picsum.photos/seed/airport-travel/800/400"
+                "image": "https://picsum.photos/seed/airport-travel/800/400",
+                "href": "/particuliers/famille/voyage/annulation-retard-vol"
               },
               {
                 "title": "Bagages en persoonlijke bezittingen",
                 "description": "Bescherming en vergoeding bij verlies, diefstal of beschadiging van bagage",
-                "image": "https://picsum.photos/seed/travel-luggage/800/400"
+                "image": "https://picsum.photos/seed/travel-luggage/800/400",
+                "href": "/particuliers/famille/voyage/bagages-effets-personnels"
               },
               {
                 "title": "Aansprakelijkheidsverzekering",
                 "description": "Aansprakelijkheidsdekking voor schade veroorzaakt aan derden tijdens uw reis",
-                "image": "https://picsum.photos/seed/travel-insurance/800/400"
+                "image": "https://picsum.photos/seed/travel-insurance/800/400",
+                "href": "/particuliers/famille/voyage/responsabilite-civile-voyage"
               }
             ]
           }
         ],
-        "image": "https://picsum.photos/seed/family-travel/800/400"
+        "image": "https://picsum.photos/seed/family-travel/800/400",
+        "coverages": {
+          "assistance-medicale-etranger": {
+            "title": "Medische Hulp in het Buitenland",
+            "subtitle": "24/7 medische service en evacuatie tijdens uw reizen",
+            "image": "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Medische noodgevallen in het buitenland kunnen beangstigend en duur zijn. Onze medische hulpservice is 24/7 beschikbaar in meerdere talen om uw zorg te coördineren, lokale ziekenhuizen te contacteren en betalingsgaranties te regelen.",
+              "Van een eenvoudige huisartsbezoek tot noodoperatie, wij regelen de logistiek zodat u zich kunt concentreren op herstel. Alle medische kosten worden direct gedekt."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "24/7 meertalige hulplijn",
+                "description": "Medische hulplijn beschikbaar in het Frans, Nederlands, Engels en meer"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Ziekenhuiskostengarantie",
+                "description": "Directe betalingsgarantie aan buitenlandse ziekenhuizen — geen voorschot vereist"
+              },
+              {
+                "icon": "Globe",
+                "title": "Wereldwijde dekking",
+                "description": "Medische hulp beschikbaar in elk land inclusief buiten Europa"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Medische monitoring",
+                "description": "Ons team monitort uw toestand gedurende de hele ziekenhuisopname in het buitenland"
+              }
+            ]
+          },
+          "evacuation-medicale": {
+            "title": "Medische Evacuatie",
+            "subtitle": "Repatriëring bij ernstige ziekenhuisopname in het buitenland",
+            "image": "https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Als u ernstig ziek of gewond bent in het buitenland en gespecialiseerde behandeling nodig heeft die lokaal niet beschikbaar is, organiseert onze medische evacuatieservice medisch begeleide repatriëring.",
+              "Alle kosten — vliegambulance, medische begeleiding, grondvervoer en gezinslidreizen — zijn gedekt zonder limiet."
+            ],
+            "benefits": [
+              {
+                "icon": "Plane",
+                "title": "Vliegambulanceservice",
+                "description": "Medisch uitgerust luchtvervoer terug naar België wanneer medisch noodzakelijk"
+              },
+              {
+                "icon": "Users",
+                "title": "Reiskosten gezinslid",
+                "description": "Reiskosten van één begeleidend gezinslid gedekt tijdens repatriëring"
+              },
+              {
+                "icon": "Home",
+                "title": "Repatriëring van stoffelijk overschot",
+                "description": "Waardige repatriëring van stoffelijk overschot naar België gedekt bij overlijden"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Medische begeleiding",
+                "description": "Gekwalificeerde medische professional die u begeleidt tijdens evacuatievlucht"
+              }
+            ]
+          },
+          "annulation-retard-vol": {
+            "title": "Vluchtannulering en -vertraging",
+            "subtitle": "Vergoeding als uw reis geannuleerd is of vlucht aanzienlijk vertraagd is",
+            "image": "https://images.pexels.com/photos/1534057/pexels-photo-1534057.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Reisverstoringen kunnen leiden tot aanzienlijk financieel verlies — niet-terugbetaalbare hotelreserveringen, tourpakketten en evenementtickets. Onze annulerings- en vertragingsdekking vergoedt deze kosten.",
+              "Gedekte redenen omvatten ziekte, overlijden in de familie, ontslag, jurydienst, natuurrampen en insolventie van de luchtvaartmaatschappij."
+            ],
+            "benefits": [
+              {
+                "icon": "Calendar",
+                "title": "Reisannulering",
+                "description": "Niet-terugbetaalbare vooruitbetaalde kosten vergoed als reis geannuleerd voor gedekte redenen"
+              },
+              {
+                "icon": "Clock",
+                "title": "Vertragingsvergoeding",
+                "description": "Dagelijkse vergoeding voor vertragingen van meer dan 4 uur inclusief maaltijden en accommodatie"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Gemiste overstap",
+                "description": "Extra kosten gedekt wanneer een vertraging een gemiste overstapvlucht veroorzaakt"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Insolventie luchtvaartmaatschappij",
+                "description": "Vergoeding als uw luchtvaartmaatschappij of touroperator insolvent wordt"
+              }
+            ]
+          },
+          "bagages-effets-personnels": {
+            "title": "Bagage en Persoonlijke Spullen",
+            "subtitle": "Bescherming voor verloren, gestolen of beschadigde bagage tijdens reizen",
+            "image": "https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Verloren bagage en gestolen bezittingen kunnen uw hele reis verstoren. Onze bagagedekking biedt vergoeding voor verloren, gestolen of beschadigde bagage en persoonlijke spullen, plus noodaankopen als uw tassen vertraagd zijn.",
+              "Waardevolle spullen, elektronica en sportuirusting in uw bagage kunnen specifiek worden aangegeven voor hogere dekkingslimieten."
+            ],
+            "benefits": [
+              {
+                "icon": "Briefcase",
+                "title": "Verloren of gestolen bagage",
+                "description": "Volledige vergoeding van bagageinhoud aan vervangingswaarde"
+              },
+              {
+                "icon": "Clock",
+                "title": "Vertraagde bagagevergoeding",
+                "description": "Noodaankoopallocatie als bagage meer dan 12 uur vertraagd is"
+              },
+              {
+                "icon": "Laptop",
+                "title": "Elektronicaverklaring",
+                "description": "Hogere limieten beschikbaar voor aangegeven elektronica en waardevolle spullen"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Aanvulling luchtvaartmaatschappij-aansprakelijkheid",
+                "description": "Dekt het gat tussen aansprakelijkheidslimieten van de luchtvaartmaatschappij en werkelijke itemwaarde"
+              }
+            ]
+          },
+          "responsabilite-civile-voyage": {
+            "title": "BA Reis",
+            "subtitle": "Aansprakelijkheidsdekking voor schade veroorzaakt aan derden tijdens uw reis",
+            "image": "https://images.pexels.com/photos/1436116/pexels-photo-1436116.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Ongelukken tijdens reizen kunnen leiden tot claims tegen u — een botsing op een skipiste, accidentele schade aan een hotelkamer of verwonding van een andere toerist. Onze reis-BA beschermt u.",
+              "Dekking strekt zich uit tot alle familieleden die samen reizen en omvat juridische verdedigingskosten als uw aansprakelijkheid wordt betwist."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Lichamelijk letsel aan derden",
+                "description": "Vergoeding voor letsel per ongeluk veroorzaakt aan anderen tijdens uw reis"
+              },
+              {
+                "icon": "Hotel",
+                "title": "Materiële schade",
+                "description": "Accidentele schade aan hotelkamers, huururusting en eigendom van derden"
+              },
+              {
+                "icon": "Users",
+                "title": "Heel gezin gedekt",
+                "description": "Alle familieleden op dezelfde reis gedekt onder de enkele polis"
+              },
+              {
+                "icon": "Scale",
+                "title": "Juridische verdedigingskosten",
+                "description": "Advocaatkosten en proceskosten gedekt als aansprakelijkheid juridisch wordt betwist"
+              }
+            ]
+          }
+        }
       },
       "protection_juridique": {
         "title": "Rechtsbijstand",
@@ -598,26 +1969,156 @@
               {
                 "title": "24/7 juridisch advies",
                 "description": "Telefonisch advies van juridische experts beschikbaar dag en nacht",
-                "image": "https://picsum.photos/seed/legal-advice/800/400"
+                "image": "https://picsum.photos/seed/legal-advice/800/400",
+                "href": "/particuliers/famille/protection-juridique/conseil-juridique-24h"
               },
               {
                 "title": "Verdediging in gerechtszaken",
                 "description": "Vertegenwoordiging en verdediging door een advocaat in uw juridische procedures",
-                "image": "https://picsum.photos/seed/court-justice/800/400"
+                "image": "https://picsum.photos/seed/court-justice/800/400",
+                "href": "/particuliers/famille/protection-juridique/defense-en-justice"
               },
               {
                 "title": "Gerechtelijke kosten gedekt",
                 "description": "Complete dekking van gerechtelijke vergoedingen en advocaathonorariums",
-                "image": "https://picsum.photos/seed/legal-costs/800/400"
+                "image": "https://picsum.photos/seed/legal-costs/800/400",
+                "href": "/particuliers/famille/protection-juridique/frais-juridiques"
               },
               {
                 "title": "Ondersteunde juridische verhaalsmogelijkheden",
                 "description": "Volledige ondersteuning in al uw juridische vorderingen en gerechtelijke procedures",
-                "image": "https://picsum.photos/seed/legal-support/800/400"
+                "image": "https://picsum.photos/seed/legal-support/800/400",
+                "href": "/particuliers/famille/protection-juridique/recours-juridique-assiste"
               }
             ]
           }
-        ]
+        ],
+        "coverages": {
+          "conseil-juridique-24h": {
+            "title": "Juridisch Advies 24/7",
+            "subtitle": "Telefonische consultatie met juridische experts beschikbaar dag en nacht",
+            "image": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Juridische vragen respecteren geen kantooruren. Onze 24/7 juridische advieslijn geeft u onmiddellijke telefonische toegang tot gekwalificeerde Belgische advocaten die u op elk moment kunnen adviseren.",
+              "Van consumentengeschillen en burenconflicten tot arbeidsrechtelijke vragen en familierecht, onze adviseurs dekken het volledige spectrum van alledaagse juridische zaken."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "Permanente beschikbaarheid",
+                "description": "Juridische adviseurs beschikbaar per telefoon 24 uur per dag, 7 dagen per week"
+              },
+              {
+                "icon": "Scale",
+                "title": "Alle rechtsgebieden",
+                "description": "Advies over burgerlijk recht, consumentenrecht, arbeidsrecht, familierecht en bestuursrecht"
+              },
+              {
+                "icon": "Globe",
+                "title": "Frans, Nederlands en Engels",
+                "description": "Juridisch advies beschikbaar in alle drie Belgische nationale talen plus Engels"
+              },
+              {
+                "icon": "MessageCircle",
+                "title": "Schriftelijke opvolging",
+                "description": "Schriftelijke samenvatting van advies verstrekt na elke consultatie"
+              }
+            ]
+          },
+          "defense-en-justice": {
+            "title": "Verdediging in Rechte",
+            "subtitle": "Juridische vertegenwoordiging en verdediging in uw rechtsprocedures",
+            "image": "https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Wanneer een geschil escaleert naar juridische procedures, financiert onze rechtsbijstandverzekering uw volledige juridische verdediging. U kiest uw eigen advocaat — wij betalen zijn honoraria en alle bijbehorende proceskosten.",
+              "Dekking is van toepassing op zowel verdediging tegen claims die tegen u worden ingediend als het indienen van claims namens u tegen een derde partij."
+            ],
+            "benefits": [
+              {
+                "icon": "Gavel",
+                "title": "Vrije advocaatkeuze",
+                "description": "U kiest uw eigen advocaat — wij dekken zijn honoraria zonder beperking"
+              },
+              {
+                "icon": "Scale",
+                "title": "Alle rechterlijke instanties",
+                "description": "Procedures in eerste aanleg, beroep en cassatie allemaal gedekt"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Vervolging en verdediging",
+                "description": "Dekking voor zowel claims indienen tegen anderen als verdediging tegen claims"
+              },
+              {
+                "icon": "Euro",
+                "title": "Geen plafond op juridische kosten",
+                "description": "Juridische kosten volledig gedekt zonder plafond voor gedekte geschillen"
+              }
+            ]
+          },
+          "frais-juridiques": {
+            "title": "Juridische Kosten Gedekt",
+            "subtitle": "Volledige dekking van proceskosten en advocaatkosten",
+            "image": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Juridische procedures genereren talrijke kosten buiten advocaatkosten — griffierechten, deskundigenkosten, deurwaarderskosten, vertaalkosten en meer. Onze polis dekt dit alles.",
+              "Zelfs als u uw zaak verliest, worden alle gemaakte kosten tot de polislimiet gedekt, waardoor u wordt beschermd tegen een dubbele financiële klap."
+            ],
+            "benefits": [
+              {
+                "icon": "FileText",
+                "title": "Griffierechten",
+                "description": "Alle officiële proceskosten en griffierechten volledig gedekt"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Deskundigenkosten",
+                "description": "Kosten van door de rechtbank aangestelde en privé ingeschakelde deskundigen gedekt"
+              },
+              {
+                "icon": "Truck",
+                "title": "Deurwaarderskosten",
+                "description": "Kosten van deurwaardersdiensten voor tenuitvoerlegging van rechterlijke uitspraken gedekt"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Kosten ook bij verlies",
+                "description": "Juridische kosten gedekt, ook als de rechtbank tegen u beslist"
+              }
+            ]
+          },
+          "recours-juridique-assiste": {
+            "title": "Ondersteund Juridisch Verhaal",
+            "subtitle": "Volledige ondersteuning bij al uw juridische claims en rechtszaken",
+            "image": "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Een juridische claim indienen kan complex en tijdrovend zijn. Onze ondersteunde verhaalservice biedt een toegewijde zaakmanager die uw juridisch team coördineert, deadlines bewaakt en u op de hoogte houdt.",
+              "Van eerste advies tot eindvonnis, u heeft één aanspreekpunt die uw situatie begrijpt en ervoor zorgt dat niets door de mazen van het net glipt."
+            ],
+            "benefits": [
+              {
+                "icon": "UserCheck",
+                "title": "Toegewijde zaakmanager",
+                "description": "Persoonlijke zaakcoördinator die u door uw juridische procedures begeleidt"
+              },
+              {
+                "icon": "Clock",
+                "title": "Deadlinebewaking",
+                "description": "Alle juridische deadlines bijgehouden en waarschuwingen gestuurd zodat niets gemist wordt"
+              },
+              {
+                "icon": "MessageCircle",
+                "title": "Regelmatige voortgangsupdates",
+                "description": "Statusupdates bij elke sleutelfase van uw zaak zonder dat u hoeft te vragen"
+              },
+              {
+                "icon": "Target",
+                "title": "Mediation eerst",
+                "description": "Bemiddeling en minnelijke schikking eerst onderzocht om tijd en kosten te besparen"
+              }
+            ]
+          }
+        }
       },
       "hospitalisation": {
         "title": "Ziekenhuisverzekering",
