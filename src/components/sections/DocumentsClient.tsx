@@ -260,7 +260,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
       if (q && !doc.title.toLowerCase().includes(q) && !doc.company.toLowerCase().includes(q) && !doc.product.toLowerCase().includes(q)) return false;
       return true;
     });
-  }, [documents, search, selectedDomain, selectedCompany, selectedCategory]);
+  }, [documents, search, selectedDomain, selectedCompany, selectedCategory, selectedYear]);
 
   // ── Pagination ────────────────────────────────────────────────────────────
 
