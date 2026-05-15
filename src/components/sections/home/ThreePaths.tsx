@@ -74,10 +74,10 @@ export function ThreePaths() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="group block overflow-hidden flex flex-col"
+              className="group flex flex-col overflow-hidden h-full"
             >
-              {/* Colored top section — min-h ensures image aligns across all cards */}
-              <div className={`${path.bg} px-6 pt-6 pb-0 flex flex-col min-h-72`}>
+              {/* Colored top section — flex-1 grows to tallest sibling, keeping images aligned */}
+              <div className={`${path.bg} px-6 pt-6 pb-6 flex flex-col flex-1`}>
                 {/* Top row: label + number */}
                 <div className="flex items-center justify-between mb-6">
                   <span className={`border-2 ${path.textColor === "text-white" ? "border-white/60 text-white" : "border-gray-900 text-gray-900"} font-mono text-xs font-bold px-2 py-1 tracking-widest`}>
