@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
-import { Home, Briefcase, TrendingUp, ArrowRight } from "lucide-react";
+import { Home, Briefcase, TrendingUp, ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 export function ThreePaths() {
@@ -11,57 +11,101 @@ export function ThreePaths() {
   const paths = [
     {
       icon: Home,
+      label: "FOR YOU",
+      num: "01",
       title: t("individuals_title"),
       sub: t("individuals_sub"),
       cta: t("individuals_cta"),
       href: `/${locale}/particuliers`,
-      featured: false,
-      image: "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=600",
+      bg: "bg-amber-400",
+      footer: "bg-amber-400",
+      textColor: "text-gray-900",
+      subColor: "text-gray-900/70",
+      iconBg: "bg-gray-900/10",
+      iconColor: "text-gray-900",
+      image: "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=800",
       imageAlt: "Family at home",
     },
     {
       icon: Briefcase,
+      label: "FOR BIZ",
+      num: "02",
       title: t("businesses_title"),
       sub: t("businesses_sub"),
       cta: t("businesses_cta"),
       href: `/${locale}/entreprises`,
-      featured: false,
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
+      bg: "bg-blue-600",
+      footer: "bg-blue-600",
+      textColor: "text-white",
+      subColor: "text-white/70",
+      iconBg: "bg-white/15",
+      iconColor: "text-white",
+      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
       imageAlt: "Business team meeting",
     },
     {
       icon: TrendingUp,
+      label: "FOR SCALE",
+      num: "03",
       title: t("growing_title"),
       sub: t("growing_sub"),
       cta: t("growing_cta"),
       href: `/${locale}/croissance`,
-      featured: false,
-      image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600",
+      bg: "bg-stone-100",
+      footer: "bg-stone-100",
+      textColor: "text-gray-900",
+      subColor: "text-gray-900/60",
+      iconBg: "bg-gray-900/8",
+      iconColor: "text-gray-700",
+      image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800",
       imageAlt: "Growing company team",
     },
   ];
 
   return (
-    <section className="py-20 bg-off-white">
+    <section className="py-20 bg-gray-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="font-[family-name:var(--font-heading)] font-bold text-3xl sm:text-4xl text-navy">
-            {t("title")}
-          </h2>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {paths.map((path, i) => (
             <motion.a
               key={path.href}
               href={path.href}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              whileHover={{ y: -4 }}
-              className={`group block rounded-xl bg-white border overflow-hidden hover:shadow-lg transition-all duration-300 ${path.featured ? "ring-2 ring-gold border-gold/30" : "border-border"}`}
+              transition={{ delay: i * 0.1, duration: 0.5 }}
+              className="group block overflow-hidden flex flex-col"
             >
-              <div className="relative h-44 overflow-hidden">
+              {/* Colored top section */}
+              <div className={`${path.bg} px-6 pt-6 pb-0 flex flex-col`}>
+                {/* Top row: label + number */}
+                <div className="flex items-center justify-between mb-6">
+                  <span className={`border-2 ${path.textColor === "text-white" ? "border-white/60 text-white" : "border-gray-900 text-gray-900"} font-mono text-xs font-bold px-2 py-1 tracking-widest`}>
+                    {path.label}
+                  </span>
+                  <span className={`font-mono text-sm ${path.textColor === "text-white" ? "text-white/50" : "text-gray-900/40"} font-bold tracking-wider`}>
+                    /§ {path.num}
+                  </span>
+                </div>
+
+                {/* Icon */}
+                <div className={`w-12 h-12 ${path.iconBg} rounded-full flex items-center justify-center mb-5`}>
+                  <path.icon size={20} className={path.iconColor} strokeWidth={1.5} />
+                </div>
+
+                {/* Title */}
+                <h3 className={`font-[family-name:var(--font-heading)] font-black text-3xl sm:text-4xl leading-tight ${path.textColor} mb-4`}>
+                  {path.title}.
+                </h3>
+
+                {/* Description */}
+                <p className={`${path.subColor} text-sm leading-relaxed mb-6`}>
+                  {path.sub}
+                </p>
+              </div>
+
+              {/* Photo — fixed height, aligns across all cards */}
+              <div className="relative w-full h-52 overflow-hidden flex-shrink-0">
                 <Image
                   src={path.image}
                   alt={path.imageAlt}
@@ -69,24 +113,15 @@ export function ThreePaths() {
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-navy/30" />
-                <div className="absolute bottom-3 left-4">
-                  <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                    <path.icon size={20} className="text-white" />
-                  </div>
-                </div>
               </div>
-              <div className="p-8">
-                <h3 className="font-[family-name:var(--font-heading)] font-bold text-xl text-navy mb-3">
-                  {path.title}
-                </h3>
-                <p className="text-mid-gray text-sm leading-relaxed mb-6">
-                  {path.sub}
-                </p>
-                <span className="inline-flex items-center gap-2 text-gold font-semibold text-sm group-hover:gap-3 transition-all">
-                  {path.cta}
-                  <ArrowRight size={16} />
-                </span>
+
+              {/* Footer CTA */}
+              <div className={`${path.footer} px-6 py-4 flex items-center justify-between border-t-2 ${path.textColor === "text-white" ? "border-white/20" : "border-gray-900/15"}`}>
+                <span className={`font-bold text-sm ${path.textColor}`}>{path.cta}</span>
+                <ArrowUpRight
+                  size={20}
+                  className={`${path.textColor} group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform`}
+                />
               </div>
             </motion.a>
           ))}
