@@ -114,7 +114,15 @@
     "phase6_title": "Business",
     "phase6_desc": "Employees, buildings, liability — cover your operations",
     "partners_title": "Our Partners",
-    "partners_count": "companies"
+    "partners_count": "companies",
+    "value1": "Personal Service",
+    "value1_desc": "One dedicated advisor who knows you — no call centres, no handoffs.",
+    "value2": "Local Expertise",
+    "value2_desc": "Based in Laeken, we know Brussels streets, risks, and regulations inside out.",
+    "value3": "Independence",
+    "value3_desc": "We work for you, not an insurer — comparing the whole market to find your best deal.",
+    "value4": "Responsiveness",
+    "value4_desc": "Same-day replies, fast claims support, and annual check-ins as your life changes."
   },
   "appointment": {
     "title": "Book a Consultation",

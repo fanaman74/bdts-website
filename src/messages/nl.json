@@ -114,7 +114,15 @@
     "phase6_title": "Bedrijf",
     "phase6_desc": "Werknemers, gebouwen, aansprakelijkheid — dek uw activiteit",
     "partners_title": "Onze partners",
-    "partners_count": "maatschappijen"
+    "partners_count": "maatschappijen",
+    "value1": "Persoonlijke service",
+    "value1_desc": "Één vaste adviseur die u kent — geen callcenters, geen doorverwijzingen.",
+    "value2": "Lokale expertise",
+    "value2_desc": "Gevestigd in Laken, kennen wij Brussel, haar risico's en regelgeving door en door.",
+    "value3": "Onafhankelijkheid",
+    "value3_desc": "Wij werken voor u, niet voor een verzekeraar — en vergelijken de hele markt.",
+    "value4": "Responsiviteit",
+    "value4_desc": "Antwoord dezelfde dag, snelle schadehulp en jaarlijkse check-ins."
   },
   "appointment": {
     "title": "Afspraak boeken",

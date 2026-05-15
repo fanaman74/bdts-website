@@ -114,7 +114,15 @@
     "phase6_title": "Entreprise",
     "phase6_desc": "Employés, bâtiment, responsabilité — couvrez votre activité",
     "partners_title": "Nos partenaires",
-    "partners_count": "compagnies"
+    "partners_count": "compagnies",
+    "value1": "Service personnalisé",
+    "value1_desc": "Un conseiller dédié qui vous connaît — pas de centres d'appel, pas de transferts.",
+    "value2": "Expertise locale",
+    "value2_desc": "Basés à Laeken, nous connaissons Bruxelles, ses risques et ses réglementations.",
+    "value3": "Indépendance",
+    "value3_desc": "Nous travaillons pour vous, pas pour un assureur — en comparant tout le marché.",
+    "value4": "Réactivité",
+    "value4_desc": "Réponses le jour même, assistance sinistres rapide et bilans annuels personnalisés."
   },
   "appointment": {
     "title": "Prendre rendez-vous",
