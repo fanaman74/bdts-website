@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/sections/PageHero";
 import { HomeCTA } from "@/components/sections/home/HomeCTA";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, Briefcase } from "lucide-react";
 
 export default async function ResponsabilitePage() {
   const t = await getTranslations("services");
@@ -41,11 +41,22 @@ export default async function ResponsabilitePage() {
 
           <div>
             <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-6">Who needs it</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {sectors.map(({ name, detail }) => (
-                <div key={name} className="p-5 bg-off-white rounded-lg border border-border">
-                  <p className="font-semibold text-navy mb-1">{name}</p>
-                  <p className="text-mid-gray text-sm">{detail}</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
+              {sectors.map(({ name, detail }, i) => (
+                <div key={name} className="relative pt-4">
+                  <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">
+                    <div className="absolute top-0 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
+                      § {String(i + 1).padStart(2, "0")}
+                    </div>
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-11 h-11 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                        <Briefcase size={20} className="text-white" strokeWidth={1.5} />
+                      </div>
+                      <h3 className="font-bold text-gray-900 text-base leading-tight">{name}</h3>
+                    </div>
+                    <p className="text-gray-500 text-sm leading-relaxed flex-1">{detail}</p>
+                    <div className="border-t border-dashed border-gray-300 mt-4" />
+                  </div>
                 </div>
               ))}
             </div>

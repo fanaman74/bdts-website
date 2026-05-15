@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/sections/PageHero";
 import { HomeCTA } from "@/components/sections/home/HomeCTA";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, Shield } from "lucide-react";
 
 export default async function HabitationPage() {
   const t = await getTranslations("services");
@@ -45,11 +45,22 @@ export default async function HabitationPage() {
           <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-8">
             How much coverage do you need?
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {steps.map(({ title, body }) => (
-              <div key={title} className="bg-white rounded-lg border border-border p-6">
-                <h3 className="font-semibold text-navy mb-2">{title}</h3>
-                <p className="text-mid-gray text-sm">{body}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
+            {steps.map(({ title, body }, i) => (
+              <div key={title} className="relative pt-4">
+                <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">
+                  <div className="absolute top-0 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
+                    § {String(i + 1).padStart(2, "0")}
+                  </div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-11 h-11 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Shield size={20} className="text-white" strokeWidth={1.5} />
+                    </div>
+                    <h3 className="font-bold text-gray-900 text-base leading-tight">{title}</h3>
+                  </div>
+                  <p className="text-gray-500 text-sm leading-relaxed flex-1">{body}</p>
+                  <div className="border-t border-dashed border-gray-300 mt-4" />
+                </div>
               </div>
             ))}
           </div>

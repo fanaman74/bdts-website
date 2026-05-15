@@ -40,18 +40,22 @@ export default async function JacheteJLoueJRenovePage() {
 
       <section className="py-20 bg-off-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {cards.map((card) => (
-              <a
-                key={card.href}
-                href={card.href}
-                className="group block bg-white rounded-xl border border-border p-6 hover:shadow-lg hover:border-gold/30 transition-all duration-300"
-              >
-                <div className="w-10 h-10 bg-gold/10 rounded-lg flex items-center justify-center mb-4">
-                  <card.icon size={20} className="text-gold" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 items-start">
+            {cards.map((card, i) => (
+              <a key={card.href} href={card.href} className="relative block pt-4">
+                <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col hover:shadow-xl transition-shadow duration-300">
+                  <div className="absolute top-0 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
+                    § {String(i + 1).padStart(2, "0")}
+                  </div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-11 h-11 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                      <card.icon size={20} className="text-white" strokeWidth={1.5} />
+                    </div>
+                    <h3 className="font-bold text-gray-900 text-base leading-tight">{card.title}</h3>
+                  </div>
+                  <p className="text-gray-500 text-sm leading-relaxed flex-1">{card.description}</p>
+                  <div className="border-t border-dashed border-gray-300 mt-4" />
                 </div>
-                <h3 className="font-bold text-navy mb-2">{card.title}</h3>
-                <p className="text-mid-gray text-sm">{card.description}</p>
               </a>
             ))}
           </div>

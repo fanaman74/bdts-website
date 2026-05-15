@@ -106,27 +106,34 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="grid grid-cols-2 lg:grid-cols-4 gap-4"
         >
-          {VALUES.map(({ icon: Icon, labelKey, descKey }, i) => (
-            <motion.div
-              key={labelKey}
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 + i * 0.1 }}
-              className="group bg-white/10 backdrop-blur-md border border-white/15 rounded-xl p-5 hover:bg-white/15 transition-colors cursor-default"
-            >
-              <div className="w-10 h-10 bg-gold/20 rounded-lg flex items-center justify-center mb-3">
-                <Icon size={20} className="text-gold" />
-              </div>
-              <p className="text-white font-semibold text-sm leading-snug mb-0">
-                {tAbout(labelKey)}
-              </p>
-              <div className="overflow-hidden max-h-0 group-hover:max-h-20 transition-all duration-300 ease-in-out">
-                <p className="text-white/60 text-xs leading-snug pt-2">
+          {VALUES.map(({ icon: Icon, labelKey, descKey }, i) => {
+            const num = String(i + 1).padStart(2, "0");
+            return (
+              <motion.div
+                key={labelKey}
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4 + i * 0.1 }}
+                className="relative bg-white border-2 border-gray-900 rounded-lg p-5 pt-7 flex flex-col"
+              >
+                <div className="absolute -top-3.5 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
+                  § {num}
+                </div>
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Icon size={18} className="text-white" strokeWidth={1.5} />
+                  </div>
+                  <p className="font-bold text-gray-900 text-sm leading-snug">
+                    {tAbout(labelKey)}
+                  </p>
+                </div>
+                <p className="text-gray-500 text-xs leading-relaxed flex-1">
                   {tAbout(descKey)}
                 </p>
-              </div>
-            </motion.div>
-          ))}
+                <div className="border-t border-dashed border-gray-300 mt-4" />
+              </motion.div>
+            );
+          })}
         </motion.div>
       </div>
     </section>
