@@ -209,6 +209,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
   const [activeChat, setActiveChat] = useState<Document | null>(null);
   const [selectedCompany, setSelectedCompany] = useState("All");
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedYear, setSelectedYear] = useState("All");
   const [page, setPage] = useState(1);
 
   // ── Derive unique filter options ──────────────────────────────────────────
@@ -239,6 +240,14 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
     return ["All", ...Array.from(set).sort()];
   }, [documents]);
 
+  const years = useMemo(() => {
+    const set = new Set<string>();
+    for (const doc of documents) {
+      if (doc.date) set.add(doc.date.slice(0, 4));
+    }
+    return ["All", ...Array.from(set).sort((a, b) => Number(b) - Number(a))];
+  }, [documents]);
+
   // ── Filter + search ───────────────────────────────────────────────────────
 
   const filtered = useMemo(() => {
@@ -247,6 +256,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
       if (selectedDomain !== "All" && domainLabel(doc.domain) !== selectedDomain) return false;
       if (selectedCompany !== "All" && doc.company !== selectedCompany) return false;
       if (selectedCategory !== "All" && categoryLabel(doc.category) !== selectedCategory) return false;
+      if (selectedYear !== "All" && (!doc.date || doc.date.slice(0, 4) !== selectedYear)) return false;
       if (q && !doc.title.toLowerCase().includes(q) && !doc.company.toLowerCase().includes(q) && !doc.product.toLowerCase().includes(q)) return false;
       return true;
     });
@@ -372,6 +382,19 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
             ))}
           </select>
 
+          {/* Year dropdown */}
+          <select
+            value={selectedYear}
+            onChange={(e) => handleFilterChange(setSelectedYear, e.target.value)}
+            className="text-sm border border-border rounded-lg px-3 py-2 bg-white text-navy focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold"
+          >
+            {years.map((y) => (
+              <option key={y} value={y}>
+                {y === "All" ? "Toutes les années" : y}
+              </option>
+            ))}
+          </select>
+
           {/* Sync timestamp */}
           {syncedAt && (
             <p className="text-xs text-mid-gray/70 ml-auto mr-4">
@@ -411,6 +434,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
                 setSelectedDomain("All");
                 setSelectedCompany("All");
                 setSelectedCategory("All");
+                setSelectedYear("All");
                 setPage(1);
               }}
               className="mt-4 text-sm text-gold hover:text-gold-dark font-medium underline underline-offset-2"
