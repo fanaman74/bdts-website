@@ -86,22 +86,31 @@ export async function CoverageDetail({ serviceKey, categoryKey, coverageKey }: C
       {/* Benefits */}
       {coverageData.benefits && coverageData.benefits.length > 0 && (
         <section className="py-16 bg-off-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-10">
               Key Benefits
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
               {coverageData.benefits.map((benefit, i) => {
                 const IconComponent = getIconByName(benefit.icon);
+                const num = String(i + 1).padStart(2, "0");
                 return (
-                  <div key={i} className="flex items-start gap-4 p-6 bg-white rounded-lg shadow-sm">
-                    <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-gold/10">
-                      <IconComponent size={20} className="text-gold" />
+                  <div key={i} className="relative bg-white border-2 border-gray-900 rounded-lg p-6 pt-8 flex flex-col h-full">
+                    {/* § badge */}
+                    <div className="absolute -top-3.5 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
+                      § {num}
                     </div>
-                    <div>
-                      <h3 className="font-semibold text-navy mb-1">{benefit.title}</h3>
-                      <p className="text-mid-gray text-sm leading-relaxed">{benefit.description}</p>
+                    {/* Icon + title */}
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-11 h-11 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                        <IconComponent size={20} className="text-white" strokeWidth={1.5} />
+                      </div>
+                      <h3 className="font-bold text-gray-900 text-lg leading-tight">{benefit.title}</h3>
                     </div>
+                    {/* Description */}
+                    <p className="text-gray-500 text-sm leading-relaxed flex-1">{benefit.description}</p>
+                    {/* Dashed divider */}
+                    <div className="border-t border-dashed border-gray-300 mt-5" />
                   </div>
                 );
               })}
