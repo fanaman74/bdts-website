@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import { useState, useEffect, useRef } from "react";
+import { Menu, X, Phone, ChevronDown, LogIn } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -21,6 +21,29 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [zoneClientOpen, setZoneClientOpen] = useState(false);
+  const zoneClientRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (zoneClientRef.current && !zoneClientRef.current.contains(e.target as Node)) {
+        setZoneClientOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const zoneClientLinks = [
+    { label: "My AG Insurance", href: "https://myag.be" },
+    { label: "AXA", href: "https://www.axa.be/fr/espace-client" },
+    { label: "Baloise", href: "https://mybaloise.be" },
+    { label: "DKV", href: "https://www.dkv.be/fr/espace-client" },
+    { label: "NN Insurance", href: "https://myprofile.nn.be" },
+    { label: "P&V Assurances", href: "https://www.pv.be/fr/espace-client" },
+    { label: "Allianz", href: "https://www.allianz.be/fr/particulier/myallianz" },
+    { label: "Ethias", href: "https://www.ethias.be/fr/espace-client" },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -172,6 +195,34 @@ export function Header() {
                 </button>
               ))}
             </div>
+            {/* Zone Client */}
+            <div ref={zoneClientRef} className="relative">
+              <button
+                onClick={() => setZoneClientOpen(!zoneClientOpen)}
+                className="flex items-center gap-1.5 px-4 py-2 border border-navy text-navy font-semibold text-sm rounded-md hover:bg-navy hover:text-white transition-colors"
+              >
+                <LogIn size={15} />
+                Zone Client
+                <ChevronDown size={14} className={cn("transition-transform", zoneClientOpen && "rotate-180")} />
+              </button>
+              {zoneClientOpen && (
+                <div className="absolute top-full right-0 mt-2 bg-white border border-border rounded-lg shadow-lg py-2 min-w-52 z-50">
+                  <p className="px-4 py-1.5 text-xs font-bold text-mid-gray uppercase tracking-wider border-b border-border mb-1">Espaces clients</p>
+                  {zoneClientLinks.map((link) => (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => setZoneClientOpen(false)}
+                      className="block px-4 py-2 text-sm text-dark-gray hover:bg-off-white hover:text-navy transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
             <a
               href={`/${locale}/appointment`}
               className="px-5 py-2 bg-amber-400 text-navy font-bold text-sm rounded-md hover:bg-amber-500 transition-colors"
@@ -278,6 +329,30 @@ export function Header() {
               {link.label}
             </a>
           ))}
+          {/* Mobile Zone Client */}
+          <div>
+            <button
+              onClick={() => setOpenDropdown(openDropdown === "mobile-zone-client" ? null : "mobile-zone-client")}
+              className="w-full text-left text-lg font-medium text-navy hover:text-orange-500 py-3 border-b border-border transition-colors flex items-center justify-between"
+            >
+              <span className="flex items-center gap-2"><LogIn size={18} />Zone Client</span>
+              <ChevronDown size={20} className={cn("transition-transform", openDropdown === "mobile-zone-client" && "rotate-180")} />
+            </button>
+            <div className={cn("overflow-hidden transition-all", openDropdown === "mobile-zone-client" ? "max-h-96" : "max-h-0")}>
+              {zoneClientLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => { setMobileOpen(false); setOpenDropdown(null); }}
+                  className="block pl-8 pr-6 py-2 text-base text-dark-gray hover:text-orange-500 hover:bg-off-white transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
           <a
             href={`/${locale}/appointment`}
             onClick={() => setMobileOpen(false)}
