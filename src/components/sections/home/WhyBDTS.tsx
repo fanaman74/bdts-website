@@ -13,43 +13,45 @@ export function WhyBDTS() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-off-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-14"
+          className="mb-12"
         >
-          <div className="inline-flex items-center gap-3 mb-4">
-            <div className="h-px w-8 bg-gold" />
-            <span className="text-gold text-xs font-semibold tracking-widest uppercase">BDTS</span>
-            <div className="h-px w-8 bg-gold" />
-          </div>
           <h2 className="font-[family-name:var(--font-heading)] font-bold text-3xl sm:text-4xl text-navy">
             {t("title")}
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {pillars.map((p, i) => (
-            <motion.div
-              key={p.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.15 }}
-              className="text-center"
-            >
-              <div className="w-16 h-16 bg-gold/10 border border-gold/20 rounded-2xl flex items-center justify-center mx-auto mb-5">
-                <p.icon size={28} className="text-gold" />
-              </div>
-              <h3 className="font-[family-name:var(--font-heading)] font-bold text-xl text-navy mb-3">
-                {p.title}
-              </h3>
-              <p className="text-mid-gray leading-relaxed">{p.body}</p>
-            </motion.div>
-          ))}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+          {pillars.map(({ icon: Icon, title, body }, i) => {
+            const num = String(i + 1).padStart(2, "0");
+            return (
+              <motion.div
+                key={title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.08 }}
+                className="relative bg-white border-2 border-gray-900 rounded-lg p-6 pt-8 flex flex-col"
+              >
+                <div className="absolute -top-3.5 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
+                  § {num}
+                </div>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-11 h-11 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Icon size={20} className="text-white" strokeWidth={1.5} />
+                  </div>
+                  <h3 className="font-bold text-gray-900 text-lg leading-tight">{title}</h3>
+                </div>
+                <p className="text-gray-500 text-sm leading-relaxed flex-1">{body}</p>
+                <div className="border-t border-dashed border-gray-300 mt-5" />
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>
