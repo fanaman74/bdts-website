@@ -112,7 +112,9 @@
     "phase5_title": "Voyage",
     "phase5_desc": "Assistance voyage, annulation, rapatriement — partez l'esprit libre",
     "phase6_title": "Entreprise",
-    "phase6_desc": "Employés, bâtiment, responsabilité — couvrez votre activité"
+    "phase6_desc": "Employés, bâtiment, responsabilité — couvrez votre activité",
+    "partners_title": "Nos partenaires",
+    "partners_count": "compagnies"
   },
   "appointment": {
     "title": "Prendre rendez-vous",

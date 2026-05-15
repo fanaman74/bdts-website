@@ -112,7 +112,9 @@
     "phase5_title": "Travel",
     "phase5_desc": "Travel assistance, cancellation, repatriation — go worry-free",
     "phase6_title": "Business",
-    "phase6_desc": "Employees, buildings, liability — cover your operations"
+    "phase6_desc": "Employees, buildings, liability — cover your operations",
+    "partners_title": "Our Partners",
+    "partners_count": "companies"
   },
   "appointment": {
     "title": "Book a Consultation",
