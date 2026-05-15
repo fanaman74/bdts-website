@@ -145,7 +145,7 @@ export default async function AboutPage() {
                   alt={name}
                   width={120}
                   height={48}
-                  className="h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  className="h-10 w-auto object-contain"
                   unoptimized
                 />
               </div>
