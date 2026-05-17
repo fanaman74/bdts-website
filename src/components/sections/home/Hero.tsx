@@ -53,12 +53,12 @@ export function Hero() {
               href={`/${locale}/appointment`}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="relative flex flex-col justify-between gap-3 px-6 py-5 bg-amber-400 border-2 border-dashed border-gray-900 min-w-[220px] group"
+              className="relative flex flex-col justify-between gap-2 px-5 py-4 bg-amber-400 border-2 border-dashed border-gray-900 min-w-[180px] group"
             >
-              <span className="font-mono text-xs font-bold tracking-widest text-gray-900 uppercase flex items-center gap-1">
+              <span className="font-mono text-[10px] font-bold tracking-widest text-gray-900 uppercase flex items-center gap-1">
                 ↘ STEP · 01 · QUOTE
               </span>
-              <span className="font-[family-name:var(--font-heading)] font-bold text-xl text-gray-900 flex items-center gap-2">
+              <span className="font-[family-name:var(--font-heading)] font-bold text-base text-gray-900 flex items-center gap-2">
                 {t("cta_primary")} →
               </span>
             </motion.a>
@@ -68,14 +68,14 @@ export function Hero() {
               href={`/${locale}/process`}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="relative flex flex-col justify-between gap-3 px-6 py-5 bg-white/10 backdrop-blur-sm border-2 border-dashed border-white/60 min-w-[220px] group hover:border-white transition-colors"
+              className="relative flex flex-col justify-between gap-2 px-5 py-4 bg-white/10 backdrop-blur-sm border-2 border-dashed border-white/60 min-w-[180px] group hover:border-white transition-colors"
             >
-              <span className="font-mono text-xs font-bold tracking-widest text-white/70 uppercase flex items-center gap-1">
+              <span className="font-mono text-[10px] font-bold tracking-widest text-white/70 uppercase flex items-center gap-1">
                 ↘ STEP · 02 · PROCESS
               </span>
-              <span className="font-[family-name:var(--font-heading)] font-bold text-xl text-white flex items-center justify-between">
+              <span className="font-[family-name:var(--font-heading)] font-bold text-base text-white flex items-center justify-between">
                 {t("cta_secondary")}
-                <span className="text-base">↗</span>
+                <span className="text-sm">↗</span>
               </span>
             </motion.a>
           </div>
