@@ -178,14 +178,15 @@ export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
                     const colorIndex = globalCardIndex++;
                     const FlatIcon = getIconForCard(card.title, colorIndex);
                     return (
-                      <ServiceCard
-                        key={card.title}
-                        title={card.title}
-                        description={card.description}
-                        href={card.href ? `/${locale}${card.href}` : undefined}
-                        colorIndex={colorIndex}
-                        flatIcon={FlatIcon}
-                      />
+                      <div key={card.title} className="w-full max-w-sm mx-auto md:max-w-none">
+                        <ServiceCard
+                          title={card.title}
+                          description={card.description}
+                          href={card.href ? `/${locale}${card.href}` : undefined}
+                          colorIndex={colorIndex}
+                          flatIcon={FlatIcon}
+                        />
+                      </div>
                     );
                   })}
                 </div>

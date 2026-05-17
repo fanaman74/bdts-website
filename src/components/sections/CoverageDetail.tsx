@@ -95,7 +95,8 @@ export async function CoverageDetail({ serviceKey, categoryKey, coverageKey }: C
                 const IconComponent = getIconByName(benefit.icon);
                 const num = String(i + 1).padStart(2, "0");
                 return (
-                  <div key={i} className="relative bg-white border-2 border-gray-900 rounded-lg p-6 pt-8 flex flex-col h-full">
+                  <div key={i} className="w-full max-w-sm mx-auto md:max-w-none">
+                  <div className="relative bg-white border-2 border-gray-900 rounded-lg p-6 pt-8 flex flex-col h-full">
                     {/* § badge */}
                     <div className="absolute -top-3.5 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
                       § {num}
@@ -111,6 +112,7 @@ export async function CoverageDetail({ serviceKey, categoryKey, coverageKey }: C
                     <p className="text-gray-500 text-sm leading-relaxed flex-1">{benefit.description}</p>
                     {/* Dashed divider */}
                     <div className="border-t border-dashed border-gray-300 mt-5" />
+                  </div>
                   </div>
                 );
               })}
