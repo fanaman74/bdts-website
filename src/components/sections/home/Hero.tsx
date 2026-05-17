@@ -48,22 +48,35 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            {/* Step 01 — primary CTA */}
             <motion.a
               href={`/${locale}/appointment`}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold text-navy-dark font-bold rounded-md hover:bg-gold-light transition-colors text-base"
+              className="relative flex flex-col justify-between gap-3 px-6 py-5 bg-amber-400 border-2 border-dashed border-gray-900 min-w-[220px] group"
             >
-              {t("cta_primary")}
-              <ArrowRight size={18} />
+              <span className="font-mono text-xs font-bold tracking-widest text-gray-900 uppercase flex items-center gap-1">
+                ↘ STEP · 01 · QUOTE
+              </span>
+              <span className="font-[family-name:var(--font-heading)] font-bold text-xl text-gray-900 flex items-center gap-2">
+                {t("cta_primary")} →
+              </span>
             </motion.a>
+
+            {/* Step 02 — secondary CTA */}
             <motion.a
               href={`/${locale}/process`}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/30 text-white font-semibold rounded-md hover:border-gold hover:text-gold transition-colors text-base"
+              className="relative flex flex-col justify-between gap-3 px-6 py-5 bg-white/10 backdrop-blur-sm border-2 border-dashed border-white/60 min-w-[220px] group hover:border-white transition-colors"
             >
-              {t("cta_secondary")}
+              <span className="font-mono text-xs font-bold tracking-widest text-white/70 uppercase flex items-center gap-1">
+                ↘ STEP · 02 · PROCESS
+              </span>
+              <span className="font-[family-name:var(--font-heading)] font-bold text-xl text-white flex items-center justify-between">
+                {t("cta_secondary")}
+                <span className="text-base">↗</span>
+              </span>
             </motion.a>
           </div>
 
