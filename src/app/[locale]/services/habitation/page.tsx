@@ -31,7 +31,7 @@ export default async function HabitationPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
               {covered.map(({ icon: Icon, title, desc }, i) => (
                 <div key={title} className="relative pt-4">
-                  <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">
+                  <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col h-full">
                     <div className="absolute top-0 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
                       § {String(i + 1).padStart(2, "0")}
                     </div>
@@ -54,7 +54,7 @@ export default async function HabitationPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
               {steps.map(({ icon: Icon, title, desc }, i) => (
                 <div key={title} className="relative pt-4">
-                  <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">
+                  <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col h-full">
                     <div className="absolute top-0 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
                       § {String(i + 1).padStart(2, "0")}
                     </div>
