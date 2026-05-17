@@ -30,7 +30,7 @@ export default async function AutoPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           <div>
             <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-10">Coverage types</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
               {coverageTypes.map(({ icon: Icon, title, desc }, i) => (
                 <div key={title} className="relative pt-4">
                   <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">
@@ -53,7 +53,7 @@ export default async function AutoPage() {
 
           <div>
             <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-10">If you&apos;re in an accident</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
               {claimSteps.map(({ icon: Icon, title, desc }, i) => (
                 <div key={title} className="relative pt-4">
                   <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">

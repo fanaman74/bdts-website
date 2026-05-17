@@ -22,7 +22,7 @@ export function GrowingOfferings() {
   return (
     <section className="py-20 bg-off-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
           {offerings.map(({ icon: Icon, title, body }, i) => {
             const num = String(i + 1).padStart(2, "0");
             return (

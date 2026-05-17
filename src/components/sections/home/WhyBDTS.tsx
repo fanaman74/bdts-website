@@ -26,7 +26,7 @@ export function WhyBDTS() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
           {pillars.map(({ icon: Icon, title, body }, i) => {
             const num = String(i + 1).padStart(2, "0");
             return (

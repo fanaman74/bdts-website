@@ -173,7 +173,7 @@ export function ServiceDetail({ serviceKey, categoryKey }: ServiceDetailProps) {
               </h2>
 
               {isCardFormat(section.content) ? (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                   {section.content.map((card) => {
                     const colorIndex = globalCardIndex++;
                     const FlatIcon = getIconForCard(card.title, colorIndex);

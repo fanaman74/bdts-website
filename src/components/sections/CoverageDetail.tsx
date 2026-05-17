@@ -90,7 +90,7 @@ export async function CoverageDetail({ serviceKey, categoryKey, coverageKey }: C
             <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-10">
               Key Benefits
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
               {coverageData.benefits.map((benefit, i) => {
                 const IconComponent = getIconByName(benefit.icon);
                 const num = String(i + 1).padStart(2, "0");

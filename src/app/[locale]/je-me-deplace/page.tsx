@@ -40,7 +40,7 @@ export default async function JeMeDeplacePage() {
 
       <section className="py-20 bg-off-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 items-start">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
             {cards.map((card, i) => (
               <a key={card.href} href={card.href} className="relative block pt-4">
                 <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col hover:shadow-xl transition-shadow duration-300">

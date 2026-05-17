@@ -52,7 +52,7 @@ export default async function ResponsabilitePage() {
 
           <div>
             <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-10">Who needs it</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
               {sectors.map(({ icon: Icon, title, desc }, i) => (
                 <div key={title} className="relative pt-4">
                   <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">
