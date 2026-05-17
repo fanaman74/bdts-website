@@ -1,19 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
-import { ArrowRight, MapPin, User, Network, Shield } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-
-const VALUES = [
-  { icon: User, labelKey: "value1" as const, descKey: "value1_desc" as const },
-  { icon: MapPin, labelKey: "value2" as const, descKey: "value2_desc" as const },
-  { icon: Shield, labelKey: "value3" as const, descKey: "value3_desc" as const },
-  { icon: Network, labelKey: "value4" as const, descKey: "value4_desc" as const },
-];
 
 export function Hero() {
   const t = useTranslations("hero");
-  const tAbout = useTranslations("about");
   const locale = useLocale();
 
   return (
@@ -99,42 +91,6 @@ export function Hero() {
           </div>
         </motion.div>
 
-        {/* Values cards */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.3 }}
-          className="grid grid-cols-2 lg:grid-cols-4 gap-4"
-        >
-          {VALUES.map(({ icon: Icon, labelKey, descKey }, i) => {
-            const num = String(i + 1).padStart(2, "0");
-            return (
-              <motion.div
-                key={labelKey}
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4 + i * 0.1 }}
-                className="relative bg-white border-2 border-gray-900 rounded-lg p-5 pt-7 flex flex-col"
-              >
-                <div className="absolute -top-3.5 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
-                  § {num}
-                </div>
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Icon size={18} className="text-white" strokeWidth={1.5} />
-                  </div>
-                  <p className="font-bold text-gray-900 text-sm leading-snug">
-                    {tAbout(labelKey)}
-                  </p>
-                </div>
-                <p className="text-gray-500 text-xs leading-relaxed flex-1">
-                  {tAbout(descKey)}
-                </p>
-                <div className="border-t border-dashed border-gray-300 mt-4" />
-              </motion.div>
-            );
-          })}
-        </motion.div>
       </div>
     </section>
   );
