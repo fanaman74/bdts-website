@@ -2684,7 +2684,8 @@
     "newsletter_subtitle": "Recevez nos dernières actualités assurance et mises à jour réglementaires directement dans votre boîte mail.",
     "newsletter_placeholder": "Votre adresse e-mail",
     "newsletter_cta": "S'abonner",
-    "newsletter_thanks": "Merci ! Vous êtes maintenant abonné."
+    "newsletter_thanks": "Merci ! Vous êtes maintenant abonné.",
+    "back_to_news": "Retour aux actualités"
   },
   "jobs": {
     "title": "Opportunités d'emploi",

@@ -2684,7 +2684,8 @@
     "newsletter_subtitle": "Receive our latest insurance news and regulatory updates directly in your inbox.",
     "newsletter_placeholder": "Your email address",
     "newsletter_cta": "Subscribe",
-    "newsletter_thanks": "Thank you! You are now subscribed."
+    "newsletter_thanks": "Thank you! You are now subscribed.",
+    "back_to_news": "Back to news"
   },
   "jobs": {
     "title": "Job Opportunities",

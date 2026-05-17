@@ -2731,7 +2731,8 @@
     "newsletter_subtitle": "Ontvang ons laatste verzekeringsnieuws en regelgevingsupdates rechtstreeks in uw inbox.",
     "newsletter_placeholder": "Uw e-mailadres",
     "newsletter_cta": "Inschrijven",
-    "newsletter_thanks": "Bedankt! U bent nu ingeschreven."
+    "newsletter_thanks": "Bedankt! U bent nu ingeschreven.",
+    "back_to_news": "Terug naar nieuws"
   },
   "jobs": {
     "title": "Arbeidsplaatsen",
