@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#E8F4FF;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#D0E8FF;stop-opacity:1" />
+  </linearGradient></defs>
+  <rect width="400" height="300" fill="url(#g1)"/>
+  <g transform="translate(80, 100)">
+    <rect x="0" y="30" width="140" height="70" fill="#001F5C" rx="8"/>
+    <rect x="10" y="35" width="50" height="35" fill="#B8E0FF" rx="4"/>
+    <rect x="70" y="35" width="50" height="35" fill="#B8E0FF" rx="4"/>
+    <circle cx="40" cy="110" r="12" fill="#333"/>
+    <circle cx="120" cy="110" r="12" fill="#333"/>
+  </g>
+  <text x="200" y="220" font-family="Arial" font-size="18" font-weight="bold" fill="#001F5C" text-anchor="middle">Auto Insurance</text>
+</svg>

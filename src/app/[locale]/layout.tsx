@@ -53,10 +53,77 @@ export default async function LocaleLayout({
       lang={locale}
       className={`${inter.variable} ${montserrat.variable}`}
     >
+      <head>
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/silktide/consent-manager@v2.0.0/silktide-consent-manager.css"
+          integrity="sha384-IO1E/jCrQXyH5rwcI0SXP7OXw47JFqQNDQcKhbFvqnL2IunBxxwE2Ne5XyAmCqKs"
+          crossOrigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/gh/silktide/consent-manager@v2.0.0/silktide-consent-manager.js"
+          integrity="sha384-j4NIMOecmtzMWe9GJADIIe5hTlHG63aiTQ/2XorW10RNyQJg+IU+xwFVDy45wBah"
+          crossOrigin="anonymous"
+        />
+        <script dangerouslySetInnerHTML={{ __html: `
+window.addEventListener('load', function() {
+  window.silktideConsentManager.init({
+    backdrop: { show: true },
+    icon: { position: "bottomLeft" },
+    prompt: { position: "bottomRight" },
+    consentTypes: [
+      {
+        id: "essential",
+        label: "Essential",
+        description: "<p>These cookies are necessary for the website to function properly and cannot be switched off.</p>",
+        required: true,
+        onAccept: function() {}
+      },
+      {
+        id: "analytics",
+        label: "Analytics",
+        description: "<p>These cookies help us improve the site by tracking which pages are most popular and how visitors move around the site.</p>",
+        required: true,
+        gtag: "analytics_storage",
+        onAccept: function() {}
+      },
+      {
+        id: "marketing",
+        label: "Marketing",
+        description: "<p>These cookies are used by us and our advertising partners to show you relevant ads on this site and elsewhere.</p>",
+        required: true,
+        gtag: ["ad_storage", "ad_user_data", "ad_personalization"],
+        onAccept: function() {}
+      }
+    ],
+    text: {
+      prompt: {
+        description: "<p>We use cookies on our site to enhance your user experience, provide personalized content, and analyze our traffic.</p>",
+        acceptAllButtonText: "Accept all",
+        acceptAllButtonAccessibleLabel: "Accept all cookies",
+        rejectNonEssentialButtonText: "Reject non-essential",
+        rejectNonEssentialButtonAccessibleLabel: "Reject all non-essential cookies",
+        preferencesButtonText: "Preferences",
+        preferencesButtonAccessibleLabel: "Toggle preferences"
+      },
+      preferences: {
+        title: "Customize your cookie preferences",
+        description: "<p>We respect your right to privacy. You can choose not to allow some types of cookies.</p>",
+        saveButtonText: "Save and close",
+        saveButtonAccessibleLabel: "Save your cookie preferences",
+        creditLinkText: "Get this banner for free",
+        creditLinkAccessibleLabel: "Get this banner for free"
+      }
+    }
+  });
+});
+        ` }} />
+      </head>
       <body className="min-h-screen flex flex-col antialiased">
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="flex-1 pt-16 sm:pt-20">{children}</main>
+          <main className="flex-1 pt-[99px] sm:pt-[115px]">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

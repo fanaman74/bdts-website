@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#E8FFE8;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#C0FFD0;stop-opacity:1" />
+  </linearGradient></defs>
+  <rect width="400" height="300" fill="url(#g6)"/>
+  <g transform="translate(100, 80)">
+    <circle cx="50" cy="50" r="35" fill="none" stroke="#001F5C" stroke-width="3"/>
+    <path d="M 50 20 L 50 80 M 20 50 L 80 50" stroke="#001F5C" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="85" cy="30" r="5" fill="#FFD700"/>
+    <circle cx="85" cy="70" r="5" fill="#FFD700"/>
+  </g>
+  <text x="200" y="220" font-family="Arial" font-size="18" font-weight="bold" fill="#001F5C" text-anchor="middle">Retirement</text>
+</svg>

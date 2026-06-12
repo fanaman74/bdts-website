@@ -8,7 +8,7 @@ export default async function ContactPage() {
 
   return (
     <>
-      <PageHero title={t("title")} bg="navy" breadcrumb="BDTS" />
+      <PageHero title={t("title")} bg="navy" breadcrumb="BDTS" image="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1400" />
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -42,6 +42,25 @@ export default async function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* Google Maps section */}
+      <div className="w-full">
+        <p className="text-center text-navy text-sm py-3 bg-off-white font-medium">
+          Notre bureau / Our office / Ons kantoor
+        </p>
+        <section className="h-96 w-full">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.123456789!2d4.3517!3d50.8798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4b0b0b0b0b0%3A0x0!2sBDTS%20-%20BDT%20Sironval!5e0!3m2!1sen!2sbe!4v1234567890"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="BDTS Office Location"
+          />
+        </section>
+      </div>
     </>
   );
 }

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0E8F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#grad1)"/>
+
+  <!-- Hospital bed -->
+  <g transform="translate(80, 80)">
+    <!-- Bed frame -->
+    <rect x="10" y="40" width="120" height="60" fill="none" stroke="#001F5C" stroke-width="3"/>
+
+    <!-- Mattress -->
+    <rect x="15" y="45" width="110" height="50" fill="#E8F0F8" stroke="#001F5C" stroke-width="2" rx="2"/>
+
+    <!-- Pillows -->
+    <circle cx="35" cy="50" r="8" fill="#FFF" stroke="#001F5C" stroke-width="1.5"/>
+    <circle cx="50" cy="48" r="8" fill="#FFF" stroke="#001F5C" stroke-width="1.5"/>
+
+    <!-- IV stand -->
+    <line x1="130" y1="20" x2="130" y2="70" stroke="#001F5C" stroke-width="3"/>
+    <circle cx="130" cy="20" r="6" fill="#001F5C"/>
+
+    <!-- Medical cross on bag -->
+    <line x1="125" y1="25" x2="135" y2="25" stroke="#D32F2F" stroke-width="2"/>
+    <line x1="130" y1="20" x2="130" y2="30" stroke="#D32F2F" stroke-width="2"/>
+  </g>
+
+  <!-- Heart monitor line -->
+  <g transform="translate(50, 160)" opacity="0.6">
+    <polyline points="0,20 10,20 15,10 25,30 35,15 45,25 55,20 80,20"
+              fill="none" stroke="#D32F2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

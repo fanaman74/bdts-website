@@ -1,19 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
-import { ArrowRight, MapPin, User, Network, Shield } from "lucide-react";
 import Image from "next/image";
-
-const VALUES = [
-  { icon: User, labelKey: "value1" as const, descKey: "value1_desc" as const },
-  { icon: MapPin, labelKey: "value2" as const, descKey: "value2_desc" as const },
-  { icon: Shield, labelKey: "value3" as const, descKey: "value3_desc" as const },
-  { icon: Network, labelKey: "value4" as const, descKey: "value4_desc" as const },
-];
 
 export function Hero() {
   const t = useTranslations("hero");
-  const tAbout = useTranslations("about");
   const locale = useLocale();
 
   return (
@@ -36,9 +27,6 @@ export function Hero() {
       {/* Dark gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-navy-dark/80 via-navy-dark/70 to-navy-dark/90" />
 
-      {/* Gold left accent */}
-      <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-gold via-gold-light to-transparent z-10" />
-
       {/* Main content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-28 pb-16 w-full">
         <motion.div
@@ -47,7 +35,15 @@ export function Hero() {
           transition={{ duration: 0.7 }}
           className="max-w-2xl mb-16"
         >
-          <h1 className="font-[family-name:var(--font-heading)] font-bold text-5xl sm:text-6xl lg:text-7xl text-white leading-tight mb-6">
+          {/* Eyebrow */}
+          <div className="flex items-center gap-3 mb-6">
+            <span className="text-gold text-[10px] font-bold tracking-[0.2em] uppercase">
+              {t("eyebrow")}
+            </span>
+            <span className="block w-8 h-[1.5px] bg-gold" />
+          </div>
+
+          <h1 className="font-[family-name:var(--font-heading)] font-black text-5xl sm:text-6xl lg:text-7xl text-white leading-[1.05] tracking-tight mb-6">
             {t("headline")}
           </h1>
 
@@ -55,21 +51,21 @@ export function Hero() {
             {t("subheading")}
           </p>
 
+          {/* Pill CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <motion.a
-              href={`/${locale}/contact`}
+              href={`/${locale}/appointment`}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold text-navy-dark font-bold rounded-md hover:bg-gold-light transition-colors text-base"
+              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-gold text-navy-dark font-bold text-sm rounded-full hover:bg-gold-light transition-colors"
             >
-              {t("cta_primary")}
-              <ArrowRight size={18} />
+              {t("cta_primary")} →
             </motion.a>
             <motion.a
-              href={`/${locale}/process`}
+              href={`/${locale}/je-me-protege`}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/30 text-white font-semibold rounded-md hover:border-gold hover:text-gold transition-colors text-base"
+              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 border-2 border-white/50 text-white font-semibold text-sm rounded-full hover:border-white transition-colors"
             >
               {t("cta_secondary")}
             </motion.a>
@@ -97,36 +93,6 @@ export function Hero() {
               <span className="text-white/70 text-xs font-medium">Regulated</span>
             </div>
           </div>
-        </motion.div>
-
-        {/* Values cards */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.3 }}
-          className="grid grid-cols-2 lg:grid-cols-4 gap-4"
-        >
-          {VALUES.map(({ icon: Icon, labelKey, descKey }, i) => (
-            <motion.div
-              key={labelKey}
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 + i * 0.1 }}
-              className="group bg-white/10 backdrop-blur-md border border-white/15 rounded-xl p-5 hover:bg-white/15 transition-colors cursor-default"
-            >
-              <div className="w-10 h-10 bg-gold/20 rounded-lg flex items-center justify-center mb-3">
-                <Icon size={20} className="text-gold" />
-              </div>
-              <p className="text-white font-semibold text-sm leading-snug mb-0">
-                {tAbout(labelKey)}
-              </p>
-              <div className="overflow-hidden max-h-0 group-hover:max-h-20 transition-all duration-300 ease-in-out">
-                <p className="text-white/60 text-xs leading-snug pt-2">
-                  {tAbout(descKey)}
-                </p>
-              </div>
-            </motion.div>
-          ))}
         </motion.div>
       </div>
     </section>

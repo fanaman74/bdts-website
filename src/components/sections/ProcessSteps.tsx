@@ -16,11 +16,14 @@ export function ProcessSteps() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-14">
-          <h2 className="font-[family-name:var(--font-heading)] font-bold text-3xl sm:text-4xl text-navy">
+        <div className="mb-14">
+          <p className="text-mid-gray text-[10px] font-bold tracking-[0.2em] uppercase mb-3">
+            {t("eyebrow")}
+          </p>
+          <h2 className="font-[family-name:var(--font-heading)] font-black text-3xl sm:text-4xl text-navy tracking-tight">
             {t("title")}
           </h2>
-          <p className="text-mid-gray mt-3">{t("subtitle")}</p>
+          <p className="text-mid-gray mt-3 max-w-xl">{t("subtitle")}</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
           {steps.map((step, i) => (

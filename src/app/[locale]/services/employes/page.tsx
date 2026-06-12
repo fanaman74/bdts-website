@@ -1,53 +1,72 @@
 import { getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/sections/PageHero";
 import { HomeCTA } from "@/components/sections/home/HomeCTA";
-import { CheckCircle } from "lucide-react";
+import { Shield, Heart, PiggyBank, Users, Wallet, Building2, TrendingUp } from "lucide-react";
 
 export default async function EmployesPage() {
   const t = await getTranslations("services");
 
   const coverage = [
-    { title: "Work accident insurance", note: "Required by law — covers employee injuries" },
-    { title: "Hospitalization", note: "Health coverage options for your team" },
-    { title: "Group pension", note: "Retirement planning and constitution" },
-    { title: "Death benefits", note: "Financial protection for employee families" },
-    { title: "Income protection", note: "Disability coverage" },
+    { icon: Shield, title: "Work accident insurance", desc: "Required by law — covers employee injuries" },
+    { icon: Heart, title: "Hospitalization", desc: "Health coverage options for your team" },
+    { icon: PiggyBank, title: "Group pension", desc: "Retirement planning and constitution" },
+    { icon: Users, title: "Death benefits", desc: "Financial protection for employee families" },
+    { icon: Wallet, title: "Income protection", desc: "Disability coverage" },
   ];
 
   const scalingTiers = [
-    { size: "1–5 people", desc: "Core work accident + health options" },
-    { size: "5–20 people", desc: "Group pension + health packages" },
-    { size: "20+ people", desc: "Full employee benefits strategy" },
+    { icon: Building2, title: "1–5 people", desc: "Core work accident + health options" },
+    { icon: Users, title: "5–20 people", desc: "Group pension + health packages" },
+    { icon: TrendingUp, title: "20+ people", desc: "Full employee benefits strategy" },
   ];
 
   return (
     <>
-      <PageHero title={t("employees_title")} subtitle={t("employees_sub")} bg="navy" breadcrumb="Services" />
+      <PageHero title={t("employees_title")} subtitle={t("employees_sub")} bg="navy" breadcrumb="Services" image="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1400" />
 
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <section className="py-16 bg-off-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           <div>
-            <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-6">What it covers</h2>
-            <ul className="space-y-3">
-              {coverage.map(({ title, note }) => (
-                <li key={title} className="flex items-start gap-3 p-4 bg-off-white rounded-lg">
-                  <CheckCircle size={18} className="text-gold mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-semibold text-navy">{title}</span>
-                    <span className="text-mid-gray text-sm ml-2">— {note}</span>
+            <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-10">What it covers</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
+              {coverage.map(({ icon: Icon, title, desc }, i) => (
+                <div key={title} className="relative pt-4">
+                  <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">
+                    <div className="absolute top-0 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
+                      § {String(i + 1).padStart(2, "0")}
+                    </div>
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-11 h-11 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                        <Icon size={20} className="text-white" strokeWidth={1.5} />
+                      </div>
+                      <h3 className="font-bold text-gray-900 text-base leading-tight">{title}</h3>
+                    </div>
+                    <p className="text-gray-500 text-sm leading-relaxed flex-1">{desc}</p>
+                    <div className="border-t border-dashed border-gray-300 mt-4" />
                   </div>
-                </li>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
 
           <div>
-            <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-6">Coverage that scales with you</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              {scalingTiers.map(({ size, desc }) => (
-                <div key={size} className="bg-gold-pale rounded-xl p-6 border border-gold/20 text-center">
-                  <p className="font-bold text-navy text-lg mb-2">{size}</p>
-                  <p className="text-mid-gray text-sm">{desc}</p>
+            <h2 className="font-[family-name:var(--font-heading)] font-bold text-2xl text-navy mb-10">Coverage that scales with you</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
+              {scalingTiers.map(({ icon: Icon, title, desc }, i) => (
+                <div key={title} className="relative pt-4">
+                  <div className="bg-white border-2 border-gray-900 rounded-lg p-6 pt-7 flex flex-col">
+                    <div className="absolute top-0 left-4 bg-amber-400 border-2 border-gray-900 px-2 py-0.5 font-mono text-xs font-bold text-gray-900 tracking-wider">
+                      § {String(i + 1).padStart(2, "0")}
+                    </div>
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-11 h-11 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                        <Icon size={20} className="text-white" strokeWidth={1.5} />
+                      </div>
+                      <h3 className="font-bold text-gray-900 text-base leading-tight">{title}</h3>
+                    </div>
+                    <p className="text-gray-500 text-sm leading-relaxed flex-1">{desc}</p>
+                    <div className="border-t border-dashed border-gray-300 mt-4" />
+                  </div>
                 </div>
               ))}
             </div>

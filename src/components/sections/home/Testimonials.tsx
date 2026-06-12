@@ -25,21 +25,28 @@ export function Testimonials() {
   const t = useTranslations("testimonials");
 
   return (
-    <section className="py-20 bg-navy">
+    <section className="py-20 bg-navy-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-14"
+          className="flex items-end justify-between mb-12"
         >
-          <h2 className="font-[family-name:var(--font-heading)] font-bold text-3xl sm:text-4xl text-white">
-            {t("title")}
-          </h2>
-          <div className="h-1 w-16 bg-gold mx-auto mt-4" />
+          <div>
+            <p className="text-gold/80 text-[10px] font-bold tracking-[0.2em] uppercase mb-3">
+              {t("eyebrow")}
+            </p>
+            <h2 className="font-[family-name:var(--font-heading)] font-black text-3xl sm:text-4xl text-white tracking-tight">
+              {t("title")}
+            </h2>
+          </div>
+          <a href="#" className="text-gold text-sm font-bold hidden sm:block hover:underline">
+            {t("see_all")}
+          </a>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((item, i) => (
             <motion.div
               key={i}
@@ -47,13 +54,13 @@ export function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="bg-white/5 border border-white/10 rounded-xl p-8"
+              className="bg-off-white rounded-xl p-7"
             >
-              <Quote size={24} className="text-gold mb-4 opacity-60" />
-              <p className="text-white/80 leading-relaxed mb-6 italic">&ldquo;{item.quote}&rdquo;</p>
+              <Quote size={22} className="text-gold mb-4 opacity-70" />
+              <p className="text-navy-dark leading-relaxed mb-6 italic text-sm">&ldquo;{item.quote}&rdquo;</p>
               <div>
-                <p className="font-semibold text-gold">{item.name}</p>
-                <p className="text-white/40 text-sm">{item.role}</p>
+                <p className="font-bold text-navy text-sm">{item.name}</p>
+                <p className="text-mid-gray text-xs mt-0.5">{item.role}</p>
               </div>
             </motion.div>
           ))}

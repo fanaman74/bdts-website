@@ -6,21 +6,23 @@ import Image from "next/image";
 
 export function Footer() {
   const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
+  const tServices = useTranslations("services");
   const locale = useLocale();
 
   const serviceLinks = [
-    { label: "Habitation / Home / Woning", href: `/${locale}/services/habitation` },
+    { label: tServices("home_title"), href: `/${locale}/services/habitation` },
     { label: "Auto", href: `/${locale}/services/auto` },
-    { label: "Famille / Family / Gezin", href: `/${locale}/services/famille` },
-    { label: "Épargne / Savings / Sparen", href: `/${locale}/services/epargne` },
-    { label: "Employés / Employees / Werknemers", href: `/${locale}/services/employes` },
-    { label: "Responsabilité / Liability", href: `/${locale}/services/responsabilite` },
+    { label: tServices("family_title"), href: `/${locale}/services/famille` },
+    { label: tServices("savings_title"), href: `/${locale}/services/epargne` },
+    { label: tServices("employees_title"), href: `/${locale}/services/employes` },
+    { label: tServices("liability_title"), href: `/${locale}/services/responsabilite` },
   ];
 
   return (
-    <footer className="bg-navy text-white">
+    <footer className="bg-navy-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
@@ -50,9 +52,29 @@ export function Footer() {
             <h3 className="font-semibold text-gold mb-4 text-sm uppercase tracking-wide">BDTS</h3>
             <ul className="space-y-2">
               {[
-                { label: "About / À propos / Over ons", href: `/${locale}/about` },
-                { label: "Process / Processus / Werkwijze", href: `/${locale}/process` },
+                { label: tNav("about"), href: `/${locale}/about` },
+                { label: "Process", href: `/${locale}/process` },
+                { label: "Partners", href: `/${locale}/partners` },
                 { label: "Contact", href: `/${locale}/contact` },
+              ].map((link) => (
+                <li key={link.href}>
+                  <a href={link.href} className="text-white/70 hover:text-gold text-sm transition-colors">
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Auxiliary Pages */}
+          <div>
+            <h3 className="font-semibold text-gold mb-4 text-sm uppercase tracking-wide">Resources</h3>
+            <ul className="space-y-2">
+              {[
+                { label: tNav("documents"), href: `/${locale}/documents` },
+                { label: tNav("news"), href: `/${locale}/news` },
+                { label: tNav("jobs"), href: `/${locale}/jobs` },
+                { label: tNav("client_portal"), href: `/${locale}/client-portal` },
               ].map((link) => (
                 <li key={link.href}>
                   <a href={link.href} className="text-white/70 hover:text-gold text-sm transition-colors">
@@ -91,9 +113,24 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white/40 text-xs">© {new Date().getFullYear()} BDTS — BDT Sironval. {t("rights")}.</p>
-          <p className="text-white/30 text-xs">Laeken, Brussels | FSMA regulated</p>
+        <div className="mt-12 pt-6 border-t border-white/10">
+          <div className="flex flex-wrap gap-x-6 gap-y-2 mb-4">
+            {[
+              { label: "Protection du client", href: `/${locale}/protection-du-client` },
+              { label: "Confidentialité", href: `/${locale}/politique-de-confidentialite` },
+              { label: "Conditions d'utilisation", href: `/${locale}/conditions-generales-dutilisation` },
+              { label: "Cookies", href: `/${locale}/politique-en-matiere-de-cookies` },
+              { label: "Durabilité", href: `/${locale}/politique-en-matiere-de-durabilite` },
+            ].map((link) => (
+              <a key={link.href} href={link.href} className="text-white/40 hover:text-white/70 text-xs transition-colors">
+                {link.label}
+              </a>
+            ))}
+          </div>
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-white/40 text-xs">© {new Date().getFullYear()} BDTS — BDT Sironval. {t("rights")}.</p>
+            <p className="text-white/30 text-xs">Laeken, Brussels | FSMA regulated</p>
+          </div>
         </div>
       </div>
     </footer>

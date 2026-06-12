@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="100" fill="#ffffff"/>
+
+  <!-- FSMA Logo Container -->
+  <g transform="translate(35, 10)">
+    <!-- Shield shape background -->
+    <path d="M 30 0 L 60 15 L 60 45 Q 30 65 30 65 Q 0 45 0 15 Z" fill="#1B5E7A" opacity="0.15"/>
+
+    <!-- FSMA Text -->
+    <text x="30" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1B5E7A" text-anchor="middle">
+      FSMA
+    </text>
+
+    <!-- Subtitle -->
+    <text x="30" y="52" font-family="Arial, sans-serif" font-size="8" fill="#333333" text-anchor="middle" font-weight="500">
+      Financial Services
+    </text>
+  </g>
+
+  <!-- Company name below -->
+  <text x="100" y="90" font-family="Arial, sans-serif" font-size="9" fill="#666666" text-anchor="middle">
+    FSMA
+  </text>
+</svg>

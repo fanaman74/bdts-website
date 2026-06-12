@@ -1,0 +1,26 @@
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001F5C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003D99;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Security shield icon - large background -->
+  <g opacity="0.15">
+    <path d="M 300 50 L 450 120 L 450 200 Q 300 280 300 280 Q 150 200 150 120 Z" fill="white" stroke="white" stroke-width="3"/>
+  </g>
+
+  <!-- Checkmark inside shield -->
+  <g transform="translate(250, 100)">
+    <path d="M 50 50 L 70 70 L 100 40" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Text overlay -->
+  <text x="300" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">
+    Insurance Protection
+  </text>
+</svg>

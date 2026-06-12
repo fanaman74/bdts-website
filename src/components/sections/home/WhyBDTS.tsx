@@ -13,41 +13,37 @@ export function WhyBDTS() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-off-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-14"
+          className="mb-12"
         >
-          <div className="inline-flex items-center gap-3 mb-4">
-            <div className="h-px w-8 bg-gold" />
-            <span className="text-gold text-xs font-semibold tracking-widest uppercase">BDTS</span>
-            <div className="h-px w-8 bg-gold" />
-          </div>
-          <h2 className="font-[family-name:var(--font-heading)] font-bold text-3xl sm:text-4xl text-navy">
+          <p className="text-mid-gray text-[10px] font-bold tracking-[0.2em] uppercase mb-3">
+            {t("eyebrow")}
+          </p>
+          <h2 className="font-[family-name:var(--font-heading)] font-black text-3xl sm:text-4xl text-navy tracking-tight">
             {t("title")}
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {pillars.map((p, i) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {pillars.map(({ icon: Icon, title, body }, i) => (
             <motion.div
-              key={p.title}
+              key={title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.15 }}
-              className="text-center"
+              transition={{ delay: i * 0.08 }}
+              className="bg-white border border-border rounded-2xl p-6 flex flex-col hover:shadow-md transition-shadow duration-300"
             >
-              <div className="w-16 h-16 bg-gold/10 border border-gold/20 rounded-2xl flex items-center justify-center mx-auto mb-5">
-                <p.icon size={28} className="text-gold" />
+              <div className="w-11 h-11 bg-navy rounded-xl flex items-center justify-center flex-shrink-0 mb-4">
+                <Icon size={22} className="text-gold" strokeWidth={1.5} />
               </div>
-              <h3 className="font-[family-name:var(--font-heading)] font-bold text-xl text-navy mb-3">
-                {p.title}
-              </h3>
-              <p className="text-mid-gray leading-relaxed">{p.body}</p>
+              <h3 className="font-bold text-navy text-base leading-snug mb-2">{title}</h3>
+              <p className="text-mid-gray text-sm leading-relaxed flex-1">{body}</p>
             </motion.div>
           ))}
         </div>

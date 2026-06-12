@@ -1,10 +1,11 @@
 "use client";
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Send, CheckCircle, AlertCircle } from "lucide-react";
 
 export function ContactForm() {
   const t = useTranslations("contact");
+  const locale = useLocale();
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
 
@@ -15,7 +16,7 @@ export function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, locale }),
       });
       if (!res.ok) throw new Error();
       setStatus("success");
@@ -86,7 +87,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full py-4 bg-gold text-navy-dark font-bold rounded-md hover:bg-gold-light transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
+        className="w-full py-4 bg-gold text-navy-dark font-bold rounded-full hover:bg-gold-light transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
       >
         <Send size={18} />
         {status === "loading" ? "..." : t("submit")}

@@ -1,5 +1,24 @@
 {
   "nav": {
+    "particulier": "Particulier",
+    "particulier_sub": {
+      "mobilite": "Mobilité",
+      "habitation": "Habitation",
+      "famille": "Famille et protection juridique",
+      "hospitalisation": "Hospitalisation",
+      "epargner": "Épargner ou Investir",
+      "pension": "Pension"
+    },
+    "professionnel": "Professionnel",
+    "professionnel_sub": {
+      "entreprise": "Entreprise",
+      "personnel": "Personnel",
+      "revenu": "Revenu"
+    },
+    "documents": "Documents",
+    "news": "Actualités",
+    "jobs": "Jobs",
+    "client_portal": "Zone Client",
     "individuals": "Particuliers",
     "businesses": "Entreprises",
     "growing": "Entreprises en croissance",
@@ -11,7 +30,8 @@
     "headline": "L'assurance qui comprend Bruxelles",
     "subheading": "Conseils personnalisés de votre expert local en assurances",
     "cta_primary": "Obtenir un devis gratuit",
-    "cta_secondary": "Découvrir notre approche"
+    "cta_secondary": "Découvrir notre approche",
+    "eyebrow": "BDTS — Courtier en Assurances"
   },
   "paths": {
     "title": "Comment pouvons-nous vous aider?",
@@ -23,7 +43,12 @@
     "businesses_cta": "Voir comment nous aidons",
     "growing_title": "Entreprises en croissance",
     "growing_sub": "Expertise en gestion des risques pour les organisations bruxelloises ambitieuses",
-    "growing_cta": "Notre approche"
+    "growing_cta": "Notre approche",
+    "eyebrow": "NOS CLIENTS",
+    "heading": "Votre profil,\nvotre solution.",
+    "individuals_eyebrow": "Particuliers",
+    "businesses_eyebrow": "Professionnels",
+    "growing_eyebrow": "En croissance"
   },
   "why": {
     "title": "Ce qui nous différencie",
@@ -32,15 +57,19 @@
     "personal_title": "Service personnalisé",
     "personal_body": "Vous obtenez une vraie personne. Accès direct. Pas de serveur vocal, pas de transferts. Un interlocuteur qui connaît votre situation.",
     "market_title": "Accès au marché complet",
-    "market_body": "Partenaire d'AG Insurance avec accès au marché belge de l'assurance. La meilleure solution, pas seulement une solution."
+    "market_body": "Partenaire d'AG Insurance avec accès au marché belge de l'assurance. La meilleure solution, pas seulement une solution.",
+    "eyebrow": "POURQUOI BDTS"
   },
   "testimonials": {
-    "title": "Ce que disent nos clients"
+    "title": "Ce que disent nos clients",
+    "eyebrow": "AVIS CLIENTS",
+    "see_all": "Voir tous les avis →"
   },
   "cta_section": {
     "title": "Prêt à discuter?",
     "body": "Nous sommes là pour vous aider. Consultation gratuite, sans engagement.",
-    "button": "Planifier une consultation"
+    "button": "Planifier une consultation",
+    "eyebrow": "CONSULTATION GRATUITE"
   },
   "footer": {
     "tagline": "Votre expert en assurances à Bruxelles",
@@ -70,7 +99,8 @@
     "step4_title": "Mise en place",
     "step4_body": "Vous choisissez. Nous gérons les formalités. Police délivrée dans les 48 heures.",
     "step5_title": "Suivi continu",
-    "step5_body": "Bilans annuels, assistance sinistres, ajustements selon les évolutions de votre vie."
+    "step5_body": "Bilans annuels, assistance sinistres, ajustements selon les évolutions de votre vie.",
+    "eyebrow": "NOTRE PROCESSUS"
   },
   "about": {
     "title": "À propos de BDTS",
@@ -79,9 +109,23 @@
     "story_body": "BDTS (BDT Sironval) sert les résidents et entreprises de Bruxelles depuis notre base à Laeken. Nous combinons une connaissance approfondie du marché local avec l'accès à AG Insurance et au marché belge de l'assurance.",
     "what_title": "Ce que nous faisons",
     "what_body": "Nous sommes courtiers d'assurance indépendants. Nous travaillons pour vous — pas pour une seule compagnie. Nous comparons les options et trouvons la meilleure solution, puis défendons vos intérêts en cas de sinistre.",
-    "ag_title": "Notre partenariat avec AG Insurance",
-    "ag_body": "En tant que partenaire de confiance d'AG Insurance, nous bénéficions d'une connaissance approfondie des produits, d'un support prioritaire et d'un traitement accéléré des sinistres.",
-    "values_title": "Nos valeurs",
+    "apropos_title": "À propos de nous",
+    "apropos_body": "BDTS (BDT Sironval) est votre courtier d'assurance indépendant à Laeken, Bruxelles. Fondé sur des valeurs de proximité, de transparence et d'expertise locale, nous accompagnons particuliers et entreprises à chaque étape de leur vie. Partenaire de confiance d'AG Insurance, nous comparons le marché belge pour vous offrir la meilleure protection — et nous défendons vos intérêts en cas de sinistre.",
+    "phases_title": "Les phases de la vie",
+    "phase1_title": "Mobilité",
+    "phase1_desc": "Auto, moto, vélo — couverture pour tous vos déplacements",
+    "phase2_title": "Épargne",
+    "phase2_desc": "Pension, investissement, avenir — construisez votre patrimoine",
+    "phase3_title": "Protection",
+    "phase3_desc": "Santé, famille, revenus — sécurisez vos proches",
+    "phase4_title": "Bâtiment",
+    "phase4_desc": "Incendie, vol, accidents — protégez votre logement",
+    "phase5_title": "Voyage",
+    "phase5_desc": "Assistance voyage, annulation, rapatriement — partez l'esprit libre",
+    "phase6_title": "Entreprise",
+    "phase6_desc": "Employés, bâtiment, responsabilité — couvrez votre activité",
+    "partners_title": "Nos partenaires",
+    "partners_count": "compagnies",
     "value1": "Service personnalisé",
     "value1_desc": "Un conseiller dédié qui vous connaît — pas de centres d'appel, pas de transferts.",
     "value2": "Expertise locale",
@@ -90,6 +134,24 @@
     "value3_desc": "Nous travaillons pour vous, pas pour un assureur — en comparant tout le marché.",
     "value4": "Réactivité",
     "value4_desc": "Réponses le jour même, assistance sinistres rapide et bilans annuels personnalisés."
+  },
+  "appointment": {
+    "title": "Prendre rendez-vous",
+    "subtitle": "Choisissez une date et un horaire — gratuit, sans engagement",
+    "select_date_prompt": "← Sélectionnez une date pour voir les disponibilités",
+    "hours_note": "Heures de bureau : lun–ven 9h00–12h00 et 13h30–17h00",
+    "field_name": "Nom complet",
+    "field_name_placeholder": "Jean Dupont",
+    "field_email": "Adresse e-mail",
+    "field_email_placeholder": "vous@exemple.com",
+    "field_phone": "Numéro de téléphone",
+    "field_phone_placeholder": "+32 ...",
+    "submit": "Confirmer le rendez-vous",
+    "submitting": "Envoi en cours...",
+    "success_title": "Demande envoyée !",
+    "success_body": "Nous confirmerons votre créneau dans les 24 heures.",
+    "error": "Une erreur s'est produite. Réessayez ou appelez-nous.",
+    "add_to_calendar": "Ajouter au calendrier"
   },
   "services": {
     "home_title": "Assurance habitation",
@@ -103,6 +165,2719 @@
     "employees_title": "Assurance employés",
     "employees_sub": "Accidents de travail, couverture santé, plans de pension",
     "liability_title": "Responsabilité professionnelle",
-    "liability_sub": "Protection contre les réclamations pour faute professionnelle"
+    "liability_sub": "Protection contre les réclamations pour faute professionnelle",
+    "particulier": {
+      "mobilite": {
+        "title": "Mobilité",
+        "subtitle": "Auto, Moto, Vélo, Motorhome — couverture complète pour vos déplacements",
+        "sections": [
+          {
+            "title": "Nos assurances mobilité",
+            "content": [
+              {
+                "title": "Assurance Auto",
+                "description": "Responsabilité civile et couvertures matérielles pour votre automobile et assistance routière 24/7",
+                "image": "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/auto"
+              },
+              {
+                "title": "Assurance Moto",
+                "description": "Protection spécialisée pour motos, scooters et vélos motorisés avec équipement compris",
+                "image": "https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/moto"
+              },
+              {
+                "title": "Assurance Vélo",
+                "description": "Couverture complète pour vos bicyclettes contre le vol, dégâts matériels et responsabilité civile",
+                "image": "https://images.pexels.com/photos/1174103/pexels-photo-1174103.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/velo"
+              },
+              {
+                "title": "Assurance Motorhome",
+                "description": "Protection pour camping-cars et caravanes avec assistance routière spécialisée",
+                "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/motorhome"
+              }
+            ]
+          }
+        ]
+      },
+      "auto": {
+        "title": "Assurance Auto",
+        "subtitle": "Protection complète pour votre véhicule automobile",
+        "sections": [
+          {
+            "title": "Couvertures",
+            "content": [
+              {
+                "title": "Responsabilité Civile",
+                "description": "Couverture obligatoire protégeant les tiers en cas d'accident responsable de votre part",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/auto/responsabilite-civile"
+              },
+              {
+                "title": "Dégâts Matériels",
+                "description": "Protection contre les dommages à votre véhicule causés par collision ou sinistre",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/auto/dommages-materiels"
+              },
+              {
+                "title": "Vol et Incendie",
+                "description": "Couverture complète en cas de vol, tentative de vol ou incendie de votre automobile",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/auto/vol-et-incendie"
+              },
+              {
+                "title": "Couverture Juridique",
+                "description": "Protection juridique et assistance en cas de litiges liés à votre véhicule",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/auto/protection-juridique-auto"
+              },
+              {
+                "title": "Assistance Dépannage",
+                "description": "Service 24h/24 avec remorquage gratuit et assistance mécanique d'urgence",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/auto/assistance-depannage"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "responsabilite-civile": {
+            "title": "Responsabilité Civile",
+            "subtitle": "Protection RC obligatoire pour votre véhicule",
+            "image": "https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "La responsabilité civile auto (RC Auto) est obligatoire en Belgique et couvre les dommages que vous causez à d'autres personnes, leurs véhicules et leurs biens. Notre couverture respecte et dépasse les minimums légaux belges.",
+              "En cas d'accident dont vous êtes responsable, tous les frais de dommages corporels et matériels aux tiers sont couverts sans plafond pour les dommages corporels."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Dommages corporels illimités",
+                "description": "Pas de plafond pour les indemnités de dommages corporels aux victimes d'accidents"
+              },
+              {
+                "icon": "Car",
+                "title": "Dommages aux véhicules tiers",
+                "description": "Frais de réparation ou remplacement des véhicules endommagés dans les accidents dont vous êtes responsable"
+              },
+              {
+                "icon": "Users",
+                "title": "Protection des passagers",
+                "description": "Les passagers de votre véhicule sont couverts comme tiers s'ils sont blessés"
+              },
+              {
+                "icon": "Globe",
+                "title": "Couverture européenne",
+                "description": "Couverture RC valable dans tous les États membres de l'UE avec carte verte"
+              }
+            ]
+          },
+          "dommages-materiels": {
+            "title": "Dommages Matériels",
+            "subtitle": "Protection contre les dommages à votre propre véhicule",
+            "image": "https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "La couverture dommages matériels (Omnium ou Mini-Omnium) protège votre propre véhicule contre les dommages de collision, indépendamment de la responsabilité. Options omnium partielle et totale disponibles.",
+              "Le règlement à valeur convenue garantit un paiement équitable sans contestation de dépréciation, et un véhicule de remplacement est fourni pendant les réparations."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Dommages de collision",
+                "description": "Frais de réparation de votre véhicule après toute collision, que vous soyez fautif ou non"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Événements météorologiques",
+                "description": "Grêle, tempête, inondation et autres dommages météorologiques à votre véhicule"
+              },
+              {
+                "icon": "Key",
+                "title": "Véhicule de remplacement",
+                "description": "Véhicule de location fourni pendant que votre voiture est en réparation"
+              },
+              {
+                "icon": "Euro",
+                "title": "Règlement à valeur convenue",
+                "description": "Indemnisation basée sur la valeur convenue, non sur des estimations dépréciées"
+              }
+            ]
+          },
+          "vol-et-incendie": {
+            "title": "Vol et Incendie",
+            "subtitle": "Couverture contre le vol, la tentative de vol et l'incendie du véhicule",
+            "image": "https://images.pexels.com/photos/4393668/pexels-photo-4393668.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Le vol de véhicule est un risque significatif à Bruxelles. Notre couverture vol et incendie garantit une indemnisation complète si votre véhicule est volé ou endommagé par le feu.",
+              "Les dommages liés aux tentatives de vol — vitres brisées, serrures forcées, démarreur endommagé — sont couverts même si le véhicule n'est pas emporté."
+            ],
+            "benefits": [
+              {
+                "icon": "ShieldAlert",
+                "title": "Remplacement en cas de vol total",
+                "description": "Remplacement à la valeur marchande si votre véhicule n'est pas récupéré sous 30 jours"
+              },
+              {
+                "icon": "Flame",
+                "title": "Couverture incendie",
+                "description": "Réparation ou remplacement complet si votre véhicule est endommagé par le feu"
+              },
+              {
+                "icon": "Lock",
+                "title": "Dommages de tentative de vol",
+                "description": "Vitres, serrures et démarreurs endommagés lors de tentatives de vol couverts"
+              },
+              {
+                "icon": "MapPin",
+                "title": "Service de localisation",
+                "description": "Assistance GPS et coordination avec la police pour les véhicules volés"
+              }
+            ]
+          },
+          "protection-juridique-auto": {
+            "title": "Protection Juridique Auto",
+            "subtitle": "Protection juridique et assistance pour les litiges liés au véhicule",
+            "image": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les litiges juridiques liés aux véhicules — de la responsabilité d'accident contestée aux litiges de réparation en garage — sont couverts par notre protection juridique auto.",
+              "Des conseillers juridiques experts prennent en charge votre dossier de la consultation initiale jusqu'à la représentation en justice, tous les frais associés couverts par votre police."
+            ],
+            "benefits": [
+              {
+                "icon": "Scale",
+                "title": "Litiges de responsabilité d'accident",
+                "description": "Représentation juridique lorsque la responsabilité dans un accident est contestée"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Défense en cas d'infraction routière",
+                "description": "Défense juridique pour les infractions routières que vous souhaitez contester"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Litiges avec les garages",
+                "description": "Assistance juridique pour les litiges avec les garages concernant les réparations"
+              },
+              {
+                "icon": "Phone",
+                "title": "Permanence juridique 24h/24",
+                "description": "Accès téléphonique immédiat à des conseillers juridiques qualifiés"
+              }
+            ]
+          },
+          "assistance-depannage": {
+            "title": "Assistance Dépannage",
+            "subtitle": "Assistance routière et service de remorquage 24h/24",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "L'assistance dépannage vous donne la tranquillité d'esprit en sachant que partout où vous tombez en panne en Belgique ou en Europe, l'aide est à un coup de fil. Notre service 24h/24 dépêche un mécanicien qualifié ou une dépanneuse.",
+              "Des crevaisons aux pannes mécaniques complexes, nous couvrons la réparation sur place ou le remorquage au garage agréé le plus proche, plus le transport pour vous et vos passagers."
+            ],
+            "benefits": [
+              {
+                "icon": "Wrench",
+                "title": "Réparation sur place",
+                "description": "Mécanicien sur site pour les réparations mineures afin de vous remettre rapidement en route"
+              },
+              {
+                "icon": "Truck",
+                "title": "Remorquage gratuit",
+                "description": "Remorquage au garage agréé le plus proche sans frais pour vous"
+              },
+              {
+                "icon": "Users",
+                "title": "Transport des passagers",
+                "description": "Transport ou hébergement pour vous et vos passagers si le véhicule ne peut être réparé"
+              },
+              {
+                "icon": "Globe",
+                "title": "Service à l'échelle européenne",
+                "description": "Réseau d'assistance couvrant tous les pays de l'UE ainsi que la Suisse et la Norvège"
+              }
+            ]
+          }
+        }
+      },
+      "moto": {
+        "title": "Assurance Moto",
+        "subtitle": "Protection adaptée aux deux-roues motorisés",
+        "sections": [
+          {
+            "title": "Couvertures",
+            "content": [
+              {
+                "title": "Responsabilité Civile",
+                "description": "Couverture légale obligatoire pour les deux-roues motorisés et cyclomoteurs",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/moto/responsabilite-civile-moto"
+              },
+              {
+                "title": "Protection Équipement",
+                "description": "Couverture de vos équipements (casque, gants, vêtements) en cas d'accident ou vol",
+                "image": "https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/moto/protection-equipement"
+              },
+              {
+                "title": "Assistance Mécanique",
+                "description": "Assistance spécialisée pour deux-roues avec remorquage et réparation d'urgence",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/moto/assistance-mecanique"
+              },
+              {
+                "title": "Dommages Matériels",
+                "description": "Protection contre les dégâts à votre moto causés par sinistre, collision ou responsabilité civile",
+                "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/moto/dommages-materiels-moto"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "responsabilite-civile-moto": {
+            "title": "Responsabilité Civile Moto",
+            "subtitle": "RC obligatoire pour motos et scooters",
+            "image": "https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "L'assurance RC moto est obligatoire en Belgique. Notre police RC Moto couvre tous les dommages et blessures causés à des tiers lors de votre conduite, avec couverture dans toute l'Union européenne.",
+              "L'indemnisation illimitée des dommages corporels garantit aux victimes une indemnisation complète, et vos frais juridiques sont couverts en cas de litige."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Couverture blessures illimitée",
+                "description": "Pas de plafond pour les indemnités de dommages corporels aux victimes d'accidents"
+              },
+              {
+                "icon": "Globe",
+                "title": "Validité dans l'UE",
+                "description": "Couverture valable dans tous les pays de l'Union européenne avec carte internationale"
+              },
+              {
+                "icon": "Users",
+                "title": "Couverture passager",
+                "description": "Les passagers sur votre moto sont couverts comme tiers s'ils sont blessés"
+              },
+              {
+                "icon": "Scale",
+                "title": "Défense juridique incluse",
+                "description": "Représentation juridique si la responsabilité de l'accident est contestée"
+              }
+            ]
+          },
+          "protection-equipement": {
+            "title": "Protection des Équipements",
+            "subtitle": "Couverture casque, gants, veste et équipements de conduite",
+            "image": "https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Un équipement moto de qualité est onéreux. Notre protection équipement couvre votre casque, gants, veste, bottes et autres équipements de conduite en cas de vol ou de dommages lors d'un accident.",
+              "Le remplacement neuf pour les équipements de moins de 2 ans garantit des remplacements certifiés de sécurité modernes plutôt que des règlements dépréciés."
+            ],
+            "benefits": [
+              {
+                "icon": "HardHat",
+                "title": "Remplacement du casque",
+                "description": "Casque certifié remplacé après tout accident, même sans dommage visible"
+              },
+              {
+                "icon": "Shirt",
+                "title": "Équipement complet de conduite",
+                "description": "Veste, pantalon, gants et bottes couverts pour le vol ou les dommages d'accident"
+              },
+              {
+                "icon": "Star",
+                "title": "Neuf pour vieux moins de 2 ans",
+                "description": "Équipement de moins de 2 ans remplacé par le modèle équivalent actuel"
+              },
+              {
+                "icon": "Lock",
+                "title": "Vol depuis le véhicule",
+                "description": "Les équipements volés depuis votre moto garée sont couverts par la police"
+              }
+            ]
+          },
+          "assistance-mecanique": {
+            "title": "Assistance Mécanique",
+            "subtitle": "Service de dépannage et remorquage spécialisé deux-roues",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les pannes de moto nécessitent une intervention spécialisée. Notre service d'assistance deux-roues dépêche des mécaniciens et transporteurs équipés pour les motos et scooters en Belgique et en Europe.",
+              "Si votre moto ne peut être réparée sur place, un transport dédié est organisé jusqu'à l'atelier agréé le plus proche, avec transport alternatif pour vous."
+            ],
+            "benefits": [
+              {
+                "icon": "Wrench",
+                "title": "Mécaniciens spécialisés",
+                "description": "Mécaniciens formés aux deux-roues dépêchés sur place"
+              },
+              {
+                "icon": "Truck",
+                "title": "Transport de moto",
+                "description": "Transport fermé dédié pour votre moto jusqu'à l'atelier le plus proche"
+              },
+              {
+                "icon": "MapPin",
+                "title": "Belgique et Europe",
+                "description": "Couverture en Belgique et dans tous les pays de l'UE ainsi qu'en Suisse"
+              },
+              {
+                "icon": "Phone",
+                "title": "Permanence assistance 24h/24",
+                "description": "Ligne d'assistance téléphonique pour toutes les situations de panne"
+              }
+            ]
+          },
+          "dommages-materiels-moto": {
+            "title": "Dommages Matériels Moto",
+            "subtitle": "Protection de votre moto contre les dommages de collision et d'incidents",
+            "image": "https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "La couverture dommages matériels pour votre moto couvre les frais de réparation après une collision ou un incident, que vous soyez responsable ou non. Options mini-omnium et omnium totale disponibles.",
+              "Le règlement à valeur convenue évite les litiges de dépréciation et garantit un paiement équitable reflétant la valeur réelle de votre moto."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Réparation après collision",
+                "description": "Frais de réparation complets après collision indépendamment de la responsabilité"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Dommages météorologiques",
+                "description": "Tempête, grêle et inondation sur votre moto couverts"
+              },
+              {
+                "icon": "Euro",
+                "title": "Paiement à valeur convenue",
+                "description": "Règlement basé sur la valeur convenue, pas sur des estimations dépréciées"
+              },
+              {
+                "icon": "Key",
+                "title": "Moto de remplacement",
+                "description": "Moto de remplacement temporaire pendant la réparation de la vôtre"
+              }
+            ]
+          }
+        }
+      },
+      "velo": {
+        "title": "Assurance Vélo",
+        "subtitle": "Protégez votre investissement cycliste",
+        "sections": [
+          {
+            "title": "Couvertures",
+            "content": [
+              {
+                "title": "Protection Vol",
+                "description": "Couverture complète en cas de vol de votre vélo, même assuré avec un cadenas",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/velo/protection-vol-velo"
+              },
+              {
+                "title": "Dégâts Matériels",
+                "description": "Protection contre les dommages et réparations suite à un accident ou incident",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/velo/dommages-materiels-velo"
+              },
+              {
+                "title": "Assistance Réparation",
+                "description": "Services de réparation rapide et frais de transport en cas de panne ou accident",
+                "image": "https://images.pexels.com/photos/1174103/pexels-photo-1174103.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/velo/assistance-reparation"
+              },
+              {
+                "title": "Responsabilité Civile",
+                "description": "Couverture de votre responsabilité civile en cas d'accident impliquant un tiers",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/velo/responsabilite-civile-velo"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "protection-vol-velo": {
+            "title": "Protection Vol Vélo",
+            "subtitle": "Couverture complète si votre vélo est volé",
+            "image": "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Le vol de vélo est extrêmement fréquent dans les villes belges. Notre protection vol couvre votre vélo qu'il soit volé dans la rue, un parking ou même à domicile, à condition qu'il soit sécurisé avec un antivol agréé.",
+              "Les vélos électriques et les vélos haut de gamme bénéficient d'une couverture à pleine valeur de remplacement, vous permettant de reprendre la route rapidement après un vol."
+            ],
+            "benefits": [
+              {
+                "icon": "Lock",
+                "title": "Vol en rue et en intérieur",
+                "description": "Couverture que votre vélo soit volé dans des espaces publics ou privés"
+              },
+              {
+                "icon": "Zap",
+                "title": "Couverture VAE spécifique",
+                "description": "Batterie et moteur du vélo électrique entièrement couverts pour le vol"
+              },
+              {
+                "icon": "Star",
+                "title": "Pleine valeur de remplacement",
+                "description": "Remplacement au prix de détail actuel pour les vélos de moins de 3 ans"
+              },
+              {
+                "icon": "Shield",
+                "title": "Couverture des accessoires",
+                "description": "Éclairages, antivols, sacoches et accessoires montés inclus dans la couverture"
+              }
+            ]
+          },
+          "dommages-materiels-velo": {
+            "title": "Dommages Matériels Vélo",
+            "subtitle": "Protection contre les dommages et frais de réparation après accidents",
+            "image": "https://images.pexels.com/photos/1208777/pexels-photo-1208777.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les dommages au vélo causés par des collisions, des chutes et des incidents sont couverts par notre protection dommages matériels. Que votre vélo soit endommagé par une portière de voiture ou lors d'une chute, les frais de réparation sont remboursés.",
+              "Pour les VAE, les composants électroniques incluant batteries, moteurs et affichages sont spécifiquement couverts pour les dommages accidentels."
+            ],
+            "benefits": [
+              {
+                "icon": "Bike",
+                "title": "Dommages de collision",
+                "description": "Frais de réparation après collision avec des véhicules, obstacles ou autres cyclistes"
+              },
+              {
+                "icon": "Zap",
+                "title": "Électronique VAE",
+                "description": "Batterie, moteur et affichage endommagés couverts pour les vélos électriques"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Cadre et composants",
+                "description": "Réparation ou remplacement du cadre, roues, freins et transmission couverts"
+              },
+              {
+                "icon": "Star",
+                "title": "Neuf pour vieux moins de 2 ans",
+                "description": "Vélos de moins de 2 ans remplacés à pleine valeur si endommagés au-delà de réparation"
+              }
+            ]
+          },
+          "assistance-reparation": {
+            "title": "Assistance Réparation",
+            "subtitle": "Services de réparation rapide et transport en cas de panne ou accident",
+            "image": "https://images.pexels.com/photos/1595236/pexels-photo-1595236.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Lorsque votre vélo tombe en panne loin de chez vous, notre service d'assistance organise le transport vers votre domicile ou l'atelier vélo le plus proche, afin que vous ne soyez jamais bloqué.",
+              "Les références de réparation d'urgence et le remboursement partiel des coûts de réparations urgentes effectuées dans des boutiques locales sont inclus."
+            ],
+            "benefits": [
+              {
+                "icon": "Truck",
+                "title": "Transport à domicile",
+                "description": "Transport vélo et cycliste vers le domicile ou un atelier en cas de panne"
+              },
+              {
+                "icon": "Wrench",
+                "title": "Référence de réparation d'urgence",
+                "description": "Réseau d'ateliers agréés à Bruxelles pour un service prioritaire"
+              },
+              {
+                "icon": "Euro",
+                "title": "Contribution aux frais de réparation",
+                "description": "Remboursement partiel des frais de réparation d'urgence dans les limites couvertes"
+              },
+              {
+                "icon": "Phone",
+                "title": "Permanence assistance",
+                "description": "Ligne téléphonique dédiée pour les pannes pendant les heures de déplacement"
+              }
+            ]
+          },
+          "responsabilite-civile-velo": {
+            "title": "Responsabilité Civile Vélo",
+            "subtitle": "Couverture de votre responsabilité si vous blessez ou endommagez un tiers",
+            "image": "https://images.pexels.com/photos/2364143/pexels-photo-2364143.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "En tant que cycliste, vous pouvez être tenu responsable si vous blessez un piéton ou endommagez des biens. Notre couverture RC vélo vous protège contre ces réclamations sans stress financier.",
+              "Les frais de défense juridique sont inclus si votre responsabilité est contestée, et la couverture s'étend aux membres de la famille qui utilisent également le vélo."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Blessures corporelles aux tiers",
+                "description": "Indemnisation complète des blessures causées à des piétons ou autres usagers de la route"
+              },
+              {
+                "icon": "Home",
+                "title": "Dommages matériels",
+                "description": "Dommages aux véhicules, vitrines ou autres biens causés par des accidents de cyclisme"
+              },
+              {
+                "icon": "Users",
+                "title": "Couverture membres de la famille",
+                "description": "Conjoint et enfants utilisant le vélo également couverts par la police"
+              },
+              {
+                "icon": "Scale",
+                "title": "Défense juridique",
+                "description": "Frais juridiques couverts si votre responsabilité est contestée par la partie lésée"
+              }
+            ]
+          }
+        }
+      },
+      "motorhome": {
+        "title": "Assurance Motorhome",
+        "subtitle": "Couverture pour camping-cars et caravanes",
+        "sections": [
+          {
+            "title": "Couvertures",
+            "content": [
+              {
+                "title": "Responsabilité Civile",
+                "description": "Couverture légale pour les dommages causés à autrui avec votre camping-car ou caravane",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/motorhome/responsabilite-civile-motorhome"
+              },
+              {
+                "title": "Dégâts Matériels",
+                "description": "Protection contre les dommages à votre motorhome suite à sinistre, collision ou responsabilité",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/motorhome/dommages-materiels-motorhome"
+              },
+              {
+                "title": "Assistance Routière",
+                "description": "Service 24/7 spécialisé avec remorquage, réparation et dépannage pour motorhomes",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/motorhome/assistance-specialisee"
+              },
+              {
+                "title": "Équipements Intérieurs",
+                "description": "Couverture de vos équipements intérieurs, électroménagers et aménagements du motorhome",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/mobilite/motorhome/equipement-interieur"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "responsabilite-civile-motorhome": {
+            "title": "Responsabilité Civile Camping-Car",
+            "subtitle": "RC tiers pour votre camping-car ou caravane",
+            "image": "https://images.pexels.com/photos/1112993/pexels-photo-1112993.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "La couverture RC camping-car est obligatoire et couvre tous les dommages et blessures causés à des tiers lors de la conduite ou du remorquage de votre camping-car ou caravane en Belgique et en Europe.",
+              "En raison de la taille et du poids des camping-cars, les dommages potentiels peuvent être importants. Notre couverture illimitée des blessures personnelles garantit aux victimes une indemnisation complète."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Indemnisation illimitée des blessures",
+                "description": "Pas de limite pour les réclamations de dommages corporels impliquant votre camping-car"
+              },
+              {
+                "icon": "Globe",
+                "title": "Validité européenne",
+                "description": "Couverture dans tous les pays de l'UE, en Suisse et en Norvège avec carte verte"
+              },
+              {
+                "icon": "Truck",
+                "title": "Remorquage de caravane couvert",
+                "description": "La responsabilité s'étend aux dommages causés par une caravane ou remorque tractée"
+              },
+              {
+                "icon": "Users",
+                "title": "Tous les conducteurs désignés",
+                "description": "Tous les conducteurs nommés sur la police sont couverts pour la responsabilité civile"
+              }
+            ]
+          },
+          "dommages-materiels-motorhome": {
+            "title": "Dommages Matériels Camping-Car",
+            "subtitle": "Couverture des dommages à votre camping-car lors de collisions ou incidents",
+            "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les camping-cars représentent un investissement important et nécessitent une couverture dommages matériels complète. Notre police couvre les dommages de collision, les événements météorologiques et autres incidents.",
+              "Les aménagements intérieurs, électroménagers et équipements sur mesure propres à votre camping-car sont spécifiquement couverts, pas seulement la structure du véhicule."
+            ],
+            "benefits": [
+              {
+                "icon": "Car",
+                "title": "Dommages de collision et d'accident",
+                "description": "Frais de réparation complets après toute collision indépendamment de la responsabilité"
+              },
+              {
+                "icon": "CloudRain",
+                "title": "Dommages météorologiques",
+                "description": "Tempête, grêle et inondation affectant l'extérieur et l'intérieur de votre camping-car"
+              },
+              {
+                "icon": "Home",
+                "title": "Aménagements intérieurs couverts",
+                "description": "Cuisines, lits, salle de bain et mobilier de salon inclus"
+              },
+              {
+                "icon": "Euro",
+                "title": "Règlement à valeur convenue",
+                "description": "Camping-car assuré à valeur convenue pour éviter les litiges de dépréciation"
+              }
+            ]
+          },
+          "assistance-specialisee": {
+            "title": "Assistance Spécialisée",
+            "subtitle": "Service de dépannage et remorquage spécialisé camping-car 24h/24",
+            "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les pannes de camping-car nécessitent des véhicules de dépannage et des équipements spécialisés. Notre service d'assistance camping-car dispose du matériel adapté pour tous les gabarits partout en Europe.",
+              "Si votre camping-car ne peut être réparé dans les 24 heures, les frais d'hébergement alternatif pour votre groupe de vacanciers sont couverts pendant la durée des réparations."
+            ],
+            "benefits": [
+              {
+                "icon": "Truck",
+                "title": "Dépannage lourd spécialisé",
+                "description": "Véhicules de dépannage équipés pour les camping-cars et grands fourgons aménagés"
+              },
+              {
+                "icon": "Hotel",
+                "title": "Hébergement alternatif",
+                "description": "Frais d'hôtel couverts pour votre groupe si le camping-car ne peut être réparé rapidement"
+              },
+              {
+                "icon": "MapPin",
+                "title": "Réseau européen",
+                "description": "Réseau d'assistance dans tous les pays européens pour une tranquillité d'esprit totale"
+              },
+              {
+                "icon": "Phone",
+                "title": "Permanence multilingue",
+                "description": "Assistance 24h/24 disponible en français, néerlandais, anglais et allemand"
+              }
+            ]
+          },
+          "equipement-interieur": {
+            "title": "Équipement Intérieur",
+            "subtitle": "Couverture des appareils, aménagements et équipements intérieurs",
+            "image": "https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "L'intérieur de votre camping-car contient des appareils, des équipements électroniques et des aménagements sur mesure qui ne sont pas généralement couverts par les polices véhicules standard. Notre couverture équipement intérieur comble cette lacune.",
+              "Des panneaux solaires et systèmes satellites aux réfrigérateurs et équipements de divertissement, tout l'équipement qui rend la vie en camping-car confortable est protégé."
+            ],
+            "benefits": [
+              {
+                "icon": "Zap",
+                "title": "Systèmes électriques",
+                "description": "Panneaux solaires, onduleurs et systèmes électriques 12V couverts pour dommages ou vol"
+              },
+              {
+                "icon": "Tv",
+                "title": "Équipements de divertissement",
+                "description": "TV, antenne satellite et systèmes audio couverts à l'intérieur et sur le toit"
+              },
+              {
+                "icon": "Utensils",
+                "title": "Électroménagers",
+                "description": "Cuisinière à gaz, réfrigérateur, micro-ondes et systèmes d'eau couverts"
+              },
+              {
+                "icon": "Lock",
+                "title": "Vol depuis le camping-car",
+                "description": "Équipements et effets personnels volés depuis votre camping-car fermé à clé couverts"
+              }
+            ]
+          }
+        }
+      },
+      "habitation": {
+        "title": "Habitation",
+        "subtitle": "Locataires et propriétaires — protection complète de votre logement",
+        "sections": [
+          {
+            "title": "Types de couverture",
+            "content": [
+              {
+                "title": "Assurance Incendie",
+                "description": "Protection contre les dégâts causés par le feu, la fumée et les sinistres connexes",
+                "image": "https://images.pexels.com/photos/266696/pexels-photo-266696.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/incendie"
+              },
+              {
+                "title": "Assurance Vol",
+                "description": "Couverture complète contre le vol, le cambriolage et les tentatives de vol",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/vol"
+              },
+              {
+                "title": "Dégâts Matériels",
+                "description": "Protection de vos biens contre les dommages causés par divers sinistres",
+                "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/degats-des-eaux"
+              },
+              {
+                "title": "Responsabilité Civile",
+                "description": "Couverture de votre responsabilité civile envers les tiers dans votre logement",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/responsabilite-civile"
+              }
+            ]
+          }
+        ]
+      },
+      "incendie": {
+        "title": "Assurance Incendie",
+        "subtitle": "Protection contre les dégâts causés par le feu",
+        "sections": [
+          {
+            "title": "Couvertures incendie",
+            "content": [
+              {
+                "title": "Dégâts du Feu",
+                "description": "Couverture complète des dommages directs causés par le feu et la combustion",
+                "image": "https://images.pexels.com/photos/266696/pexels-photo-266696.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/incendie/degats-du-feu"
+              },
+              {
+                "title": "Fumée et Suie",
+                "description": "Protection contre les dégâts causés par la fumée, la suie et les gaz de combustion",
+                "image": "https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/incendie/fumee-et-suie"
+              },
+              {
+                "title": "Relogement Temporaire",
+                "description": "Frais de relogement et d'hébergement pendant les réparations de votre logement",
+                "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/incendie/relogement-temporaire"
+              },
+              {
+                "title": "Récupération et Nettoyage",
+                "description": "Services de nettoyage professionnel et récupération après sinistre incendie",
+                "image": "https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/incendie/recuperation-nettoyage"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "degats-du-feu": {
+            "title": "Dégâts du Feu",
+            "subtitle": "Couverture complète des dommages directs causés par le feu et la combustion",
+            "image": "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "La couverture dégâts du feu protège votre habitation contre tous les dommages directs causés par le feu, la combustion et les incidents liés. Des feux de cuisine aux incendies structurels, votre propriété est entièrement couverte.",
+              "Notre police incendie comprend une intervention rapide, une expertise professionnelle et la prise en charge complète des frais de reconstruction pour que vous puissiez retrouver votre logement sans stress financier."
+            ],
+            "benefits": [
+              {
+                "icon": "Flame",
+                "title": "Couverture structurelle complète",
+                "description": "Réparation ou reconstruction complète des murs, toiture et structure endommagés par le feu"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Contenu inclus",
+                "description": "Meubles, appareils et effets personnels détruits par le feu sont couverts"
+              },
+              {
+                "icon": "Clock",
+                "title": "Traitement rapide du sinistre",
+                "description": "Expertise prioritaire sous 48h pour démarrer les réparations rapidement"
+              },
+              {
+                "icon": "Euro",
+                "title": "Pas de franchise en cas de perte totale",
+                "description": "Aucune franchise ne s'applique en cas de perte totale de votre habitation"
+              }
+            ]
+          },
+          "fumee-et-suie": {
+            "title": "Fumée et Suie",
+            "subtitle": "Protection contre les dégâts causés par la fumée, la suie et les gaz de combustion",
+            "image": "https://images.pexels.com/photos/3771807/pexels-photo-3771807.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "La fumée et la suie peuvent causer d'importants dégâts aux murs, plafonds, textiles et appareils électroniques même quand un incendie est rapidement maîtrisé. Notre couverture garantit le remboursement intégral de ces coûts.",
+              "Les services professionnels de nettoyage et de décontamination sont inclus, ainsi que le remplacement des objets définitivement tachés ou corrodés par les gaz de combustion."
+            ],
+            "benefits": [
+              {
+                "icon": "Wind",
+                "title": "Frais de décontamination complets",
+                "description": "Nettoyage professionnel de toutes les surfaces, textiles et systèmes de ventilation"
+              },
+              {
+                "icon": "Home",
+                "title": "Décoration et peinture",
+                "description": "Repeinture et re-tapissage des pièces endommagées par la suie et la fumée"
+              },
+              {
+                "icon": "Tv",
+                "title": "Remplacement des appareils électroniques",
+                "description": "Les appareils électroniques corrodés ou endommagés par les gaz sont couverts"
+              },
+              {
+                "icon": "CheckCircle",
+                "title": "Restauration de la qualité de l'air",
+                "description": "Traitements de purification de l'air et d'élimination des odeurs inclus"
+              }
+            ]
+          },
+          "relogement-temporaire": {
+            "title": "Relogement Temporaire",
+            "subtitle": "Frais d'hébergement et de déménagement pendant la réparation de votre logement",
+            "image": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Lorsqu'un incendie rend votre logement inhabitable, nous prenons en charge les frais d'hébergement temporaire pour vous et votre famille — hôtels, appartements meublés ou autre logement adapté — pendant toute la durée des réparations.",
+              "Les frais de déménagement incluant le transport, le stockage et les dépenses de vie supplémentaires sont remboursés pour que vous puissiez vous concentrer sur votre rétablissement."
+            ],
+            "benefits": [
+              {
+                "icon": "Hotel",
+                "title": "Hôtel ou location meublée",
+                "description": "Jusqu'à 12 mois d'hébergement temporaire couvert à un niveau comparable à votre logement"
+              },
+              {
+                "icon": "Truck",
+                "title": "Frais de déménagement et de stockage",
+                "description": "Déménagement professionnel et stockage sécurisé de vos effets pendant les travaux"
+              },
+              {
+                "icon": "Utensils",
+                "title": "Frais de vie supplémentaires",
+                "description": "Frais de nourriture, transport et quotidiens supplémentaires remboursés"
+              },
+              {
+                "icon": "Phone",
+                "title": "Assistance relogement 24h/24",
+                "description": "Service de coordination d'urgence disponible 24h sur 24"
+              }
+            ]
+          },
+          "recuperation-nettoyage": {
+            "title": "Récupération et Nettoyage",
+            "subtitle": "Services professionnels de restauration et nettoyage après sinistre incendie",
+            "image": "https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Après un incendie, la récupération et le nettoyage professionnels sont indispensables avant toute reconstruction. Notre police couvre l'intégralité des frais des entreprises spécialisées dans la restauration après incendie.",
+              "Du déblaiement des décombres au séchage structurel en passant par le nettoyage approfondi et la récupération des effets personnels, chaque étape du processus de récupération est couverte."
+            ],
+            "benefits": [
+              {
+                "icon": "Trash2",
+                "title": "Déblaiement des décombres",
+                "description": "Évacuation complète des matériaux endommagés et des débris de l'incendie"
+              },
+              {
+                "icon": "Droplets",
+                "title": "Traitement de l'eau et de l'humidité",
+                "description": "Séchage et traitement des dégâts d'eau causés par les opérations de lutte contre l'incendie"
+              },
+              {
+                "icon": "Package",
+                "title": "Récupération des biens",
+                "description": "Récupération professionnelle des objets non endommagés ou réparables"
+              },
+              {
+                "icon": "Star",
+                "title": "Entreprises certifiées",
+                "description": "Accès à notre réseau d'entreprises de restauration incendie certifiées en Belgique"
+              }
+            ]
+          }
+        }
+      },
+      "vol": {
+        "title": "Assurance Vol",
+        "subtitle": "Protégez vos biens contre le vol et le cambriolage",
+        "sections": [
+          {
+            "title": "Protection vol",
+            "content": [
+              {
+                "title": "Protection Bien Mobiliers",
+                "description": "Couverture complète de vos meubles et biens personnels contre le vol",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/vol/biens-mobiliers"
+              },
+              {
+                "title": "Électroménagers et Électronique",
+                "description": "Protection de vos appareils électriques, électroniques et équipements technologiques",
+                "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/vol/electromenagers-electronique"
+              },
+              {
+                "title": "Bijoux et Objets de Valeur",
+                "description": "Couverture spéciale pour les bijoux, montres précieuses et objets de valeur",
+                "image": "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/vol/bijoux-valeurs"
+              },
+              {
+                "title": "Effets Personnels",
+                "description": "Protection de vos vêtements, bagages et autres effets personnels contre le vol",
+                "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/habitation/vol/effets-personnels"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "biens-mobiliers": {
+            "title": "Protection des Biens Mobiliers",
+            "subtitle": "Couverture complète de vos meubles et biens personnels contre le vol",
+            "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Vos meubles, vêtements, articles ménagers et effets personnels sont couverts contre le vol et le cambriolage. Qu'une fenêtre soit brisée ou une porte forcée, les dommages et pertes sont remboursés.",
+              "Nous couvrons la valeur de remplacement afin que vous puissiez remplacer les objets volés par des équivalents neufs, sans estimation dépréciée."
+            ],
+            "benefits": [
+              {
+                "icon": "Sofa",
+                "title": "Tous les meubles couverts",
+                "description": "Tous les meubles et articles ménagers remplacés à la valeur marchande actuelle"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Dommages d'effraction",
+                "description": "Frais de réparation des serrures, portes et fenêtres forcées lors d'un cambriolage"
+              },
+              {
+                "icon": "Package",
+                "title": "Vêtements et textiles",
+                "description": "Vêtements, linge et textiles personnels volés sont remboursés"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Tentative de cambriolage",
+                "description": "Les dommages liés aux tentatives d'effraction sont couverts même sans vol"
+              }
+            ]
+          },
+          "electromenagers-electronique": {
+            "title": "Électroménagers et Électronique",
+            "subtitle": "Protection de vos appareils électriques et électroniques contre le vol",
+            "image": "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Téléviseurs, ordinateurs, systèmes audio, appareils ménagers et autres appareils électroniques sont des cibles de choix pour les cambrioleurs. Notre couverture garantit le remplacement complet au prix de vente actuel.",
+              "Le remplacement neuf pour les appareils électroniques de moins de 3 ans vous assure de recevoir un équivalent moderne plutôt qu'un remboursement déprécié."
+            ],
+            "benefits": [
+              {
+                "icon": "Tv",
+                "title": "TV et systèmes audio",
+                "description": "Tous les téléviseurs, systèmes audio et home cinéma couverts à pleine valeur"
+              },
+              {
+                "icon": "Laptop",
+                "title": "Ordinateurs et tablettes",
+                "description": "Ordinateurs portables, PC, tablettes et périphériques remplacés au prix actuel"
+              },
+              {
+                "icon": "Zap",
+                "title": "Électroménagers",
+                "description": "Gros et petits appareils ménagers incluant réfrigérateurs, fours et cafetières"
+              },
+              {
+                "icon": "Smartphone",
+                "title": "Appareils domotiques",
+                "description": "Enceintes connectées, caméras de sécurité et domotique couverts"
+              }
+            ]
+          },
+          "bijoux-valeurs": {
+            "title": "Bijoux et Objets de Valeur",
+            "subtitle": "Couverture spécialisée pour bijoux, montres et objets précieux",
+            "image": "https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les bijoux, montres de luxe, œuvres d'art et objets de collection nécessitent une couverture spécifique au-delà des limites standard de l'assurance habitation. Notre extension valeurs offre une protection dédiée à valeur convenue.",
+              "Les objets sont couverts à la fois à domicile et lorsque vous les portez. Un service d'expertise est disponible pour s'assurer que vos biens sont correctement assurés."
+            ],
+            "benefits": [
+              {
+                "icon": "Gem",
+                "title": "Règlement à valeur convenue",
+                "description": "Objets assurés à valeur convenue sans contestation de valeur lors du sinistre"
+              },
+              {
+                "icon": "Eye",
+                "title": "Service d'expertise",
+                "description": "Assistance à l'évaluation professionnelle des bijoux et œuvres d'art"
+              },
+              {
+                "icon": "Lock",
+                "title": "Incitation au coffre-fort",
+                "description": "Prime réduite lorsque les objets de valeur sont conservés dans un coffre agréé"
+              },
+              {
+                "icon": "Globe",
+                "title": "Option couverture mondiale",
+                "description": "Couverture optionnelle mondiale pour les bijoux portés hors du domicile"
+              }
+            ]
+          },
+          "effets-personnels": {
+            "title": "Effets Personnels",
+            "subtitle": "Couverture des vêtements, bagages et effets personnels contre le vol",
+            "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les effets personnels comprenant vêtements, sacs à main, bagages et objets du quotidien sont couverts en cas de vol à domicile lors d'un cambriolage.",
+              "La couverture tient compte d'une usure raisonnable et inclut les frais de remplacement pour que votre vie quotidienne soit restaurée avec un minimum de perturbation."
+            ],
+            "benefits": [
+              {
+                "icon": "ShoppingBag",
+                "title": "Remplacement des vêtements",
+                "description": "Tous les vêtements et accessoires volés remboursés à la valeur de remplacement"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Bagages et sacs",
+                "description": "Valises, sacs à dos et sacs à main couverts si pris lors d'un cambriolage"
+              },
+              {
+                "icon": "Watch",
+                "title": "Accessoires du quotidien",
+                "description": "Montres, lunettes et accessoires personnels courants inclus dans la couverture"
+              },
+              {
+                "icon": "Key",
+                "title": "Remplacement des serrures",
+                "description": "Toutes les serrures et clés remplacées après un vol pour sécuriser votre domicile"
+              }
+            ]
+          }
+        }
+      },
+      "bailleur_locataire": {
+        "title": "Assurance Bailleur-Locataire",
+        "subtitle": "Couverture spécifique pour les relations de location",
+        "sections": [
+          {
+            "title": "Droits et obligations",
+            "content": [
+              "Couverture loyers impayés",
+              "Protection dégâts locataire",
+              "Responsabilité civile locataire",
+              "Défense juridique propriétaire",
+              "Gestion administrative"
+            ]
+          }
+        ]
+      },
+      "famille": {
+        "title": "Famille et protection juridique",
+        "subtitle": "Assurances familiales complètes et protection juridique — couverture de tous les risques",
+        "sections": [
+          {
+            "title": "Couvertures familiales",
+            "content": [
+              {
+                "icon": "Heart",
+                "title": "Assurance familiale complète",
+                "description": "Protection complète pour vous et votre famille avec couvertures multiples adaptées à vos besoins",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/familiale"
+              },
+              {
+                "icon": "AlertTriangle",
+                "title": "Protection accidents et invalidité",
+                "description": "Couverture en cas d'accidents personnels et d'invalidité temporaire ou permanente",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/accidents"
+              },
+              {
+                "icon": "Shield",
+                "title": "Assurance décès et rente",
+                "description": "Capital et rente pour protéger vos proches en cas de décès du soutien de famille",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/deces"
+              },
+              {
+                "icon": "Plane",
+                "title": "Assurance voyage famille",
+                "description": "Couverture complète pour tous vos déplacements en famille avec assistance à l'étranger",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/voyage"
+              },
+              {
+                "icon": "Scale",
+                "title": "Assistance juridique et protection",
+                "description": "Conseil juridique 24/7 et défense en justice pour tous vos litiges personnels ou familiaux",
+                "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/protection-juridique"
+              }
+            ]
+          }
+        ]
+      },
+      "familiale": {
+        "title": "Assurance Familiale",
+        "subtitle": "Protection complète pour votre famille",
+        "sections": [
+          {
+            "title": "Couvertures incluses",
+            "content": [
+              {
+                "title": "Couverture enfants et parents",
+                "description": "Protection étendue pour tous les membres de la famille incluant enfants et parents",
+                "image": "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/familiale/enfants-parents"
+              },
+              {
+                "title": "Assistance santé familiale",
+                "description": "Services d'assistance santé et support médical accessible à toute la famille",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/familiale/assistance-sante-famille"
+              },
+              {
+                "title": "Services de soutien aux familles",
+                "description": "Support et aide sociale en cas de difficultés pour les familles en détresse",
+                "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/familiale/services-soutien-famille"
+              },
+              {
+                "title": "Rente familiale en cas de décès",
+                "description": "Rente garantie au conjoint et aux enfants en cas de décès du soutien principal",
+                "image": "https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/familiale/rente-familiale-deces"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "enfants-parents": {
+            "title": "Couverture Enfants et Parents",
+            "subtitle": "Protection étendue pour tous les membres de la famille",
+            "image": "https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Notre assurance familiale s'étend à tous les membres du foyer, y compris les enfants à l'école, les parents âgés vivant avec vous et autres personnes à charge — garantissant que toute la famille est protégée sous une seule police.",
+              "La couverture suit les membres de la famille tout au long de la vie quotidienne, des activités scolaires et sportives aux accidents quotidiens à la maison ou dans les espaces publics."
+            ],
+            "benefits": [
+              {
+                "icon": "Users",
+                "title": "Tous les membres du foyer",
+                "description": "Chaque personne résidant à l'adresse assurée couverte automatiquement"
+              },
+              {
+                "icon": "School",
+                "title": "Activités scolaires",
+                "description": "Accidents survenant pendant le temps scolaire et les activités parascolaires couverts"
+              },
+              {
+                "icon": "Heart",
+                "title": "Couverture parents âgés",
+                "description": "Parents vivant dans le foyer inclus sans restriction d'âge"
+              },
+              {
+                "icon": "Baby",
+                "title": "Nouveau-nés inclus",
+                "description": "Nouveaux membres de la famille couverts dès la naissance sans mise à jour de police requise"
+              }
+            ]
+          },
+          "assistance-sante-famille": {
+            "title": "Assistance Santé Familiale",
+            "subtitle": "Services d'assistance médicale et soutien pour toute la famille",
+            "image": "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "L'assistance santé familiale fournit une gamme de services de soutien médical accessibles à tous les membres de la famille, des références de médecins généralistes aux secondes opinions médicales en passant par les soins à domicile.",
+              "Les consultations de télémédecine, le soutien en santé mentale et la coordination des références spécialisées sont inclus pour que votre famille reçoive des soins au moment crucial."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "Permanence médicale 24h/24",
+                "description": "Accès téléphonique permanent à des conseillers médicaux qualifiés"
+              },
+              {
+                "icon": "Brain",
+                "title": "Soutien psychologique",
+                "description": "Jusqu'à 8 séances avec un psychologue qualifié suite à un événement traumatisant"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Deuxième avis médical",
+                "description": "Service d'expertise de deuxième opinion pour les diagnostics graves sans frais supplémentaires"
+              },
+              {
+                "icon": "Home",
+                "title": "Coordination des soins à domicile",
+                "description": "Aide à l'organisation des soins infirmiers ou services à domicile après hospitalisation"
+              }
+            ]
+          },
+          "services-soutien-famille": {
+            "title": "Services de Soutien Familial",
+            "subtitle": "Soutien pratique lorsque les familles traversent des situations difficiles",
+            "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les événements de vie comme une maladie grave, un handicap ou la perte d'un soutien de famille créent des défis pratiques au-delà des défis financiers. Nos services de soutien fournissent une aide concrète quand vous en avez le plus besoin.",
+              "De la coordination de la garde d'enfants à l'aide ménagère en passant par le soutien administratif et les conseils juridiques, nous aidons les familles à traverser les périodes difficiles."
+            ],
+            "benefits": [
+              {
+                "icon": "Baby",
+                "title": "Garde d'enfants d'urgence",
+                "description": "Coordination de garde d'enfants si un parent est hospitalisé ou incapacité"
+              },
+              {
+                "icon": "Home",
+                "title": "Aide ménagère",
+                "description": "Assistance domestique et entretien du domicile pendant les périodes de convalescence"
+              },
+              {
+                "icon": "FileText",
+                "title": "Soutien administratif",
+                "description": "Aide pour naviguer dans les aides gouvernementales, déclarations de sinistre et formalités"
+              },
+              {
+                "icon": "Scale",
+                "title": "Conseils juridiques",
+                "description": "Accès à des conseillers juridiques pour le droit de la famille, successions et litiges"
+              }
+            ]
+          },
+          "rente-familiale-deces": {
+            "title": "Rente Familiale en cas de Décès",
+            "subtitle": "Revenu garanti pour le conjoint et les enfants si le soutien de famille décède",
+            "image": "https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Le décès d'un soutien de famille peut plonger la famille dans une difficulté financière aiguë. Notre rente familiale fournit un revenu mensuel garanti au conjoint survivant et aux enfants pour une période convenue.",
+              "Des options en capital sont également disponibles en plus ou à la place du revenu, garantissant la flexibilité pour rembourser un prêt hypothécaire ou couvrir les dépenses immédiates."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Revenu mensuel garanti",
+                "description": "Revenu régulier versé au conjoint survivant jusqu'à 20 ans après le décès"
+              },
+              {
+                "icon": "GraduationCap",
+                "title": "Fonds d'éducation pour les enfants",
+                "description": "Capital supplémentaire pour financer les études des enfants jusqu'à l'université"
+              },
+              {
+                "icon": "Home",
+                "title": "Option protection hypothécaire",
+                "description": "Option en capital dimensionnée pour rembourser le prêt immobilier en cours"
+              },
+              {
+                "icon": "Clock",
+                "title": "Paiement rapide du bénéfice",
+                "description": "Premier versement dans les 30 jours suivant la remise de l'acte de décès"
+              }
+            ]
+          }
+        }
+      },
+      "accidents": {
+        "title": "Accidents et Invalidité",
+        "subtitle": "Protection contre les accidents personnels",
+        "sections": [
+          {
+            "title": "Couvertures accidents",
+            "content": [
+              {
+                "title": "Indemnités accidents 24/7",
+                "description": "Couverture complète des accidents survenus à tout moment du jour ou de la nuit",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/accidents/accidents-24h"
+              },
+              {
+                "title": "Couverture invalidité permanente",
+                "description": "Protection financière en cas d'invalidité permanente suite à un accident",
+                "image": "https://images.pexels.com/photos/3952234/pexels-photo-3952234.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/accidents/invalidite-permanente"
+              },
+              {
+                "title": "Frais médicaux et hospitalisation",
+                "description": "Remboursement des frais médicaux et hospitalisation consécutifs à un accident",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/accidents/frais-medicaux-hospitaliers"
+              },
+              {
+                "title": "Rente d'invalidité temporaire",
+                "description": "Rente de remplacement de revenu pendant la période d'invalidité temporaire",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/accidents/incapacite-temporaire"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "accidents-24h": {
+            "title": "Indemnités Accidents 24h/24",
+            "subtitle": "Couverture complète pour les accidents à toute heure du jour ou de la nuit",
+            "image": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Notre couverture accidents 24h/24 vous protège contre les conséquences financières de tout accident personnel, qu'il survienne au travail, à la maison, lors d'une activité sportive ou de loisirs.",
+              "La couverture est mondiale et continue — il n'y a aucune restriction sur l'heure ou le lieu de l'accident, vous offrant une tranquillité d'esprit totale dans toutes les situations quotidiennes."
+            ],
+            "benefits": [
+              {
+                "icon": "Clock",
+                "title": "Protection permanente",
+                "description": "Couverture active 24h sur 24, 7 jours sur 7, 365 jours par an"
+              },
+              {
+                "icon": "Globe",
+                "title": "Couverture mondiale",
+                "description": "Accidents couverts partout dans le monde, pas seulement en Belgique"
+              },
+              {
+                "icon": "Activity",
+                "title": "Sports et loisirs",
+                "description": "Accidents lors d'activités sportives et de loisirs couverts"
+              },
+              {
+                "icon": "Zap",
+                "title": "Versement rapide des indemnités",
+                "description": "Indemnités versées dans les 30 jours suivant la certification médicale de l'accident"
+              }
+            ]
+          },
+          "invalidite-permanente": {
+            "title": "Couverture Invalidité Permanente",
+            "subtitle": "Protection financière en cas d'invalidité permanente",
+            "image": "https://images.pexels.com/photos/3768913/pexels-photo-3768913.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Une invalidité permanente suite à un accident peut fondamentalement changer votre vie et votre capacité à travailler. Notre indemnité invalidité fournit un capital en fonction du degré d'invalidité évalué par un expert médical indépendant.",
+              "L'invalidité partielle est couverte au prorata, garantissant que même une perte partielle de fonction résulte en un soutien financier significatif."
+            ],
+            "benefits": [
+              {
+                "icon": "BarChart2",
+                "title": "Invalidité partielle au prorata",
+                "description": "Indemnisation proportionnelle au degré d'invalidité à partir de 5%"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Évaluation médicale indépendante",
+                "description": "Degré d'invalidité évalué par un expert médical neutre et indépendant"
+              },
+              {
+                "icon": "Euro",
+                "title": "Capital en une fois",
+                "description": "Paiement unique vous permettant d'adapter votre domicile ou mode de vie"
+              },
+              {
+                "icon": "RefreshCw",
+                "title": "Soutien à la réhabilitation",
+                "description": "Remboursement des frais de réhabilitation pour maximiser le potentiel de récupération"
+              }
+            ]
+          },
+          "frais-medicaux-hospitaliers": {
+            "title": "Frais Médicaux et Hospitaliers",
+            "subtitle": "Remboursement des frais médicaux résultant d'accidents",
+            "image": "https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les accidents génèrent des frais médicaux qui ne sont pas toujours entièrement couverts par l'assurance maladie publique belge. Notre couverture médicale accidents complète vos remboursements légaux pour assurer aucun frais à votre charge.",
+              "Le traitement d'urgence, l'hospitalisation, la kinésithérapie, les soins dentaires et les prothèses après un accident sont tous remboursés jusqu'à la limite assurée."
+            ],
+            "benefits": [
+              {
+                "icon": "Stethoscope",
+                "title": "Traitement d'urgence",
+                "description": "Frais de salle d'urgence et de soins urgents remboursés intégralement"
+              },
+              {
+                "icon": "Activity",
+                "title": "Kinésithérapie",
+                "description": "Cure complète de kinésithérapie après blessure d'accident couverte"
+              },
+              {
+                "icon": "Smile",
+                "title": "Réparation dentaire",
+                "description": "Blessures dentaires consécutives à des accidents réparées et remboursées"
+              },
+              {
+                "icon": "Package",
+                "title": "Prothèses et aides",
+                "description": "Membres prothétiques, fauteuils roulants et aides à la mobilité couverts après accident"
+              }
+            ]
+          },
+          "incapacite-temporaire": {
+            "title": "Indemnité Incapacité Temporaire",
+            "subtitle": "Remplacement de revenu pendant l'incapacité temporaire suite à un accident",
+            "image": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Lorsqu'un accident vous empêche temporairement de travailler, notre indemnité journalière verse une allocation quotidienne fixe pour chaque jour où vous êtes médicalement certifié incapable de travailler.",
+              "L'indemnité commence dès le premier jour d'invalidité (ou après une courte période de carence selon votre option choisie) et se poursuit jusqu'à ce que vous soyez déclaré apte à reprendre le travail."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Allocation journalière",
+                "description": "Allocation quotidienne fixe versée pour chaque jour d'incapacité de travail certifié"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Option dès le premier jour",
+                "description": "Couverture optionnelle dès le premier jour d'invalidité sans période de carence"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Protection des indépendants",
+                "description": "Particulièrement précieux pour les indépendants dont le revenu s'arrête immédiatement"
+              },
+              {
+                "icon": "FileText",
+                "title": "Certification simple",
+                "description": "Indemnité déclenchée par certificat médical du médecin généraliste, processus simple"
+              }
+            ]
+          }
+        }
+      },
+      "deces": {
+        "title": "Assurance Décès",
+        "subtitle": "Protection financière pour vos proches",
+        "sections": [
+          {
+            "title": "Protections décès",
+            "content": [
+              {
+                "title": "Capital en cas de décès",
+                "description": "Capital versé aux bénéficiaires désignés en cas de décès assuré",
+                "image": "https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/deces/capital-deces"
+              },
+              {
+                "title": "Rente au conjoint survivant",
+                "description": "Rente mensuelle ou annuelle garantie au conjoint survivant jusqu'à son décès",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/deces/rente-conjoint"
+              },
+              {
+                "title": "Couverture enfants mineurs",
+                "description": "Capitale ou rente supplémentaire pour soutenir l'éducation des enfants mineurs",
+                "image": "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/deces/protection-enfants-mineurs"
+              },
+              {
+                "title": "Versement rapide aux bénéficiaires",
+                "description": "Processus accéléré de versement du capital aux bénéficiaires désignés",
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/deces/paiement-accelere"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "capital-deces": {
+            "title": "Capital Décès",
+            "subtitle": "Capital versé aux bénéficiaires lors du décès de l'assuré",
+            "image": "https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Une police capital décès fournit un versement unique en capital à vos bénéficiaires désignés lors de votre décès. Le capital peut être utilisé pour rembourser un prêt hypothécaire, couvrir les frais funéraires ou assurer la stabilité financière.",
+              "Vous choisissez le montant du capital et les bénéficiaires. La couverture est disponible avec ou sans examen médical selon la somme assurée, et les primes sont fixées pour la durée de la police."
+            ],
+            "benefits": [
+              {
+                "icon": "Euro",
+                "title": "Montants de capital flexibles",
+                "description": "Choisissez le capital de 25 000 € à 1 000 000 € selon les besoins de votre famille"
+              },
+              {
+                "icon": "Users",
+                "title": "Bénéficiaires nommés",
+                "description": "Vous désignez exactement qui reçoit le capital et dans quelles proportions"
+              },
+              {
+                "icon": "Clock",
+                "title": "Garantie de paiement sous 30 jours",
+                "description": "Capital versé aux bénéficiaires dans les 30 jours suivant réception de l'acte de décès"
+              },
+              {
+                "icon": "Home",
+                "title": "Utilisation protection hypothécaire",
+                "description": "Capital dimensionné pour rembourser votre prêt immobilier en cours"
+              }
+            ]
+          },
+          "rente-conjoint": {
+            "title": "Rente Conjoint Survivant",
+            "subtitle": "Revenu mensuel garanti au conjoint survivant",
+            "image": "https://images.pexels.com/photos/3807734/pexels-photo-3807734.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Une police de rente survivant garantit à votre conjoint un revenu mensuel ou annuel pour une période définie ou à vie suite à votre décès. Cela assure une sécurité financière durable au-delà d'un versement unique en capital.",
+              "Le revenu peut être indexé à l'inflation et peut inclure une garantie de rente minimale assurant un versement total minimum quelle que soit la durée de vie du conjoint survivant."
+            ],
+            "benefits": [
+              {
+                "icon": "Calendar",
+                "title": "Option revenu viager",
+                "description": "Revenu versé au conjoint survivant pour toute sa vie restante"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Indexation à l'inflation",
+                "description": "Revenu indexé annuellement pour maintenir le pouvoir d'achat au fil du temps"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Garantie de versement minimum",
+                "description": "Versement total minimum garanti indépendamment de la durée de vie du bénéficiaire"
+              },
+              {
+                "icon": "FileText",
+                "title": "Structure fiscalement avantageuse",
+                "description": "Les rentes survivant bénéficient d'un traitement fiscal favorable en Belgique"
+              }
+            ]
+          },
+          "protection-enfants-mineurs": {
+            "title": "Protection Enfants Mineurs",
+            "subtitle": "Capital ou revenu pour soutenir les études des enfants après le décès d'un parent",
+            "image": "https://images.pexels.com/photos/1416736/pexels-photo-1416736.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Le décès d'un parent crée non seulement des défis émotionnels mais aussi financiers pour les enfants mineurs. Notre indemnité décès enfants fournit un capital dédié ou un revenu mensuel pour financer les études et le soutien jusqu'à l'âge adulte.",
+              "Les indemnités peuvent être structurées pour augmenter lors des étapes clés — secondaire, enseignement supérieur — garantissant un financement adéquat à chaque étape."
+            ],
+            "benefits": [
+              {
+                "icon": "GraduationCap",
+                "title": "Capital études",
+                "description": "Capital dédié pour financer l'enseignement primaire, secondaire et supérieur"
+              },
+              {
+                "icon": "TrendingUp",
+                "title": "Versements par étapes",
+                "description": "Versements structurés coïncidant avec les transitions éducatives clés"
+              },
+              {
+                "icon": "Baby",
+                "title": "Indemnité par enfant",
+                "description": "Capital ou revenu distinct alloué à chaque enfant mineur de la famille"
+              },
+              {
+                "icon": "Calendar",
+                "title": "Jusqu'à la majorité",
+                "description": "Indemnités versées jusqu'à ce que chaque enfant atteigne 18 ans ou 25 ans s'il est encore aux études"
+              }
+            ]
+          },
+          "paiement-accelere": {
+            "title": "Paiement Accéléré aux Bénéficiaires",
+            "subtitle": "Processus de paiement accéléré des indemnités décès",
+            "image": "https://images.pexels.com/photos/4386367/pexels-photo-4386367.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Notre processus de déclaration prioritaire garantit que les indemnités décès parviennent à vos bénéficiaires le plus rapidement possible — généralement dans les 30 jours suivant réception de l'acte de décès valide.",
+              "Un conseiller en sinistre dédié est assigné à votre famille dès la notification pour la guider tout au long du processus et minimiser les formalités dans un moment difficile."
+            ],
+            "benefits": [
+              {
+                "icon": "Clock",
+                "title": "Objectif de paiement sous 30 jours",
+                "description": "Capital ou premier versement de revenu dans les 30 jours suivant le dossier valide"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Conseiller sinistre dédié",
+                "description": "Gestionnaire de sinistre personnel assigné pour guider votre famille"
+              },
+              {
+                "icon": "FileText",
+                "title": "Formalités simplifiées",
+                "description": "Documentation minimale requise — acte de décès et pièce d'identité suffisants"
+              },
+              {
+                "icon": "Phone",
+                "title": "Permanence deuil 24h/24",
+                "description": "Ligne d'assistance immédiate pour notifier et démarrer le processus de déclaration"
+              }
+            ]
+          }
+        }
+      },
+      "voyage": {
+        "title": "Assurance Voyage",
+        "subtitle": "Couverture complète pour vos déplacements",
+        "sections": [
+          {
+            "title": "Couvertures voyage",
+            "content": [
+              {
+                "title": "Assistance médicale à l'étranger",
+                "description": "Service médical 24/7 et rapatriement sanitaire si nécessaire lors de vos voyages",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/voyage/assistance-medicale-etranger"
+              },
+              {
+                "title": "Rapatriement sanitaire",
+                "description": "Couverture complète du rapatriement médical en cas d'hospitalisation grave à l'étranger",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/voyage/evacuation-medicale"
+              },
+              {
+                "title": "Annulation et retard de vol",
+                "description": "Remboursement en cas d'annulation de voyage ou de retard de vol important",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/voyage/annulation-retard-vol"
+              },
+              {
+                "title": "Bagages et effets personnels",
+                "description": "Protection et remboursement en cas de perte, vol ou détérioration des bagages",
+                "image": "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/voyage/bagages-effets-personnels"
+              },
+              {
+                "title": "Assurance responsabilité civile",
+                "description": "Couverture responsabilité civile pour dommages causés à des tiers pendant le voyage",
+                "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/voyage/responsabilite-civile-voyage"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "assistance-medicale-etranger": {
+            "title": "Assistance Médicale à l'Étranger",
+            "subtitle": "Service médical 24h/24 et évacuation pendant vos voyages",
+            "image": "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les urgences médicales à l'étranger peuvent être angoissantes et coûteuses. Notre service d'assistance médicale est disponible 24h/24 en plusieurs langues pour coordonner vos soins, contacter les hôpitaux locaux et organiser des garanties de paiement.",
+              "D'une simple consultation médicale à une chirurgie d'urgence, nous gérons la logistique pour que vous puissiez vous concentrer sur votre rétablissement. Tous les frais médicaux sont pris en charge directement."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "Permanence multilingue 24h/24",
+                "description": "Ligne d'assistance médicale disponible en français, néerlandais, anglais et plus"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Garantie de frais hospitaliers",
+                "description": "Paiement direct garanti aux hôpitaux étrangers — aucune avance de frais requise"
+              },
+              {
+                "icon": "Globe",
+                "title": "Couverture mondiale",
+                "description": "Assistance médicale disponible dans tous les pays y compris hors Europe"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Suivi médical",
+                "description": "Notre équipe suit votre état tout au long de l'hospitalisation à l'étranger"
+              }
+            ]
+          },
+          "evacuation-medicale": {
+            "title": "Évacuation Médicale",
+            "subtitle": "Rapatriement si vous êtes gravement hospitalisé à l'étranger",
+            "image": "https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Si vous êtes gravement malade ou blessé à l'étranger et nécessitez un traitement spécialisé non disponible localement, ou si vous souhaitez être traité en Belgique, notre service organise un rapatriement médicalement supervisé.",
+              "Tous les frais — ambulance aérienne, escorte médicale, transport terrestre et voyage d'un membre de la famille — sont couverts sans limite."
+            ],
+            "benefits": [
+              {
+                "icon": "Plane",
+                "title": "Service d'ambulance aérienne",
+                "description": "Transport aérien médicalement équipé vers la Belgique si médicalement nécessaire"
+              },
+              {
+                "icon": "Users",
+                "title": "Voyage d'un membre de la famille",
+                "description": "Frais de voyage d'un accompagnant familial couverts pendant le rapatriement"
+              },
+              {
+                "icon": "Home",
+                "title": "Rapatriement des dépouilles",
+                "description": "Rapatriement digne des dépouilles en Belgique couvert en cas de décès"
+              },
+              {
+                "icon": "Stethoscope",
+                "title": "Escorte médicale",
+                "description": "Professionnel médical qualifié accompagnant lors du vol d'évacuation"
+              }
+            ]
+          },
+          "annulation-retard-vol": {
+            "title": "Annulation et Retard de Vol",
+            "subtitle": "Remboursement si votre voyage est annulé ou votre vol significativement retardé",
+            "image": "https://images.pexels.com/photos/1534057/pexels-photo-1534057.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les perturbations de voyage peuvent entraîner d'importantes pertes financières — réservations d'hôtel non remboursables, forfaits touristiques et billets d'événements. Notre couverture annulation et retard rembourse ces coûts.",
+              "Les raisons couvertes comprennent la maladie, le décès dans la famille, le licenciement, le service de jury, les catastrophes naturelles et l'insolvabilité de la compagnie aérienne."
+            ],
+            "benefits": [
+              {
+                "icon": "Calendar",
+                "title": "Annulation de voyage",
+                "description": "Frais prépayés non remboursables remboursés si voyage annulé pour raisons couvertes"
+              },
+              {
+                "icon": "Clock",
+                "title": "Indemnité de retard",
+                "description": "Allocation journalière pour retards de plus de 4 heures incluant repas et hébergement"
+              },
+              {
+                "icon": "AlertCircle",
+                "title": "Correspondance manquée",
+                "description": "Frais supplémentaires couverts en cas de vol de correspondance manqué"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Insolvabilité de compagnie aérienne",
+                "description": "Remboursement si votre compagnie aérienne ou tour-opérateur devient insolvable"
+              }
+            ]
+          },
+          "bagages-effets-personnels": {
+            "title": "Bagages et Effets Personnels",
+            "subtitle": "Protection des bagages perdus, volés ou endommagés pendant le voyage",
+            "image": "https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Des bagages perdus et des affaires volées peuvent perturber tout votre voyage. Notre couverture bagages fournit un remboursement pour les bagages perdus, volés ou endommagés, plus des achats d'urgence si vos sacs sont retardés.",
+              "Les objets de valeur, appareils électroniques et équipements sportifs transportés dans vos bagages peuvent être spécifiquement déclarés pour des limites de couverture plus élevées."
+            ],
+            "benefits": [
+              {
+                "icon": "Briefcase",
+                "title": "Bagages perdus ou volés",
+                "description": "Remboursement intégral du contenu des bagages à la valeur de remplacement"
+              },
+              {
+                "icon": "Clock",
+                "title": "Allocation bagages retardés",
+                "description": "Allocation d'achat d'urgence si les bagages sont retardés de plus de 12 heures"
+              },
+              {
+                "icon": "Laptop",
+                "title": "Déclaration d'électronique",
+                "description": "Limites plus élevées disponibles pour les appareils électroniques et objets de valeur déclarés"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Complément RC compagnie aérienne",
+                "description": "Couvre l'écart entre les limites de responsabilité de la compagnie aérienne et la valeur réelle"
+              }
+            ]
+          },
+          "responsabilite-civile-voyage": {
+            "title": "Responsabilité Civile Voyage",
+            "subtitle": "Couverture RC pour les dommages causés à des tiers pendant votre voyage",
+            "image": "https://images.pexels.com/photos/1436116/pexels-photo-1436116.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les accidents pendant un voyage peuvent entraîner des réclamations contre vous — une collision sur les pistes de ski, des dommages accidentels à une chambre d'hôtel ou une blessure à un autre touriste. Notre couverture RC voyage vous protège.",
+              "La couverture s'étend à tous les membres de la famille voyageant ensemble et inclut les frais de défense juridique si votre responsabilité est contestée."
+            ],
+            "benefits": [
+              {
+                "icon": "Shield",
+                "title": "Blessures corporelles aux tiers",
+                "description": "Indemnisation des blessures accidentellement causées à d'autres pendant votre voyage"
+              },
+              {
+                "icon": "Hotel",
+                "title": "Dommages matériels",
+                "description": "Dommages accidentels aux chambres d'hôtel, équipements de location et biens de tiers"
+              },
+              {
+                "icon": "Users",
+                "title": "Toute la famille couverte",
+                "description": "Tous les membres de la famille du même voyage couverts sous la police unique"
+              },
+              {
+                "icon": "Scale",
+                "title": "Frais de défense juridique",
+                "description": "Honoraires d'avocats et frais de justice couverts si la responsabilité est légalement contestée"
+              }
+            ]
+          }
+        }
+      },
+      "protection_juridique": {
+        "title": "Protection Juridique",
+        "subtitle": "Aide et défense juridique pour tous vos litiges",
+        "sections": [
+          {
+            "title": "Services juridiques",
+            "content": [
+              {
+                "title": "Conseil juridique 24/7",
+                "description": "Consultation téléphonique avec des experts juridiques disponibles jour et nuit",
+                "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/protection-juridique/conseil-juridique-24h"
+              },
+              {
+                "title": "Défense en justice",
+                "description": "Représentation et défense par un avocat dans vos procédures judiciaires",
+                "image": "https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/protection-juridique/defense-en-justice"
+              },
+              {
+                "title": "Frais de procédure couverts",
+                "description": "Prise en charge complète des frais de justice et honoraires d'avocats",
+                "image": "https://images.pexels.com/photos/3807498/pexels-photo-3807498.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/protection-juridique/frais-juridiques"
+              },
+              {
+                "title": "Recours juridiques assistés",
+                "description": "Accompagnement complet dans tous vos recours et actions en justice",
+                "image": "https://images.pexels.com/photos/3807496/pexels-photo-3807496.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/famille/protection-juridique/recours-juridique-assiste"
+              }
+            ]
+          }
+        ],
+        "coverages": {
+          "conseil-juridique-24h": {
+            "title": "Conseil Juridique 24h/24",
+            "subtitle": "Consultation téléphonique avec des experts juridiques disponibles jour et nuit",
+            "image": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les questions juridiques ne respectent pas les horaires de bureau. Notre permanence juridique 24h/24 vous donne accès immédiat par téléphone à des avocats belges qualifiés qui peuvent vous conseiller à tout moment.",
+              "Des litiges de consommation et conflits de voisinage aux questions d'emploi et de droit de la famille, nos conseillers couvrent toute la gamme des questions juridiques quotidiennes."
+            ],
+            "benefits": [
+              {
+                "icon": "Phone",
+                "title": "Disponibilité permanente",
+                "description": "Conseillers juridiques disponibles par téléphone 24h sur 24, 7 jours sur 7"
+              },
+              {
+                "icon": "Scale",
+                "title": "Tous domaines du droit",
+                "description": "Conseil en droit civil, consommation, emploi, famille et administratif"
+              },
+              {
+                "icon": "Globe",
+                "title": "Français, néerlandais et anglais",
+                "description": "Conseil juridique disponible dans les trois langues nationales belges et en anglais"
+              },
+              {
+                "icon": "MessageCircle",
+                "title": "Compte rendu écrit",
+                "description": "Résumé écrit du conseil fourni pour vos dossiers après chaque consultation"
+              }
+            ]
+          },
+          "defense-en-justice": {
+            "title": "Défense en Justice",
+            "subtitle": "Représentation juridique et défense dans vos procédures judiciaires",
+            "image": "https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Lorsqu'un litige escalade vers des procédures judiciaires, notre protection juridique finance votre défense complète. Vous choisissez votre propre avocat — nous payons ses honoraires et tous les frais de justice associés.",
+              "La couverture s'applique à la fois à la défense contre les réclamations formulées contre vous et à la poursuite de réclamations en votre nom contre un tiers."
+            ],
+            "benefits": [
+              {
+                "icon": "Gavel",
+                "title": "Libre choix de l'avocat",
+                "description": "Vous choisissez votre propre avocat — nous couvrons ses honoraires sans restriction"
+              },
+              {
+                "icon": "Scale",
+                "title": "Tous niveaux de juridiction",
+                "description": "Procédures en première instance, appel et cassation toutes couvertes"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Poursuites et défense",
+                "description": "Couverture pour engager des poursuites contre des tiers et se défendre contre des réclamations"
+              },
+              {
+                "icon": "Euro",
+                "title": "Pas de plafond sur les frais d'avocat",
+                "description": "Frais d'avocat entièrement couverts sans plafond pour les litiges couverts"
+              }
+            ]
+          },
+          "frais-juridiques": {
+            "title": "Frais Juridiques Couverts",
+            "subtitle": "Couverture complète des frais de justice et d'honoraires d'avocat",
+            "image": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Les procédures judiciaires génèrent de nombreux frais au-delà des honoraires d'avocat — frais de greffe, frais d'experts judiciaires, frais d'huissier, frais de traduction. Notre police couvre tout cela.",
+              "Même si vous perdez votre procès, tous les frais engagés dans la limite de la police sont couverts, vous protégeant d'un double coup financier."
+            ],
+            "benefits": [
+              {
+                "icon": "FileText",
+                "title": "Frais de greffe",
+                "description": "Tous les frais officiels de justice et frais de greffe intégralement couverts"
+              },
+              {
+                "icon": "UserCheck",
+                "title": "Frais d'experts judiciaires",
+                "description": "Frais d'experts nommés par le tribunal et experts privés couverts"
+              },
+              {
+                "icon": "Truck",
+                "title": "Frais d'huissier",
+                "description": "Frais de services d'huissier pour l'exécution des jugements couverts"
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Frais même en cas de perte",
+                "description": "Frais juridiques couverts même si le tribunal statue contre vous"
+              }
+            ]
+          },
+          "recours-juridique-assiste": {
+            "title": "Recours Juridique Assisté",
+            "subtitle": "Soutien complet dans toutes vos réclamations juridiques et actions en justice",
+            "image": "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1400",
+            "description": [
+              "Engager une action en justice peut être complexe et chronophage. Notre service de recours assisté fournit un gestionnaire de dossier dédié qui coordonne votre équipe juridique, surveille les délais et vous tient informé.",
+              "De la consultation initiale jusqu'au jugement final, vous avez un interlocuteur unique qui comprend votre situation et s'assure que rien ne passe à travers les mailles du filet."
+            ],
+            "benefits": [
+              {
+                "icon": "UserCheck",
+                "title": "Gestionnaire de dossier dédié",
+                "description": "Coordinateur de dossier personnel qui vous guide tout au long de vos procédures"
+              },
+              {
+                "icon": "Clock",
+                "title": "Suivi des délais",
+                "description": "Tous les délais juridiques suivis et alertes envoyées pour ne rien manquer"
+              },
+              {
+                "icon": "MessageCircle",
+                "title": "Mises à jour régulières",
+                "description": "Informations d'avancement à chaque étape clé de votre dossier sans avoir à demander"
+              },
+              {
+                "icon": "Target",
+                "title": "Médiation d'abord",
+                "description": "Médiation et résolution amiable explorées en premier pour économiser temps et coûts"
+              }
+            ]
+          }
+        }
+      },
+      "hospitalisation": {
+        "title": "Hospitalisation",
+        "subtitle": "Assurances hospitalisation individuelles et collectives",
+        "sections": [
+          {
+            "title": "Nos couvertures hospitalisation",
+            "content": [
+              {
+                "title": "Couverture Hospitalisation",
+                "description": "Remboursement des frais d'hospitalisation et de séjour à l'hôpital",
+                "image": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/hospitalisation/individuelle"
+              },
+              {
+                "title": "Couverture Médicale",
+                "description": "Remboursement des honoraires médicaux, consultations et traitements",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/hospitalisation/groupe"
+              },
+              {
+                "title": "Assistance Médicale",
+                "description": "Services d'assistance médicale d'urgence et évacuation sanitaire",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800"
+              },
+              {
+                "title": "Indemnité Journalière",
+                "description": "Indemnité quotidienne pendant la période d'hospitalisation ou d'arrêt de travail",
+                "image": "https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&w=800"
+              }
+            ]
+          }
+        ]
+      },
+      "individuelle": {
+        "title": "Hospitalisation Individuelle",
+        "subtitle": "Couverture hospitalisation personnelle",
+        "sections": [
+          {
+            "title": "Services inclus",
+            "content": [
+              "Chambre particulière",
+              "Honoraires médicaux couverts",
+              "Frais d'hospitalisation",
+              "Suivi post-hospitalisation"
+            ]
+          }
+        ]
+      },
+      "groupe": {
+        "title": "Hospitalisation Groupe",
+        "subtitle": "Couverture hospitalisation collective",
+        "sections": [
+          {
+            "title": "Pour les entreprises",
+            "content": [
+              "Couverture tous les employés",
+              "Tarifs avantageux groupe",
+              "Gestion simplifiée",
+              "Services sur mesure"
+            ]
+          }
+        ]
+      },
+      "epargner": {
+        "title": "Épargner ou Investir",
+        "subtitle": "Solutions d'épargne et placement pour votre avenir",
+        "sections": [
+          {
+            "title": "Solutions d'épargne et d'investissement",
+            "content": [
+              {
+                "title": "Plans d'Épargne Assurantielle",
+                "description": "Solutions d'épargne avec couverture d'assurance-vie intégrée",
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
+              },
+              {
+                "title": "Placements Diversifiés",
+                "description": "Accès à des fonds d'investissement variés adaptés à votre profil",
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
+              },
+              {
+                "title": "Rendements Réguliers",
+                "description": "Générer des revenus réguliers et constituer votre capital à long terme",
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
+              },
+              {
+                "title": "Protection du Patrimoine",
+                "description": "Sécuriser votre épargne et transmettre votre patrimoine sereinement",
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
+              }
+            ]
+          }
+        ]
+      },
+      "pension": {
+        "title": "Pension",
+        "subtitle": "Solutions de retraite et épargne-pension pour sécuriser votre avenir",
+        "sections": [
+          {
+            "title": "Solutions retraite",
+            "content": [
+              {
+                "title": "Prévoyance Retraite",
+                "description": "Constituer progressivement votre capital retraite et assurer votre futur",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/pension/epargne-pension"
+              },
+              {
+                "title": "Compléments de Revenu",
+                "description": "Assurer un niveau de vie satisfait après la fin de votre activité professionnelle",
+                "image": "https://images.pexels.com/photos/6238072/pexels-photo-6238072.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/pension/epargne-longterme"
+              },
+              {
+                "title": "Protection Famille",
+                "description": "Sécuriser le bien-être de votre famille en cas de décès ou invalidité",
+                "image": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/particuliers/pension/assurance-groupe"
+              },
+              {
+                "title": "Croissance du Capital",
+                "description": "Optimiser la croissance et la rente de vos placements retraite",
+                "image": "https://images.pexels.com/photos/3943746/pexels-photo-3943746.jpeg?auto=compress&cs=tinysrgb&w=800"
+              }
+            ]
+          }
+        ]
+      },
+      "epargne_pension": {
+        "title": "Épargne-Pension",
+        "subtitle": "Plan de retraite personnalisé",
+        "sections": [
+          {
+            "title": "Avantages",
+            "content": [
+              "Déductions fiscales",
+              "Accumulation de capital",
+              "Versements flexibles",
+              "Rendements réguliers",
+              "Sécurité pour la retraite"
+            ]
+          }
+        ]
+      },
+      "epargne_longterme": {
+        "title": "Épargne à Long Terme",
+        "subtitle": "Investissements pour votre avenir",
+        "sections": [
+          {
+            "title": "Stratégie long terme",
+            "content": [
+              "Horizons d'investissement étendus",
+              "Croissance capitalisée",
+              "Diversification management",
+              "Accompagnement professionnel",
+              "Plans d'accumulation"
+            ]
+          }
+        ]
+      },
+      "assurance_groupe": {
+        "title": "Assurance Groupe Pension",
+        "subtitle": "Plan de retraite collectif pour entreprises",
+        "sections": [
+          {
+            "title": "Pour les employeurs",
+            "content": [
+              "Couverture retraite complète",
+              "Avantages fiscaux",
+              "Gestion centralisée",
+              "Participation employeur",
+              "Plans aménageable"
+            ]
+          }
+        ]
+      }
+    },
+    "professionnel": {
+      "entreprise": {
+        "title": "Entreprise",
+        "subtitle": "Solutions d'assurance complètes pour protéger votre entreprise",
+        "sections": [
+          {
+            "title": "Nos assurances entreprise",
+            "content": [
+              {
+                "title": "Assurance Responsabilité",
+                "description": "Couverture de votre responsabilité civile professionnelle envers les tiers",
+                "image": "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/entreprise/responsabilite"
+              },
+              {
+                "title": "Dégâts Immobiliers",
+                "description": "Protection des locaux, équipements et inventaire contre les sinistres",
+                "image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/entreprise/batiments"
+              },
+              {
+                "title": "Assurance Personnel",
+                "description": "Couverture des accidents de travail et maladies professionnelles",
+                "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/personnel"
+              },
+              {
+                "title": "Cybersécurité et Vol",
+                "description": "Protection contre le cyberrisque, vol de données et fraude informatique",
+                "image": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/entreprise/materiel"
+              }
+            ]
+          }
+        ]
+      },
+      "vehicules": {
+        "title": "Assurance Véhicules Professionnels",
+        "subtitle": "Protection pour votre flotte automobile",
+        "sections": [
+          {
+            "title": "Couvertures véhicules",
+            "content": [
+              "Responsabilité civile obligatoire",
+              "Dégâts matériels propriétaires",
+              "Vol et incendie",
+              "Assistance dépannage prioritaire",
+              "Couverture conducteur"
+            ]
+          }
+        ]
+      },
+      "batiments": {
+        "title": "Assurance Bâtiments",
+        "subtitle": "Protection des locaux et installations",
+        "sections": [
+          {
+            "title": "Couvertures bâtiments",
+            "content": [
+              "Dégâts immobiliers complets",
+              "Couverture installations techniques",
+              "Protection contre les risques",
+              "Assurance responsabilité propriétaire",
+              "Couverture agrandissements"
+            ]
+          }
+        ]
+      },
+      "materiel": {
+        "title": "Assurance Matériel et Équipement",
+        "subtitle": "Protection de vos ressources matérielles",
+        "sections": [
+          {
+            "title": "Couvertures matériel",
+            "content": [
+              "Couverture équipement professionnel",
+              "Assurance machines et outils",
+              "Protection électronique et informatique",
+              "Vol et détérioration",
+              "Couverture stockages"
+            ]
+          }
+        ]
+      },
+      "responsabilite": {
+        "title": "Responsabilité Civile Professionnelle",
+        "subtitle": "Protection contre les sinistres responsabilité",
+        "sections": [
+          {
+            "title": "Couvertures responsabilité",
+            "content": [
+              "Responsabilité civile exploitation",
+              "Couverture produits et services",
+              "Indemnisation tiers lésés",
+              "Frais de défense",
+              "Couverture réclamations"
+            ]
+          }
+        ]
+      },
+      "personnel": {
+        "title": "Personnel",
+        "subtitle": "Solutions de protection sociales et de santé pour vos employés",
+        "sections": [
+          {
+            "title": "Protection du personnel",
+            "content": [
+              {
+                "title": "Assurance Accident",
+                "description": "Couverture des accidents de travail et sinistres corporels liés au métier",
+                "image": "https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/personnel/accidents-travail"
+              },
+              {
+                "title": "Prévoyance Personnelle",
+                "description": "Protection en cas d'incapacité, invalidité ou décès professionnel",
+                "image": "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/personnel/assurance-groupe"
+              },
+              {
+                "title": "Couverture Professionnelle",
+                "description": "Protégez votre statut professionnel et votre activité d'indépendant",
+                "image": "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/personnel/hospitalisation"
+              },
+              {
+                "title": "Revenus Protégés",
+                "description": "Assurer la continuité de vos revenus en cas d'interruption d'activité",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/revenu/revenu-garanti"
+              }
+            ]
+          }
+        ]
+      },
+      "accidents_travail": {
+        "title": "Assurance Accidents du Travail",
+        "subtitle": "Protection des salariés contre les risques professionnels",
+        "sections": [
+          {
+            "title": "Couvertures accidents",
+            "content": [
+              "Indemnisations accidents travail",
+              "Maladies professionnelles",
+              "Prestations santé",
+              "Rentes d'invalidité",
+              "Assistance réadaptation"
+            ]
+          }
+        ]
+      },
+      "assurance_groupe": {
+        "title": "Assurance Groupe",
+        "subtitle": "Protection collective santé pour les employés",
+        "sections": [
+          {
+            "title": "Couvertures groupe",
+            "content": [
+              "Assurance santé collective",
+              "Couverture familiale employé",
+              "Prestations dentaires et optique",
+              "Services préventifs",
+              "Gestion sinistre facilitée"
+            ]
+          }
+        ]
+      },
+      "hospitalisation": {
+        "title": "Hospitalisation Professionnelle",
+        "subtitle": "Couverture hospitalisation pour l'entreprise",
+        "sections": [
+          {
+            "title": "Services hospitalisation",
+            "content": [
+              "Couverture frais hospitaliers",
+              "Rentes d'invalidité temporaire",
+              "Assistance après hospitalisation",
+              "Services complémentaires",
+              "Gestion administrative"
+            ]
+          }
+        ]
+      },
+      "revenu": {
+        "title": "Revenu",
+        "subtitle": "Solutions de sécurisation des revenus et patrimoines professionnels",
+        "sections": [
+          {
+            "title": "Protection des revenus",
+            "content": [
+              {
+                "title": "Couverture Perte de Revenu",
+                "description": "Protection de vos revenus en cas d'incapacité ou interruption d'activité",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/revenu/revenu-garanti"
+              },
+              {
+                "title": "Assurance Chômage",
+                "description": "Complément de revenus en cas de chômage involontaire ou cessation d'emploi",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/revenu/pension"
+              },
+              {
+                "title": "Rente Invalidité",
+                "description": "Rente mensuelle garantie en cas d'invalidité permanente ou partielle",
+                "image": "https://images.pexels.com/photos/3952234/pexels-photo-3952234.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/revenu/deces"
+              },
+              {
+                "title": "Protection Crédit",
+                "description": "Protégez vos emprunteurs et garantissez le remboursement de vos crédits",
+                "image": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "href": "/professionnels/revenu/placements"
+              }
+            ]
+          }
+        ]
+      },
+      "revenu_garanti": {
+        "title": "Revenu Garanti",
+        "subtitle": "Protection du revenu professionnel",
+        "sections": [
+          {
+            "title": "Couvertures revenu",
+            "content": [
+              "Indemnité en cas d'incapacité",
+              "Remplacement de chiffre d'affaires",
+              "Couverture dépenses fixes",
+              "Assistance redémarrage activité",
+              "Flexibilité contractuelle"
+            ]
+          }
+        ]
+      },
+      "pension": {
+        "title": "Pension Professionnelle",
+        "subtitle": "Plans de retraite pour professionnels",
+        "sections": [
+          {
+            "title": "Solutions pension",
+            "content": [
+              "Épargne-pension professionnelle",
+              "Couverture partenaires",
+              "Plans de retraite flexibles",
+              "Rente de retraite garantie",
+              "Avantages fiscaux"
+            ]
+          }
+        ]
+      },
+      "deces": {
+        "title": "Assurance Décès Professionnel",
+        "subtitle": "Protection du conjoint et famille",
+        "sections": [
+          {
+            "title": "Couvertures décès",
+            "content": [
+              "Capital décès",
+              "Rente survivants",
+              "Couverture emprunt professionnel",
+              "Protection entreprise",
+              "Versement rapide"
+            ]
+          }
+        ]
+      },
+      "placements": {
+        "title": "Solutions de Placement",
+        "subtitle": "Gestion et placement de patrimoine",
+        "sections": [
+          {
+            "title": "Stratégies placement",
+            "content": [
+              "Portefeuille d'investissements",
+              "Fonds de placement diversifiés",
+              "Gestion patrimoniale",
+              "Conseil en investissement",
+              "Suivi de performance"
+            ]
+          }
+        ]
+      }
+    },
+    "test": {
+      "sample": {
+        "title": "Service d'exemple",
+        "subtitle": "Ceci est une page de service de test pour vérifier que le composant ServiceDetail s'affiche correctement avec contenu en liste et en paragraphe.",
+        "sections": [
+          {
+            "title": "Ce qui est inclus",
+            "content": [
+              "Premier point avec information détaillée",
+              "Deuxième point expliquant la couverture",
+              "Troisième point sur les avantages supplémentaires",
+              "Quatrième point couvrant les cas particuliers"
+            ]
+          },
+          {
+            "title": "Comment cela fonctionne",
+            "content": "Cette section démontre le contenu en style paragraphe. Le composant ServiceDetail supporte à la fois les listes à puces (quand le contenu est un tableau) et le texte paragraphe fluide (quand le contenu est une chaîne). Cette flexibilité permet des mises en page diversifiées."
+          },
+          {
+            "title": "Prochaines étapes",
+            "content": [
+              "Planifier une consultation gratuite",
+              "Discuter de vos besoins spécifiques",
+              "Recevoir un devis personnalisé",
+              "Mettre en place la couverture"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "documents": {
+    "title": "Documents",
+    "subtitle": "Téléchargez les documents utiles",
+    "forms": "Formulaires",
+    "guides": "Guides",
+    "legal": "Documents légaux",
+    "filter": {
+      "all": "Tous",
+      "all_companies": "Toutes les compagnies",
+      "all_categories": "Toutes les catégories",
+      "reset": "Réinitialiser les filtres",
+      "synced": "Synchronisé",
+      "no_results": "Aucun document ne correspond à vos filtres.",
+      "showing": "Affichage",
+      "of": "sur",
+      "docs": "documents",
+      "ask": "Poser une question sur ce document",
+      "open": "Ouvrir le document",
+      "reading": "Lecture du document…",
+      "placeholder": "Posez une question sur ce document…",
+      "send_hint": "Entrée pour envoyer · Shift+Entrée pour nouvelle ligne",
+      "assistant_name": "Assistant IA — BDTS",
+      "assistant_desc": "Posez vos questions sur ce document d'assurance. Je lis le document et réponds en français, anglais ou néerlandais.",
+      "domains": {
+        "Home": "Habitation",
+        "Mobility": "Mobilité",
+        "Family": "Famille",
+        "Health": "Hospitalisation",
+        "Savings": "Épargne & Pension",
+        "Business": "Entreprise",
+        "Personnel": "Personnel",
+        "Legal Protection": "Protection juridique",
+        "Travel": "Voyage",
+        "Assistance": "Assistance",
+        "Various": "Divers",
+        "Multi-domain": "Multi-domaine",
+        "Individual": "Individuelle",
+        "Transport": "Transport",
+        "Loan": "Prêt",
+        "Other": "Autres"
+      },
+      "categories": {
+        "cond_gen": "Cond. générales",
+        "ipid": "IPID",
+        "kid": "KID",
+        "commercial": "Commercial",
+        "marketing": "Marketing",
+        "legal_fiscal": "Légal/Fiscal",
+        "other": "Autre"
+      }
+    }
+  },
+  "news": {
+    "title": "Actualités",
+    "subtitle": "Restez informé de nos dernières actualités",
+    "read_more": "Lire la suite",
+    "newsletter_title": "Restez informé",
+    "newsletter_subtitle": "Recevez nos dernières actualités assurance et mises à jour réglementaires directement dans votre boîte mail.",
+    "newsletter_placeholder": "Votre adresse e-mail",
+    "newsletter_cta": "S'abonner",
+    "newsletter_thanks": "Merci ! Vous êtes maintenant abonné."
+  },
+  "jobs": {
+    "title": "Opportunités d'emploi",
+    "subtitle": "Rejoignez notre équipe"
+  },
+  "client_portal": {
+    "title": "Zone Client",
+    "subtitle": "Accédez à votre espace personnel"
+  },
+  "partners": {
+    "title": "Nos Partenaires",
+    "subtitle": "Les leaders du marché belge de l'assurance",
+    "section_title": "Nos partenaires de confiance",
+    "section_description": "Nous travaillons avec les meilleures compagnies d'assurance du marché belge pour vous offrir les meilleures solutions.",
+    "partners_list": [
+      {
+        "name": "AG Insurance",
+        "description": "Leader du marché belge, AG Insurance nous permet d'accéder à un portefeuille complet de produits d'assurance pour particuliers et entreprises.",
+        "logo": "/logos/ag-insurance.svg",
+        "image": "/images/ag-insurance-banner.svg"
+      },
+      {
+        "name": "FSMA",
+        "description": "Autorité belge de régulation financière. BDTS est agréée et supervisée par la FSMA pour nos activités de courtage d'assurance.",
+        "logo": "/logos/fsma.svg",
+        "image": "/images/fsma-banner.svg"
+      }
+    ],
+    "eyebrow": "NOS PARTENAIRES"
+  },
+  "useful_numbers": {
+    "title": "Numéros Utiles",
+    "subtitle": "Contactez-nous facilement"
+  },
+  "declaration": {
+    "title": "Déclaration de sinistre",
+    "subtitle": "Déclarez votre sinistre rapidement et facilement",
+    "intro": "Vous avez subi un dommage — habitation, auto, famille ou autre. Remplissez ce formulaire ou contactez-nous directement et nous prendrons en charge votre dossier dans les plus brefs délais.",
+    "field_lastname": "Nom",
+    "field_firstname": "Prénom",
+    "field_email": "Adresse e-mail",
+    "field_phone": "Téléphone",
+    "field_type": "Type de sinistre",
+    "field_date": "Date du sinistre",
+    "field_description": "Description du sinistre",
+    "type_auto": "Auto",
+    "type_habitation": "Habitation",
+    "type_famille": "Famille",
+    "type_autre": "Autre",
+    "submit": "Envoyer la déclaration",
+    "submitting": "Envoi en cours...",
+    "success": "Déclaration envoyée ! Nous vous contacterons dans les 24 heures.",
+    "error": "Une erreur s'est produite. Veuillez réessayer ou nous appeler au 02 463 19 25.",
+    "contact_title": "Besoin d'aide immédiate ?",
+    "contact_body": "Appelez-nous directement pour une prise en charge rapide."
+  },
+  "quote": {
+    "title": "Demander un devis",
+    "subtitle": "Dites-nous ce dont vous avez besoin — nous préparerons un devis sur mesure",
+    "field_name": "Nom complet",
+    "field_email": "Adresse e-mail",
+    "field_phone": "Téléphone",
+    "field_type": "Type d'assurance",
+    "field_message": "Message (facultatif)",
+    "type_auto": "Auto",
+    "type_habitation": "Habitation",
+    "type_famille": "Famille",
+    "type_hospitalisation": "Hospitalisation",
+    "type_epargne": "Épargne / Pension",
+    "type_entreprise": "Entreprise",
+    "type_autre": "Autre",
+    "submit": "Demander un devis",
+    "submitting": "Envoi en cours...",
+    "success": "Demande envoyée ! Nous préparerons votre devis et vous contacterons sous 24 heures.",
+    "error": "Une erreur s'est produite. Veuillez réessayer ou nous appeler directement.",
+    "or_title": "Ou contactez-nous directement",
+    "or_appointment": "Prendre rendez-vous"
+  },
+  "protection_client": {
+    "title": "Protection du client",
+    "subtitle": "Vos droits en tant que client BDTS",
+    "fsma_title": "Agrément FSMA",
+    "fsma_body": "BDTS (BDT Sironval sprl) est un courtier d'assurances agréé et supervisé par la FSMA (Autorité des services et marchés financiers), sous le numéro d'agrément 0436.148.994. Vous pouvez vérifier notre statut sur le registre public de la FSMA.",
+    "complaints_title": "Procédure de réclamation",
+    "complaints_body": "En cas de réclamation, contactez d'abord BDTS directement : info@bdts.be ou 02 463 19 25. Si votre réclamation n'est pas résolue à votre satisfaction, vous pouvez vous adresser à l'Ombudsman des Assurances.",
+    "ombudsman_title": "Ombudsman des Assurances",
+    "ombudsman_address": "de Meeûssquare 35, 1000 Bruxelles",
+    "ombudsman_phone": "+32 2 547 58 71",
+    "ombudsman_email": "info@ombudsman.as",
+    "links_title": "Documents légaux",
+    "link_privacy": "Politique de confidentialité",
+    "link_cookies": "Politique cookies",
+    "link_terms": "Conditions d'utilisation",
+    "link_sustainability": "Politique de durabilité"
+  },
+  "legal": {
+    "terms_title": "Conditions générales d'utilisation",
+    "terms_subtitle": "Conditions régissant l'utilisation du site BDTS",
+    "privacy_title": "Politique de confidentialité",
+    "privacy_subtitle": "Comment nous collectons et protégeons vos données personnelles",
+    "cookies_title": "Politique en matière de cookies",
+    "cookies_subtitle": "Comment nous utilisons les cookies sur notre site",
+    "sustainability_title": "Politique en matière de durabilité",
+    "sustainability_subtitle": "Notre engagement pour un avenir durable"
+  },
+  "journey": {
+    "deplace_title": "Je me déplace",
+    "deplace_sub": "Voiture, moto, vélo, motorhome — toutes vos assurances mobilité",
+    "deplace_auto": "Assurance Auto",
+    "deplace_auto_desc": "Responsabilité civile, dégâts matériels et assistance 24/7",
+    "deplace_moto": "Assurance Moto",
+    "deplace_moto_desc": "Protection spécialisée deux-roues et équipement",
+    "deplace_velo": "Assurance Vélo",
+    "deplace_velo_desc": "Vol, dégâts et responsabilité civile pour votre vélo",
+    "deplace_motorhome": "Assurance Motorhome",
+    "deplace_motorhome_desc": "Protection pour camping-cars et caravanes",
+    "epargne_title": "J'épargne & j'investis",
+    "epargne_sub": "Épargne-pension, investissements, assurance de groupe",
+    "epargne_pension": "Épargne-pension",
+    "epargne_pension_desc": "Constituez votre capital retraite avec avantages fiscaux",
+    "epargne_longterme": "Épargne à long terme",
+    "epargne_longterme_desc": "Solutions de placement pour horizons étendus",
+    "epargne_groupe": "Assurance de groupe",
+    "epargne_groupe_desc": "Plans de retraite collectifs pour entreprises",
+    "epargne_investir": "Épargner ou Investir",
+    "epargne_investir_desc": "Conseils en épargne et placements diversifiés",
+    "protege_title": "Je me protège",
+    "protege_sub": "Santé, famille, accidents, protection juridique",
+    "protege_familiale": "Assurance familiale",
+    "protege_familiale_desc": "Protection complète pour toute votre famille",
+    "protege_hospi": "Hospitalisation",
+    "protege_hospi_desc": "Couverture des frais hospitaliers et médicaux",
+    "protege_accidents": "Accidents",
+    "protege_accidents_desc": "Indemnisation accidents personnels 24h/24",
+    "protege_juridique": "Protection juridique",
+    "protege_juridique_desc": "Conseil et défense juridique pour vos litiges",
+    "achete_title": "J'achète / je loue / je rénove",
+    "achete_sub": "Incendie, vol, bailleur-locataire",
+    "achete_incendie": "Assurance Incendie",
+    "achete_incendie_desc": "Protection contre le feu, la fumée et sinistres connexes",
+    "achete_vol": "Assurance Vol",
+    "achete_vol_desc": "Couverture contre le cambriolage et la tentative de vol",
+    "achete_bailleur": "Bailleur-Locataire",
+    "achete_bailleur_desc": "Droits et couvertures pour bailleurs et locataires",
+    "achete_habitation": "Habitation",
+    "achete_habitation_desc": "Vue d'ensemble de nos assurances habitation",
+    "voyage_title": "Je voyage",
+    "voyage_sub": "Assistance voyage, protection à l'étranger",
+    "voyage_assurance": "Assurance Voyage",
+    "voyage_assurance_desc": "Assistance médicale, annulation et bagages à l'étranger",
+    "voyage_deces": "Décès et invalidité",
+    "voyage_deces_desc": "Protection financière pour vos proches",
+    "voyage_contact": "Demander conseil",
+    "voyage_contact_desc": "Parlez à un expert pour choisir la bonne couverture",
+    "entrepreneur_title": "Je suis entrepreneur",
+    "entrepreneur_sub": "Entreprise, personnel, revenu — toutes vos assurances professionnelles",
+    "entrepreneur_vehicules": "Véhicules de société",
+    "entrepreneur_vehicules_desc": "Protection pour votre flotte automobile d'entreprise",
+    "entrepreneur_batiments": "Bâtiments",
+    "entrepreneur_batiments_desc": "Assurance des locaux et installations professionnelles",
+    "entrepreneur_responsabilite": "Responsabilité",
+    "entrepreneur_responsabilite_desc": "Protection RC professionnelle pour votre activité",
+    "entrepreneur_personnel": "Personnel",
+    "entrepreneur_personnel_desc": "Couverture accidents de travail et protection des employés",
+    "entrepreneur_revenu": "Revenu garanti",
+    "entrepreneur_revenu_desc": "Protection de vos revenus en cas d'incapacité"
+  },
+  "announcement": {
+    "text": "Partenaire AG Insurance · Réglementé FSMA · 02 463 19 25 · Laeken, Bruxelles · Consultation gratuite"
+  },
+  "eyebrows": {
+    "paths": "NOS CLIENTS",
+    "why": "POURQUOI BDTS",
+    "testimonials": "AVIS CLIENTS",
+    "cta": "CONSULTATION GRATUITE",
+    "process": "NOTRE PROCESSUS",
+    "partners": "NOS PARTENAIRES",
+    "news": "ACTUALITÉS",
+    "individuals": "PARTICULIERS",
+    "businesses": "PROFESSIONNELS",
+    "growing": "EN CROISSANCE",
+    "coverage": "VOTRE COUVERTURE",
+    "services": "NOS SERVICES"
   }
 }
