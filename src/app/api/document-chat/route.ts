@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const DEFAULT_MODEL = "openai/gpt-oss-20b";
+const DEFAULT_MODEL = "google/gemma-4-26b-a4b-it:free";
 const MAX_DOCUMENT_CHARACTERS = 80000;
 
 interface ChatMessage {

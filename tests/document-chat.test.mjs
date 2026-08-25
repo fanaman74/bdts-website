@@ -125,7 +125,7 @@ test("explains unavailable models and privacy-policy restrictions", async () => 
   const { error } = await response.json();
 
   assert.equal(response.status, 502);
-  assert.match(error, /openai\/gpt-oss-20b/);
+  assert.match(error, /google\/gemma-4-26b-a4b-it:free/);
   assert.match(error, /privacy settings/);
 });
 
@@ -139,7 +139,7 @@ test("buffers fragmented provider events and uses a valid default model", async 
   ]), (init) => {
     const payload = JSON.parse(init.body);
 
-    assert.equal(payload.model, "openai/gpt-oss-20b");
+    assert.equal(payload.model, "google/gemma-4-26b-a4b-it:free");
     assert.equal(payload.stream, true);
     assert.match(payload.messages[1].content, /Insurance conditions/);
     assert.match(payload.messages[1].content, /Turk J Med Sci/);
