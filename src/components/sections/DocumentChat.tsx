@@ -19,9 +19,29 @@ interface DocumentChatProps {
   sendHint?: string;
   assistantName?: string;
   assistantDesc?: string;
+  suggestedQuestions?: string[];
+  closeLabel?: string;
+  sendLabel?: string;
 }
 
-export function DocumentChat({ docTitle, docUrl, company, onClose, readingText = "Lecture du document…", placeholder = "Posez une question sur ce document…", sendHint = "Entrée pour envoyer · Shift+Entrée pour nouvelle ligne", assistantName = "Assistant IA — BDTS", assistantDesc = "Posez vos questions sur ce document d'assurance. Je lis le document et réponds en français, anglais ou néerlandais." }: DocumentChatProps) {
+export function DocumentChat({
+  docTitle,
+  docUrl,
+  company,
+  onClose,
+  readingText = "Lecture du document…",
+  placeholder = "Posez une question sur ce document…",
+  sendHint = "Entrée pour envoyer · Shift+Entrée pour nouvelle ligne",
+  assistantName = "Assistant IA — BDTS",
+  assistantDesc = "Posez vos questions sur ce document d'assurance. Je lis le document et réponds en français, anglais ou néerlandais.",
+  suggestedQuestions = [
+    "Que couvre ce contrat ?",
+    "Quelles sont les exclusions ?",
+    "Quel est le délai de carence ?",
+  ],
+  closeLabel = "Fermer l'assistant",
+  sendLabel = "Envoyer la question",
+}: DocumentChatProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -41,8 +61,7 @@ export function DocumentChat({ docTitle, docUrl, company, onClose, readingText =
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, streaming]);
 
-  async function sendMessage(e: React.FormEvent) {
-    e.preventDefault();
+  async function doSend() {
     const text = input.trim();
     if (!text || loading) return;
 
@@ -69,37 +88,69 @@ export function DocumentChat({ docTitle, docUrl, company, onClose, readingText =
       });
 
       if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error ?? "Request failed");
+        const responseText = await res.text();
+
+        try {
+          const data = JSON.parse(responseText) as { error?: string };
+          throw new Error(data.error ?? `Request failed (${res.status})`);
+        } catch (err: unknown) {
+          if (err instanceof SyntaxError) {
+            throw new Error(responseText || `Request failed (${res.status})`);
+          }
+          throw err;
+        }
       }
 
-      const reader = res.body!.getReader();
+      if (!res.body) {
+        throw new Error("The AI assistant returned an empty response.");
+      }
+
+      const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let accumulated = "";
+      let pending = "";
+
+      function processLine(line: string) {
+        if (!line.startsWith("data: ")) return;
+
+        const data = line.slice(6).trim();
+        if (!data || data === "[DONE]") return;
+
+        let parsed: { content?: string; error?: string };
+
+        try {
+          parsed = JSON.parse(data) as { content?: string; error?: string };
+        } catch {
+          return;
+        }
+
+        if (parsed.error) throw new Error(parsed.error);
+
+        if (parsed.content) {
+          accumulated += parsed.content;
+          setMessages([...nextMessages, { role: "assistant", content: accumulated }]);
+        }
+      }
 
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
 
-        const chunk = decoder.decode(value, { stream: true });
-        const lines = chunk.split("\n").filter((l) => l.startsWith("data: "));
+        pending += decoder.decode(value, { stream: true });
+        const lines = pending.split("\n");
+        pending = lines.pop() ?? "";
 
-        for (const line of lines) {
-          const data = line.slice(6);
-          if (data === "[DONE]") continue;
-          try {
-            const parsed = JSON.parse(data);
-            if (parsed.content) {
-              accumulated += parsed.content;
-              setMessages([...nextMessages, { role: "assistant", content: accumulated }]);
-            }
-          } catch {
-            // skip
-          }
-        }
+        for (const line of lines) processLine(line);
       }
-    } catch (err: any) {
-      setError(err.message ?? "Something went wrong");
+
+      pending += decoder.decode();
+      if (pending) processLine(pending);
+
+      if (!accumulated) {
+        throw new Error("The AI assistant did not return a response. Please try again.");
+      }
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Something went wrong");
       // Remove empty assistant message on error
       setMessages(nextMessages);
     } finally {
@@ -108,10 +159,15 @@ export function DocumentChat({ docTitle, docUrl, company, onClose, readingText =
     }
   }
 
+  function sendMessage(e: React.FormEvent) {
+    e.preventDefault();
+    void doSend();
+  }
+
   function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
-      sendMessage(e as any);
+      void doSend();
     }
   }
 
@@ -138,6 +194,7 @@ export function DocumentChat({ docTitle, docUrl, company, onClose, readingText =
           </div>
           <button
             onClick={onClose}
+            aria-label={closeLabel}
             className="text-white/60 hover:text-white transition-colors p-1 flex-shrink-0"
           >
             <X size={20} />
@@ -156,11 +213,7 @@ export function DocumentChat({ docTitle, docUrl, company, onClose, readingText =
                 {assistantDesc}
               </p>
               <div className="mt-4 flex flex-wrap gap-2 justify-center">
-                {[
-                  "Que couvre ce contrat ?",
-                  "Quelles sont les exclusions ?",
-                  "Quel est le délai de carence ?",
-                ].map((q) => (
+                {suggestedQuestions.map((q) => (
                   <button
                     key={q}
                     onClick={() => setInput(q)}
@@ -237,6 +290,7 @@ export function DocumentChat({ docTitle, docUrl, company, onClose, readingText =
             <button
               type="submit"
               disabled={!input.trim() || loading}
+              aria-label={sendLabel}
               className="w-9 h-9 bg-gold text-navy-dark rounded-lg flex items-center justify-center hover:bg-gold/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed flex-shrink-0"
             >
               {loading ? <Loader2 size={16} className="animate-spin" /> : <Send size={16} />}

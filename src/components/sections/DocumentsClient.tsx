@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { DocumentChat } from "./DocumentChat";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -118,7 +118,7 @@ function categoryColor(raw: string): string {
 }
 
 function domainLabel(raw: string): string {
-  return DOMAIN_LABEL[raw] ?? raw;
+  return DOMAIN_LABEL[raw] ?? (raw.trim() || "Other");
 }
 
 function categoryLabel(raw: string): string {
@@ -153,6 +153,7 @@ function PdfIcon() {
 }
 
 function DocumentRow({ doc, onChat, askLabel, openLabel }: { doc: Document; onChat: () => void; askLabel: string; openLabel: string }) {
+  const title = doc.title || doc.product;
   const catLabel = categoryLabel(doc.category);
   const catColor = categoryColor(doc.category);
   const compColor = companyColor(doc.company);
@@ -167,7 +168,7 @@ function DocumentRow({ doc, onChat, askLabel, openLabel }: { doc: Document; onCh
       {/* Title */}
       <div className="flex-1 min-w-0">
         <p className="text-sm font-medium text-navy line-clamp-2 leading-snug">
-          {doc.title}
+          {title}
         </p>
         <p className="text-xs text-mid-gray mt-1 truncate">{doc.product}</p>
       </div>
@@ -200,7 +201,7 @@ function DocumentRow({ doc, onChat, askLabel, openLabel }: { doc: Document; onCh
         target="_blank"
         rel="noopener noreferrer"
         className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-orange-200 bg-orange-50 text-orange-500 hover:bg-orange-100 hover:text-orange-600 hover:border-orange-300 transition-all"
-        aria-label={`${openLabel} ${doc.title}`}
+        aria-label={`${openLabel} ${title}`}
       >
         <svg
           className="w-4 h-4"
@@ -231,6 +232,8 @@ interface DocumentsClientProps {
 
 export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientProps) {
   const t = useTranslations("documents.filter");
+  const locale = useLocale();
+  const numberLocale = locale === "nl" ? "nl-BE" : locale === "en" ? "en-BE" : "fr-BE";
   const [search, setSearch] = useState("");
   const [selectedDomain, setSelectedDomain] = useState("All");
   const [activeChat, setActiveChat] = useState<Document | null>(null);
@@ -339,7 +342,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
               type="search"
               value={search}
               onChange={(e) => handleFilterChange(setSearch, e.target.value)}
-              placeholder="Rechercher un document, un produit, une compagnie…"
+              placeholder={t("search_placeholder")}
               className="w-full pl-12 pr-4 py-3 rounded-lg border border-border bg-white text-navy placeholder:text-mid-gray focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold text-sm"
             />
           </div>
@@ -371,7 +374,11 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
                   ) : (
                     <span className={`w-2 h-2 rounded-full flex-shrink-0 ${dot}`} />
                   )}
-                  {label === "All" ? t("all") : (t(`domains.${label}` as any) ?? label)}
+                  {label === "All"
+                    ? t("all")
+                    : t.has(`domains.${label}` as Parameters<typeof t.has>[0])
+                      ? t(`domains.${label}` as Parameters<typeof t>[0])
+                      : label}
                   <span className={`text-[10px] font-normal ${active ? "text-white/70" : "text-mid-gray"}`}>
                     {count}
                   </span>
@@ -417,7 +424,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           >
             {years.map((y) => (
               <option key={y} value={y}>
-                {y === "All" ? "Toutes les années" : y}
+                {y === "All" ? t("all_years") : y}
               </option>
             ))}
           </select>
@@ -425,13 +432,13 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           {/* Sync timestamp */}
           {syncedAt && (
             <p className="text-xs text-mid-gray/70 ml-auto mr-4">
-              Dernière sync :{" "}
+              {t("last_synced")}{" "}
               <span className="font-medium">
-                {new Date(syncedAt).toLocaleDateString("fr-BE", {
+                {new Date(syncedAt).toLocaleDateString(numberLocale, {
                   day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit"
                 })}
               </span>
-              {count && <> — {count.toLocaleString("fr-BE")} documents</>}
+              {count && <> — {count.toLocaleString(numberLocale)} {t("docs")}</>}
             </p>
           )}
 
@@ -444,7 +451,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
                 {t("showing")}{" "}
                 <span className="font-medium text-navy">{pageStart + 1}–{pageEnd}</span>
                 {" "}{t("of")}{" "}
-                <span className="font-medium text-navy">{filtered.length.toLocaleString("fr-BE")}</span>
+                <span className="font-medium text-navy">{filtered.length.toLocaleString(numberLocale)}</span>
                 {" "}{t("docs")}
               </>
             )}
@@ -523,7 +530,7 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
 
       {activeChat && (
         <DocumentChat
-          docTitle={activeChat.title}
+          docTitle={activeChat.title || activeChat.product}
           docUrl={activeChat.url}
           company={activeChat.company}
           onClose={() => setActiveChat(null)}
@@ -532,6 +539,13 @@ export function DocumentsClient({ documents, syncedAt, count }: DocumentsClientP
           sendHint={t("send_hint")}
           assistantName={t("assistant_name")}
           assistantDesc={t("assistant_desc")}
+          suggestedQuestions={[
+            t("suggested_coverage"),
+            t("suggested_exclusions"),
+            t("suggested_waiting_period"),
+          ]}
+          closeLabel={t("close_chat")}
+          sendLabel={t("send_message")}
         />
       )}
     </section>
