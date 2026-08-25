@@ -27,11 +27,11 @@ Configure these variables in `.env.local` for development and in the Railway ser
 
 ```dotenv
 OPENROUTER_API_KEY=your-active-openrouter-api-key
-OPENROUTER_MODEL=google/gemma-4-26b-a4b-it:free
+OPENROUTER_MODEL=nvidia/nemotron-3-super-120b-a12b:free
 ```
 
 `OPENROUTER_API_KEY` must belong to an active OpenRouter account. `OPENROUTER_MODEL`
-is optional and defaults to `google/gemma-4-26b-a4b-it:free`; use a complete OpenRouter model ID
+is optional and defaults to `nvidia/nemotron-3-super-120b-a12b:free`; use a complete OpenRouter model ID
 that is available under the account's privacy and data-policy settings. Some older
 insurer document links may have expired or reject automated access independently of
 the AI configuration.
