@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const DEFAULT_MODEL = "nvidia/nemotron-3-super-120b-a12b:free";
+const DEFAULT_MODEL = "google/gemini-3.5-flash-lite";
 const MAX_DOCUMENT_CHARACTERS = 80000;
 
 interface ChatMessage {

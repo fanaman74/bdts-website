@@ -125,7 +125,7 @@ test("explains unavailable models and privacy-policy restrictions", async () => 
   const { error } = await response.json();
 
   assert.equal(response.status, 502);
-  assert.match(error, /nvidia\/nemotron-3-super-120b-a12b:free/);
+  assert.match(error, /google\/gemini-3\.5-flash-lite/);
   assert.match(error, /privacy settings/);
 });
 
@@ -139,7 +139,7 @@ test("buffers fragmented provider events and uses a valid default model", async 
   ]), (init) => {
     const payload = JSON.parse(init.body);
 
-    assert.equal(payload.model, "nvidia/nemotron-3-super-120b-a12b:free");
+    assert.equal(payload.model, "google/gemini-3.5-flash-lite");
     assert.equal(payload.stream, true);
     assert.match(payload.messages[1].content, /Insurance conditions/);
     assert.match(payload.messages[1].content, /Turk J Med Sci/);
